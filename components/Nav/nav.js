@@ -6,7 +6,7 @@ import React from 'react'
 function nav() {
     return (
         <div>
-            NavBar kodkf odif kfdok fojdf od oj
+            NavBar
         </div>
     )
 }
