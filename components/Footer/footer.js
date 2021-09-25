@@ -3,11 +3,12 @@ import styles from "./footer.module.css";
 import Image from "next/image";
 import Link from "next/link";
 import {
-	TiSocialInstagramCircular,
-	TiSocialFacebookCircular,
-	TiSocialTwitterCircular,
-	TiSocialYoutubeCircular,
+	TiSocialInstagram,
+	TiSocialFacebook,
+	TiSocialTwitter,
+	TiSocialYoutube,
 } from "react-icons/ti";
+import { AiOutlineMedium } from "react-icons/ai";
 
 // Assigned To Santhosh
 // Background Colour - primaryBg
@@ -16,26 +17,31 @@ function footer() {
 	return (
 		<div className={styles.footer}>
 			<div className={styles.footer_logo}>
-				<Image src="/logo.png" width={400} height={200} alt="Daksh logo" />
+				<Image src="/logo.png" width={300} height={150} alt="Daksh logo" />
 				<div id={styles.footer_icons}>
 					<Link href="/">
 						<a>
-							<TiSocialInstagramCircular className={styles.footer_icon} />
+							<TiSocialInstagram className={styles.footer_icon} />
 						</a>
 					</Link>
 					<Link href="/">
 						<a>
-							<TiSocialFacebookCircular className={styles.footer_icon} />
+							<TiSocialFacebook className={styles.footer_icon} />
 						</a>
 					</Link>
 					<Link href="/">
 						<a>
-							<TiSocialTwitterCircular className={styles.footer_icon} />
+							<TiSocialTwitter className={styles.footer_icon} />
 						</a>
 					</Link>
 					<Link href="/">
 						<a>
-							<TiSocialYoutubeCircular className={styles.footer_icon} />
+							<TiSocialYoutube className={styles.footer_icon} />
+						</a>
+					</Link>
+					<Link href="/">
+						<a>
+							<AiOutlineMedium className={styles.footer_icon} />
 						</a>
 					</Link>
 				</div>
