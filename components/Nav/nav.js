@@ -1,6 +1,5 @@
 import React from 'react'
 import Image from 'next/image'
-import Link from 'next/link'
 import styles from './nav.module.css'
 
 // Assigned To Vinai
@@ -23,6 +22,9 @@ function nav() {
                 <a className={styles.navlink} href="podcast">
                     Podcasts
                 </a>               
+            </div>
+            <div>
+
             </div>
     </div>
 
