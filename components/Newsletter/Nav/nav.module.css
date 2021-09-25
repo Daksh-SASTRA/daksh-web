@@ -1,0 +1,102 @@
+#navbar {
+    position: fixed;
+    display: flex;
+    width: 100%;
+    height: auto;
+    top: 0;
+    align-items: center;
+    background-color: var(--primaryBg);
+}
+
+#logo{
+    position: absolute;
+    top: 0;
+    height: 10vh;
+}
+
+.navbutton {
+    display: flex;
+    height: 10vh;
+    justify-content: center;
+    align-items: center;
+    margin: 0 3px;
+    padding: 0 10px;
+}
+
+#hnav {
+    display: flex;
+    margin-left: auto;
+}
+
+.navlink {
+    padding: 6px 10px;
+    min-width: 100px;
+    text-align: center;
+    border-bottom: 1px transparent solid;
+    transition: all 0.3s ease-in-out;
+}
+
+.navlink:hover {
+    border-bottom: 1px white solid;
+    transition: all 0.3s ease-in-out;
+}
+
+#menu {
+    display: none;
+}
+
+#vnav {
+    display: none;
+}
+
+
+@media (orientation: portrait) {
+    #hnav {
+        display: none;
+    }
+    #menu{
+        display: flex;
+        height: 8vh;
+        padding: 0 15px;
+        justify-content: center;
+        align-items: center;
+        margin: 0 0 0 auto;
+    }
+    #menu:hover{
+        border: 1px white solid;
+    }
+    #vnav{
+        display: flex;
+        visibility: visible;
+        position: fixed;
+        top: 8vh;
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+        background-color: var(--secondaryBg);
+        padding: 30px 0;
+        transition: visibility 1s ease-in-out;
+    }
+    .navbutton {
+        display: flex;
+        height: 8vh;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        margin: 0 3px;
+        padding: 30px 0;
+    }
+    .navlink {
+        padding: 10px 10px;
+        min-width: 70vw;
+        text-align: center;
+        border: 1px transparent solid;
+        border-radius: 10px;
+        transition: all 0.3s ease-in-out;
+    }
+    .navlink:hover {
+        border: 1px white solid;
+        border-radius: 20px;
+        transition: all 0.3s ease-in-out;
+    }
+}
