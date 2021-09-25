@@ -17,10 +17,10 @@
 .navbutton {
     display: flex;
     height: 10vh;
+    width: 150px;
     justify-content: center;
     align-items: center;
     margin: 0 3px;
-    padding: 0 10px;
 }
 
 #hnav {
@@ -47,7 +47,8 @@
 }
 
 #vnav {
-    display: none;
+    display: flex;
+    margin-left: auto;
 }
 
 
@@ -83,15 +84,5 @@
         align-items: center;
         margin: 0 3px;
         padding: 30px 0;
-    }
-    .navlink {
-        padding: 10px 10px;
-        min-width: 70vw;
-        text-align: center;
-        font-size: small;
-    }
-    .navlink:hover {
-        border-bottom: none;
-        transition: none;
     }
 }
