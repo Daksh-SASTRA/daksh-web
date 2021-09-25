@@ -22,7 +22,7 @@
 }
 
 .navlink {
-    padding: 10px 10px;
+    padding: 6px 10px;
     min-width: 100px;
     text-align: center;
     border: 1px transparent solid;
@@ -37,6 +37,8 @@
 }
 
 
-@media only screen and (max-width: 600px) {
-    
+@media (orientation: portrait) {
+    #hnav{
+        visibility: hidden;
+    }
   }
