@@ -16,9 +16,6 @@ export default function Home() {
 
       <main className={styles.main}>
         <Nav />
-        <h1>
-          Podcasts
-        </h1>
         <PodcastPage />
         <Footer />
       </main>
