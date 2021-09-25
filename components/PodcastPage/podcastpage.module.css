@@ -1,4 +1,11 @@
-#video{
-    width: 80vw;
-    height: 100vh;
+#podpage{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    height: 90vh;
+}
+
+#grid{
+    display: flex;
 }
