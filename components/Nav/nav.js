@@ -9,17 +9,17 @@ function nav() {
     const [navmenu, menuToggle] = useState(false);
     var hnav = <div id={navmenu?styles.vnav:styles.hnav}>
                     <div className={styles.navbutton}>
-                        <a className={styles.navlink} href="podcast">
+                        <a className={navmenu?styles.navlinkP:styles.navlink} href="podcast">
                             Events/Workshops
                         </a>
                     </div>
                     <div className={styles.navbutton}>
-                        <a className={styles.navlink} href="podcast">
+                        <a className={navmenu?styles.navlinkP:styles.navlink} href="podcast">
                             Teams
                         </a>
                     </div>
                     <div className={styles.navbutton}>
-                        <a className={styles.navlink} href="podcast">
+                        <a className={navmenu?styles.navlinkP:styles.navlink} href="podcast">
                             Podcasts
                         </a>               
                     </div>
