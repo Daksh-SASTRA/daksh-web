@@ -7,8 +7,8 @@ import styles from './nav.module.css'
 
 function nav() {
     return (
-        <div id={styles.navbar}>
-            <Image src="/logo.png" height={50} width={100} />
+        <div>
+            Navbar
         </div>
     )
 }
