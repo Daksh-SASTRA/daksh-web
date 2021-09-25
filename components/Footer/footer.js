@@ -18,7 +18,11 @@ function footer() {
 	return (
 		<div className={styles.footer}>
 			<div className={styles.footer_logo}>
-				<Image src="/logo.png" width={200} height={100} alt="Daksh logo" />
+				<img
+					src="/logo.png"
+					style={{ width: "200px", height: "100px" }}
+					alt="Daksh logo"
+				/>
 				<div id={styles.footer_icons}>
 					<Link href="/">
 						<a>
