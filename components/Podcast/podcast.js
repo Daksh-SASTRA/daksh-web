@@ -1,4 +1,5 @@
 import React from 'react'
+import './podcast.module.css'
 
 // Assigned To Neha
 // Background Colour - secondaryBg
