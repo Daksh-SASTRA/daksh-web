@@ -31,6 +31,7 @@
 .navlink {
     padding: 6px 10px;
     min-width: 100px;
+    font-size: small;
     text-align: center;
     border-bottom: 1px transparent solid;
     transition: all 0.3s ease-in-out;
@@ -62,9 +63,6 @@
         align-items: center;
         margin: 0 0 0 auto;
     }
-    #menu:hover{
-        border: 1px white solid;
-    }
     #vnav{
         display: flex;
         visibility: visible;
@@ -90,11 +88,10 @@
         padding: 10px 10px;
         min-width: 70vw;
         text-align: center;
-        border-bottom: 1px transparent solid;
-        transition: all 0.3s ease-in-out;
+        font-size: small;
     }
     .navlink:hover {
-        border-bottom: 1px white solid;
-        transition: all 0.3s ease-in-out;
+        border-bottom: none;
+        transition: none;
     }
 }
