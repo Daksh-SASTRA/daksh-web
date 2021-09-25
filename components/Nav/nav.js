@@ -7,24 +7,31 @@ import styles from './nav.module.css'
 // Background Colour - primaryBg
 
 function nav() {
+
+    var hnav = <div id={styles.hnav}>
+            <div className={styles.navbutton}>
+                <a className={styles.navlink} href="podcast">
+                    Events/Workshops
+                </a>
+            </div>
+            <div className={styles.navbutton}>
+                <a className={styles.navlink} href="podcast">
+                    Teams
+                </a>
+            </div>
+            <div className={styles.navbutton}>
+                <a className={styles.navlink} href="podcast">
+                    Podcasts
+                </a>               
+            </div>
+    </div>
+
     return (
         <div id={styles.navbar}>
-            <Image src="/logo.png" height={50} width={100} />
-            <div className={styles.navbutton}>
-                <Link href="google.com">
-                    Events/Workshops
-                </Link>
-            </div>
-            <div className={styles.navbutton}>
-                <Link href="google.com">
-                    Teams
-                </Link>
-            </div>
-            <div className={styles.navbutton}>
-                <Link href="google.com">
-                    Podcasts
-                </Link>               
-            </div>
+            <a href="/">
+                <Image src="/logo.png" height={50} width={100} />
+            </a>
+            {hnav}
         </div>
     )
 }
