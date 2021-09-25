@@ -24,15 +24,15 @@ function nav() {
                             Podcasts
                         </a>               
                     </div>
-                    <div className={styles.navbutton}>
-                        <IoMenu /> 
+                    <div id={styles.menu}>
+                        <IoMenu size={30}/> 
                     </div>
                 </div>
 
     return (
         <div id={styles.navbar}>
             <a href="/">
-                <Image src="/logo.png" height={50} width={100} />
+                <img id={styles.logo} src="/logo.png"/>
             </a>
             {hnav}
         </div>

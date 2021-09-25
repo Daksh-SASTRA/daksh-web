@@ -7,6 +7,12 @@
     align-items: center;
 }
 
+#logo{
+    position: absolute;
+    top: 0;
+    height: 8vh;
+}
+
 .navbutton {
     display: flex;
     height: 8vh;
@@ -36,9 +42,21 @@
     transition: all 0.3s ease-in-out;
 }
 
+#menu {
+    visibility: hidden;
+}
+
 
 @media (orientation: portrait) {
-    #hnav{
+    .navbutton {
         visibility: hidden;
     }
+    #menu{
+        visibility: visible;
+        display: flex;
+        padding: 0 15px;
+        justify-content: center;
+        align-items: center;
+    }
+   
   }
