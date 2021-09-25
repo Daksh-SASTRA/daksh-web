@@ -1,5 +1,4 @@
 import React from 'react'
-import Image from 'next/image'
 import styles from './nav.module.css'
 import { IoMenu } from "react-icons/io5"
 
