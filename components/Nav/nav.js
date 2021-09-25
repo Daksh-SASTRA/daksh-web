@@ -1,4 +1,4 @@
-import React from 'react'
+import React,{ useState } from 'react'
 import styles from './nav.module.css'
 import { IoMenu } from "react-icons/io5"
 
@@ -6,8 +6,8 @@ import { IoMenu } from "react-icons/io5"
 // Background Colour - primaryBg
 
 function nav() {
-
-    var hnav = <div id={styles.hnav}>
+    const [navmenu, menuToggle] = useState(false);
+    var hnav = <div id={navmenu?styles.vnav:styles.hnav}>
                     <div className={styles.navbutton}>
                         <a className={styles.navlink} href="podcast">
                             Events/Workshops
@@ -23,9 +23,6 @@ function nav() {
                             Podcasts
                         </a>               
                     </div>
-                    <div id={styles.menu}>
-                        <IoMenu size={30}/> 
-                    </div>
                 </div>
 
     return (
@@ -34,6 +31,9 @@ function nav() {
                 <img id={styles.logo} src="/logo.png"/>
             </a>
             {hnav}
+            <div id={styles.menu} onClick={() => menuToggle(!navmenu)}>
+                <IoMenu size={30}/> 
+            </div>
         </div>
     )
 }
