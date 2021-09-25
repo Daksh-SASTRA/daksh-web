@@ -1,6 +1,4 @@
 import React from 'react'
-import Image from 'next/image'
-import styles from './nav.module.css'
 
 // Assigned To Vinai
 // Background Colour - primaryBg
@@ -8,7 +6,7 @@ import styles from './nav.module.css'
 function nav() {
     return (
         <div>
-            Navbar
+            NavBar
         </div>
     )
 }
