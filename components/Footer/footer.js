@@ -1,14 +1,11 @@
-import React from 'react'
+import React from "react";
+import styles from "./footer.module.css";
 
 // Assigned To Santhosh
 // Background Colour - primaryBg
 
 function footer() {
-    return (
-        <div>
-            Footer
-        </div>
-    )
+	return <div className={styles.footer}>Footer</div>;
 }
 
-export default footer
+export default footer;
