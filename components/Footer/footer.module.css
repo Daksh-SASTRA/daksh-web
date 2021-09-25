@@ -2,12 +2,13 @@
 	width: 100%;
 	background-color: var(--primaryBg);
 	display: flex;
+	flex-direction: column-reverse;
 	align-items: center;
 	justify-content: space-around;
 	align-self: flex-end;
 }
 
-.footer > * {
+.footer_logo {
 	display: flex;
 	flex-direction: column;
 	flex: 1 1 0;
@@ -17,16 +18,49 @@
 	height: 100%;
 }
 
+#footer_icons {
+	display: flex;
+	width: 100%;
+	max-width: 200px;
+	flex-direction: row;
+	justify-content: space-evenly;
+}
+
+.footer_icon {
+	font-size: 30px;
+}
+
+.footer_right {
+	display: flex;
+	flex-direction: column;
+	flex: 2 1 0;
+	align-items: center;
+	justify-content: flex-start;
+	text-align: center;
+	height: 100%;
+}
+.footer > * > * {
+	display: flex;
+	flex-direction: column;
+}
+
 .footer h2 {
 	font-family: title, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
 		Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
-.footer_logo {
+@media only screen and (min-width: 600px) {
+	.footer {
+		flex-direction: row;
+	}
+	.footer_right {
+		flex: 1 1 0;
+	}
 }
 
-.footer_links {
-}
-
-.footer_contact {
+@media only screen and (min-width: 1000px) {
+	.footer_right {
+		flex-direction: row;
+		justify-content: space-around;
+	}
 }
