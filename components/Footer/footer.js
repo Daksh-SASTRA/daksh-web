@@ -7,6 +7,7 @@ import {
 	TiSocialFacebook,
 	TiSocialTwitter,
 	TiSocialYoutube,
+	TiSocialLinkedin,
 } from "react-icons/ti";
 import { AiOutlineMedium } from "react-icons/ai";
 
@@ -19,6 +20,11 @@ function footer() {
 			<div className={styles.footer_logo}>
 				<Image src="/logo.png" width={200} height={100} alt="Daksh logo" />
 				<div id={styles.footer_icons}>
+					<Link href="/">
+						<a>
+							<AiOutlineMedium className={styles.footer_icon} />
+						</a>
+					</Link>
 					<Link href="/">
 						<a>
 							<TiSocialInstagram className={styles.footer_icon} />
@@ -41,7 +47,7 @@ function footer() {
 					</Link>
 					<Link href="/">
 						<a>
-							<AiOutlineMedium className={styles.footer_icon} />
+							<TiSocialLinkedin className={styles.footer_icon} />
 						</a>
 					</Link>
 				</div>
