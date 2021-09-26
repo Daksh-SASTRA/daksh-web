@@ -1,22 +1,77 @@
 #podpage{
     display: flex;
-    flex-direction: column;
+    /* flex-direction: column; */
     align-items: center;
+    justify-content: space-evenly;
     width: 100vw;
     height: 90vh;
 }
 
+#iframe {
+    width: 60vw;
+}
+
+.podcontext {
+    width: 25vw;
+}
+
+.button {
+    border: transparent;
+    border-radius: 25px;
+    padding: 10px 25px;
+    font-family: content, sans-serif;
+    font-size: 1.2rem;
+    margin-top: 20px;
+    box-sizing: border-box;
+    transition: all 0.1s ease-in-out;
+}
+  
+.button:hover {
+    background: linear-gradient(45deg, #0069ff, #38ef7d);
+    border: 2px solid var(--secondaryFontColor);
+    background-clip: text;
+    -webkit-background-clip: text;  
+    -moz-background-clip: text;  
+    -moz-text-fill-color: transparent;  
+    -webkit-text-fill-color: transparent;
+}
+
+#allepi {
+    /* font-size: large; */
+    font-family: 'title', sans-serif;
+    letter-spacing: 2px;
+}
+
 #grid{
+    width: 70%;
     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
 }
 
 .episode{
     display: flex;
     flex-direction: column;
-    width: 250px;
-    height: 180px;
-    place-items: center;
-    margin: 20px 20px 0 0;
+    /* width: 250px; */
+    /* height: 180px; */
+    align-items: center;
+    justify-content: space-evenly;
+    /* margin: 20px 20px 0 0; */
+    padding: 10px;
+}
+
+.episode:hover {
+    border: 2px solid var(--secondaryFontColor);
+    border-radius: 10px;
+}
+
+#episodeContext {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
 }
 
 .eimg{
@@ -34,7 +89,7 @@
     align-items: flex-start;
     justify-content: center;
     padding: 20px;
-    background-color: rgba(0,0,0,0.5);
+    /* background-color: rgba(0,0,0,0.5); */
     transition: all 0.3s ease-in-out;
 }
 
