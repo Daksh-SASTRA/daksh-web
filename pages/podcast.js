@@ -18,9 +18,6 @@ export default function Home() {
         <Nav />
         <PodcastPage />
         <Footer />
-        <h1>
-          Podcasts
-        </h1>
       </main>
     </div>
   )
