@@ -8,11 +8,15 @@
 }
 
 #iframe {
-    width: 60vw;
+    width: 80vw;
 }
 
 .podcontext {
-    width: 25vw;
+    width: 75vw;
+}
+
+#titleFrame {
+    letter-spacing: 3px;
 }
 
 .button {
@@ -134,16 +138,41 @@
     background-size: cover;
 }
 
-@media only screen and (max-width: 900px) {
+@media screen and (max-width: 500px) {
+    #podpage {
+        width: 95vw;
+        height: 70vh;
+    }
+
+    #podcontext {
+        align-items: center;
+        justify-content: center;
+        width: 90vw;
+    }
+
+    #titleFrame {
+        letter-spacing: 2px;
+    }
+
     #iframe {
-        width: 100%;
-        display: flex;
-    }
-    .podcontext {
-        display: flex;
-        flex-direction: column;
+        width: 80vw;
+    }    
+}
+
+@media screen and (max-width: 900px) {
+    #podpage {
         width: 100vw;
-        padding: 40px;
-        align-items: flex-start;
+        height: 60vh;
     }
-  }
+
+    #titleFrame {
+        letter-spacing: 3px;
+    }
+}
+
+@media screen and (max-width: 1080px) {
+    #podpage {
+        width: 100vw;
+        height: 45vh;
+    }
+}
