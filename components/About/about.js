@@ -20,12 +20,13 @@ function about() {
                                  Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
                                  Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
                             </p>
-                            <a href="#">Teams</a>
+                            <a className={styles.button__about} href="#">  Teams </a>
                         </div>
                     </div>
                     <div className={styles.col_lg_6}>
-                        <div className={styles.image_container__about}>
-                            <img className={styles.about__img_fluid}src="https://dummyimage.com/700x400/fff/000000&text=Daksh" alt="dummy image"/>
+                        <div className={styles.video_container__about}>
+                            {/* <img className={styles.about__img_fluid}src="https://dummyimage.com/700x400/fff/000000&text=Daksh" alt="dummy image"/> */}
+                            <iframe className={styles.about__video_size}  src="https://www.youtube.com/embed/pFL37QpQ5t0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                         </div>
                     </div>
                 </div>
@@ -33,5 +34,5 @@ function about() {
         </section>
     )
 }
-
+// width="560" height="315"
 export default about
