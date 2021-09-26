@@ -1,21 +1,26 @@
 import styles from './podcastpage.module.css'
 import {useState} from 'react'
+import Image from 'next/image'
 
-function episode(props){
+function Episode(props){
     
     const [hover, onHover] = useState(false);
 
     return (
         <>
             <div className={styles.episode} onMouseEnter={()=>{onHover(true);}}  onMouseLeave={()=>{onHover(false);}}> 
-                <img src={props.imageurl} className={styles.eimg}/>
+                <img src={props.imageurl} alt={props.title} className={styles.eimg} />
                 <div className={hover?styles.overlayEx:styles.overlay}>
-                    {props.title}
+                    {/* {props.title} */}
                     <button className={hover?styles.watchnow:styles.hide}>Watch Now</button>
+                </div>
+                <div id={styles.episodeContext}>
+                    <h2>{props.title}</h2>
+                    <p>{props.desc}</p>
                 </div>
             </div>
         </>
     )
 }
 
-export default episode
+export default Episode
