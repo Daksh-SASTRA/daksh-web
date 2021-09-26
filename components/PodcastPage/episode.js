@@ -12,11 +12,11 @@ function Episode(props){
                 <img src={props.imageurl} alt={props.title} className={styles.eimg} />
                 <div className={hover?styles.overlayEx:styles.overlay}>
                     {/* {props.title} */}
-                    <button className={hover?styles.watchnow:styles.hide}>Watch Now</button>
+                    <button className={hover?styles.watchnow:styles.hide}>Listen Now</button>
                 </div>
                 <div id={styles.episodeContext}>
                     <h2>{props.title}</h2>
-                    <p>{props.desc}</p>
+                    {/* <p>{props.desc}</p> */}
                 </div>
             </div>
         </>
