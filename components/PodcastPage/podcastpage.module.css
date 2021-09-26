@@ -101,13 +101,14 @@
     text-align: start;
     display: flex;
     position: absolute;
-    width: 250px;
+    width: 320px;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     padding: 20px;
-    background-color: rgba(0,0,0,0.5);
-    height: 180px;
+    background-color: rgba(0,0,0,0.65);
+    height: 297px;
+    border-radius: 10px;
     transition: all 0.3s ease-in-out;
 }
 
@@ -122,6 +123,11 @@
     justify-content: center;
     align-items: center;
     margin-top: 20px;
+    border: 0;
+    border-radius: 20px;
+    padding: 20px;
+    font-size: 1.025rem;
+    letter-spacing: 1.25px;
 }
 
 .poster{
