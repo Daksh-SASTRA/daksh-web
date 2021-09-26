@@ -1,10 +1,13 @@
 import React from 'react'
 import styles from './banner.module.css'
+
 // Assigned To Sivapriya
 // Background Colour - primaryBg
 
 function banner() {
+    
     return (
+        <>
         <div className={styles.topcover}>
         <div className={styles.divwrap}>
            <div className={styles.divbanner}>
@@ -24,9 +27,12 @@ function banner() {
             </div>
           
         </div>
+      
        
        
     </div>
+   
+   </>
     )
 }
 

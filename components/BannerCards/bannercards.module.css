@@ -1,0 +1,101 @@
+
+#cardcarousel .slick-slide .slick-active .card{
+    opacity: 1 !important;
+
+}
+#cardcarousel .slick-slide .card{
+    opacity: 0.6 !important;
+}
+.cardRenderWrap .cardcarousel button .slick-arrow .slick-prev:before{
+    margin-right: 12px !important;
+
+}
+#cardcarousel .cardcarousel .slick-next{
+    margin-left: 12px !important;
+}
+.cardcarousel{
+    width: 50%;
+    margin-top: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
+    justify-content: center;
+    align-items: center;
+}
+.cardRenderWrap{
+   display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cardactive{
+    height: 600px;
+    width:250px;
+    background-color: rgb(0,0,0);
+    border-radius: 10px;
+    margin:0px 0px;
+}
+ 
+.card{
+    opacity:1;
+    height:540px;
+    width:250px;
+    background-color: rgb(0,0,0);
+    border-radius: 10px;
+    margin:0px;
+}
+
+.card__vectorimg{
+    margin: 8px auto;
+    width: 80%;
+}
+.vector{
+    width: 100%;
+    height: 100%;
+}
+.card__head{
+    font-family: content;
+    margin-top: 52px;
+    padding: 8px;
+    font-size: 22px;
+    line-height: 18px;
+    font-weight:bold;
+    color:var(--white);
+  
+}
+.card__viewbtn{
+    margin-top: 32px;
+    margin-bottom: 32px;
+    background-color: var(--white);
+    color:black;
+    display: inline-flex;
+    padding:6px 8px;
+    border-radius: 12px;
+    cursor: pointer;
+} 
+
+
+@media screen and (max-width:999px) {
+    .card{
+        height: 460px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .cardcarousel{
+        width: 70%;
+    }
+    .card{
+        opacity:1;
+        height: 450px;
+        width:250px !important;
+        background-color: rgb(0,0,0);
+        border-radius: 10px;
+        margin:0px 0px;
+    }
+}
+
+@media screen and (max-width:468px) {
+    .cardcarousel{
+        width: 80%;
+    }
+}
