@@ -2,7 +2,7 @@ import styles from './podcastpage.module.css'
 import Episode from './Episode'
 import {useState} from 'react'
 
-function podcastPage() {
+function PodcastPage() {
     const [title, setTitle] = useState("Title");
     const [videoid, setVideo] = useState("614339947");
     const [desc, setDesc] = useState("Lorem ipsum dolor sit, amet consectetur adipisicing elit. Asperiores veniam recusandae est, eius nisi nobis? Quisquam nostrum repellat sequi tempore!");
@@ -12,7 +12,7 @@ function podcastPage() {
     var page =  <>
                     <iframe id={styles.iframe} src={url} width={640} height={480} frameBorder="0" allow="autoplay; fullscreen; picture-in-picture" allowFullScreen title="music.mp4"></iframe>
                     <div className={styles.podcontext}>
-                        <h1>{title}</h1>
+                        <h1 id={styles.titleFrame}>{title}</h1>
                         <p>{desc}</p>
                     </div>
                 </>
@@ -41,4 +41,4 @@ function podcastPage() {
     )
 }
 
-export default podcastPage
+export default PodcastPage
