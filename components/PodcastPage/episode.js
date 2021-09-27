@@ -15,8 +15,7 @@ function Episode(props){
                     <button className={hover?styles.watchnow:styles.hide}>Listen Now</button>
                 </div>
                 <div id={styles.episodeContext}>
-                    <h2>{props.title}</h2>
-                    {/* <p>{props.desc}</p> */}
+                    {props.title}
                 </div>
             </div>
         </>
