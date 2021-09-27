@@ -69,7 +69,7 @@
     justify-content: space-evenly;
     /* margin: 20px 20px 0 0; */
     padding: 10px;
-    margin-bottom: 20px;
+    /* margin-bottom: 20px; */
 }
 
 .episode:hover {
@@ -78,10 +78,18 @@
 }
 
 #episodeContext {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
+    display: inline-block;
+    position: relative;
+    left: -50%;
+    transform: translateX(50%);
+    background-color: rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(20px);
+    color: var(--secondaryFontColor);
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    font-size: 1.05rem;
+    padding: 8px 10px;
+    top: -2.6rem;
 }
 
 .eimg{
@@ -113,7 +121,7 @@
     justify-content: center;
     padding: 20px;
     background-color: rgba(0,0,0,0.65);
-    height: 297px;
+    height: 250px;
     border-radius: 10px;
     transition: all 0.3s ease-in-out;
 }
