@@ -73,15 +73,15 @@ function footer() {
 					<h2>Contact</h2>
 					<adress>
 						<Link href="/">
-							<a>XXX</a>
+							<a>Hari Haran</a>
 						</Link>
 						<br />
 						<Link href="/">
-							<a>YYY</a>
+							<a>chairman.daksh@sastra.ac.in</a>
 						</Link>
 						<br />
 						<Link href="/">
-							<a>ZZZ</a>
+							<a>+91 7397067957</a>
 						</Link>
 					</adress>
 				</div>
