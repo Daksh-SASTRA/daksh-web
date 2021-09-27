@@ -62,6 +62,7 @@
     }
     .divbanner{
         align-items: flex-start;
+        margin-left: 40px;
     }
     .divbanner__headtext{
         font-size: 65px;
@@ -104,6 +105,7 @@
     }
     .divbanner{
         align-items: flex-start;
+        margin-left: 40px;
     }
     .divbanner__headtext{
         font-size: 44px; 

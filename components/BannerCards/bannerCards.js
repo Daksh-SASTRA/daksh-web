@@ -72,8 +72,8 @@ function bannerCards() {
                     </div>
                     <div className={styles.card__head}>Podcasts</div>
                     <div className={styles.card__viewbtn}>view</div>
-                </div>
-
+                </div>      
+             
               </Slider>
              
             

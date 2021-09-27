@@ -1,7 +1,10 @@
 /* things to be done 
-1.change the opacity of active cards and other cards
+1.change the opacity and height of active card and other cards
 2.style the left and right arrow
 */
+.slick-slide{
+    margin: 10px !important;
+}
 #cardcarousel .slick-active .card{
     opacity: 1 !important;
 
