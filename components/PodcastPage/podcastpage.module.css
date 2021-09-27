@@ -8,15 +8,20 @@
 }
 
 #iframe {
-    width: 80vw;
+    /* width: 80vw; */
 }
 
 .podcontext {
     width: 75vw;
+    text-align: left;
 }
 
 #titleFrame {
     letter-spacing: 3px;
+}
+
+#descFrame {
+    color: var(--secondaryFontColor);
 }
 
 .button {
@@ -64,10 +69,11 @@
     justify-content: space-evenly;
     /* margin: 20px 20px 0 0; */
     padding: 10px;
+    margin-bottom: 20px;
 }
 
 .episode:hover {
-    border: 2px solid var(--secondaryFontColor);
+    /* border: 2px solid var(--secondaryFontColor); */
     border-radius: 10px;
 }
 
@@ -144,6 +150,10 @@
     background-size: cover;
 }
 
+#posterTitle {
+    font-size: 4rem;
+}
+
 @media screen and (max-width: 500px) {
     #podpage {
         width: 95vw;
@@ -162,7 +172,11 @@
 
     #iframe {
         width: 80vw;
-    }    
+    }  
+    
+    #posterTitle {
+        font: 1.5rem;
+    }
 }
 
 @media screen and (max-width: 900px) {
@@ -173,6 +187,10 @@
 
     #titleFrame {
         letter-spacing: 3px;
+    }
+
+    #posterTitle {
+        font-size: 2rem;
     }
 }
 
