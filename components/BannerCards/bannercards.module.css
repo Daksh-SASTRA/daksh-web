@@ -1,12 +1,15 @@
-
-#cardcarousel .slick-slide .slick-active .card{
+/* things to be done 
+1.change the opacity of active cards and other cards
+2.style the left and right arrow
+*/
+#cardcarousel .slick-active .card{
     opacity: 1 !important;
 
 }
-#cardcarousel .slick-slide .card{
-    opacity: 0.6 !important;
+#cardcarousel .slick-slide  .card{
+    opacity: 0.6 ;
 }
-.cardRenderWrap .cardcarousel button .slick-arrow .slick-prev:before{
+#cardcarousel .cardcarousel button .slick-arrow .slick-prev:before{
     margin-right: 12px !important;
 
 }
@@ -18,27 +21,18 @@
     margin-top: 100px;
     margin-left: 50px;
     margin-right: 50px;
-    justify-content: center;
-    align-items: center;
+  
 }
 .cardRenderWrap{
-   display: flex;
+    display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.cardactive{
-    height: 600px;
-    width:250px;
-    background-color: rgb(0,0,0);
-    border-radius: 10px;
-    margin:0px 0px;
-}
- 
+
 .card{
     opacity:1;
-    height:540px;
-    width:250px;
+    height:560px;
     background-color: rgb(0,0,0);
     border-radius: 10px;
     margin:0px;
@@ -74,9 +68,16 @@
 } 
 
 
-@media screen and (max-width:999px) {
+@media screen and (max-width:1024px) {
     .card{
-        height: 460px;
+        height: 500px;
+    }
+}
+
+
+@media screen and (max-width:900px) {
+    .card{
+        height: 450px;
     }
 }
 

@@ -9,11 +9,11 @@ import Slider from "react-slick";
 function bannerCards() {
 
     var settings = {
-
+       
         className: "center",
         centerMode: true,
         infinite:true,
-        slidesToShow: 1.7,
+        slidesToShow: 1.69,
         speed: 500,
         responsive: [
             {
@@ -36,12 +36,6 @@ function bannerCards() {
 
               
             },
-          
-                
-                
-              
-        
-        
         ]
        
       };
@@ -53,7 +47,7 @@ function bannerCards() {
        <div className={styles.cardRenderWrap}>
       
        <div className={styles.cardcarousel} id="cardcarousel">
-    
+           
             <Slider {...settings} >
                 
                 <div className={styles.card}  >
@@ -81,6 +75,7 @@ function bannerCards() {
                 </div>
 
               </Slider>
+             
             
         </div>
        
