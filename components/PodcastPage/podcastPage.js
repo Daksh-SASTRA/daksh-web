@@ -9,13 +9,7 @@ function PodcastPage() {
     const [latestPage, setPage] = useState(true);
     var url = "https://player.vimeo.com/video/"+videoid+"?h=8f513583b1&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479";
     console.log(url);
-    var page =  <>
-                    <iframe id={styles.iframe} src={url} width={1920} height={1080} frameBorder="0" allow="autoplay; fullscreen; picture-in-picture" allowFullScreen title="music.mp4"></iframe>
-                    <div className={styles.podcontext}>
-                        <h1 id={styles.titleFrame}>{title}</h1>
-                        <p id={styles.descFrame}>{desc}</p>
-                    </div>
-                </>
+    var page = <iframe id={styles.iframe} src={url} frameBorder="0" allow="autoplay; fullscreen; picture-in-picture" allowFullScreen title="music.mp4"></iframe>
                 
     if(latestPage){
         page = <div className={styles.poster}>
@@ -25,9 +19,11 @@ function PodcastPage() {
     }
 
     return (
-        <div style={{padding: "10vh 0px 0px 0px", display: 'flex', flexDirection: 'column', alignItems: 'center'}}>
-            <div id={styles.podpage}>
-                {page}
+        <div style={{padding: "100vh 0px 0px 0px", display: 'flex', flexDirection: 'column', alignItems: 'center'}}>
+            {page}
+            <div className={styles.podcontext}>
+                <h1 id={styles.titleFrame}>{title}</h1>
+                <p id={styles.descFrame}>{desc}</p>
             </div>
             <h1 id={styles.allepi}>All Episodes</h1>
             <div id={styles.grid}>
