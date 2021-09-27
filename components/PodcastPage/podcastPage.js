@@ -10,16 +10,16 @@ function PodcastPage() {
     var url = "https://player.vimeo.com/video/"+videoid+"?h=8f513583b1&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479";
     console.log(url);
     var page =  <>
-                    <iframe id={styles.iframe} src={url} width={640} height={480} frameBorder="0" allow="autoplay; fullscreen; picture-in-picture" allowFullScreen title="music.mp4"></iframe>
+                    <iframe id={styles.iframe} src={url} width={1920} height={1080} frameBorder="0" allow="autoplay; fullscreen; picture-in-picture" allowFullScreen title="music.mp4"></iframe>
                     <div className={styles.podcontext}>
                         <h1 id={styles.titleFrame}>{title}</h1>
-                        <p>{desc}</p>
+                        <p id={styles.descFrame}>{desc}</p>
                     </div>
                 </>
                 
     if(latestPage){
         page = <div className={styles.poster}>
-                    <h1>Latest Title</h1>
+                    <h1 id={styles.posterTitle}>Latest Title</h1>
                     <button className={styles.button} onClick={()=>setPage(false)}>Listen now 🎙</button>
                 </div>
     }
