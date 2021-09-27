@@ -118,7 +118,7 @@
         width: 560px;
     }
    }
-   @media (min-width: 768px){
+   /* @media (min-width: 768px){
       
        
    }
@@ -126,7 +126,7 @@
   
    @media (min-width: 576px){
        
-   }
+   } */
 
    @media (max-width: 576px){
        .about__h3{
@@ -137,6 +137,14 @@
         font-size: 16px;
         line-height: 22px;
        }
+       .video_container__about {
+        padding: 2%;
+        margin-bottom: 2rem;
+       }
+       .about__video_size{
+        height: 315px;
+        width: 300px;
+      }
 
   }
   @media only screen and (min-width: 576px) and (max-width: 920px){
