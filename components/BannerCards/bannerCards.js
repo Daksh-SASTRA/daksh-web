@@ -1,4 +1,4 @@
-import React from 'react'
+import React,{useState} from 'react'
 import styles from './bannercards.module.css';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -7,21 +7,45 @@ import Slider from "react-slick";
 // Background Colour - primaryBg
 
 function bannerCards() {
+    const carousel_items=[
+      {
+        idx:0,
+        description:"Events",
+        src:'/tech.png',
+        buttonText:'view'
+      },
+      {
+        idx:1,
+        description:"Workshops",
+        src:'/tech.png',
+        buttonText:'view'
+      },
+      {
+        idx:2,
+        description:"Podcasts",
+        src:'/tech.png',
+        buttonText:'view'
+      }
+    ]
 
+    const [imageIdx,setImageIdx]=useState(0);
+    
     var settings = {
        
         className: "center",
         centerMode: true,
         infinite:true,
-        slidesToShow: 1.69,
+        slidesToShow: 3,
         speed: 500,
+        beforeChange:(current,next)=>setImageIdx(next),
+        
         responsive: [
             {
-              breakpoint: 768,
+              breakpoint: 770,
               settings: {
                 arrows: true,
                 centerMode: true,
-                centerPadding: '40px',
+                centerPadding: '0px',
                 slidesToShow: 1
               }
             },
@@ -30,7 +54,7 @@ function bannerCards() {
               settings: {
                 arrows: true,
                 centerMode: true,
-                centerPadding: '10px',
+                centerPadding: '0px',
                 slidesToShow: 1
               },
 
@@ -49,31 +73,17 @@ function bannerCards() {
        <div className={styles.cardcarousel} id="cardcarousel">
            
             <Slider {...settings} >
-                
-                <div className={styles.card}  >
-                    <div className={styles.card__vectorimg}>
-                        <img className={styles.vector} src="/tech.png"/>
-                    </div>
-                    <div className={styles.card__head}>Events</div>
-                    <div className={styles.card__viewbtn}>view</div>
-                </div>
-
-                <div className={styles.card}>
-                    <div className={styles.card__vectorimg}>
-                        <img className={styles.vector} src="/tech.png"/>
-                    </div>
-                    <div className={styles.card__head}>Workshops</div>
-                    <div className={styles.card__viewbtn}>view</div>
-                </div>
-
-                <div className={styles.card} >
-                    <div className={styles.card__vectorimg}>
-                        <img className={styles.vector} src="/tech.png"/>
-                    </div>
-                    <div className={styles.card__head}>Podcasts</div>
-                    <div className={styles.card__viewbtn}>view</div>
-                </div>      
-             
+                {carousel_items.map((item,idx)=>{
+                  return(
+                   <div className={styles.card} key={idx}>
+                   <div className={styles.card__vectorimg}>
+                       <img className={styles.vector} src={item.src}/>
+                   </div>
+                   <div className={styles.card__head}>{item.description}</div>
+                   <div className={styles.card__viewbtn}>{item.buttonText}</div>
+               </div>
+                  )
+                })}               
               </Slider>
              
             
