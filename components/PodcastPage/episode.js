@@ -12,6 +12,7 @@ function Episode(props){
                 <img src={props.imageurl} alt={props.title} className={styles.eimg} />
                 <div className={hover?styles.overlayEx:styles.overlay}>
                     <button onClick={()=>{
+                            props.scroll();
                             props.setTitle(props.title);
                             props.setDesc(props.desc);
                             props.setVideo(props.videoid);
