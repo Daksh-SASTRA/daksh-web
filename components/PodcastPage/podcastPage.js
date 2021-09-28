@@ -1,6 +1,7 @@
 import styles from './podcastpage.module.css'
 import Episode from './Episode'
 import {useState} from 'react'
+import { BsFillPlayFill } from "react-icons/bs"
 
 function PodcastPage() {
     const [title, setTitle] = useState("Title");
@@ -9,14 +10,16 @@ function PodcastPage() {
     const [latestPage, setPage] = useState(true);
     var url = "https://player.vimeo.com/video/"+videoid+"?h=8f513583b1&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479";
    
-    var page =  <div className={styles.videoWrapper}>
-                    <iframe id={styles.video} src={url} frameBorder="0" allowFullScreen></iframe>
-                </div>
+    var page = <iframe id={styles.video} src={url} frameBorder="0" allowFullScreen></iframe>
+
 
     if(latestPage){
         page = <div className={styles.poster}>
                     <h1 id={styles.posterTitle}>Latest Title</h1>
-                    <button className={styles.button} onClick={()=>setPage(false)}>Listen now 🎙</button>
+                    <button className={styles.button} onClick={()=>setPage(false)}>
+                        <BsFillPlayFill size={30}/>
+                        Listen now 
+                    </button>
                 </div>
     }
 
