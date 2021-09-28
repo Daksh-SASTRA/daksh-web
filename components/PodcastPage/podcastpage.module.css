@@ -37,9 +37,11 @@
     align-items: center;
     background-color: var(--secondaryFontColor);
     justify-content: space-between;
+    letter-spacing: 0.5px;
 }
   
 .button:hover {
+    color: white;
     background: linear-gradient(45deg, #0069ff, #38ef7d);
     border: 2px solid var(--secondaryFontColor);
     background-clip: text;
@@ -50,7 +52,6 @@
 }
 
 #allepi {
-    /* font-size: large; */
     font-family: 'title', sans-serif;
     letter-spacing: 2px;
 }
@@ -67,17 +68,14 @@
 .episode{
     display: flex;
     flex-direction: column;
-    /* width: 250px; */
-    /* height: 180px; */
+    width: 300px;
+    height: 300px;
     align-items: center;
     justify-content: space-evenly;
-    /* margin: 20px 20px 0 0; */
     padding: 10px;
-    /* margin-bottom: 20px; */
 }
 
 .episode:hover {
-    /* border: 2px solid var(--secondaryFontColor); */
     border-radius: 10px;
 }
 
@@ -94,11 +92,14 @@
     font-size: 1.05rem;
     padding: 8px 10px;
     top: -2.6rem;
+    margin-bottom: -2.6rem;
 }
 
 .eimg{
     width: 100%; 
     height: 100%;
+    object-fit: cover;
+    object-position: center;
 }
 
 .overlay{
@@ -119,13 +120,13 @@
     text-align: start;
     display: flex;
     position: absolute;
-    width: 320px;
+    width: 300px;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     padding: 20px;
-    background-color: rgba(0,0,0,0.65);
-    height: 250px;
+    background-color: rgba(0,0,0,0.5);
+    height: 300px;
     border-radius: 10px;
     transition: all 0.3s ease-in-out;
 }
@@ -166,6 +167,21 @@
     font-size: 4rem;
 }
 
+
+@media screen and (max-width: 900px) {
+    #titleFrame {
+        letter-spacing: 3px;
+    }
+    
+    #posterTitle {
+        font-size: 2rem;
+    }
+    
+    #allepi {
+        font-size: 1.75rem;
+    }
+}
+
 @media screen and (max-width: 500px) {
     #podcontext {
         align-items: center;
@@ -180,15 +196,8 @@
     #posterTitle {
         font: 1.5rem;
     }
-}
 
-@media screen and (max-width: 900px) {
-    #titleFrame {
-        letter-spacing: 3px;
+    #allepi {
+        font-size: 1.15rem;
     }
-
-    #posterTitle {
-        font-size: 2rem;
-    }
-
 }
