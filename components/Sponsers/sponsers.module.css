@@ -1,0 +1,25 @@
+.sponsers{
+    background-color:var(--white);
+    text-align: center;
+    color:var(--primaryBg);
+    padding-top: 2%;
+}
+
+.sponsers__h3{
+    margin:0;
+    padding: 2%;
+    font-family: title;
+    font-size: 4rem;
+    line-height: 4rem;
+    font-weight: 600;
+}
+.sponser_slider{
+  margin:2% 6% 5%;
+}
+.sponser_slider:hover{
+    
+}
+
+.sponser_infinite{
+    margin:2%;
+}

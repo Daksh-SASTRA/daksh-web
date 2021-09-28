@@ -9,12 +9,16 @@
     justify-content: space-between;
     padding: 0 2.5rem;
     z-index: 9999;
-    background-color: var(--primaryBg);
+    background-color: rgba(255, 0, 0, 0);
+    transition: all 0.5s;
+}
+.active {
+    background-color: rgba(0, 0, 0, 0.90) !important;
 }
 
 #logo{
     margin: auto 0;
-    height: 65%;
+    height: 60%;
     cursor: pointer;
 }
 
