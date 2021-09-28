@@ -9,7 +9,7 @@ function Episode(props){
 
     return (
         <>
-            <div className={styles.episode} onMouseEnter={()=>{onHover(true);}}  onMouseLeave={()=>{onHover(false);}}> 
+            <div className={styles.episode} onMouseEnter={()=>{onHover(true);}}  onMouseLeave={()=>{onHover(false);}}>
                 <img src={props.imageurl} alt={props.title} className={styles.eimg} />
                 <div className={hover?styles.overlayEx:styles.overlay}>
                     <button onClick={()=>{
@@ -24,9 +24,14 @@ function Episode(props){
                 <div id={styles.episodeContext}>
                     {props.title}
                 </div>
-                <div className={props.new?styles.newEpisode:styles.oldEpisode}>
+                {/* <div className={props.new?styles.newEpisode:styles.oldEpisode}>
                     <FaStar />&nbsp;New
-                </div>
+                </div> */}
+                <div className={props.new?styles.badge:styles.noBadge}>
+    	            <i className={styles.left}></i>
+    	            <i className={styles.right}></i>
+    	                NEW&nbsp;&nbsp;
+	            </div>
             </div>
         </>
     )
