@@ -61,7 +61,7 @@
 }
 
 #grid{
-    width: 70%;
+    width: 100%;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
