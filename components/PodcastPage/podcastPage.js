@@ -42,6 +42,7 @@ function PodcastPage() {
                     <p id={styles.descFrame}>{desc}</p>
                 </div>
             </div>
+            <div id={styles.hrline}></div>
             <h1 id={styles.allepi}>ALL EPISODES</h1>
             <div id={styles.grid}>
                 <Episode new={true} title={"name1"} desc={"Lorem dfgiuh goiujh dtgohoi h Ipsum1"} imageurl={"https://picsum.photos/300/200"} videoid={"614339947"} setTitle={setTitle} setDesc={setDesc} setVideo={setVideo} setPage={setPage} scroll={scrollToTop()}/>

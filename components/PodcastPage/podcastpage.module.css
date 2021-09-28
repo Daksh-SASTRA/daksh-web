@@ -9,11 +9,18 @@
 #video {
     width: 100%;
     height: 56vw;
-  }
+}
+
+#hrline {
+    border-top: 1px white solid;
+    width: 80vw;
+    margin: 50px 0;
+}
 
 .podcontext {
     width: 75vw;
     text-align: left;
+    margin-top: 40px;
 }
 
 #titleFrame {
@@ -54,6 +61,7 @@
 #allepi {
     font-family: 'content', sans-serif;
     letter-spacing: 2px;
+    margin-bottom: 50px;
 }
 
 #grid{
