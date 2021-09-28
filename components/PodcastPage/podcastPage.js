@@ -17,7 +17,7 @@ function PodcastPage() {
         page = <div className={styles.poster}>
                     <h1 id={styles.posterTitle}>Latest Title</h1>
                     <button className={styles.button} onClick={()=>setPage(false)}>
-                        <BsFillPlayFill size={30}/>
+                        <BsFillPlayFill size={30}/>&nbsp;
                         Listen now 
                     </button>
                 </div>
