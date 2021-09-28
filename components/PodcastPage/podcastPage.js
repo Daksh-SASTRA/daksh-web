@@ -34,11 +34,11 @@ function PodcastPage() {
             </div>
             <h1 id={styles.allepi}>All Episodes</h1>
             <div id={styles.grid}>
-                <Episode title={"name"} desc={"Lorem Ipsum"} imageurl={"https://picsum.photos/300/200"}/>
-                <Episode title={"name"} desc={"Lorem Ipsum"} imageurl={"https://picsum.photos/300/200"}/>
-                <Episode title={"name"} desc={"Lorem Ipsum"} imageurl={"https://picsum.photos/300/200"}/>
-                <Episode title={"name"} desc={"Lorem Ipsum"} imageurl={"https://picsum.photos/300/200"}/>
-                <Episode title={"name"} desc={"Lorem Ipsum"} imageurl={"https://picsum.photos/300/200"}/>
+                <Episode title={"name1"} desc={"Lorem dfgiuh goiujh dtgohoi h Ipsum1"} imageurl={"https://picsum.photos/300/200"} videoid={"614339947"} setTitle={setTitle} setDesc={setDesc} setVideo={setVideo} setPage={setPage}/>
+                <Episode title={"name2"} desc={"Lorem dgou ig ouihgo idh dgoijh oi Ipsum2"} imageurl={"https://picsum.photos/300/200"} videoid={"614334522"} setTitle={setTitle} setDesc={setDesc} setVideo={setVideo} setPage={setPage}/>
+                <Episode title={"name3"} desc={"Lorem dghoij odgoij dgihj dghoij dgopihj Ipsum3"} imageurl={"https://picsum.photos/300/200"} videoid={"614273659"} setTitle={setTitle} setDesc={setDesc} setVideo={setVideo} setPage={setPage}/>
+                <Episode title={"name4"} desc={"Lorem  poijdh poijdg hpodjh pojdghpoj dgIpsum4"} imageurl={"https://picsum.photos/300/200"} videoid={"614339947"} setTitle={setTitle} setDesc={setDesc} setVideo={setVideo} setPage={setPage}/>
+                <Episode title={"name5"} desc={"Lorem h;oj thpijdg phoijg hiogjdh ipjdgihjioIpsum5"} imageurl={"https://picsum.photos/300/200"} videoid={"614334522"} setTitle={setTitle} setDesc={setDesc} setVideo={setVideo} setPage={setPage}/>
             </div>
         </div>
     )

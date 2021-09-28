@@ -11,8 +11,13 @@ function Episode(props){
             <div className={styles.episode} onMouseEnter={()=>{onHover(true);}}  onMouseLeave={()=>{onHover(false);}}> 
                 <img src={props.imageurl} alt={props.title} className={styles.eimg} />
                 <div className={hover?styles.overlayEx:styles.overlay}>
-                    {/* {props.title} */}
-                    <button className={hover?styles.watchnow:styles.hide}>Listen Now</button>
+                    <button onClick={()=>{
+                            props.setTitle(props.title);
+                            props.setDesc(props.desc);
+                            props.setVideo(props.videoid);
+                            props.setPage(false);
+                        }} 
+                        className={hover?styles.watchnow:styles.hide}>Listen Now</button>
                 </div>
                 <div id={styles.episodeContext}>
                     {props.title}
