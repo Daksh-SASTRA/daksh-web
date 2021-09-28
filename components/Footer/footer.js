@@ -3,13 +3,11 @@ import styles from "./footer.module.css";
 import Image from "next/image";
 import Link from "next/link";
 import {
-	TiSocialInstagram,
-	TiSocialFacebook,
 	TiSocialTwitter,
 	TiSocialYoutube,
-	TiSocialLinkedin,
 } from "react-icons/ti";
-import { AiOutlineMedium } from "react-icons/ai";
+import { AiFillMediumCircle, AiOutlineInstagram} from "react-icons/ai";
+import {RiFacebookCircleFill, RiLinkedinBoxFill} from "react-icons/ri";
 
 // Assigned To Santhosh
 // Background Colour - primaryBg
@@ -20,40 +18,28 @@ function footer() {
 			<div className={styles.footer_logo}>
 				<img
 					src="/logo.png"
-					style={{ width: "200px", height: "100px" }}
+					style={{ width: "175px" }}
 					alt="Daksh logo"
 				/>
 				<div id={styles.footer_icons}>
-					<Link href="/">
-						<a>
-							<AiOutlineMedium className={styles.footer_icon} />
-						</a>
-					</Link>
-					<Link href="/">
-						<a>
-							<TiSocialInstagram className={styles.footer_icon} />
-						</a>
-					</Link>
-					<Link href="/">
-						<a>
-							<TiSocialFacebook className={styles.footer_icon} />
-						</a>
-					</Link>
-					<Link href="/">
-						<a>
-							<TiSocialTwitter className={styles.footer_icon} />
-						</a>
-					</Link>
-					<Link href="/">
-						<a>
-							<TiSocialYoutube className={styles.footer_icon} />
-						</a>
-					</Link>
-					<Link href="/">
-						<a>
-							<TiSocialLinkedin className={styles.footer_icon} />
-						</a>
-					</Link>
+					<a href="https://www.instagram.com/daksh2k22/?hl=en" target="_blank">
+						<AiOutlineInstagram className={styles.footer_icon} />
+					</a>
+					<a href="https://daksh-blog.medium.com/" target="_blank">
+						<AiFillMediumCircle className={styles.footer_icon} />
+					</a>
+					<a href="https://www.linkedin.com/company/dakshsastra/" target="_blank">
+						<RiLinkedinBoxFill className={styles.footer_icon} />
+					</a>
+					<a href="https://twitter.com/Daksh2k22" target="_blank">
+						<TiSocialTwitter className={styles.footer_icon} />
+					</a>
+					<a href="https://www.youtube.com/channel/UCiFKilPCc87fcbIRh_tiPQA" target="_blank">
+						<TiSocialYoutube className={styles.footer_icon} />
+					</a>
+					<a href="https://www.facebook.com/daksh.sastra" target="_blank">
+						<RiFacebookCircleFill className={styles.footer_icon} />
+					</a>
 				</div>
 			</div>
 			<div className={styles.footer_right}>
@@ -65,23 +51,19 @@ function footer() {
 					<Link href="/">
 						<a>Teams</a>
 					</Link>
-					<Link href="/">
+					<Link href="/podcast">
 						<a>Podcasts</a>
 					</Link>
 				</div>
 				<div className={styles.footer_contact}>
 					<h2>Contact</h2>
 					<adress>
-						<Link href="/">
-							<a>Hari Haran</a>
-						</Link>
-						<br />
-						<Link href="/">
-							<a>chairman.daksh@sastra.ac.in</a>
-						</Link>
-						<br />
-						<Link href="/">
-							<a>+91 7397067957</a>
+						<Link href="mailto:chairman.daksh@sastra.ac.in" target="blank">
+							<a>Hari Haran
+							<br />
+							chairman.daksh@sastra.ac.in
+							<br />
+							+91 7397067957</a>
 						</Link>
 					</adress>
 				</div>

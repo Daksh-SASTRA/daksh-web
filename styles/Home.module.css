@@ -1,6 +1,8 @@
 .container {
     min-height: 100vh;
     height: 100vh;
+    display: flex;
+    justify-content: center;
 }
 
 
@@ -12,3 +14,4 @@
     max-width: 1500px;
     color: var(--white);
 }
+

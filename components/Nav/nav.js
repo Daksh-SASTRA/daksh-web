@@ -1,40 +1,54 @@
 import React,{ useState } from 'react'
 import styles from './nav.module.css'
 import { IoMenu } from "react-icons/io5"
+import {MdClose} from "react-icons/md"
+import Link from 'next/link'
 
 // Assigned To Vinai
 // Background Colour - primaryBg
 
 function nav() {
     const [navmenu, menuToggle] = useState(false);
-    var hnav = <div id={navmenu?styles.vnav:styles.hnav}>
+    var hnav = <div id={navmenu ? styles.vnav : styles.hnav }>
                     <div className={styles.navbutton}>
-                        <a className={styles.navlink} href="podcast">
-                            Events/Workshops
-                        </a>
+                        <Link href="/">
+                            <a className={styles.navlink}>
+                                Events/Workshops
+                            </a>
+                        </Link>
                     </div>
                     <div className={styles.navbutton}>
-                        <a className={styles.navlink} href="podcast">
-                            Teams
-                        </a>
+                        <Link href="/">
+                            <a className={styles.navlink}>
+                                Teams
+                            </a>
+                        </Link>
                     </div>
                     <div className={styles.navbutton}>
-                        <a className={styles.navlink} href="podcast">
-                            Podcasts
-                        </a>               
+                        <Link href="/podcast" >
+                            <a className={styles.navlink}>
+                                Podcasts
+                            </a>  
+                        </Link >             
                     </div>
                 </div>
 
     return (
-        <div id={styles.navbar}>
-            <a href="/">
+        <nav id={styles.navbar}>
+            <Link href="/">
                 <img id={styles.logo} src="/logo.png"/>
-            </a>
+            </Link>
             {hnav}
+            {navmenu ?
             <div id={styles.menu} onClick={() => menuToggle(!navmenu)}>
-                <IoMenu size={30}/> 
+                <MdClose size={35}/> 
             </div>
-        </div>
+            :
+            <div id={styles.menu} onClick={() => menuToggle(!navmenu)}>
+                <IoMenu size={35}/> 
+            </div>
+            }
+        </nav>
     )
 }
 
