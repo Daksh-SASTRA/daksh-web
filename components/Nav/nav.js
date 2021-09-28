@@ -1,4 +1,4 @@
-import React,{ useState } from 'react'
+import React,{ useState,useEffect } from 'react'
 import styles from './nav.module.css'
 import { IoMenu } from "react-icons/io5"
 import {MdClose} from "react-icons/md"
@@ -8,6 +8,21 @@ import Link from 'next/link'
 // Background Colour - primaryBg
 
 function nav() {
+    const [navbarBg, setNavbarBg] = useState(false);
+
+    //navbar scroll changeBackground function
+    const changeBackground = () => {
+        if (window.scrollY >= 70) {
+            setNavbarBg(true);
+        } else {
+            setNavbarBg(false);
+        }
+    }
+
+    useEffect(() => {
+        window.addEventListener("scroll", changeBackground)
+    })
+
     const [navmenu, menuToggle] = useState(false);
     var hnav = <div id={navmenu ? styles.vnav : styles.hnav }>
                     <div className={styles.navbutton}>
@@ -34,7 +49,7 @@ function nav() {
                 </div>
 
     return (
-        <nav id={styles.navbar}>
+        <nav id={styles.navbar} className={navbarBg ? styles.active : ''}>
             <Link href="/">
                 <img id={styles.logo} src="/logo.png"/>
             </Link>

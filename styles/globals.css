@@ -16,7 +16,7 @@
 */
 
 :root {
-  --primaryBg: #0F0F0F;
+  --primaryBg: #0f0f0f;
   --secondaryBg: #242424;
   --white: #f8f8f8;
   --secondaryFontColor: #B6B6B6;
@@ -40,5 +40,7 @@ a {
 
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
