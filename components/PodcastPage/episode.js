@@ -1,6 +1,7 @@
 import styles from './podcastpage.module.css'
 import {useState} from 'react'
 import Image from 'next/image'
+import {FaStar} from 'react-icons/fa'
 
 function Episode(props){
     
@@ -22,6 +23,9 @@ function Episode(props){
                 </div>
                 <div id={styles.episodeContext}>
                     {props.title}
+                </div>
+                <div className={props.new?styles.newEpisode:styles.oldEpisode}>
+                    <FaStar />&nbsp;New
                 </div>
             </div>
         </>
