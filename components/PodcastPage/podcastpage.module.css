@@ -69,7 +69,7 @@
     display: flex;
     flex-direction: column;
     width: 300px;
-    height: 300px;
+    height: 200px;
     align-items: center;
     justify-content: space-evenly;
     padding: 10px;
@@ -86,13 +86,13 @@
     transform: translateX(50%);
     background-color: rgba(0, 0, 0, 0.4);
     backdrop-filter: blur(20px);
-    color: var(--secondaryFontColor);
-    border-bottom-right-radius: 10px;
-    border-top-right-radius: 10px;
+    color: white;
     font-size: 1.05rem;
     padding: 8px 10px;
     top: -2.6rem;
     margin-bottom: -2.6rem;
+    text-align: left;
+    width: 100%;
 }
 
 .eimg{
@@ -108,11 +108,8 @@
     position: absolute;
     width: 250px;
     height: 50px;
-    flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
     justify-content: center;
-    padding: 20px;
-    /* background-color: rgba(0,0,0,0.5); */
     transition: all 0.3s ease-in-out;
 }
 
@@ -120,14 +117,11 @@
     text-align: start;
     display: flex;
     position: absolute;
-    width: 300px;
-    flex-direction: column;
+    width: 280px;
     align-items: center;
     justify-content: center;
-    padding: 20px;
     background-color: rgba(0,0,0,0.5);
-    height: 300px;
-    border-radius: 10px;
+    height: 180px;
     transition: all 0.3s ease-in-out;
 }
 
@@ -141,7 +135,6 @@
     background-color: white;
     justify-content: center;
     align-items: center;
-    margin-top: 20px;
     border: 0;
     border-radius: 20px;
     padding: 20px;
