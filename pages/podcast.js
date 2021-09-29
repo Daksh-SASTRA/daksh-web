@@ -7,7 +7,7 @@ import PodcastPage from '../components/PodcastPage/podcastPage'
 
 export default function Home() {
   return (
-    <div className={styles.container}>
+    <div>
       <Head>
         <title>Daksh SASTRA - Podcast</title>
         <meta name="description" content="The international techno-management festival of SASTRA University" />
