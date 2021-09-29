@@ -57,7 +57,7 @@ function footer() {
 				</div>
 				<div className={styles.footer_contact}>
 					<h2>Contact</h2>
-					<adress>
+					<div>
 						<Link href="mailto:chairman.daksh@sastra.ac.in" target="blank">
 							<a>Hari Haran
 							<br />
@@ -65,7 +65,7 @@ function footer() {
 							<br />
 							+91 7397067957</a>
 						</Link>
-					</adress>
+					</div>
 				</div>
 			</div>
 		</div>
