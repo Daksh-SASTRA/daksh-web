@@ -2,27 +2,19 @@ import React from 'react'
 import styles from './statisticCards.module.css'
 import PropTypes from 'prop-types'
 
-
-// Assigned To Sai Prasanna
-// Background Colour - secondaryBg
-
-function statisticCards(props) {
-    const decorwhite=(s,i)=>{
-       return s.substring(0,i);
-    }
-    const decorgrey=(s,i)=>{
-       return s.substring(i,s.length);
-    }
+function statisticCards() {
     return (
         <div className={styles.container}>
-            <div className={`${styles.item} ${styles.item1}`} >
-            <p>{decorwhite(props.s1,props.i1)}<br /><span>{decorgrey(props.s1,props.i1)}</span></p>
-        </div><div className={styles.item}>
-        <p>{decorwhite(props.s2,props.i2)}<br /><span>{decorgrey(props.s2,props.i2)}</span></p>
-            </div><div className={`${styles.item} ${styles.item3}`}>
-            <p>{decorwhite(props.s3,props.i3)}<br /><span>{decorgrey(props.s3,props.i3)}</span></p>
+            <div className={styles.item} >
+              <p>10+<br/><span>Events</span></p>
             </div>
-    </div>
+            <div className={styles.item}>
+              <p>100K<br/><span>Prices Pool</span></p>
+            </div>
+            <div className={styles.item}>
+              <p>3+<br/><span>Workshops</span></p>
+            </div>
+        </div>
     )
 }
 statisticCards.propTypes = {

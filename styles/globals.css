@@ -31,6 +31,7 @@ body {
   background-color: var(--primaryBg);
   line-height: 1.5;
   letter-spacing: 1.15px;
+  scroll-behavior: smooth;
 }
 
 a {

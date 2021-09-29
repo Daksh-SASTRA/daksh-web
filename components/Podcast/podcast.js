@@ -1,8 +1,6 @@
 import React from 'react'
 import styles from'./podcast.module.css'
 import Link from 'next/link'
-// Assigned To Neha
-// Background Colour - secondaryBg
 
 function podcast() {
     return (

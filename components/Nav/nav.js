@@ -4,9 +4,6 @@ import { IoMenu } from "react-icons/io5"
 import {MdClose} from "react-icons/md"
 import Link from 'next/link'
 
-// Assigned To Vinai
-// Background Colour - primaryBg
-
 function nav() {
     const [navbarBg, setNavbarBg] = useState(false);
 
@@ -20,10 +17,8 @@ function nav() {
     }
 
     useEffect(() => {
-        console.log("mounted");
         window.addEventListener("scroll", changeBackground);
         return () => {
-            console.log("Unmounted");
             window.removeEventListener("scroll", changeBackground);
         }
     },[]);
@@ -31,14 +26,14 @@ function nav() {
     const [navmenu, menuToggle] = useState(false);
     var hnav = <div id={navmenu ? styles.vnav : styles.hnav }>
                     <div className={styles.navbutton}>
-                        <Link href="/">
+                        <Link href="#newsletter">
                             <a className={styles.navlink}>
                                 Events/Workshops
                             </a>
                         </Link>
                     </div>
                     <div className={styles.navbutton}>
-                        <Link href="/">
+                        <Link href="#newsletter">
                             <a className={styles.navlink}>
                                 Teams
                             </a>

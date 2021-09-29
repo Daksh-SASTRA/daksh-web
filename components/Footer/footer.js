@@ -9,8 +9,6 @@ import {
 import { AiFillMediumCircle, AiOutlineInstagram} from "react-icons/ai";
 import {RiFacebookCircleFill, RiLinkedinBoxFill} from "react-icons/ri";
 
-// Assigned To Santhosh
-// Background Colour - primaryBg
 
 function footer() {
 	return (

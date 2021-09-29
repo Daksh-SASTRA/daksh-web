@@ -1,10 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
+import Link from 'next/link'
 import styles from './about.module.css'
-
-// Assigned To Neha
-// Background Colour - secondaryBg
-
 
 function about() {
     return (
@@ -16,7 +13,9 @@ function about() {
                         <p className={styles.about__p}>
                         Instituted in 2007, DAKSH is the annual techno management fest of Sastra University. Ever since its establishm ent it has been a platform for a multitude of students and aspirants to unravel their talents and showcase their technical prowess. We’ve grown together as a fest since our inception providing students with the finest exposure and skill. This edition of Daksh aims at creating a virtual forum bringing together the eccentric minded and celebrating technology.
                         </p>
-                        <a className={styles.button__about} href="#">  Teams </a>
+                        <Link href="#newsletter">
+                            <a className={styles.button__about} >  Teams </a>
+                        </Link>
                     </div>
                 </div>
                 <div className={styles.col_lg_6}>

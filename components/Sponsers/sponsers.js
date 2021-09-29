@@ -1,9 +1,6 @@
 import React from 'react'
 import styles from './sponsers.module.css'
 
-// Assigned To Neha
-// Background Colour - white
-
 function sponsers() {
     return (
         <section className={styles.sponsers}>

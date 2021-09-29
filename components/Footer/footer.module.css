@@ -1,11 +1,9 @@
 .footer {
-	padding: 0 20px;
+	padding: 2rem 20px;
 	width: 100%;
-	padding-bottom: 0;
 	background-color: var(--primaryBg);
 	display: flex;
 	flex-direction: column;
-	margin: 20px 0;
 	align-items: left;
 	justify-content: space-around;
 }
@@ -70,7 +68,7 @@
 	.footer {
 		flex-direction: row;
 		align-items: center;
-		padding: 0 2.5rem;
+		padding: 2.5rem;
 	}
 	.footer_right {
 		flex: 1 1 0;

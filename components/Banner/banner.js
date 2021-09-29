@@ -1,8 +1,6 @@
 import React from 'react'
 import styles from './banner.module.css'
 import Link from 'next/link'
-// Assigned To Sivapriya
-// Background Colour - primaryBg
 
 function banner() {
     
@@ -16,7 +14,7 @@ function banner() {
                 <h3 className={styles.divbanner__descriptiontext}>
                     Daksh is Happening very soon
                 </h3>
-                <Link href="/">
+                <Link href="#newsletter">
                     <a className={styles.divbanner__eveandwsbtn}>
                         Events and Workshops
                     </a>

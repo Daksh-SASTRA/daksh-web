@@ -6,13 +6,12 @@
 }
 .maincontainer h3{
     font-family: title;
-    color: var(--secondaryFontColor);
+    color: var(--white);
     text-align: center;
-    padding:3% 0 0;
-    font-size: 22px;
-    margin: 0px;
+    font-size: 2rem;
+    margin: 1rem 0 0 0;
 }
-.container1{
+.input_container{
   font-family: content;
   min-height: 16vh;
   background-color: var(--secondaryBg);
@@ -22,35 +21,47 @@
   align-items: center;
   justify-content: center;
 }
-.container1 input{
-  margin:  0 2%;
+.input_container input{
+  margin:  0 25px;
   padding: 12px 22px;
   border-radius: 5px;
   font-family: content;
-  font-size: 18px;
+  font-size: 1rem;
   min-width: 50vw;
+  border: none;
 }
+
 .btn {
   border-radius: 5px;
-  font-family: Arial;
+  font-family: content;
   color: var(--primaryBg);
   font-size: 20px;
    background: #ffffff;
-  padding:8px 20px 8px 20px;
+  padding: 8px 20px 8px 20px;
   text-decoration: none;
   font-family: content;
   margin-right: 2%;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
 }
 .btn:hover {
   background: var(--white);
   text-decoration: none;
 }
-@media screen and (max-width: 437px) { 
-  .btn{
-    margin-top: 3%;
-  }
+@media screen and (max-width: 700px) {
   .maincontainer h3{
-    padding-bottom: 3%;
+    font-family: title;
+    color: var(--white);
+    text-align: center;
+    font-size: 1.75rem;
+    margin: 1rem 0;
+  }
+  .input_container input{
+    width: 100%;
+  }
+  .btn {
+    margin: 1rem;
   }
 }
 
