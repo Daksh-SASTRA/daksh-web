@@ -20,8 +20,13 @@ function nav() {
     }
 
     useEffect(() => {
-        window.addEventListener("scroll", changeBackground)
-    })
+        console.log("mounted");
+        window.addEventListener("scroll", changeBackground);
+        return () => {
+            console.log("Unmounted");
+            window.removeEventListener("scroll", changeBackground);
+        }
+    },[]);
 
     const [navmenu, menuToggle] = useState(false);
     var hnav = <div id={navmenu ? styles.vnav : styles.hnav }>
