@@ -235,7 +235,10 @@
 }
 
 #posterTitle {
-    font-size: 4rem;
+    font-size: 3.8rem;
+    font-family: 'content', sans-serif;
+    margin-bottom: 3vh;
+    text-transform: uppercase;
 }
 
 
