@@ -24,14 +24,11 @@ function Episode(props){
                 <div id={styles.episodeContext}>
                     {props.title}
                 </div>
-                {/* <div className={props.new?styles.newEpisode:styles.oldEpisode}>
-                    <FaStar />&nbsp;New
-                </div> */}
-                <div className={props.new?styles.badge:styles.noBadge}>
-    	            <i className={styles.left}></i>
-    	            <i className={styles.right}></i>
-    	                NEW&nbsp;&nbsp;
-	            </div>
+                <div className={props.new?styles.ribbon:styles.noRibbon}>
+                    <div className={styles.ribbon__content}>
+                        &nbsp;&nbsp;<FaStar />&nbsp;New
+                    </div>
+                </div>
             </div>
         </>
     )
