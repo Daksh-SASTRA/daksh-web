@@ -11,6 +11,8 @@ import Nav from '../components/Nav/nav'
 import Footer from '../components/Footer/footer'
 
 export default function Home() {
+ let cardsstr=["10+ Events","100k Pool","Lorem ipsum dolor."];
+  let cardsind=[3,4,5];
   return (
     <div className={styles.container}>
       <Head>
@@ -26,7 +28,7 @@ export default function Home() {
         <About />
         <Sponsers />
         <Podcast />
-        <StatisticCards />
+        <StatisticCards s1={cardsstr[0]} s2={cardsstr[1]} s3={cardsstr[2]} i1={cardsind[0]} i2={cardsind[1]} i3={cardsind[2]}/>
         <Newsletter />
         <Footer />
       </main>
