@@ -1,25 +1,38 @@
 .sponsers{
     background-color:var(--white);
-    text-align: center;
     color:var(--primaryBg);
-    padding-top: 2%;
+    padding: 5rem;
 }
 
 .sponsers__h3{
     margin:0;
-    padding: 2%;
     font-family: title;
-    font-size: 4rem;
-    line-height: 4rem;
+    font-size: 3rem;
+    line-height: 1;
     font-weight: 600;
+    text-align: left;
 }
 .sponser_slider{
-  margin:2% 6% 5%;
-}
-.sponser_slider:hover{
-    
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
 }
 
 .sponser_infinite{
-    margin:2%;
+    margin: 10px 0 10px 10px;
+    height: 60px;
+}
+
+
+@media (max-width: 850px){
+    .sponsers{
+        padding: 2rem;
+    }
+    .sponsers__h3{
+        font-size: 2.5rem;
+    }
+    .sponser_infinite{
+        margin: 10px 10px 10px 0;
+        height: 50px;
+    }
 }
