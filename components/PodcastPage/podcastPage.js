@@ -11,6 +11,7 @@ function PodcastPage() {
     var url = "https://player.vimeo.com/video/"+videoid+"?h=8f513583b1&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479";
    
     var page = <iframe id={styles.video} src={url} frameBorder="0" allowFullScreen></iframe>
+    var pad = "10vh 0 0 0";
 
     function scrollToTop(){
         if(!latestPage){
@@ -31,10 +32,11 @@ function PodcastPage() {
                         Listen now 
                     </button>
                 </div>
+        pad = "0px";
     }
 
     return (
-        <div style={{padding: "10vh 0px 0px 0px", display: 'flex', flexDirection: 'column', alignItems: 'center'}}>
+        <div style={{padding: pad , display: 'flex', flexDirection: 'column', alignItems: 'center'}}>
             <div id={styles.podpage}>               
                 {page}
                 <div className={styles.podcontext}>
