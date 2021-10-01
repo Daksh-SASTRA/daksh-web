@@ -4,7 +4,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 
-function bannerCards() {
+function BannerCards() {
     const carousel_items=[
       {
         idx:0,
@@ -92,4 +92,4 @@ function bannerCards() {
    
 }
 
-export default bannerCards;
+export default BannerCards;

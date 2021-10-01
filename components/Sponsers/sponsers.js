@@ -1,7 +1,7 @@
 import React from 'react'
 import styles from './sponsers.module.css'
 
-function sponsers() {
+function Sponsers() {
     return (
         <section className={styles.sponsers}>
                 <h3 className={styles.sponsers__h3}>Sponsers</h3>
@@ -25,4 +25,4 @@ function sponsers() {
     )
 }
 // https://picsum.photos/200/300
-export default sponsers
+export default Sponsers

@@ -2,7 +2,7 @@ import React from 'react'
 import styles from'./podcast.module.css'
 import Link from 'next/link'
 
-function podcast() {
+function Podcast() {
     return (
         <section className={styles.podcast}>
             <div className={`${styles.container__podcast}`}>
@@ -30,4 +30,4 @@ function podcast() {
     )
 }
 
-export default podcast
+export default Podcast

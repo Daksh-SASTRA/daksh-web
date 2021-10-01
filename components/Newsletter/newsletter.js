@@ -1,7 +1,7 @@
 import React,{useEffect, useState} from 'react'
 import styles from './newsletter.module.css'
 
-function newsletter() {
+function Newsletter() {
     const [email,setEmail] = useState("");
 
     useEffect(()=>{
@@ -20,4 +20,4 @@ function newsletter() {
 }
 
 
-export default newsletter
+export default Newsletter

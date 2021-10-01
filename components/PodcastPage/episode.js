@@ -1,10 +1,7 @@
 import styles from './podcastpage.module.css'
-import {useState} from 'react'
-import Image from 'next/image'
-import {FaStar} from 'react-icons/fa'
 import {AiFillPlayCircle} from 'react-icons/ai'
 
-function episode(props) {
+function Episode(props) {
     return (
         <div className={styles.episode}>
             <img src={props.imageurl} alt={props.title} className={styles.eimg} />
@@ -28,4 +25,4 @@ function episode(props) {
     )
 }
 
-export default episode
+export default Episode

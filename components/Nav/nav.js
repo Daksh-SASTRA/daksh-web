@@ -4,7 +4,7 @@ import { IoMenu } from "react-icons/io5"
 import {MdClose} from "react-icons/md"
 import Link from 'next/link'
 
-function nav() {
+function Nav() {
     const [navbarBg, setNavbarBg] = useState(false);
 
     //navbar scroll changeBackground function
@@ -26,14 +26,14 @@ function nav() {
     const [navmenu, menuToggle] = useState(false);
     var hnav = <div id={navmenu ? styles.vnav : styles.hnav }>
                     <div className={styles.navbutton}>
-                        <Link href="#newsletter">
+                        <Link href="/#newsletter">
                             <a className={styles.navlink}>
                                 Events/Workshops
                             </a>
                         </Link>
                     </div>
                     <div className={styles.navbutton}>
-                        <Link href="#newsletter">
+                        <Link href="/#newsletter">
                             <a className={styles.navlink}>
                                 Teams
                             </a>
@@ -67,4 +67,4 @@ function nav() {
     )
 }
 
-export default nav
+export default Nav
