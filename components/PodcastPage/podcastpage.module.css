@@ -4,31 +4,79 @@
     flex-direction: column;
     justify-content: center;
     width: 100%;
+    padding: 3rem;
 }
 
 #video {
     width: 100%;
     height: 56vw;
+    max-height: 80vh;
+    margin-top: 10vh;
+    background-color: black;
 }
 
 #hrline {
     border-top: 1px white solid;
     width: 80vw;
-    margin: 50px 0;
+    margin: 50px auto;
 }
 
 .podcontext {
-    width: 75vw;
+    width: 80%;
     text-align: left;
-    margin-top: 40px;
 }
 
 #titleFrame {
-    letter-spacing: 3px;
+    letter-spacing: 2px;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+
+.PodcastDate {
+    margin: 0.5rem 0;
+    color: var(--secondaryFontColor);
 }
 
 #descFrame {
     color: var(--secondaryFontColor);
+}
+
+.podcastSpeakers{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2rem 0;
+}
+
+.hostSection h3{
+    text-align: right;
+}
+
+.poster{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 56vw;
+    max-height: 80vh;
+    background-color: rgba(0,0,0,0.7);
+    /* background-blend-mode: overlay; */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.posterBtn {
+    margin-top: 10vh;
+    cursor: pointer;
+}
+
+#posterTitle {
+    font-size: 3.5rem;
+    font-family: 'content', sans-serif;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
 }
 
 .button {
@@ -45,17 +93,36 @@
     background-color: var(--secondaryFontColor);
     justify-content: space-between;
     letter-spacing: 0.5px;
+    position: absolute;
+    right: 0;
+    bottom: 45px;
+    left: 80px;
+}
+
+.ribbon {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: green;
+    padding: 5px 10px;
+    text-align: center;
+    border-radius: 5px;
+    z-index: 10;
+}
+
+.noRibbon{
+    display: none;
 }
   
 .button:hover {
-    color: white;
-    background: linear-gradient(45deg, #0069ff, #38ef7d);
+    /* background: linear-gradient(45deg, #0069ff, #38ef7d);
     border: 2px solid var(--secondaryFontColor);
     background-clip: text;
     -webkit-background-clip: text;  
     -moz-background-clip: text;  
     -moz-text-fill-color: transparent;  
-    -webkit-text-fill-color: transparent;
+    -webkit-text-fill-color: transparent; */
+    background-color: var(--white);
 }
 
 #allepi {
@@ -66,25 +133,26 @@
 }
 
 #grid{
+    padding: 0rem 3rem;
     width: 80%;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-evenly;
+    margin: 0 auto;
 }
 
 .episode{
     display: flex;
     flex-direction: column;
     width: 300px;
-    height: 200px;
+    height: max-content;
     align-items: center;
     justify-content: space-evenly;
-    padding: 10px;
     z-index: 1;
     position: relative;
-    margin: 10px 2.5px;
+    margin: 10px;
 }
 
 .episode:hover {
@@ -107,16 +175,16 @@
     width: 100%;
 }
 
-.ribbon {
-    width: 150px;
-    height: 150px;
+/* .ribbon {
+    width: 100px;
+    height: 100px;
     overflow: hidden;
     position: absolute;
     top: 0;
     right: 0;
     margin-bottom: -58%;
-}
-
+} */
+/* 
 .ribbon::before {
     top: 0;
     left: 0;
@@ -171,7 +239,7 @@
     right: 0;
     margin-bottom: -58%;
     visibility: hidden;
-}
+} */
 
 .eimg{
     width: 100%; 
@@ -180,26 +248,27 @@
     object-position: center;
 }
 
+/* .eimg:hover{
+    transform: scale(1.1);
+} */
+
 .overlay{
     text-align: start;
     display: flex;
     position: absolute;
-    width: 250px;
-    height: 50px;
+    width: 100%;
     align-items: center;
     justify-content: center;
     transition: all 0.3s ease-in-out;
+    margin: 10px;
 }
 
-.overlayEx{
+.episode:hover  .overlay {
     text-align: start;
     display: flex;
-    position: absolute;
-    width: 280px;
-    align-items: center;
-    justify-content: center;
     background-color: rgba(0,0,0,0.5);
-    height: 180px;
+    height: 100%;
+    margin: 10px;
     transition: all 0.3s ease-in-out;
 }
 
@@ -208,70 +277,64 @@
 }
 
 .watchnow{
+    display: none;
+}
+
+.episode:hover .watchnow{
     display: flex;
-    height: 30px;
     background-color: white;
     justify-content: center;
     align-items: center;
     border: 0;
     border-radius: 20px;
-    padding: 20px;
-    font-size: 1.025rem;
-    letter-spacing: 1.25px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    cursor: pointer;
 }
 
-.poster{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 100vw;
-    height: 56vw;
-    background-color: rgba(0,0,0,0.7);
-    background-image: url("https://picsum.photos/200/300");
-    background-blend-mode: overlay;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
+@media screen and (max-width: 700px) {
+    #podpage{
+        padding: 2rem;
+    }
 
-#posterTitle {
-    font-size: 3.8rem;
-    font-family: 'content', sans-serif;
-    margin-bottom: 3vh;
-    text-transform: uppercase;
-}
+    .poster{
+        height: auto;
+    }
+    .podcontext {
+        width: 100%;
+        text-align: left;
+    }
 
+    .podcastSpeakers{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+        margin: 2rem 0;
+    }
 
-@media screen and (max-width: 900px) {
+    .hostSection h3{
+        text-align: left;
+        margin-top: 1rem;
+    }
+    
     #titleFrame {
-        letter-spacing: 3px;
-    }
-    
-    #posterTitle {
-        font-size: 2rem;
-    }
-    
-    #allepi {
         font-size: 1.75rem;
     }
-}
-
-@media screen and (max-width: 500px) {
-    #podcontext {
-        align-items: center;
-        justify-content: center;
-        width: 90vw;
-    }
-
-    #titleFrame {
-        letter-spacing: 2px;
-    } 
-    
-    #posterTitle {
-        font: 1.5rem;
-    }
 
     #allepi {
-        font-size: 1.15rem;
+        margin: 1rem;
+    }
+
+    #descFrame{
+        font-size: 1rem;
+    }
+
+    #grid {
+        padding: 0;
+    }
+    #hrline {
+        margin: 1rem auto;
     }
 }

@@ -9,7 +9,7 @@ function nav() {
 
     //navbar scroll changeBackground function
     const changeBackground = () => {
-        if (window.scrollY >= 70) {
+        if (window.scrollY >= 50) {
             setNavbarBg(true);
         } else {
             setNavbarBg(false);
