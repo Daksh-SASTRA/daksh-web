@@ -1,9 +1,8 @@
 import React from 'react'
-import Image from 'next/image'
 import Link from 'next/link'
 import styles from './about.module.css'
 
-function about() {
+function About() {
     return (
         <section className={styles.about}>
             <div className={styles.row__about}>
@@ -29,4 +28,4 @@ function about() {
     )
 }
 // width="560" height="315"
-export default about
+export default About

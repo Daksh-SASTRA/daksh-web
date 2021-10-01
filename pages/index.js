@@ -1,14 +1,14 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
-import Banner from '../components/Banner/banner'
-import BannerCards from '../components/BannerCards/bannerCards'
-import About from '../components/About/about'
-import Sponsers from '../components/Sponsers/sponsers'
-import Podcast from '../components/Podcast/podcast'
-import StatisticCards from '../components/StatisticCards/statisticCards'
-import Newsletter from '../components/Newsletter/newsletter'
-import Nav from '../components/Nav/nav'
-import Footer from '../components/Footer/footer'
+import Banner from '../components/Banner/Banner'
+import BannerCards from '../components/BannerCards/BannerCards'
+import About from '../components/About/About'
+import Sponsers from '../components/Sponsers/Sponsers'
+import Podcast from '../components/Podcast/Podcast'
+import StatisticCards from '../components/StatisticCards/StatisticCards'
+import Newsletter from '../components/Newsletter/Newsletter'
+import Nav from '../components/Nav/Nav'
+import Footer from '../components/Footer/Footer'
 
 export default function Home() {
   return (

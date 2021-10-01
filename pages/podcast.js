@@ -1,8 +1,8 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
-import Nav from '../components/Nav/nav'
-import Footer from '../components/Footer/footer'
-import PodcastPage from '../components/PodcastPage/podcastPage'
+import Nav from '../components/Nav/Nav'
+import Footer from '../components/Footer/Footer'
+import PodcastPage from '../components/PodcastPage/PodcastPage'
 
 
 export default function Home() {

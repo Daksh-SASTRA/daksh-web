@@ -2,8 +2,7 @@ import React from 'react'
 import styles from './banner.module.css'
 import Link from 'next/link'
 
-function banner() {
-    
+function Banner() {
     return (
         <>
         <div className={styles.topcover}>
@@ -28,4 +27,4 @@ function banner() {
     )
 }
 
-export default banner
+export default Banner
