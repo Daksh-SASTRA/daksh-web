@@ -153,6 +153,7 @@
     z-index: 1;
     position: relative;
     margin: 10px;
+    border-radius: 5px;
 }
 
 .episode:hover {
@@ -246,6 +247,7 @@
     height: 100%;
     object-fit: cover;
     object-position: center;
+    border-radius: 5px;
 }
 
 /* .eimg:hover{

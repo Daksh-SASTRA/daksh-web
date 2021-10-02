@@ -74,6 +74,8 @@
 .about__video_size{
     height: 250px;
     width: 400px;
+    border-radius: 10px;
+    border: 2px solid var(--white);
 }
 
  

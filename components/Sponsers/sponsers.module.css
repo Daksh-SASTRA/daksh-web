@@ -12,15 +12,20 @@
     font-weight: 600;
     text-align: left;
 }
-.sponser_slider{
+/* .sponser_slider{
     display: flex;
     flex-wrap: wrap;
     margin-top: 20px;
+} */
+
+.sponser_slider{
+    margin: 1rem 0;
+    width: 100%;
 }
 
 .sponser_infinite{
-    margin: 10px 0 10px 10px;
-    height: 60px;
+    padding: 10px 20px;
+    height: 150px;
 }
 
 
@@ -33,6 +38,6 @@
     }
     .sponser_infinite{
         margin: 10px 10px 10px 0;
-        height: 50px;
+        height: 75px;
     }
 }

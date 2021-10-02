@@ -1,11 +1,13 @@
 .cardcarousel{
     width: 80%;
+    max-width: 1000px;
     margin: 100px 50px;
 }
 .cardRenderWrap{
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: blueviolet;
 }
 
 .card {

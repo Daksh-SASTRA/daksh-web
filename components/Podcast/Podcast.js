@@ -14,7 +14,7 @@ function Podcast() {
                     </div>
                     <div className={styles.col_lg_6}>
                         <div className={styles.text_container__podcast}>
-                            <h3 className={styles.podcast__h3}>DAKSH PODCAST </h3>
+                            <h3 className={styles.podcast__h3}>Daksh Podcast </h3>
                             <p className={styles.podcast__p}>
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
                                 Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.

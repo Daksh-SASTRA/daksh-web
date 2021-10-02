@@ -8,7 +8,7 @@ function Banner() {
         <div className={styles.topcover}>
             <div className={styles.divbanner}>
                 <h1 className={styles.divbanner__headtext}>
-                    BUILD THINGS THAT MATTER
+                    Build things that matter
                 </h1>
                 <h3 className={styles.divbanner__descriptiontext}>
                     Daksh is Happening very soon

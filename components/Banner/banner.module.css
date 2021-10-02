@@ -24,7 +24,7 @@
     background-image:linear-gradient(180deg,transparent,rgba(255, 0, 0, 0),var(--primaryBg)) ;
 }
 .divbanner__headtext{
-    font-size: 4rem;
+    font-size: 4.5rem;
     font-weight: 400;
     font-family: title;
     color: var(--white);
@@ -36,10 +36,10 @@
     font-size: 1.3rem;
     font-weight: bold;
     font-family: content; 
-    color: var(--white);
+    color: var(--secondaryFontColor);
     text-align: center;
     letter-spacing: 5px;
-    margin: 25px 0;
+    margin-top: 25px;
 }
 .divbanner__eveandwsbtn{
     background-color: rgb(255,255,255) ;
@@ -50,6 +50,7 @@
     font-family: content;
     border-radius: 40px;
     cursor: pointer;
+    margin-top: 25px;
 }
 
 @media screen and (max-width:767px) {
