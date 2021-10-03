@@ -1,0 +1,17 @@
+.global_button {
+  display: inline-flex;
+  position: relative;
+  text-align: center;
+  padding: 15px 30px;
+  /* background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0); */
+  background-color: blueviolet;
+  color:var(--white);
+  /* border-radius: 40px; */
+  cursor: pointer;
+  font-size: 18px;
+  font-family: content;
+  font-weight: 700;
+  letter-spacing: 0.3px;
+  line-height: 18px;
+}

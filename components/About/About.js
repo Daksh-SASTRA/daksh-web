@@ -1,6 +1,7 @@
 import React from 'react'
 import Link from 'next/link'
 import styles from './about.module.css'
+import Buttons from '../Buttons/Buttons'
 
 function About() {
     return (
@@ -12,8 +13,11 @@ function About() {
                         <p className={styles.about__p}>
                         Instituted in 2007, DAKSH is the annual techno management fest of Sastra University. Ever since its establishm ent it has been a platform for a multitude of students and aspirants to unravel their talents and showcase their technical prowess. We’ve grown together as a fest since our inception providing students with the finest exposure and skill. This edition of Daksh aims at creating a virtual forum bringing together the eccentric minded and celebrating technology.
                         </p>
-                        <Link href="#newsletter">
+                        {/* <Link href="#newsletter">
                             <a className={styles.button__about} >  Teams </a>
+                        </Link> */}
+                         <Link href="#newsletter">
+                            <Buttons text="Teams" radius="40px" />
                         </Link>
                     </div>
                 </div>
