@@ -1,5 +1,5 @@
 import React from 'react'
-import styles from './statisticCards.module.css'
+import styles from './StatisticCards.module.css'
 
 function StatisticCards() {
     return (
