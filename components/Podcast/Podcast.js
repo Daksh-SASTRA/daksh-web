@@ -25,7 +25,9 @@ function Podcast() {
                             </p>
                             {/* <Link href="/podcast"><a className={styles.button__podcast}>Podcast</a></Link> */}
                             <Link href="/podcast">
-                                <Buttons text="Podcast" radius="40px"/>
+                                <div>
+                                  <Buttons text="Podcast" radius="40px"/>
+                                </div>
                             </Link >
                         </div>
                     </div>

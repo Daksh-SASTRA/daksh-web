@@ -16,8 +16,10 @@ function About() {
                         {/* <Link href="#newsletter">
                             <a className={styles.button__about} >  Teams </a>
                         </Link> */}
-                         <Link href="#newsletter">
-                            <Buttons text="Teams" radius="40px" />
+                         <Link href="#newsletter" >
+                             <div>
+                              <Buttons text="Teams" radius="40px" />
+                             </div>
                         </Link>
                     </div>
                 </div>

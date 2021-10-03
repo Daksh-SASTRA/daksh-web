@@ -15,3 +15,7 @@
   letter-spacing: 0.3px;
   line-height: 18px;
 }
+.global_button:hover{
+  background-color: rgb(162, 90, 230);
+
+}
