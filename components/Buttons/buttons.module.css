@@ -5,8 +5,8 @@
   padding: 15px 30px;
   /* background-color: rgb(255, 255, 255);
   color: rgb(0, 0, 0); */
-  background-color: blueviolet;
-  color:var(--white);
+  color: blueviolet;
+  background-color:var(--white);
   /* border-radius: 40px; */
   cursor: pointer;
   font-size: 18px;
