@@ -28,7 +28,7 @@ function PodcastPage() {
             </button>
             : 
             <iframe id={styles.video} src={url} frameBorder="0" allowFullScreen></iframe>}
-            <div id={styles.podpage}>
+            <div id={styles.podpage} data-aos="fade-up">
                 <div className={styles.podcontext}>
                     <p className={styles.PodcastDate}>Sep 19, 2020</p>
                     <h1 id={styles.titleFrame}>{title}</h1>

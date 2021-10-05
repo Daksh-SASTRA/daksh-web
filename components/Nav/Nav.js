@@ -25,21 +25,21 @@ function Nav() {
 
     const [navmenu, menuToggle] = useState(false);
     var hnav = <div id={navmenu ? styles.vnav : styles.hnav }>
-                    <div className={styles.navbutton}>
+                    <div className={styles.navbutton} data-aos="fade-down"  data-aos-delay="200">
                         <Link href="/#newsletter">
                             <a className={styles.navlink}>
                                 Events/Workshops
                             </a>
                         </Link>
                     </div>
-                    <div className={styles.navbutton}>
+                    <div className={styles.navbutton} data-aos="fade-down"  data-aos-delay="400">
                         <Link href="/#newsletter">
                             <a className={styles.navlink}>
                                 Teams
                             </a>
                         </Link>
                     </div>
-                    <div className={styles.navbutton}>
+                    <div className={styles.navbutton} data-aos="fade-down"  data-aos-delay="600">
                         <Link href="/podcast" >
                             <a className={styles.navlink}>
                                 Podcasts
@@ -51,15 +51,15 @@ function Nav() {
     return (
         <nav id={styles.navbar} className={navbarBg ? styles.active : ''}>
             <Link href="/">
-                <img id={styles.logo} src="/logo.png"/>
+                <img id={styles.logo} src="/logo.png" data-aos="fade-down"  data-aos-delay="200" />
             </Link>
             {hnav}
             {navmenu ?
-            <div id={styles.menu} onClick={() => menuToggle(!navmenu)}>
+            <div id={styles.menu} onClick={() => menuToggle(!navmenu)} data-aos="fade-down" data-aos-delay="200">
                 <MdClose size={35}/> 
             </div>
             :
-            <div id={styles.menu} onClick={() => menuToggle(!navmenu)}>
+            <div id={styles.menu} onClick={() => menuToggle(!navmenu)} data-aos="fade-down" data-aos-delay="200">
                 <IoMenu size={35}/> 
             </div>
             }

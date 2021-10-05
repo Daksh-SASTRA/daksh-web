@@ -34,7 +34,7 @@ function Sponsers() {
       };
 
     return (
-        <section className={styles.sponsers}>
+        <section className={styles.sponsers} data-aos="fade-up">
                 <h3 className={styles.sponsers__h3}>Sponsers</h3>
                 {/* <div className={styles.sponser_slider}>
                         <img className={styles.sponser_infinite} src="https://picsum.photos/300/200"  alt="sponser-1" />

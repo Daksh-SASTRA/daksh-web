@@ -12,7 +12,7 @@ function Newsletter() {
 
     return (
         <div className={styles.maincontainer} id="newsletter">
-            <h3 >Stay Updated!</h3>
+            <h3>Stay Updated!</h3>
             <div className={styles.input_container}>
                 <input type="email" name="myemail" id="" placeholder="Enter Email" onChange={(event) => setEmail(event.target.value)}/>
                 {/* <button className={styles.btn}>Subscribe</button> */}
