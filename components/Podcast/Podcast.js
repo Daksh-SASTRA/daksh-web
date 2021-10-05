@@ -1,6 +1,8 @@
 import React from 'react'
 import styles from'./podcast.module.css'
 import Link from 'next/link'
+import Buttons from '../Buttons/Buttons'
+
 
 function Podcast() {
     return (
@@ -21,7 +23,12 @@ function Podcast() {
                                  Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
                                  Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
                             </p>
-                            <Link href="/podcast"><a className={styles.button__podcast}>Podcast</a></Link>
+                            {/* <Link href="/podcast"><a className={styles.button__podcast}>Podcast</a></Link> */}
+                            <Link href="/podcast">
+                                <div>
+                                  <Buttons text="Podcast" radius="40px"/>
+                                </div>
+                            </Link >
                         </div>
                     </div>
                 </div>
