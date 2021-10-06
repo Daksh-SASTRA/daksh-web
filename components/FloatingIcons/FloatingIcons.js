@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import Styles from "./floatingIcons.module.css";
 
 import { TiSocialTwitter, TiSocialYoutube } from "react-icons/ti";
@@ -6,8 +6,27 @@ import { AiFillMediumCircle, AiOutlineInstagram } from "react-icons/ai";
 import { RiFacebookCircleFill, RiLinkedinBoxFill } from "react-icons/ri";
 
 function FloatingIcons() {
+	const [showIcons, setShowIcons] = useState(true);
+
+	useEffect(() => {
+		document.addEventListener("scroll", (e) => {
+			if (
+				document.body.scrollHeight - document.body.clientHeight <
+				window.scrollY + 400
+			) {
+				setShowIcons(false);
+			} else {
+				setShowIcons(true);
+			}
+		});
+	}, []);
+
 	return (
-		<div className={Styles.floatingIcons}>
+		<div
+			className={
+				showIcons ? Styles.floatingIcons : Styles.floatingIconsFadeAway
+			}
+		>
 			<ul>
 				<a
 					href="https://www.instagram.com/daksh2k22/?hl=en"

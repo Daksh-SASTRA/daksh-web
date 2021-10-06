@@ -4,16 +4,33 @@
 	right: 0;
 	transform: translateY(-50%);
 	z-index: 100;
+	transition: all 1s linear;
 }
 
-.floatingIcons ul {
+.floatingIconsFadeAway {
+	position: fixed;
+	top: 50%;
+	right: 0;
+	transform: translateY(-50%);
+	z-index: 100;
+	opacity: 0;
+	transition: all 1s linear;
+}
+
+.floatingIconsFadeAway a {
+	pointer-events: none;
+}
+
+.floatingIcons ul,
+.floatingIconsFadeAway ul {
 	padding: initial;
 	display: flex;
 	flex-direction: column;
 	align-items: flex-end;
 }
 
-.floatingIcons ul li {
+.floatingIcons ul li,
+.floatingIconsFadeAway ul li {
 	height: 40px;
 	width: 40px;
 	line-height: 40px;
