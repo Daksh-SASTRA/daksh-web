@@ -38,11 +38,13 @@
 	margin-top: 5px;
 	color: var(--secondaryFontColor);
 	background-color: var(--primaryBg);
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
 .floatingIcons ul li:hover {
-	padding-right: 30px;
-	width: 65px;
-	transition: 1s;
-	color: var(--white);
+	transition: 0.75s;
+	background-color: var(--white);
+	color: var(--primaryBg);
 }
