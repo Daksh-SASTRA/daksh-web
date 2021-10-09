@@ -30,8 +30,10 @@
    .container{
       flex-direction: column;
       padding: 2.5rem;
+      align-items: flex-start;
    }
    .item {
       margin: 2rem 0;
+      text-align: left;
    }
 }
