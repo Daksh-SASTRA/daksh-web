@@ -60,7 +60,7 @@ function Footer() {
 				<div className={styles.footer_links}>
 					<h2>Quick Links</h2>
 					<Link href="/">
-						<a>Events and Workshops</a>
+						<a>Events / Workshops</a>
 					</Link>
 					<Link href="/">
 						<a>Teams</a>
@@ -68,8 +68,14 @@ function Footer() {
 					<Link href="/podcast">
 						<a>Podcasts</a>
 					</Link>
+					<Link href="https://daksh-blog.medium.com/">
+						<a  href="https://daksh-blog.medium.com/" target="blank">Blog</a>
+					</Link>
+					<Link href="/contact">
+						<a>Contact</a>
+					</Link>
 				</div>
-				<div className={styles.footer_contact}>
+				{/* <div className={styles.footer_contact}>
 					<h2>Contact</h2>
 					<div>
 						<Link href="mailto:chairman.daksh@sastra.ac.in" target="_blank">
@@ -82,7 +88,7 @@ function Footer() {
 							</a>
 						</Link>
 					</div>
-				</div>
+				</div> */}
 			</div>
 		</div>
 	);

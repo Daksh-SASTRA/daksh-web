@@ -53,6 +53,24 @@ function Nav() {
 					<a className={styles.navlink}>Podcasts</a>
 				</Link>
 			</div>
+			<div
+				className={styles.navbutton}
+				data-aos="fade-down"
+				data-aos-delay="600"
+			>
+				<Link href="https://daksh-blog.medium.com/">
+					<a href="https://daksh-blog.medium.com/" target="blank" className={styles.navlink}>Blog</a>
+				</Link>
+			</div>
+			<div
+				className={styles.navbutton}
+				data-aos="fade-down"
+				data-aos-delay="600"
+			>
+				<Link href="/contact">
+					<a className={styles.navlink}>Contact</a>
+				</Link>
+			</div>
 		</div>
 	);
 
