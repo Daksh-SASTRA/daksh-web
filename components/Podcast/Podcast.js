@@ -1,6 +1,8 @@
 import React from 'react'
 import styles from'./podcast.module.css'
 import Link from 'next/link'
+import Buttons from '../Buttons/Buttons'
+
 
 function Podcast() {
     return (
@@ -16,12 +18,14 @@ function Podcast() {
                         <div className={styles.text_container__podcast}>
                             <h3 className={styles.podcast__h3}>Daksh Podcast </h3>
                             <p className={styles.podcast__p}>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                                 Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-                                 Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                            Hosted and produced by Daksh, a series of engaging podcast episodes starring industry experts who offer their wisdom and mind-boggling anecdotes from their niche. If you're looking for a venture to kill boredom, you're at the right place!
                             </p>
-                            <Link href="/podcast"><a className={styles.button__podcast}>Podcast</a></Link>
+                            {/* <Link href="/podcast"><a className={styles.button__podcast}>Podcast</a></Link> */}
+                            <Link href="/podcast">
+                                <div>
+                                  <Buttons text="Podcast" radius="40px"/>
+                                </div>
+                            </Link >
                         </div>
                     </div>
                 </div>

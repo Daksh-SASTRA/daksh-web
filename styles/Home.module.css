@@ -13,5 +13,27 @@
     text-align: center;
     max-width: 1500px;
     color: var(--white);
+    margin: 0 auto;
+}
+
+.loaderActive{
+    height: 100%;
+    width: 100%;
+    background-color: var(--primaryBg);
+    position: fixed;
+    top: 0;
+    z-index: 99999;
+    transition: all 0.5s ease-in-out;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    opacity: 100;
+}
+
+.loaderNone{
+    opacity: 0;
+    display: none;
+    transition: 0.5s;
 }
 

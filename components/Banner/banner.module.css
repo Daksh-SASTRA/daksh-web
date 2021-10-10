@@ -31,6 +31,7 @@
     text-align: center;
     margin: 0;
     line-height: 1;
+    margin-bottom: 1rem;
 }
 .divbanner__descriptiontext{
     font-size: 1.3rem;
@@ -40,6 +41,8 @@
     text-align: center;
     letter-spacing: 5px;
     margin-top: 25px;
+    margin-bottom: 1rem;
+    display: none;
 }
 .divbanner__eveandwsbtn{
     background-color: rgb(255,255,255) ;
@@ -66,7 +69,7 @@
 
 @media screen and (max-width:480px) {
     .divbanner__headtext{
-        font-size: 3rem;
+        font-size: 4.5rem;
     }
     .divbanner__descriptiontext{
         font-size: 1rem;

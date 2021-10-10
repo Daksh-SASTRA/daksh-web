@@ -12,6 +12,7 @@
     flex-direction: row;
     /* flex-wrap: wrap; */
     justify-content: space-between;
+    overflow-x: hidden;
 }
 
 .col_lg_6{

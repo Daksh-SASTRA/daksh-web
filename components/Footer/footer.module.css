@@ -51,16 +51,17 @@
 .footer h2 {
 	font-family: title, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
 		Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-		margin: 10px 0;
+	margin: 10px 0;
 }
 
-.footer_links a, .footer_contact a{
+.footer_links a,
+.footer_contact a {
 	color: var(--secondaryFontColor);
 	transition: all 0.5s;
 	margin-bottom: 0;
 }
 
-.footer_links a:hover{
+.footer_links a:hover {
 	color: var(--white);
 }
 
@@ -68,15 +69,17 @@
 	.footer {
 		flex-direction: row;
 		align-items: center;
+		justify-content: space-between;
 		padding: 2.5rem;
 	}
 	.footer_right {
 		flex: 1 1 0;
-		align-content: center;
+		align-content: flex-end;
 		text-align: center;
 	}
 	/* rest margin top for links in tablet view */
 	.footer_links {
+		margin-left: auto;
 		margin-top: 0;
 	}
 }
@@ -85,10 +88,11 @@
 	.footer_right {
 		flex-direction: row;
 		justify-content: space-around;
+		text-align: right;
 	}
 
 	/* rest margin top for link and contact at desktop view */
-	.footer_contact > * > *{
+	.footer_contact > * > * {
 		margin-bottom: 0;
 	}
 }
