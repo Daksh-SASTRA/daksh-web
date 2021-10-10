@@ -1,0 +1,88 @@
+.flexCenter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  padding: 10px;
+  margin-top: 10vh;
+  width: 100%;
+  min-height: 55vh;
+  flex-direction: column;
+}  
+
+.contactHeadingMain {
+  padding: 10px 20px;
+  margin: 5px;
+  font-family: title, sans-serif;
+  font-size: 1.8rem;
+  background: linear-gradient(45deg,rgb(100, 100, 100), rgb(150, 150, 150), rgb(195, 195, 195),  #fff);
+  background-clip: text;
+  -webkit-background-clip: text;  
+  -moz-background-clip: text;  
+  -moz-text-fill-color: transparent;  
+  -webkit-text-fill-color: transparent;
+  text-shadow: 2px 2px rgba(255, 255, 255, 0.125);
+  animation: fadeIn 2s ease-in-out;
+}
+
+.contactContent {
+  flex-direction: row;
+  width: 95%;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  animation: fadeIn 2s ease-in-out;
+  margin: 30px 0;
+}
+
+.contacts {
+  flex-direction: column;
+  width: 30%;
+  padding: 10px;
+  margin: 20px 0;
+  font-size: 1rem;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.pd-5 {
+  padding-bottom: 5px;
+}
+
+.name {
+  font-size: 1.3rem;
+  color: #28e769;
+}
+
+.designation {
+  font-size: 1.1rem;
+}
+
+.email:hover {
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 1100px) {
+  .contacts {
+    width: 48%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .contactHeadingMain {
+    font-size: 1.5rem;
+    padding: 10px;
+  }
+
+  .contacts {
+    width: fit-content;
+  }
+}
