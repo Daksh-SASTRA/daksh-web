@@ -11,14 +11,14 @@ function Podcast() {
                 <div className={styles.row__podcast}>
                     <div className={styles.col_lg_6}>
                         <div className={styles.image_container__podcast}>
-                            <img className={styles.podcast__img_fluid}src="https://dummyimage.com/700x400/fff/000000&text=Daksh" alt="dummy image"/>
+                            <img className={styles.podcast__img_fluid} src={`https://dummyimage.com/700x400/fff/000000&text=Daksh`} alt="dummy image"/>
                         </div>
                     </div>
                     <div className={styles.col_lg_6}>
                         <div className={styles.text_container__podcast}>
                             <h3 className={styles.podcast__h3}>Daksh Podcast </h3>
                             <p className={styles.podcast__p}>
-                            Hosted and produced by Daksh, a series of engaging podcast episodes starring industry experts who offer their wisdom and mind-boggling anecdotes from their niche. If you're looking for a venture to kill boredom, you're at the right place!
+                            {"Hosted and produced by Daksh, a series of engaging podcast episodes starring industry experts who offer their wisdom and mind-boggling anecdotes from their niche. If you're looking for a venture to kill boredom, you're at the right place!"}
                             </p>
                             {/* <Link href="/podcast"><a className={styles.button__podcast}>Podcast</a></Link> */}
                             <Link href="/podcast">
