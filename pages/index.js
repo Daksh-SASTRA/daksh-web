@@ -13,6 +13,7 @@ import Footer from "../components/Footer/Footer";
 import FloatingIcons from "../components/FloatingIcons/FloatingIcons";
 import "react-loader-spinner/dist/loader/css/react-spinner-loader.css";
 import Loader from "react-loader-spinner";
+import { ToastContainer}from 'react-toastify';
 
 export default function Home() {
 	const [loader, setloader] = useState(true);
@@ -21,7 +22,7 @@ export default function Home() {
 		if(loader){
 			setTimeout(()=>{
 				setloader(false);
-			},3000)
+			},2000)
 		}
 		return () => {
 			setloader(false);
@@ -29,6 +30,7 @@ export default function Home() {
 	}, [])
 	return (
 		<div className={styles.container}>
+			<ToastContainer style={{zIndex: 999999}}/>
 			<Head>
 				<title>Daksh SASTRA</title>
 				<meta

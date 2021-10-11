@@ -9,16 +9,20 @@ function FloatingIcons() {
 	const [showIcons, setShowIcons] = useState(true);
 
 	useEffect(() => {
-		document.addEventListener("scroll", (e) => {
-			if (
-				document.body.scrollHeight - document.body.clientHeight <
-				window.scrollY + 400
-			) {
-				setShowIcons(false);
-			} else {
-				setShowIcons(true);
-			}
-		});
+		const iconVisibility = (e) => {
+				if(
+					document.body.scrollHeight - document.body.clientHeight <
+					window.scrollY + 400
+				){
+					setShowIcons(false);
+				} else {
+					setShowIcons(true);
+				}
+		}
+		document.addEventListener("scroll",iconVisibility);
+		return () => {
+			document.removeEventListener('scroll',iconVisibility);
+		}
 	}, []);
 
 	return (

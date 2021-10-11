@@ -30,24 +30,25 @@
   min-width: 50vw;
   border: none;
 }
-
 .btn {
-  border-radius: 5px;
-  font-family: content;
-  color: var(--primaryBg);
-  font-size: 20px;
-   background: #ffffff;
-  padding: 8px 20px 8px 20px;
-  text-decoration: none;
-  font-family: content;
-  margin-right: 2%;
-  font-weight: bold;
-  border: none;
+  display: inline-flex;
+  position: relative;
+  text-align: center;
+  padding: 15px 30px;
+  color: blueviolet;
+  background-color:var(--white);
   cursor: pointer;
+  font-size: 18px;
+  font-family: content;
+  font-weight: 700;
+  letter-spacing: 0.3px;
+  line-height: 18px;
+  transition: all 0.5s ease-in-out;
+  border-radius: 5px;
+  border: none;
 }
-.btn:hover {
-  background: var(--white);
-  text-decoration: none;
+.btn:hover{
+  color: blue;
 }
 @media screen and (max-width: 700px) {
   .maincontainer h3{

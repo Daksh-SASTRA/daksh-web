@@ -6,9 +6,9 @@
 
 .container {
   padding: 10px;
-  margin-top: 10vh;
+  margin-top: 15vh;
   width: 100%;
-  min-height: 55vh;
+  min-height: 75vh;
   flex-direction: column;
 }  
 
@@ -33,7 +33,7 @@
   flex-wrap: wrap;
   justify-content: space-evenly;
   animation: fadeIn 2s ease-in-out;
-  margin: 30px 0;
+  margin: 1rem 0;
 }
 
 .contacts {
