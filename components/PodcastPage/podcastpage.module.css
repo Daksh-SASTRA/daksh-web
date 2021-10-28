@@ -72,6 +72,8 @@
 .posterBtn {
     margin-top: 10vh;
     cursor: pointer;
+    border: none;
+    text-decoration: none;
 }
 
 #posterTitle {

@@ -11,7 +11,7 @@ function Podcast() {
                 <div className={styles.row__podcast}>
                     <div className={styles.col_lg_6}>
                         <div className={styles.image_container__podcast}>
-                            <img className={styles.podcast__img_fluid} src={`https://dummyimage.com/700x400/fff/000000&text=Daksh`} alt="dummy image"/>
+                            <img className={styles.podcast__img_fluid} src={`/pod.png`} alt="dummy image"/>
                         </div>
                     </div>
                     <div className={styles.col_lg_6}>

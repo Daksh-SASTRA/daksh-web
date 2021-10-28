@@ -10,7 +10,7 @@ function Banner() {
         <div className={styles.topcover}>
             <div className={styles.divbanner}>
                 <h1 className={styles.divbanner__headtext}  data-aos="fade-up"  data-aos-delay="200">
-                    Build things that matter
+                    build <br/> things that <br/> matter.
                 </h1>
                 <h3 className={styles.divbanner__descriptiontext}  data-aos="fade-up"  data-aos-delay="400">
                     Daksh is Happening very soon
@@ -20,11 +20,11 @@ function Banner() {
                         Events and Workshops
                     </a>
                 </Link > */}
-                 <Link href="#newsletter">
+                 {/* <Link href="#newsletter">
                      <div style={{marginTop: "1rem"}}  data-aos="fade-up"  data-aos-delay="600">
-                         <Buttons text=" Events and Workshops" radius="40px" />
+                         <Buttons text="Subscribe" radius="40px" />
                      </div>
-                </Link >
+                </Link > */}
             </div>
             <div className={styles.divbannerfadebtm}>
             </div>

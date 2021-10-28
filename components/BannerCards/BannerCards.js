@@ -10,14 +10,14 @@ function BannerCards() {
       {
         idx:0,
         description:"Events",
-        src:'/tech.png',
+        src:'/events.png',
         buttonText:'view',
         href: "/#newsletter"
       },
       {
         idx:1,
         description:"Workshops",
-        src:'/tech.png',
+        src:'/workshop.png',
         buttonText:'view',
         href: "/#newsletter"
       },
@@ -31,7 +31,7 @@ function BannerCards() {
       {
         idx:3,
         description:"Teams",
-        src:'/tech.png',
+        src:'/team.png',
         buttonText:'view',
         href: "/#newsletter"
       }
