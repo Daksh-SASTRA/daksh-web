@@ -8,6 +8,7 @@ import { RiFacebookCircleFill, RiLinkedinBoxFill } from "react-icons/ri";
 
 function Footer() {
 	return (
+		<footer>
 		<div className={styles.footer}>
 			<div className={styles.footer_logo}>
 				<img src="/logo.png" style={{ width: "175px" }} alt="Daksh logo" />
@@ -91,6 +92,8 @@ function Footer() {
 				</div> */}
 			</div>
 		</div>
+		<p className={styles.footer__contribution}>Made with 🖤 by Daksh Web Team</p>
+		</footer>
 	);
 }
 

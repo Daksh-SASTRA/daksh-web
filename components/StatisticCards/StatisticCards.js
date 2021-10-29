@@ -39,7 +39,7 @@ function StatisticCards(){
               <p id="counter">{ isVisible && <CountUp start={0} duration={2} end={40} className={styles.counter}/>}+<br/><span>Events</span></p>
             </div> 
             <div className={styles.item}>
-              <p id="counter" className={styles.counterCenter}>{ isVisible && <CountUp start={0} duration={2} end={500} className={styles.counter}/>}K<br/><span>Prices Pool</span></p>
+              <p id="counter" className={styles.counterCenter}>{ isVisible && <CountUp start={0} duration={2} end={500} className={styles.counter}/>}K<br/><span>Prize Pool</span></p>
             </div>
             <div className={styles.item}>
               <p id="counter">{ isVisible && <CountUp start={0} duration={2} end={1500} className={styles.counter}/>}+<br/><span>Participants</span></p>

@@ -6,8 +6,8 @@ import Buttons from '../Buttons/Buttons'
 function About() {
     return (
         <section className={styles.about}>
-            <div className={styles.row__about}>
-                <div className={styles.col_lg_6}  data-aos="fade-up" >
+            <div className={styles.row__about}  data-aos="fade-up">
+                <div className={styles.col_lg_6}  >
                     <div className={styles.text_container__about}>
                         <h3 className={styles.about__h3}>About Us</h3>
                         <p className={styles.about__p}>
@@ -23,7 +23,7 @@ function About() {
                         </Link>
                     </div>
                 </div>
-                <div className={styles.col_lg_6}  data-aos="fade-up" >
+                <div className={styles.col_lg_6} >
                     <div className={styles.video_container__about}>
                         {/* <img className={styles.about__img_fluid}src="https://dummyimage.com/700x400/fff/000000&text=Daksh" alt="dummy image"/> */}
                         <iframe className={styles.about__video_size}  src="https://www.youtube.com/embed/pFL37QpQ5t0" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
