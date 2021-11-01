@@ -25,7 +25,7 @@
 
 .sponser_infinite{
     padding: 20px 40px;
-    height: 100px;
+    height: 100px !important;
     /* border-right: 0.5px dotted #b3b0b0; */
 }
 
@@ -39,6 +39,8 @@
     }
     .sponser_infinite{
         margin: 10px 10px 10px 0;
-        height: 80px;
+        padding: 15px 30px;
+        height: 75px !important;
+        max-width: 90vw !important;
     }
 }
