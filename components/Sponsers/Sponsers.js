@@ -40,13 +40,27 @@ function Sponsers() {
                 <h3 className={styles.sponsers__h3}>Sponsors</h3>
                 <div className={styles.sponser_slider}>
                     <Slider {...settings} >
-                        <img className={styles.sponser_infinite} src="/sponsers/A_S_creations-logo.png" alt="sponser-1"/>
-                        <img className={styles.sponser_infinite}  src="/sponsers/Algorythmlogo.png" alt="sponser-2" />
-                        <img className={styles.sponser_infinite}  src="/sponsers/CodingBlocks-logo.png" alt="sponser-3" />
-                        <img className={styles.sponser_infinite}  src="/sponsers/edvoy-logo.png" alt="sponser-4" />
-                        <img className={styles.sponser_infinite}  src="/sponsers/MCD-logo.png" alt="sponser-5" />
-                        <img className={styles.sponser_infinite}  src="/sponsers/ZAPPs-logo.png" alt="sponser-6" />
-                        <img className={styles.sponser_infinite}  src="/sponsers/ZM-logo.png" alt="sponser-7" />
+                      <div className="sponser__div">
+                        <img className={styles.sponser_infinite} src="/sponsers/A_S_creations-logo.png" alt="sponser-1"height="75px"/>
+                      </div>
+                      <div className="sponser__div">
+                        <img className={styles.sponser_infinite}  src="/sponsers/Algorythmlogo.png" alt="sponser-2" height="75px"/>
+                      </div>
+                      <div className="sponser__div">
+                        <img className={styles.sponser_infinite}  src="/sponsers/CodingBlocks-logo.png" alt="sponser-3" height="75px"/>
+                      </div>
+                      <div className="sponser__div">
+                        <img className={styles.sponser_infinite}  src="/sponsers/edvoy-logo.png" alt="sponser-4" height="75px"/>
+                      </div>
+                      <div className="sponser__div">
+                        <img className={styles.sponser_infinite}  src="/sponsers/MCD-logo.png" alt="sponser-5" height="75px"/>
+                      </div>
+                      <div className="sponser__div">
+                        <img className={styles.sponser_infinite}  src="/sponsers/ZAPPs-logo.png" alt="sponser-6" height="75px"/>
+                      </div>
+                      <div className="sponser__div">
+                        <img className={styles.sponser_infinite}  src="/sponsers/ZM-logo.png" alt="sponser-7" height="75px"/>
+                      </div>
                     </Slider>
                 </div>
         </section>
