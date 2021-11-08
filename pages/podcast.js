@@ -65,10 +65,10 @@ export default function Home({ bannerImage, albumData, currentVideoData }) {
   return (
     <div>
       <Head>
-        <title>Daksh SASTRA - Podcast</title>
+        <title>{currentVideoData.name} : Daksh Podcasts</title>
         <meta
           name="description"
-          content="The international techno-management festival of SASTRA University"
+          content="Hosted and produced by Daksh, a series of engaging podcast episodes starring industry experts"
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
