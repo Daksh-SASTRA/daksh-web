@@ -35,7 +35,7 @@ export default function Home() {
 				<title>Daksh 2022</title>
 				<meta
 					name="description"
-					content="The international techno-management festival of SASTRA University"
+					content="DAKSH is the annual techno management fest of Sastra University. Ever since its establishment it has been a platform for a multitude of students and aspirants to unravel their talents and showcase their technical prowess. We’ve grown together as a fest since our inception providing students with the finest exposure and skill. This edition of Daksh aims at creating a virtual forum bringing together the eccentric minded and celebrating technology."
 				/>
 				<link rel="icon" href="/favicon.ico" />
 			</Head>
