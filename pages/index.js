@@ -32,7 +32,7 @@ export default function Home() {
 		<div className={styles.container}>
 			<ToastContainer style={{zIndex: 999999}}/>
 			<Head>
-				<title>Daksh SASTRA</title>
+				<title>Daksh 2022</title>
 				<meta
 					name="description"
 					content="The international techno-management festival of SASTRA University"

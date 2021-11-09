@@ -9,8 +9,8 @@ function Contact() {
     return (
         <div>
             <Head>
-                <title>Daksh SASTRA - Contact</title>
-                <meta name="description" content="The international techno-management festival of SASTRA University" />
+                <title>Daksh 2022 - Contact</title>
+                <meta name="description" content="Contact details of the coordinator, secretary, treasurer and heads of Daksh" />
                 <link rel="icon" href="/favicon.ico" />
             </Head>
 
