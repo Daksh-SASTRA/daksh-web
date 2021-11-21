@@ -38,6 +38,71 @@
     margin-top: 2.5rem;
 }
 
+.ecard {
+    width: 100%;
+    padding: 20px;
+    border-radius: 30px;
+    background-color: var(--secondaryBg);
+    display: flex;
+    flex-direction: column;
+}
+
+.ecard > p {
+    font-size: smaller;
+    padding: 10px 0;
+    margin-bottom: 10px;
+}
+
+.ecard_actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ecard_actions > button {
+    height: 30px;
+    width: 100px;
+    background-color: blueviolet;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+.rounds {
+    padding: 20px;
+    margin-bottom: 10px;
+}
+
+.rules {
+    padding: 20px;
+    margin-bottom: 10px;
+}
+
+.contacts {
+    padding: 20px;
+}
+
+#expand {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    margin: 0 auto 10px auto;
+    background-color: transparent;
+    border: 1px solid transparent;
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s linear;
+}
+
+#expand:hover {
+    border: 1px solid white;
+    border-radius: 5px;
+    transition: all 0.3s linear;
+}
+
 @media (max-width: 850px) {
     .events__workshop{
         width: 90%;
