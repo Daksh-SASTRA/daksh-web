@@ -1,0 +1,46 @@
+.events__workshop{
+    width: 80%;
+    min-height: 100vh;
+    margin-top: 20vh;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+
+.events__workshop__btn{
+    display: inline-flex;
+  position: relative;
+  text-align: center;
+  padding: 15px 30px;
+  color: var(--secondaryFontColor);
+  background-color:var(--secondaryBg);
+  opacity: 50%;
+  cursor: pointer;
+  font-size: 18px;
+  font-family: content;
+  font-weight: 700;
+  letter-spacing: 0.3px;
+  line-height: 18px;
+  transition: all 0.5s ease-in-out;
+  border-radius: 40px;
+  border: none;
+  margin-right: 20px;
+}
+
+.active {
+    color: blueviolet;
+    background-color:var(--white);
+    opacity: 100%;
+}
+
+.events__section{
+    width: 100%;
+    margin-top: 2.5rem;
+}
+
+@media (max-width: 850px) {
+    .events__workshop{
+        width: 90%;
+    }
+    
+}
