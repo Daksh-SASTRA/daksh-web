@@ -1,0 +1,137 @@
+.heading{
+    margin: 100px 0px;
+    font-size: 32px;
+    font-family:title;
+}
+.daybuttons{
+    margin: 50px 0px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.daybuttons__button{
+    padding: 15px 30px;
+    margin: 20px 0px;
+    background-color: var(--white);
+    color:blueviolet;
+    border-style: none;
+    border-radius:12px;
+    font-size: 18px;
+    font-family: content;
+    font-weight: 700;
+    cursor: pointer;
+}
+.daybuttons__buttonactive{
+    padding: 15px 30px;
+    margin: 20px 0px;
+    background-color: gold;
+    color:black;
+    border-style: none;
+    border-radius:12px;
+    font-size: 18px;
+    font-family: content;
+    font-weight: 700;
+    cursor: pointer;
+}
+.daybuttons__button:hover{
+    color:blue;
+}
+.container{
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 100px 0;
+}
+.timeline{
+    width: 80%;
+    height: auto;
+    max-width: 800px;
+    margin: 0 auto;
+    position: relative;
+}
+.timeline .listofevents {
+    list-style: none;
+}
+.timeline .listofevents li {
+    text-align: left;
+    padding: 20px;
+    background-color: #1e1f22;
+    color: var(--white);
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.timeline ul li:last-child {
+    margin-bottom: 0;
+}
+.timeline__content .eventname {
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 30px;
+    margin-bottom: 10px;
+}
+.timeline__content .round {
+    font-size: 22px;
+    line-height: 30px;
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+.timeline__content time {
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 300;
+}
+
+
+@media only screen and (min-width: 768px) {
+    .timeline:before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 2px;
+      height: 100%;
+      background-color: gray;
+    }
+    .timeline .listofevents li {
+      width: 50%;
+      position: relative;
+      margin-bottom: 50px;
+    }
+    .timeline .listofevents li:nth-child(odd) {
+      float: left;
+      clear: right;
+      transform: translateX(-30px);
+      border-radius: 20px 0px 20px 20px;
+    }
+    .timeline .listofevents li:nth-child(even) {
+      float: right;
+      clear: left;
+      transform: translateX(30px);
+      border-radius: 0px 20px 20px 20px;
+    }
+    .timeline .listofevents li::before {
+      content: "";
+      position: absolute;
+      height: 20px;
+      width: 20px;
+      border-radius: 50%;
+      background-color: gray;
+      top: 0px;
+    }
+    .timeline .listofevents li:nth-child(odd)::before {
+      transform: translate(50%, -50%);
+      right: -30px;
+    }
+    .timeline .listofevents li:nth-child(even)::before {
+      transform: translate(-50%, -50%);
+      left: -30px;
+    }
+    .timeline .listofevents li:hover::before {
+      background-color:#1bf40b;
+    }
+  }
+  

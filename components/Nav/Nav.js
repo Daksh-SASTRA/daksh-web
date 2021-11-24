@@ -4,6 +4,7 @@ import { IoMenu } from "react-icons/io5";
 import { MdClose } from "react-icons/md";
 import Link from "next/link";
 
+
 function Nav() {
 	const [navbarBg, setNavbarBg] = useState(false);
 
@@ -71,6 +72,16 @@ function Nav() {
 					<a className={styles.navlink}>Contact</a>
 				</Link>
 			</div>
+			<div
+				className={styles.navbutton}
+				data-aos="fade-down"
+				data-aos-delay="600"
+			>
+				<Link href="/schedule">
+					<a className={styles.navlink}>Schedule</a>
+				</Link>
+			</div>
+			
 		</div>
 	);
 
