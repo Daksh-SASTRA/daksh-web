@@ -75,6 +75,7 @@
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
     animation: animate 5s linear infinite;
+    margin-bottom: 1rem;
   }
   
   @keyframes animate {

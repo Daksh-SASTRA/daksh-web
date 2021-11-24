@@ -1,6 +1,6 @@
 import React, {useState,useEffect} from 'react'
 
-function count({time,setTime}) {
+function Count({time,setTime}) {
     useEffect(()=> {
         let counter = setInterval(() => {
                     console.log(time);
@@ -21,4 +21,4 @@ function count({time,setTime}) {
     )
 }
 
-export default count
+export default Count

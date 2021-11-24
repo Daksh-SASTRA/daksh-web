@@ -49,7 +49,7 @@ function Theme() {
             <Tag name={name}/>
             : 
             <div className={styles.theme__content}>
-                <h3 className={styles.theme__header}>What's your name?</h3>
+                <h3 className={styles.theme__header}>What&apos;s your name?</h3>
                 <input type="text" name="name" id="" placeholder="Enter name" onChange={(event) => setName(event.target.value)} value={name} className={styles.theme__input}/>
                 <div>
                     <button className={Buttonstyles.global_button} style={{borderRadius: "40px", border: "none"}} onClick={launchClick}>

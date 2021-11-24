@@ -26,6 +26,7 @@ function Tagline({name}) {
             <div className={styles.tag__div}>
                 <h1 className={styles.tag__line} data-aos="fade-up"  data-aos-duration="5s">Green To Gold</h1>
             </div>
+            <img src="/utsav2.png" width="200" data-aos="fade-up"/>
         </div>
     )
 }

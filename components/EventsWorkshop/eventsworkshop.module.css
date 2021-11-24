@@ -28,7 +28,7 @@
 }
 
 .active {
-    color: blueviolet;
+    color: rgb(32, 194, 26);
     background-color:var(--white);
     opacity: 100%;
 }
@@ -40,11 +40,14 @@
 
 .ecard {
     width: 100%;
-    padding: 20px;
-    border-radius: 30px;
-    background-color: var(--secondaryBg);
+    padding: 30px;
+    border-radius: 15px;
+    background-color: rgb(30, 30, 30);
     display: flex;
     flex-direction: column;
+    margin: 2rem 0;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgb(11, 187, 5,0.10);
+    transition: height 2s;
 }
 
 .ecard > p {
@@ -62,6 +65,11 @@
     -webkit-text-fill-color: transparent;
 }
 
+.ecard > h5,.ecard_actions > h5 {
+    letter-spacing: 2px;
+    color: var(--secondaryFontColor);
+}
+
 .rounds > p {
     counter-increment: item;
     margin-bottom: 10px;
@@ -71,7 +79,7 @@
 .rounds > p:before {
     margin-right: 10px;
     content: counter(item);
-    color: blueviolet;
+    color: rgb(32, 194, 26);
     text-align: center;
     display: inline-block;
     font-weight: bold; 
@@ -85,21 +93,24 @@
     align-items: center;
 }
 
-.ecard_actions > a {
+.ecard_actions > div {
     height: 40px;
-    width: 100px;
-    background-image : linear-gradient(to right, rgb(24, 170, 19), rgb(255, 251, 0));
-    background-clip: padding-box;
+    background: rgb(19,179,7);
+    background: linear-gradient(90deg, rgb(32, 194, 26) 33%, rgb(11, 187, 5) 81%);
+    /* background-clip: padding-box;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    border: 1px solid transparent;
+    border: 1px solid transparent; */
     border-radius: 5px;
     color: white;
     cursor: pointer;
     font-size: 17px;
     transition: all 0.3s linear;
     text-align: center;
-    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 16px 32px;
 }
 
 .ecard_actions > a:hover {
@@ -145,7 +156,7 @@
 
 .rules > p:before {
     content: "\2022";  
-    color: blueviolet;
+    color: rgb(32, 194, 26);
     font-weight: bold; 
     display: inline-block; 
     width: 1em; 
@@ -161,5 +172,7 @@
     .events__workshop{
         width: 90%;
     }
-    
+    .ecard{
+        padding: 2rem 1.5rem;
+    }
 }
