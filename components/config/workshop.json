@@ -1,16 +1,21 @@
-[{
-    "category" : "Computer Science",
-    "title" : "Artificial Inteligence",
-    "desc" : "Do you wonder why we should use AI in our life? What is it’s need for humans!? And how does it work? Perplexed with these thoughts?? Here's a chance to get some valuable insights on all these queries. The work to be done and the amount of data generated is rapidly increasing day by day. It’s a bit challenging for us to tackle this. So, here comes AI to think like humans and automate the work. Artificial intelligence is the simulation of human intelligence processes by machines, especially computer systems. To help Students to learn Basics of Python,Machine Learning and their implementation in real life scenarios.",
-    "date" : "30 Nov 2021",
-    "time" : "1:00 PM",
-    "prereq": ["Laptop and Viable Internet Connection"],
-    "fee": ["450/- Per Head"],
-    "contacts" : 
-        [
-            "35565665 - sfdhbhg",
-            "35366566 - gdjujdj"
-        ]
-    ,   
-    "register_link" : "https://www.google.com/forms/about/"   
-}]
+[
+    {
+       "category":"Computer Science",
+       "title":"Artificial Inteligence",
+       "desc":"Do you wonder why we should use AI in our life? What is it’s need for humans!? And how does it work? Perplexed with these thoughts?? Here's a chance to get some valuable insights on all these queries. The work to be done and the amount of data generated is rapidly increasing day by day. It’s a bit challenging for us to tackle this. So, here comes AI to think like humans and automate the work. Artificial intelligence is the simulation of human intelligence processes by machines, especially computer systems. To help Students to learn Basics of Python,Machine Learning and their implementation in real life scenarios.",
+       "date":"30 Nov",
+       "time":"1:00 PM",
+       "prereq":[
+          "Laptop and Viable Internet Connection."
+       ],
+       "fee":[
+          "450/- Per Head"
+       ],
+       "contacts":[
+          "Sabari Ganesh - 9566235855",
+          "Dhodeepya Sree - 9169339999",
+          "TSV Manoj - 8497936450"
+       ],
+       "register_link":"https://forms.gle/uEnNVNNLyagkhDZR6"
+    }
+ ]

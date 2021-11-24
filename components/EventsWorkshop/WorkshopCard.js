@@ -23,7 +23,7 @@ function EventsCard(props) {
                 <h5>{props.data.date}</h5>     
                 <h5>{props.data.time}</h5>  
                 <div>                  
-                    <a href={props.data.register_link}>Register</a>
+                    <a href={props.data.register_link} target="_blank" rel="noreferrer">Register</a>
                 </div>   
             </div>
         </div>
