@@ -1,49 +1,68 @@
-.heading{
-    margin: 100px 0px;
-    font-size: 32px;
-    font-family:title;
+.schedule__container{
+  width: 80%;
+  margin: 20vh auto 0 auto;
 }
+
 .daybuttons{
-    margin: 50px 0px;
+    margin-top: 1.5rem;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-around
 }
+
 .daybuttons__button{
+    display: inline-flex;
+    position: relative;
+    text-align: center;
     padding: 15px 30px;
-    margin: 20px 0px;
-    background-color: var(--white);
-    color:blueviolet;
-    border-style: none;
-    border-radius:12px;
+    color: var(--secondaryFontColor);
+    background-color:var(--secondaryBg);
+    opacity: 50%;
+    cursor: pointer;
     font-size: 18px;
     font-family: content;
     font-weight: 700;
-    cursor: pointer;
+    letter-spacing: 0.3px;
+    line-height: 18px;
+    transition: all 0.5s ease-in-out;
+    border-radius: 40px;
+    border: none;
+    margin-right: 20px;
 }
+
 .daybuttons__buttonactive{
+  display: inline-flex;
+    position: relative;
+    text-align: center;
     padding: 15px 30px;
-    margin: 20px 0px;
-    background-color: gold;
-    color:black;
-    border-style: none;
-    border-radius:12px;
+    color: var(--secondaryFontColor);
+    background-color:var(--secondaryBg);
+    opacity: 50%;
+    cursor: pointer;
     font-size: 18px;
     font-family: content;
     font-weight: 700;
-    cursor: pointer;
+    letter-spacing: 0.3px;
+    line-height: 18px;
+    transition: all 0.5s ease-in-out;
+    border-radius: 40px;
+    border: none;
+    margin-right: 20px;
+    color: rgb(32, 194, 26);
+    background-color: rgb(30, 30, 30);
+    opacity: 100%;
 }
+
 .daybuttons__button:hover{
-    color:blue;
+    color:rgb(32, 194, 26);
 }
 .container{
-    min-height: 100vh;
     width: 100%;
     display: flex;
     align-items: flex-start;
     justify-content: center;
-    padding: 100px 0;
+    padding: 75px 0;
 }
 .timeline{
     width: 80%;
@@ -67,21 +86,30 @@
     margin-bottom: 0;
 }
 .timeline__content .eventname {
-    font-weight: 500;
+    font-weight: bold;
+    letter-spacing: 2.5px;
     font-size: 25px;
     line-height: 30px;
     margin-bottom: 10px;
+    background-image : linear-gradient(to right, rgb(32, 194, 26), 	#ffdf29);
+    background-clip: padding-box;
+    -webkit-background-clip: text;
+    background-size: 100%;
+    margin-right: auto;
+    -webkit-text-fill-color: transparent;
 }
 .timeline__content .round {
-    font-size: 22px;
-    line-height: 30px;
-    font-weight: 300;
-    margin-bottom: 10px;
-}
-.timeline__content time {
     font-size: 16px;
     line-height: 30px;
     font-weight: 300;
+    margin-bottom: 10px;
+    color: var(--secondaryFontColor);
+}
+.timeline__content .time {
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 300;
+    color: var(--secondaryFontColor);
 }
 
 
@@ -131,7 +159,18 @@
       left: -30px;
     }
     .timeline .listofevents li:hover::before {
-      background-color:#1bf40b;
+      background-color:rgb(32, 194, 26);
     }
   }
+
+@media screen and (max-width: 768px) {
+  .schedule__container{
+    width: 100%;
+    margin: 20vh 0 0 0;
+    padding: 0 20px;
+  }
+  .timeline{
+    width: 100%;
+  }
+}
   

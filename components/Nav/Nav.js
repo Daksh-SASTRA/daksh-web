@@ -72,7 +72,7 @@ function Nav() {
 					<a className={styles.navlink}>Contact</a>
 				</Link>
 			</div>
-			<div
+			{/* <div
 				className={styles.navbutton}
 				data-aos="fade-down"
 				data-aos-delay="600"
@@ -80,7 +80,7 @@ function Nav() {
 				<Link href="/schedule">
 					<a className={styles.navlink}>Schedule</a>
 				</Link>
-			</div>
+			</div> */}
 			
 		</div>
 	);

@@ -5,14 +5,14 @@
        "events":[
             {
                 "eventname":"SMT Live Performance",
-                "fromtime":"5.30 PM",
-                "totime":"6 PM"
+                "fromtime":"5:30 PM",
+                "totime":"6:00 PM"
                 
             },
             {
                 "eventname":"Keynote",
-                "fromtime":"6 PM",
-                "totime":"6.30 PM"
+                "fromtime":"6:00 PM",
+                "totime":"6:30 PM"
                 
             }
         ]
@@ -25,22 +25,22 @@
             {
                 "eventname":"Ecolectreel",
                 "roundno":"1",
-                "fromtime":"11 AM",
-                "totime":"12 PM"
+                "fromtime":"11:00 AM",
+                "totime":"12:00 PM"
  
             },
             {
                 "eventname":"Gamble Paradox",
                 "roundno":"1",
-                "fromtime":"12 PM",
-                "totime":"1 PM"
+                "fromtime":"12:00 PM",
+                "totime":"1:00 PM"
  
             },       
             {
                 "eventname":"Mine your Minds ",
                 "roundno":"1",
-                "fromtime":"1 PM",
-                "totime":"1.30 PM"
+                "fromtime":"1:00 PM",
+                "totime":"1:30 PM"
  
             },
 
@@ -49,23 +49,23 @@
             {
                 "eventname":"Ecolectreel",
                 "roundno":"2",
-                "fromtime":"1 PM",
-                "totime":"2 PM"
+                "fromtime":"1:00 PM",
+                "totime":"2:00 PM"
  
             },
 
             {
                 "eventname":"Mine your Minds",
                 "roundno":"2",
-                "fromtime":"2 PM",
-                "totime":"2.30 PM"
+                "fromtime":"2:00 PM",
+                "totime":"2:30 PM"
  
             },
             {
                 "eventname":"Gamble Paradox",
                 "roundno":"2",
-                "fromtime":"2 PM",
-                "totime":"3 PM"
+                "fromtime":"2:00 PM",
+                "totime":"3:00 PM"
  
             },
                    
@@ -73,29 +73,29 @@
             {
                 "eventname":"Gaia genesis",
                 "roundno":"1",
-                "fromtime":"2 PM",
-                "totime":"4.30 PM"
+                "fromtime":"2:00 PM",
+                "totime":"4:30 PM"
             },
             {
                 "eventname":"Mine your Minds",
                 "roundno":"3",
-                "fromtime":"3 PM",
-                "totime":"4 PM"
+                "fromtime":"3:00 PM",
+                "totime":"4:00 PM"
  
             },
             {
                 "eventname":"Gamble Paradox",
                 "roundno":"3",
-                "fromtime":"4 PM",
-                "totime":"5 PM"
+                "fromtime":"4:00 PM",
+                "totime":"5:00 PM"
  
             },
             {
 
                 "eventname":"Green Link",
                 "roundno":"1",
-                "fromtime":"5.30 PM",
-                "totime":"7 PM"   
+                "fromtime":"5:30 PM",
+                "totime":"7:00 PM"   
             }
 
 
@@ -110,27 +110,24 @@
         "events":[
             {
                 "eventname":"Workshop",
-                "fromtime":"9 AM",
-                "totime":"5 PM"
+                "fromtime":"9:00 AM",
+                "totime":"5:00 PM"
             },
             {
 
                 "eventname":"Ecotopia",
                 "roundno":"1",
-                "fromtime":"11 AM",
-                "totime":"1 PM"
+                "fromtime":"11:00 AM",
+                "totime":"1:00 PM"
  
             },
             {
                 "eventname":"Ecotopia",
                 "roundno":"2",
-                "fromtime":"4 PM",
-                "totime":"6 PM"
+                "fromtime":"4:00 PM",
+                "totime":"6:00 PM"
  
             }
         ]
-
-        
- 
     }
  ]
