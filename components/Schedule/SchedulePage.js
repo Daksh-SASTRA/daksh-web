@@ -23,7 +23,7 @@ function SchedulePage() {
                     <ul className={styles.listofevents}>
                         {ScheduleData[day].events.map((e,i) =>
                             {
-                                {return e.rounds.length==0 ?
+                                {return e.roundno==null ?
                                     <li key={i}>
                                         <div className={styles.timeline__content}> 
                                             <div className={styles.eventname}>{e.eventname}</div>
@@ -34,21 +34,20 @@ function SchedulePage() {
                                         </div>
                                     </li> 
                                 :
-                                    e.rounds.map((r,i)=>{
-                                        return(
-                                            <li key={i}>
-                                            <div className={styles.timeline__content}> 
-                                                {console.log(r.eventname)}
-                                                <div className={styles.eventname}>{r.eventname}</div>
-                                                <div className={styles.round}>Round{" "+r.roundno}</div>
-                                                <div className={styles.time}>
-                                                    Time{" : "+r.fromtime+" "}-                                          
-                                                    {" "+r.totime}
-                                                </div>
+                    
+                                    
+                                    <li key={i}>
+                                        <div className={styles.timeline__content}> 
+                                            <div className={styles.eventname}>{e.eventname}</div>
+                                            <div className={styles.round}>Round{" "+e.roundno}</div>
+                                            <div className={styles.time}>
+                                                Time{" : "+e.fromtime+" "}-                                          
+                                                {" "+e.totime}
                                             </div>
-                                        </li> 
-                                        )
-                                    })
+                                        </div>
+                                    </li> 
+                                        
+
                                 }; 
                             })
 
