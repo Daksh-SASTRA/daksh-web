@@ -15,6 +15,7 @@ import "react-loader-spinner/dist/loader/css/react-spinner-loader.css";
 import Loader from "react-loader-spinner";
 import { ToastContainer}from 'react-toastify';
 
+
 export default function Home() {
 	const [loader, setloader] = useState(true);
 
