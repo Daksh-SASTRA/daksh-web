@@ -37,3 +37,18 @@
     transition: 0.5s;
 }
 
+.error__section {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-height: 1000px;
+}
+
+
+@media only screen and (max-width:1000px) {
+    .error__section img{
+        width: 80%;
+    }
+}
+

@@ -60,7 +60,7 @@ function Footer() {
 			<div className={styles.footer_right}>
 				<div className={styles.footer_links}>
 					<h2>Quick Links</h2>
-					<Link href="/">
+					<Link href="/events-workshop">
 						<a>Events / Workshops</a>
 					</Link>
 					<Link href="/">
