@@ -2,9 +2,10 @@
     {
        "category":"Computer Science",
        "title":"Artificial Inteligence",
-       "desc":"Do you wonder why we should use AI in our life? What is it’s need for humans!? And how does it work? Perplexed with these thoughts?? Here's a chance to get some valuable insights on all these queries. The work to be done and the amount of data generated is rapidly increasing day by day. It’s a bit challenging for us to tackle this. So, here comes AI to think like humans and automate the work. Artificial intelligence is the simulation of human intelligence processes by machines, especially computer systems. To help Students to learn Basics of Python,Machine Learning and their implementation in real life scenarios.",
+       "desc":"Can machines ever think? How about the Telsa's autopilot? How about the recommendations you get on YouTube basis your interests? Perplexed..!?? We are up with an answer for all your queries. What are you waiting for? Come, Join our AI workshop to learn Basics of Python, Machine Learning and their implementation in real life scenarios",
        "date":"30 Nov",
-       "time":"1:00 PM",
+       "time":"9:00 AM",
+       "outcome": ["E-certificate of participation","Win exciting cash prizes"],
        "prereq":[
           "Laptop and Viable Internet Connection."
        ],

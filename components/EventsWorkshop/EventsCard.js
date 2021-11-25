@@ -17,6 +17,8 @@ function EventsCard(props) {
             {isExpanded && props.data.rules ? Rules(props.data.rules) : ""}
             {isExpanded && props.data.judging ? <h3>Judging Criteria :</h3> : ""}
             {isExpanded && props.data.judging ? Rules(props.data.judging) : ""}
+            {isExpanded ? <h3>Prize :</h3> : ""}
+            {isExpanded ? Rules(props.data.prizes) : ""}
             {isExpanded ? <h3>Contacts :</h3> : ""}
             {isExpanded ? Contacts(props.data.contacts) : ""}
 
