@@ -11,6 +11,8 @@ function EventsCard(props) {
             <h5>{props.data.category}</h5>
             <h2>{props.data.title}</h2>
             <p>{isExpanded ? props.data.desc : props.data.desc.substring(0,200) + '...'}</p>         
+            {isExpanded && props.data.outcome ? <h3>Outcomes :</h3> : ""}
+            {isExpanded && props.data.outcome ? Rules(props.data.outcome) : ""}
             {isExpanded && props.data.prereq ? <h3>Pre-Requisites :</h3> : ""}
             {isExpanded && props.data.prereq ? Rules(props.data.prereq) : ""}
             {isExpanded && props.data.fee ? <h3>Price :</h3> : ""}

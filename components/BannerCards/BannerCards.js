@@ -19,14 +19,14 @@ function BannerCards() {
         description:"Events",
         src:'/events.png',
         buttonText:'view',
-        href: "/#newsletter"
+        href: "/events-workshop"
       },
       {
         idx:2,
         description:"Workshops",
         src:'/workshop.png',
         buttonText:'view',
-        href: "/#newsletter"
+        href: "/events-workshop"
       },
       {
         idx:3,

@@ -11,7 +11,7 @@ function EventsWorkshop() {
     return (
         <div className={styles.events__workshop}>
             <button className={events ? `${styles.events__workshop__btn} ${styles.active}` : styles.events__workshop__btn} onClick={()=> setEvents(true)}>Events</button>
-            <button className={!events ? `${styles.events__workshop__btn} ${styles.active}` : styles.events__workshop__btn} onClick={()=> setEvents(false)}>Workshop</button>
+            {/* <button className={!events ? `${styles.events__workshop__btn} ${styles.active}` : styles.events__workshop__btn} onClick={()=> setEvents(false)}>Workshop</button> */}
 
             {events ?
             <div className={styles.events__section}>
