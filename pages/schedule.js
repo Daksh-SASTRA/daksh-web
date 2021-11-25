@@ -2,7 +2,8 @@ import React from 'react'
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 import SchedulePage from "../components/Schedule/SchedulePage";
-
+import Nav from '../components/Nav/Nav'
+import Footer from '../components/Footer/Footer'
 function Schedule() {
     return (
         <div>
@@ -13,7 +14,9 @@ function Schedule() {
             </Head>
 
             <main className={styles.main}>
+                <Nav/>
                 <SchedulePage/>
+                <Footer/>
             </main>
         </div>
     )

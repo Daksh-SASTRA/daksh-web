@@ -67,21 +67,21 @@
                 "eventname":"Mine your Minds",
                 "rounds":[
                     {
-                        "eventname":"Green Link",
+                        "eventname":"Mine your Minds ",
                         "roundno":"1",
                         "fromtime":"1 PM",
                         "totime":"1.30 PM"
  
                     },
                     {
-                        "eventname":"Green Link",
+                        "eventname":"Mine your Minds",
                         "roundno":"2",
                         "fromtime":"2 PM",
                         "totime":"2.30 PM"
  
                     },
                     {
-                        "eventname":"Green Link",
+                        "eventname":"Mine your Minds",
                         "roundno":"3",
                         "fromtime":"3 PM",
                         "totime":"4 PM"
@@ -93,14 +93,14 @@
                 "eventname":"Ecolectreel",
                 "rounds":[
                     {
-                        "eventname":"Green Link",
+                        "eventname":"Ecolectreel",
                         "roundno":"1",
                         "fromtime":"11 AM",
                         "totime":"12 PM"
  
                     },
                     {
-                        "eventname":"Green Link",
+                        "eventname":"Ecolectreel",
                         "roundno":"2",
                         "fromtime":"1 PM",
                         "totime":"2 PM"
@@ -112,7 +112,7 @@
                 "eventname":"Gaia genesis",
                 "rounds":[
                     {
-                        "eventname":"Green Link",
+                        "eventname":"Gaia genesis",
                         "roundno":"1",
                         "fromtime":"2 PM",
                         "totime":"4.30 PM"
