@@ -28,13 +28,32 @@
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgb(11, 187, 5,0.10);
 }
 
-@media screen and (max-width: 900px) and (min-width: 550px){
+.teams__teamname{
+    font-size: 1.5rem;
+    background: linear-gradient(to right, rgb(32, 194, 26), 	#ffdf29);
+    background-size: 100%;
+    background-clip: unset;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    text-transform: uppercase;
+    -webkit-text-fill-color: transparent;
+}
+
+.teams__heads_names{
+  color: var(--secondaryFontColor);
+  position: relative;
+  padding: 0 10%;
+  font-size: 0.9rem;
+  /* overflow-x: hidden; */
+}
+
+@media screen and (max-width: 900px) and (min-width: 600px){
 .teams__cards{
     width: 40%;
   }
 }
 
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 600px) {
   .teams__container{
     flex-wrap: wrap;
   }
@@ -43,5 +62,8 @@
   }
   .teams__cards{
     width: 90%;
+  }
+  .teams__heads_names{
+    font-size: 1rem;
   }
 }

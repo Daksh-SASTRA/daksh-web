@@ -3,6 +3,8 @@ import styles from './teams.module.css';
 import TeamsData from "../config/teams.json";
 import ctstyles from "../Contact/contact.module.css";
 import Image from 'next/image'
+
+
 function TeamsPage() {
   return (
     <div className={`${styles.teams__container} ${ctstyles.flexCenter}`}>
@@ -13,21 +15,22 @@ function TeamsPage() {
         T E A M S
       </div>
       <div className={`${styles.teamsCards__container}`}>
-        <div className={styles.teams__cards}>
+        {TeamsData.map((e, i) => {
+          return (
+            <div key={i} className={styles.teams__cards}>
+              <img src={e.src} alt={e.teamname} />
+              <p className={styles.teams__teamname}>{e.teamname}</p>
+              <p className={styles.teams__heads_names}>{e.heads}</p>
+            </div>
+          );
+          
+        })}
+
+        {/* <div className={styles.teams__cards}>
           <img src="team/Creative-media.png" alt="creative media" />
-          <p>Team Name</p>
-          <p>Heads Name</p>
-        </div>
-        <div className={styles.teams__cards}>
-          <img src="team/Creative-media.png" alt="creative media" />
-          <p>Team Name</p>
-          <p>Heads Name</p>
-        </div>
-        <div className={styles.teams__cards}>
-          <img src="team/Creative-media.png" alt="creative media" />
-          <p>Team Name</p>
-          <p>Heads Name</p>
-        </div>
+          <p className={styles.teams__teamname}>Team Name</p>
+          <p className={styles.teams__heads_names}>Heads Name</p>
+        </div> */}
       </div>
     </div>
   );
