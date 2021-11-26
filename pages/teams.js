@@ -9,7 +9,7 @@ function Teams() {
   return (
     <div>
       <Head>
-        <title>UTSAV 2022 - Teams</title>
+        <title>DAKSH 2022 - Teams</title>
         <meta name="description" content="Daksh Teams" />
         <link rel="icon" href="/favicon.ico" />
       </Head>

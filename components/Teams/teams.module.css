@@ -19,6 +19,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: space-evenly;
   width: 20%;
   padding: 25px;
   margin: 1rem;
@@ -29,7 +30,7 @@
 }
 
 .teams__teamimg{
-  width:80%;
+  width:75%;
 }
 
 .teams__teamname{
@@ -41,6 +42,8 @@
   -webkit-background-clip: text;
   text-transform: uppercase;
   -webkit-text-fill-color: transparent;
+  font-weight: bold;
+  letter-spacing: 2px;
 }
 
 .teams__heads_names{
