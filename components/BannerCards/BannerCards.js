@@ -33,7 +33,7 @@ function BannerCards() {
         description:"Teams",
         src:'/team.png',
         buttonText:'view',
-        href: "/#newsletter"
+        href: "/teams"
       }
     ]
 
