@@ -87,7 +87,7 @@
   {
     "teamname": "SOME",
     "src": "team/SOME.png",
-    "heads": "Venkata Eswar,Mukunth, Vishnuvardhan,Janani"
+    "heads": "Venkata Eswar,Mukunth, Vishnuvardhan & Janani"
   },
   {
     "teamname": "Technotainment",
@@ -102,6 +102,6 @@
   {
     "teamname": "Workshops",
     "src": "team/Workshops.png",
-    "heads": "Varoop,Kireeti,Sai Suraj,Keerthana,Sindhuja, Vyshnavi"
+    "heads": "Varoop,Kireeti,Sai Suraj,Keerthana, Sindhuja & Vyshnavi"
   }
 ]

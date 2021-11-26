@@ -16,21 +16,28 @@ function TeamsPage() {
       </div>
       <div className={`${styles.teamsCards__container}`}>
         {TeamsData.map((e, i) => {
+          let num = i * 100;
+          let delay = num.toString();
+
           return (
-            <div key={i} className={styles.teams__cards}>
-              <img src={e.src} alt={e.teamname} />
+            <div
+              key={i}
+              className={styles.teams__cards}
+              data-aos="fade-up"
+              data-aos-delay={delay}
+            >
+              <img
+                className={styles.teams__teamimg}
+                src={e.src}
+                alt={e.teamname}
+              />
               <p className={styles.teams__teamname}>{e.teamname}</p>
               <p className={styles.teams__heads_names}>{e.heads}</p>
             </div>
           );
-          
         })}
 
-        {/* <div className={styles.teams__cards}>
-          <img src="team/Creative-media.png" alt="creative media" />
-          <p className={styles.teams__teamname}>Team Name</p>
-          <p className={styles.teams__heads_names}>Heads Name</p>
-        </div> */}
+       
       </div>
     </div>
   );
