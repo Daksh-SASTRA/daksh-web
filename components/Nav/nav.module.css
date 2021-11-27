@@ -61,7 +61,7 @@
 }
 
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 1000px) {
     #navbar {
         padding: 0;
     }

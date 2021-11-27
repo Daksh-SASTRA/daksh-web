@@ -42,22 +42,22 @@
   {
     "teamname": "Operations and Control", 
     "src": "team/Operations-and-control.png", 
-    "heads": "Parvathy V, Sakthidharan, Syed Noor & Varshita S"
+    "heads": "Parvathy V, Sakthidharan, Syed Noor & S.Varshitha"
   }, 
   {
-    "teamname": "PR", 
+    "teamname": "Public Relations", 
     "src": "team/Public-relations.png", 
     "heads": "Arun Jatesh, Haridha, Lisa Ragavi & Sethuraman"
   }, 
   {
     "teamname": "Promotions", 
     "src": "team/Promotions.png", 
-    "heads": "Muthu, Swetha, Rajashree & Subramanian"
+    "heads": "Muthu, Swetha, Rajasree & Subramanian"
   }, 
   {
     "teamname": "Quality Management", 
     "src": "team/Quality-management.png", 
-    "heads": "Shivani C, Satwik & Sumanth"
+    "heads": "Sumanth D, Sivani Ch, R Sai Sri Satwik"
   }, 
   {
     "teamname": "SCBT", 
@@ -67,12 +67,12 @@
   {
     "teamname": "SEEE", 
     "src": "team/SEEE.png", 
-    "heads": "Charitha, Krishna Vamshi, Krishna Sai & Swetha"
+    "heads": "Charitha, Krishna Vamsi, Krishna Sai & Swetha"
   }, 
   {
     "teamname": "SOC", 
     "src": "team/soc.png", 
-    "heads": "Brunda D, Vasavi Srija & Aditya V"
+    "heads": "R Sai Sri Satwik, Brunda D, Vasavi Srija & Aditya V"
   }, 
   {
     "teamname": "SOCE", 
@@ -82,7 +82,7 @@
   {
     "teamname": "SOME", 
     "src": "team/SOME.png", 
-    "heads": "Venkata Eswar, Mukunth,  Vishnuvardhan & Janani"
+    "heads": "Venkata Eswar, Vishnuvardhan & Janani"
   }, 
   {
     "teamname": "Technotainment", 
@@ -97,6 +97,6 @@
   {
     "teamname": "Workshops", 
     "src": "team/Workshops.png", 
-    "heads": "Varoop, Kireeti, Sai Suraj, Keerthana,  Sindhuja & Vyshnavi"
+    "heads": "Varoop, Kireeti, Sai Suraj, Keerthana, Sindhuja & Vyshnavi"
   }
 ]

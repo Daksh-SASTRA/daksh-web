@@ -30,6 +30,15 @@ function Nav() {
 			<div
 				className={styles.navbutton}
 				data-aos="fade-down"
+				data-aos-delay="50"
+			>
+				<Link href="/schedule">
+					<a className={styles.navlink}>Schedule</a>
+				</Link>
+			</div>
+			<div
+				className={styles.navbutton}
+				data-aos="fade-down"
 				data-aos-delay="200"
 			>
 				<Link href="/events-workshop">
@@ -72,16 +81,6 @@ function Nav() {
 					<a className={styles.navlink}>Contact</a>
 				</Link>
 			</div>
-			{/* <div
-				className={styles.navbutton}
-				data-aos="fade-down"
-				data-aos-delay="600"
-			>
-				<Link href="/schedule">
-					<a className={styles.navlink}>Schedule</a>
-				</Link>
-			</div> */}
-			
 		</div>
 	);
 

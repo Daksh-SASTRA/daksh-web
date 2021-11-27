@@ -1,4 +1,37 @@
 [
+      {
+         "category":"Management",
+         "title":"Ecotopia",
+         "desc":"Ecotopia, A fun-filled eco-management event that tests your bidding skills, social consciousness, knowledge on sustainability and management skills. Participants go through two rounds where exciting challenges await in various formats that will quench the thirst of their inquisitive minds and ultimately decide the winner.",
+         "date":"30 Nov",
+         "time":"11:00 AM",
+         "rounds":[
+            "Round 1 is subdivided into two rounds i.e 1a and 1b. In both these rounds the participants play the role of a billionaire who is in close ties with the government. Their task is to bring in the right kind of resources into the country at the end of round 1. Participants will be grouped in groups of 10 and each group will be having a separate meet.",
+            "A quiz in the form of a google-form with 20 options will be circulated to all the participants. Each one of the participants is free to choose how many ever options they want without exhausting the points in hand. These options signify some real world entities (like schools, hospitals, schemes..) and are weighted according to the expenses they incur. This round will test your calibre and analytical skills based on sustainability. After which, all the participants will be ranked based on the points they score and be carried over to 1B.",
+            "Round 1B resembles an auction where the participants have to bid for one out of the ten companies listed, that helps in the welfare of the citizens. These companies are from various sectors and demand different sets of resources for a profitable run. The money for bidding will be their round 1a’s earnings (points) multiplied by some scaling factor. At the end of this round each participant will be having a company to his name. ",
+            "The final round is all about management and sustainability, everything this event stands for. This group event is all about how efficiently you use the given resources to bring out sustainable results."
+         ],
+         "rules":[
+            "Round 1 will be an individual round, Based on the score from Round 1a they shall proceed to Round 1b. The winners of Round 1b will proceed to Round 2 where they shall be formed into teams of 3.",
+            "Any kind of malpractice during the event is strictly prohibited. The decision of the event managers will be deemed final.",
+            "If under any circumstance the event managers shall leak the answer key, they shall face heavy repercussions from respective authorities. If any participant is involved in malpractice they shall be debarred from all the events for the next 4 years(naanga romba strictu)."
+         ],
+         "judging":[
+            "The participants will have to collect the maximum points possible. The choices made by the participants keeping the consequences in mind will decide the points scored.",
+            "Accurate judgement of the ideal choice for the given case study. In case two or more participants get it right, the points scored in round 1a will be taken into account.",
+            "The problems statements given to the participants are based on real life situations. The judging panel will have ranked the problems based on a certified list, which will be later used to calculate the efficiency with which they have managed to sustainably solve the problem.  The winning team is decided based on the efficiency with which they have solved the problems. A special mention is given to 2 candidates based on how well they explain why and how they solve the particular problem."
+         ],
+         "contacts":[
+            "Balaji Vaasan - 9597826034",
+            "Nandhini - 9566016443"
+         ],
+         "prizes":[
+         "3 winners to get 3,000 INR each",
+         "Best speaker - Boult BassBox",
+         "Best solution - NEWYES Reusable Smart Notebook"
+      ],
+         "register_link":"https://forms.gle/UhA1UGTnahwnPL9B9"
+   },
     {
        "category":"School of Computing",
        "title":"Mine Your Mind",
@@ -152,38 +185,5 @@
          "3rd Prize - Lifestraw Go Personal Water Purifier Water Bottle worth 2k"
       ],
        "register_link":"https://forms.gle/kiJ7xEzKCaRAe7zR8"
-    },
-    {
-        "category":"Management",
-        "title":"Ecotopia",
-        "desc":"Ecotopia, A fun-filled eco-management event that tests your bidding skills, social consciousness, knowledge on sustainability and management skills. Participants go through two rounds where exciting challenges await in various formats that will quench the thirst of their inquisitive minds and ultimately decide the winner.",
-        "date":"30 Nov",
-        "time":"11:00 AM",
-        "rounds":[
-           "Round 1 is subdivided into two rounds i.e 1a and 1b. In both these rounds the participants play the role of a billionaire who is in close ties with the government. Their task is to bring in the right kind of resources into the country at the end of round 1. Participants will be grouped in groups of 10 and each group will be having a separate meet.",
-           "A quiz in the form of a google-form with 20 options will be circulated to all the participants. Each one of the participants is free to choose how many ever options they want without exhausting the points in hand. These options signify some real world entities (like schools, hospitals, schemes..) and are weighted according to the expenses they incur. This round will test your calibre and analytical skills based on sustainability. After which, all the participants will be ranked based on the points they score and be carried over to 1B.",
-           "Round 1B resembles an auction where the participants have to bid for one out of the ten companies listed, that helps in the welfare of the citizens. These companies are from various sectors and demand different sets of resources for a profitable run. The money for bidding will be their round 1a’s earnings (points) multiplied by some scaling factor. At the end of this round each participant will be having a company to his name. ",
-           "The final round is all about management and sustainability, everything this event stands for. This group event is all about how efficiently you use the given resources to bring out sustainable results."
-        ],
-        "rules":[
-           "Round 1 will be an individual round, Based on the score from Round 1a they shall proceed to Round 1b. The winners of Round 1b will proceed to Round 2 where they shall be formed into teams of 3.",
-           "Any kind of malpractice during the event is strictly prohibited. The decision of the event managers will be deemed final.",
-           "If under any circumstance the event managers shall leak the answer key, they shall face heavy repercussions from respective authorities. If any participant is involved in malpractice they shall be debarred from all the events for the next 4 years(naanga romba strictu)."
-        ],
-        "judging":[
-           "The participants will have to collect the maximum points possible. The choices made by the participants keeping the consequences in mind will decide the points scored.",
-           "Accurate judgement of the ideal choice for the given case study. In case two or more participants get it right, the points scored in round 1a will be taken into account.",
-           "The problems statements given to the participants are based on real life situations. The judging panel will have ranked the problems based on a certified list, which will be later used to calculate the efficiency with which they have managed to sustainably solve the problem.  The winning team is decided based on the efficiency with which they have solved the problems. A special mention is given to 2 candidates based on how well they explain why and how they solve the particular problem."
-        ],
-        "contacts":[
-           "Balaji Vaasan - 9597826034",
-           "Nandhini - 9566016443"
-        ],
-        "prizes":[
-         "3 winners to get 3,000 INR each",
-         "Best speaker - Boult BassBox",
-         "Best solution - NEWYES Reusable Smart Notebook"
-      ],
-        "register_link":"https://forms.gle/UhA1UGTnahwnPL9B9"
     }
  ]
