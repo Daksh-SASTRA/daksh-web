@@ -1,0 +1,102 @@
+[
+  {
+    "teamname": "Creative Media", 
+    "src": "team/Creative-media.png", 
+    "heads": "Sriram V, Gautham Krishna, Shringaa & Tulsidas"
+  }, 
+  {
+    "teamname": "DARTS", 
+    "src": "team/Darts.png", 
+    "heads": "Ashwin, Pavithra & Preetha"
+  }, 
+  {
+    "teamname": "DDT", 
+    "src": "team/Ddt.png", 
+    "heads": "Avinash, Srilakshman & Venkatesh"
+  },
+  {
+    "teamname": "Gaming and Guest Hospitality", 
+    "src": "team/Gaming-and-guest hospitality.png", 
+    "heads": "Jefri Thimoathi"
+  }, 
+  {
+    "teamname": "Hospitality", 
+    "src": "team/Hospitality.png", 
+    "heads": "Kalyan M, Satya Sampreeth, Nikhil Sai, Pravallika & Lakshmi Moulika"
+  }, 
+  {
+    "teamname": "Infra and Logistics", 
+    "src": "team/Infra-and-logistics.png", 
+    "heads": "Anusha T,  Jyoshnapriya, Veeranna & Sai Veer"
+  }, 
+  {
+    "teamname": "Marketing", 
+    "src": "team/Marketing.png", 
+    "heads": "Harsha, Jathin & Hrithik"
+  }, 
+  {
+    "teamname": "Merchandise", 
+    "src": "team/Merchandise.png", 
+    "heads": "Bruhath, Karthik,  Mrudhula & Nisha"
+  }, 
+  {
+    "teamname": "Operations and Control", 
+    "src": "team/Operations-and-control.png", 
+    "heads": "Parvathy V, Sakthidharan, Syed Noor & Varshita S"
+  }, 
+  {
+    "teamname": "PR", 
+    "src": "team/Public-relations.png", 
+    "heads": "Arun Jatesh, Haridha, Lisa Ragavi & Sethuraman"
+  }, 
+  {
+    "teamname": "Promotions", 
+    "src": "team/Promotions.png", 
+    "heads": "Muthu, Swetha, Rajashree & Subramanian"
+  }, 
+  {
+    "teamname": "Quality Management", 
+    "src": "team/Quality-management.png", 
+    "heads": "Shivani C, Satwik & Sumanth"
+  }, 
+  {
+    "teamname": "SCBT", 
+    "src": "team/SCBT.png", 
+    "heads": "Prashanthi & Jayalakshmi"
+  }, 
+  {
+    "teamname": "SEEE", 
+    "src": "team/SEEE.png", 
+    "heads": "Charitha, Krishna Vamshi, Krishna Sai & Swetha"
+  }, 
+  {
+    "teamname": "SOC", 
+    "src": "team/soc.png", 
+    "heads": "Brunda D, Vasavi Srija & Aditya V"
+  }, 
+  {
+    "teamname": "SOCE", 
+    "src": "team/SOCE.png", 
+    "heads": "Dhileepan & Likitha"
+  }, 
+  {
+    "teamname": "SOME", 
+    "src": "team/SOME.png", 
+    "heads": "Venkata Eswar, Mukunth,  Vishnuvardhan & Janani"
+  }, 
+  {
+    "teamname": "Technotainment", 
+    "src": "team/Technotainment.png", 
+    "heads": "Priya Mahalakshmi & Subramanian R"
+  }, 
+  {
+    "teamname": "Web Development", 
+    "src": "team/Web-development.png", 
+    "heads": "Rohit & Deepak"
+  }, 
+  {
+    "teamname": "Workshops", 
+    "src": "team/Workshops.png", 
+    "heads": "Varoop, Kireeti, Sai Suraj, Keerthana,  Sindhuja & Vyshnavi"
+  }
+]

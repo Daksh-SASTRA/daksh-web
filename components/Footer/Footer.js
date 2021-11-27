@@ -63,7 +63,7 @@ function Footer() {
 					<Link href="/events-workshop">
 						<a>Events / Workshops</a>
 					</Link>
-					<Link href="/">
+					<Link href="/teams">
 						<a>Teams</a>
 					</Link>
 					<Link href="/podcast">

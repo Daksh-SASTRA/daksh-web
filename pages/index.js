@@ -14,6 +14,7 @@ import FloatingIcons from "../components/FloatingIcons/FloatingIcons";
 import Loader from "../components/Loader/Loader";
 import { ToastContainer } from "react-toastify";
 
+
 export default function Home() {
   const [loader, setLoader] = useState(true);
   useEffect(() => {
