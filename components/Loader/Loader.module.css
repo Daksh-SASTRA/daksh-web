@@ -1,0 +1,14 @@
+.loaderActive {
+  height: 100%;
+  width: 100%;
+  background-color: var(--primaryBg);
+  position: fixed;
+  top: 0;
+  z-index: 99999;
+  transition: all 0.5s ease-in-out;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  opacity: 100;
+}
