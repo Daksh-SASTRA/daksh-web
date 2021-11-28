@@ -5,6 +5,7 @@
          "desc":"Ecotopia, A fun-filled eco-management event that tests your bidding skills, social consciousness, knowledge on sustainability and management skills. Participants go through two rounds where exciting challenges await in various formats that will quench the thirst of their inquisitive minds and ultimately decide the winner.",
          "date":"30 Nov",
          "time":"11:00 AM",
+         "dateTime": "November 30, 2021 11:00:00",
          "rounds":[
             "Round 1 is subdivided into two rounds i.e 1a and 1b. In both these rounds the participants play the role of a billionaire who is in close ties with the government. Their task is to bring in the right kind of resources into the country at the end of round 1. Participants will be grouped in groups of 10 and each group will be having a separate meet.",
             "A quiz in the form of a google-form with 20 options will be circulated to all the participants. Each one of the participants is free to choose how many ever options they want without exhausting the points in hand. These options signify some real world entities (like schools, hospitals, schemes..) and are weighted according to the expenses they incur. This round will test your calibre and analytical skills based on sustainability. After which, all the participants will be ranked based on the points they score and be carried over to 1B.",
@@ -38,6 +39,7 @@
        "desc":"MINE YOUR MIND by entering the Gold Field. To obtain GOLD we have to mine the green fields under which GOLD is present in deep layers of earth. To showcase your talent, you should mine your green field of neurons. You have to complete each level within time so that you won't get caught by Police who inspects the field. Finally, by sustaining at each level, player will go from GREEN to GOLD and become winner of Mine Your Mind.",
        "date":"29 Nov",
        "time":"1:00 PM",
+       "dateTime": "November 29, 2021 13:00:00",
        "rounds":[
           "Round 1 will have a crossword puzzle based on theme 'Sustainability' - 30 min (8 – 15 questions)",
           "Shortlisted participants will have MCQ’s. This round will test technical skills, reasoning, aptitude - (20 - 25 questions)",
@@ -70,6 +72,7 @@
        "desc":"An Individual event in which the participants have to race across the map guessing places using the hints given.",
        "date":"29 Nov",
        "time":"5:30 PM",
+       "dateTime": "November 29, 2021 17:30:00",
        "rounds":[
           "Event will be conducted in a single round. Google map links will be provided in different social platforms like Instagram.",
           "The questions will be provided in the map where you start the game. After finding the answers use social platforms IDs to get the next maps link.",
@@ -103,6 +106,7 @@
        "desc":"So, you think you can outsmart the wits of an Engineer? Every Engineering student calls themselves an Engineer, but Are you truly one? Are you a true Sustainable Engineer? Join us at GAMBLE PARADOX! Gamble with consciousness of risk and hope for gain, step-by-step open your mystery box. Exciting and fun filled adventure of puzzling events awaits you all!",
        "date":"29 Nov",
        "time":"12:00 PM",
+       "dateTime": "November 29, 2021 12:00:00",
        "rounds":[
           "Round 1 is filled with questions from Basic Mechanical Engineering and Simple Aptitude.",
           "The shortlisted participants from Round 1 are invited to private telegram groups and are given with a serial number and a locked pdf. Upon solving the given set of questions and tasks in the group, the participant shall have the ability to unlock the pdf by themselves.",
@@ -137,6 +141,7 @@
        "desc":"Hey Biocons! If you are someone who is curious about the living organisms and how they adapt to the changing climatic conditions, then you have come to the right destination! Team SCBT brings to you the mind-boggling, fun-filled event to bring out the best creator in you! Are you ready to jump into the creative universe and explore the nook and corner of different worlds? Be aware about your choices as it may impact the world you are about to build!",
        "date":"29 Nov",
        "time":"2:30 PM",
+       "dateTime": "November 29, 2021 14:30:00",
        "rounds":[
           "Participants will be given a world with certain living conditions which might not be ideal to live in and they will also be given a list of organisms with certain features.",
           "They will have to transform this world into a more sustainable one, which is feasible for the organisms and which can sustain life. In order to do so, they will be given a list of organisms from which they can choose as many as they want to fit into the world."
@@ -162,6 +167,7 @@
        "desc":"The participant is sent to an imaginary planet in which he has to spin the Ecolectreel to achieve different sustainability goals! The participant is given a sustainable development goal(SDG) and 2 chances to spin the wheel by the Saint 'Circuitia'. In each turn, based on the participant's performance he/she will be given a success percentage of reaching the sustainable development goal!",
        "date":"29 Nov",
        "time":"11:00 AM",
+       "dateTime": "November 29, 2021 11:00:00",
        "rounds":[
           "Round 1 will have a wheel in which different technical games are included. This round will test the technical skills and general knowledge of the participant -  30 mins",
           "Shortlisted participants will be selected to round 2. In this round the participant has to spin the wheel twice as well as answer a sustainability related question! This round will cover the technical as well as the social skills of the participant - 30 mins"

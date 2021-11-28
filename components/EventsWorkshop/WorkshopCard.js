@@ -1,11 +1,19 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import styles from './eventsworkshop.module.css';
 import { FcExpand, FcCollapse } from "react-icons/fc";
 
 function EventsCard(props) {
 
     const [isExpanded, expand] = useState(false);
+    const [islive,setlive] = useState(true);
 
+    useEffect(() => {
+        const d1 = new Date(props.data.dateTime);
+        const d2 = new Date();
+        if(d2>d1)
+            setlive(false);
+    },[]);
+    
     return (
         <div className = {styles.ecard} data-aos="fade-up">
             <h5>{props.data.category}</h5>
@@ -24,9 +32,9 @@ function EventsCard(props) {
             <div className = {styles.ecard_actions}>
                 <h5>{props.data.date}</h5>     
                 <h5>{props.data.time}</h5>  
-                <div>                  
-                    <a href={props.data.register_link} target="_blank" rel="noreferrer">Register</a>
-                </div>   
+                <div className={islive ? styles.register : styles.disabled}>                  
+                    <a href={islive ? props.data.register_link : "/"} target={islive ? "_blank" : ""} rel="noreferrer">{islive ? "Register" : "Closed"}</a>
+                </div>
             </div>
         </div>
     )

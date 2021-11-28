@@ -93,7 +93,7 @@
     align-items: center;
 }
 
-.ecard_actions > div {
+.ecard_actions > .register {
     height: 40px;
     background: rgb(19,179,7);
     background: linear-gradient(90deg, rgb(32, 194, 26) 33%, rgb(11, 187, 5) 81%);
@@ -166,6 +166,21 @@
 .rules > p {
     margin-bottom: 10px;
     font-size: small;
+}
+
+.ecard_actions > .disabled {
+    height: 40px;
+    background: var(--secondaryBg);
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    font-size: 17px;
+    transition: all 0.3s linear;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 16px 32px;
 }
 
 @media (max-width: 850px) {
