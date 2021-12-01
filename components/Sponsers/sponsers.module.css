@@ -23,9 +23,18 @@
     width: 100%;
 }
 
-.sponser_infinite{
+.sponsers__div {
     padding: 20px 40px;
-    /* border-right: 0.5px dotted #b3b0b0; */
+}
+
+/* .sponser_infinite{
+    padding: 20px 40px; 
+    border-right: 0.5px dotted #b3b0b0;
+} */
+
+.blackBackground {
+    background-color: #1f1f1f;
+    /* height: 80px; */
 }
 
 
