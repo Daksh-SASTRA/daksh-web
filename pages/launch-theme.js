@@ -14,7 +14,7 @@ function LaunchTheme() {
                 <title>Daksh 2022 - Launch Theme</title>
                 <link rel="icon" href="/favicon.ico" />
             </Head>
-
+            
             <main className={styles.main}>
                 <Nav />
                 <Theme />
