@@ -44,7 +44,7 @@ function Theme() {
     }
     return (
         <div className={styles.theme__container}>
-            {timeleft==0 ? <ParticlesBg /> : ""}
+            {timeleft==0 && <div className={styles.overlay}></div>}
             {timeleft==0 ? 
             <Tag name={name}/>
             : 

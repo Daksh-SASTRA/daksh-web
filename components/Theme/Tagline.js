@@ -22,7 +22,7 @@ function Tagline({ name }) {
     });
     return (
         <div className={styles.tag}>
-            <p className={styles.tag__p} data-aos="fade-down" data-aos-duration="5s">Congrats {name.toUpperCase()}! You have unlocked the Theme</p>
+            <p className={styles.tag__p} data-aos="fade-down" data-aos-duration="5s">Congrats <b>{name.toUpperCase()}</b>! You have unlocked the Theme</p>
             <div className={styles.tag__div}>
                 <h1 data-aos="zoom-in" data-aos-duration="5s" data-aos-anchor=".tag__p" className={styles.glitch}>
                     <span>transcending<br />reality</span>
