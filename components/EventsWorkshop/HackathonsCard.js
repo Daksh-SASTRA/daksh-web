@@ -21,11 +21,13 @@ function HackathonsCard(props) {
             <p>{isExpanded ? props.data.desc : props.data.desc.substring(0,200) + '...'}</p>
             {isExpanded && props.data.timeline ? <h3>Timeline :</h3> : ""}
             <div className={styles.poster}>
+            <div className={styles.poster_contact}>
             {isExpanded && props.data.timeline ? Timeline(props.data.timeline) : ""}
-            {isExpanded && props.data.timeline ? <img src={props.data.img}/> : ""}
-            </div>
             {isExpanded ? <h3>Contacts :</h3> : ""}
             {isExpanded ? Contacts(props.data.contacts) : ""}
+            </div>
+            {isExpanded && props.data.timeline ? <img src={props.data.img}/> : ""}
+            </div>
             <button id = {styles.expand} onClick = {() => expand(!isExpanded)}> {isExpanded ? <FcCollapse /> : <FcExpand />} </button>
             <div className = {styles.ecard_actions}>
                 <h5>{props.data.date}</h5>

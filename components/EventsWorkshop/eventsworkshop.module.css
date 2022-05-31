@@ -124,6 +124,15 @@
     -webkit-text-fill-color: transparent;
 }
 
+.poster_contact > h3{
+    background-image : linear-gradient(to right, rgb(32, 194, 26), 	#ffdf29);
+    background-clip: padding-box;
+    -webkit-background-clip: text;
+    background-size: 100%;
+    margin-right: auto;
+    -webkit-text-fill-color: transparent;
+}
+
 .poster > p {
     font-size: smaller;
     padding: 10px 0;
