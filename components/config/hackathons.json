@@ -3,7 +3,7 @@
         "category":"Drones",
         "title":"Drone Battery Management",
         "desc":"Drone firms usually invest substantial amounts on LiPo batteries. The frequency of charging/discharging of a battery is proportionate to its return on investment. Propose a method to track and count the number of times a battery is powered and drained.",
-        "date":"17, 18, 19 Jul",
+        "date":"17, 18, 19 June",
         "dateTime": "July 18, 2022 11:00:00",
         "img":"/Drone.jpg",
         "timeline": [
@@ -24,7 +24,7 @@
         "category":"Electric Vehicles",
         "title":"Battery Casing for Electric Vehicles",
         "desc":"A prominent battery pack used in EV is a variation of Lithium-ion cells, accounting for a major portion of its cost. One such considerable method to cut the cost of EV is “Battery Swap”, which is to convert battery ownership to a rental model. The instant benefit by pairing it with regular changing sites reduces the range concern. Design an interchangeable battery casing for an EV.",
-        "date":"17, 18, 19 Jul",
+        "date":"17, 18, 19 June",
         "img":"/Electric veh.jpg",
         "dateTime": "July 18, 2022 11:00:00",
         "timeline": [
@@ -45,7 +45,7 @@
         "category":"Space Tech",
         "title":"Space Debris Extraction",
         "desc":"Missions carried out since 1957 have left their debris in outer space. They move at a high velocity and might collide into operational spacecraft, failing their expedition. Design a method to detect, track and remove such unwanted remains.",
-        "date":"17, 18, 19 Jul",
+        "date":"17, 18, 19 June",
         "img":"/Space tech.jpg",
         "dateTime": "July 18, 2022 11:00:00",
         "timeline": [
@@ -66,7 +66,7 @@
         "category":"Virtual Reality",
         "title":"Multiverse",
         "desc":"Working professionals use multiple screens to perform their work more efficiently. The availability of such infrastructure is limited. Design an app to envision multiple screens in a MR headset. The virtual space should include a keyboard and a mouse. This setup should work with just an active internet connection and HUD. ",
-        "date":"17, 18, 19 Jul",
+        "date":"17, 18, 19 June",
         "img":"/VR.jpg",
         "dateTime": "July 18, 2022 11:00:00",
         "timeline": [
@@ -87,7 +87,7 @@
         "category":"NFT & BlockChain",
         "title":"Bartering NFTs",
         "desc":"Digital art and tweets are traded by transforming them into NFTs. These can be earned in any retail domain and can be used in other domains like games, fashion, travel or art. Design a NFT based reward program in the retail domain that should include the earn and burn implementation which has to be done in the block chain.",
-        "date":"17, 18, 19 Jul",
+        "date":"17, 18, 19 June",
         "img":"/NFT.jpg",
         "dateTime": "July 18, 2022 11:00:00",
         "timeline": [
@@ -108,7 +108,7 @@
         "category":"Assistive Technology",
         "title":"Voice Assistance for Visually Imapired",
         "desc":"Develop an object detection and recognition module using deep learning methods, on a Raspberry Pi Board, connected to a Pi camera and speaker. The objects detected need to be transformed into speech alerts using a speech synthesis module. The expected output is a voice message that informs the user about the objects placed in front of the camera.",
-        "date":"17, 18, 19 Jul",
+        "date":"17, 18, 19 June",
         "img":"/Visual.jpg",
         "dateTime": "July 18, 2022 11:00:00",
         "timeline": [
@@ -129,7 +129,7 @@
         "category":"Agritech / IOT",
         "title":"Smart Pisciculture",
         "desc":"The goal is to create a mechanized design capable of feeding fishes in the right amount and at the right time. This should monitor the quality, temperature of water and the quantity of food, and notify the farmer if there is any change in temperature and food level. The electronic components should be safeguarded from external factors and should function on Solar and battery sources.",
-        "date":"17, 18, 19 Jul",
+        "date":"17, 18, 19 June",
         "img":"/fish.jpg",
         "dateTime": "July 18, 2022 11:00:00",
         "timeline": [
@@ -150,7 +150,7 @@
         "category":"MEDTECH / Advanced Material for Implants",
         "title":"Biocompatible Implant with MRI Capabilities",
         "desc":"Structural Implants have seen a steady increase in usage over the past decade. Assessing the success of these grafts are the major point of concern. Develop a biocompatible implant with MRI capabilities which will help monitor the performance of the graft.",
-        "date":"17, 18, 19 Jul",
+        "date":"17, 18, 19 June",
         "img":"/med tech.jpg",
         "dateTime": "July 18, 2022 11:00:00",
         "timeline": [
@@ -171,7 +171,7 @@
         "category":"Agritech / AI / smart farming system",
         "title":"Intelligent Farming System",
         "desc":"A model or system which induces the capabilities of AI and machine learning to bring up the production rate in farming. The model designed should be able to analyze the soil / land conditions and pick the right crop for the right soil and weather conditions.",
-        "date":"17, 18, 19 Jul",
+        "date":"17, 18, 19 June",
         "img":"/Agritech.jpg",
         "dateTime": "July 18, 2022 11:00:00",
         "timeline": [

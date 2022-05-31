@@ -32,8 +32,10 @@ function HackathonsCard(props) {
             <div className = {styles.ecard_actions}>
                 <h5>{props.data.date}</h5>
                 <div className={islive ? styles.register : styles.disabled}>                  
-                    <a className={styles.register_btn} href={islive ? props.data.download_link : "/"} target={islive ? "_blank" : ""} rel="noreferrer">Download</a>
-                    <a className={styles.download_btn} href={islive ? props.data.register_link : "/"} target={islive ? "_blank" : ""} rel="noreferrer">Register</a>
+                    <a className={styles.download_btn} href={islive ? props.data.download_link : "/"} target={islive ? "_blank" : ""} rel="noreferrer">Download Pdf <img src='/download-solid.svg' height='20px'></img></a>
+                </div>
+                <div className={islive ? styles.register : styles.disabled}>                  
+                    <a className={styles.register_btn} href={islive ? props.data.register_link : "/"} target={islive ? "_blank" : ""} rel="noreferrer">Register</a>
                 </div>
             </div>
         </div>
