@@ -95,6 +95,43 @@
 
 .ecard_actions > .register {
     height: 40px;
+    
+    display: flex;
+    color: white;
+    cursor: pointer;
+    font-size: 17px;
+    transition: all 0.3s linear;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px 16px;
+}
+
+.poster{
+    display: flex;
+    justify-content: space-between;
+}
+.poster img{
+    width: 55%
+}
+
+.poster > h3{
+    background-image : linear-gradient(to right, rgb(32, 194, 26), 	#ffdf29);
+    background-clip: padding-box;
+    -webkit-background-clip: text;
+    background-size: 100%;
+    margin-right: auto;
+    -webkit-text-fill-color: transparent;
+}
+
+.poster > p {
+    font-size: smaller;
+    padding: 10px 0;
+    margin-bottom: 10px;
+}
+
+.download_btn{
+    margin-left: 8px;
     background: rgb(19,179,7);
     background: linear-gradient(90deg, rgb(32, 194, 26) 33%, rgb(11, 187, 5) 81%);
     /* background-clip: padding-box;
@@ -102,15 +139,18 @@
     -webkit-text-fill-color: transparent;
     border: 1px solid transparent; */
     border-radius: 5px;
-    color: white;
-    cursor: pointer;
-    font-size: 17px;
-    transition: all 0.3s linear;
-    text-align: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 16px 32px;
+    padding: 10px 16px;
+}
+
+.register_btn{
+    background: rgb(19,179,7);
+    background: linear-gradient(90deg, rgb(32, 194, 26) 33%, rgb(11, 187, 5) 81%);
+    /* background-clip: padding-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    border: 1px solid transparent; */
+    border-radius: 5px;
+    padding: 10px 16px;
 }
 
 .ecard_actions > a:hover {
@@ -190,4 +230,11 @@
     .ecard{
         padding: 2rem 1.5rem;
     }
+        .poster {
+          flex-direction: column;
+        }
+        .poster img{
+            width:100%;
+        }
+
 }
