@@ -1,4 +1,5 @@
-import React,{useState} from 'react'
+import React,{useEffect, useState} from 'react';
+import { useRouter } from 'next/router'
 import styles from './eventsworkshop.module.css'
 import EventsCard from './EventsCard';
 import WorkshopCard from './WorkshopCard';
@@ -6,8 +7,20 @@ import HackathonsCard from './HackathonsCard';
 import Events from '../config/events.json';
 import Workshop from "../config/workshop.json";
 import Hackathons from "../config/hackathons.json";
+
 function EventsWorkshop() {
+    const { query } = useRouter();
     const [events,setEvents] = useState(0);
+
+    useEffect(() => {
+        if(query.q === 'events'){
+            setEvents(0);
+        }else if(query.q === 'workshops'){
+            setEvents(1);
+        }else if(query.q === 'hackathons'){
+            setEvents(2);
+        }
+    },[])
 
     return (
         <div className={styles.events__workshop}>

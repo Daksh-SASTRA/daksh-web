@@ -97,8 +97,6 @@
 }
 
 .ecard_actions > .register {
-    height: 40px;
-    
     display: flex;
     color: white;
     cursor: pointer;
@@ -168,7 +166,7 @@
     -webkit-text-fill-color: transparent;
     border: 1px solid transparent; */
     border-radius: 5px;
-    padding: 10px 16px;
+    padding: 6px 20px;
     text-align: center;
     color: aliceblue;
 }
