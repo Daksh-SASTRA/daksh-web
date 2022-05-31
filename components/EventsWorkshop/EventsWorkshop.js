@@ -1,29 +1,50 @@
-import React,{useState} from 'react'
+import React,{useEffect, useState} from 'react';
+import { useRouter } from 'next/router'
 import styles from './eventsworkshop.module.css'
 import EventsCard from './EventsCard';
 import WorkshopCard from './WorkshopCard';
+import HackathonsCard from './HackathonsCard';
 import Events from '../config/events.json';
 import Workshop from "../config/workshop.json";
+import Hackathons from "../config/hackathons.json";
 
 function EventsWorkshop() {
-    const [events,setEvents] = useState(true);
+    const { query } = useRouter();
+    const [events,setEvents] = useState(0);
+
+    useEffect(() => {
+        if(query.q === 'events'){
+            setEvents(0);
+        }else if(query.q === 'workshops'){
+            setEvents(1);
+        }else if(query.q === 'hackathons'){
+            setEvents(2);
+        }
+    },[])
 
     return (
         <div className={styles.events__workshop}>
-            <button className={events ? `${styles.events__workshop__btn} ${styles.active}` : styles.events__workshop__btn} onClick={()=> setEvents(true)}>Events</button>
-            <button className={!events ? `${styles.events__workshop__btn} ${styles.active}` : styles.events__workshop__btn} onClick={()=> setEvents(false)}>Workshop</button>
+            <button className={(events==0) ? `${styles.events__workshop__btn} ${styles.active}` : styles.events__workshop__btn} onClick={()=> setEvents(0)}>Events</button>
+            <button className={(events==1) ? `${styles.events__workshop__btn} ${styles.active}` : styles.events__workshop__btn} onClick={()=> setEvents(1)}>Workshop</button>
+            <button className={(events==2) ? `${styles.events__workshop__btn} ${styles.active}` : styles.events__workshop__btn} onClick={()=> setEvents(2)}>Hackathons</button>
 
-            {events ?
+            {(events==0) ?
             <div className={styles.events__section}>
                 {Events.map((event,i) => {
                     return <EventsCard data = {event} key={i}/>
                 })}
                 
             </div>
-            :
+            : (events==1) ? 
             <div className={styles.events__section}>
                 {Workshop.map((workshop,i) => {
                     return <WorkshopCard data = {workshop} key={i}/>
+                })}
+            </div>
+            :
+            <div className={styles.events__section}>
+                {Hackathons.map((workshop,i) => {
+                    return <HackathonsCard data = {workshop} key={i}/>
                 })}
             </div>
             } 
