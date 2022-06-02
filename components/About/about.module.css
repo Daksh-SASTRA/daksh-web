@@ -39,6 +39,11 @@
     line-height: 1;
 }
 
+.theme_text{
+  text-shadow: -3px -3px 0px rgba(255, 17, 96, 1),-3px -6px 0px rgba(4, 37, 255, 1),3px 0px 0px rgba(43, 255, 0, 1);
+}
+
+
 .about__p{
     margin: 2rem 0;
     font-size: 1rem;

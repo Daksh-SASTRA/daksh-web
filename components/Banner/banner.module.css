@@ -56,6 +56,10 @@
     margin-top: 25px;
 }
 
+.theme_text{
+  text-shadow: -4px -4px 0px rgba(255, 17, 96, 1),-3px -7px 0px rgba(4, 37, 255, 1),5px 1px 0px rgba(43, 255, 0, 1);
+}
+
 @media screen and (max-width:767px) {
     .divbanner {
         align-items: flex-start;
