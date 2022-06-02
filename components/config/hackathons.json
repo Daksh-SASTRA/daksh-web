@@ -106,7 +106,7 @@
     },
     {
         "category":"Assistive Technology",
-        "title":"Voice Assistance for Visually Imapired",
+        "title":"Voice Assistance for Visually Impaired",
         "desc":"Develop an object detection and recognition module using deep learning methods, on a Raspberry Pi Board, connected to a Pi camera and speaker. The objects detected need to be transformed into speech alerts using a speech synthesis module. The expected output is a voice message that informs the user about the objects placed in front of the camera.",
         "date":"17, 18, 19 June",
         "img":"/Visual.jpg",
