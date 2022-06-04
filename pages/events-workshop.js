@@ -18,12 +18,13 @@ function Events() {
         }else if(query.q === 'hackathons'){
             setNumber(2);
         }
+        console.log(query);
     },[query])
 
     return (
         <div>
             <Head>
-                <title>Daksh 2022 - Events/Workshop</title>
+                <title>Daksh 2022 - Events/Workshop/Hackathon</title>
                 <link rel="icon" href="/favicon.ico" />
             </Head>
 

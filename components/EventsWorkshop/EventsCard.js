@@ -19,15 +19,15 @@ function EventsCard(props) {
             <h2>{props.data.title}</h2>
             <p>{isExpanded ? props.data.desc : props.data.desc.substring(0,200) + '...'}</p>         
             {isExpanded && props.data.rounds ? <h3>Rounds :</h3> : ""}
-            {isExpanded && props.data.rounds ? Rules(props.data.rounds) : ""}
+            {isExpanded && props.data.rounds ? Rules(props.data?.rounds || []) : ""}
             {isExpanded && props.data.rules ? <h3>Rules :</h3> : ""}
-            {isExpanded && props.data.rules ? Rules(props.data.rules) : ""}
+            {isExpanded && props.data.rules ? Rules(props.data?.rules || []) : ""}
             {isExpanded && props.data.judging ? <h3>Judging Criteria :</h3> : ""}
-            {isExpanded && props.data.judging ? Rules(props.data.judging) : ""}
-            {isExpanded ? <h3>Prize :</h3> : ""}
-            {isExpanded ? Rules(props.data.prizes) : ""}
-            {isExpanded ? <h3>Contacts :</h3> : ""}
-            {isExpanded ? Contacts(props.data.contacts) : ""}
+            {isExpanded && props.data.judging ? Rules(props.data?.judging || []) : ""}
+            {isExpanded && props.data.prizes ? <h3>Prize :</h3> : ""}
+            {isExpanded ? Rules(props.data?.prizes || []) : ""}
+            {isExpanded && props.data.contacts ? <h3>Contacts :</h3> : ""}
+            {isExpanded ? Contacts(props.data?.contacts || []) : ""}
 
             <button id = {styles.expand} onClick = {() => expand(!isExpanded)}> {isExpanded ? <FcCollapse /> : <FcExpand />} </button>
             <div className = {styles.ecard_actions}>
