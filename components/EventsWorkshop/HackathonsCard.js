@@ -26,7 +26,7 @@ function HackathonsCard(props) {
             {isExpanded ? <h3>Contacts :</h3> : ""}
             {isExpanded ? Contacts(props.data.contacts) : ""}
             </div>
-            {isExpanded && props.data.timeline ? <img src={props.data.img}/> : ""}
+            {isExpanded && props.data.timeline ? <a href={props.data.img} rel="noreferrer" target='_blank'><img src={props.data.img}/></a>: ""}
             </div>
             <button id = {styles.expand} onClick = {() => expand(!isExpanded)}> {isExpanded ? <FcCollapse /> : <FcExpand />} </button>
             <div className = {styles.ecard_actions}>
