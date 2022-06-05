@@ -16,7 +16,7 @@ function Podcast() {
                     </div>
                     <div className={styles.col_lg_6}>
                         <div className={styles.text_container__podcast}>
-                            <h3 className={styles.podcast__h3}>Daksh Podcast </h3>
+                            <h3 className={`${styles.podcast__h3} ${styles.theme_text}`}>Daksh Podcast </h3>
                             <p className={styles.podcast__p}>
                             {"Hosted and produced by Daksh, a series of engaging podcast episodes starring industry experts who offer their wisdom and mind-boggling anecdotes from their niche. If you're looking for a venture to kill boredom, you're at the right place!"}
                             </p>

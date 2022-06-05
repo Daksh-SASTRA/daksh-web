@@ -9,7 +9,7 @@ function Banner() {
         <>
         <div className={styles.topcover}>
             <div className={styles.divbanner}>
-                <h1 className={styles.divbanner__headtext}  data-aos="fade-up"  data-aos-delay="200">
+                <h1 className={`${styles.divbanner__headtext} ${styles.theme_text}`}  data-aos="fade-up"  data-aos-delay="200">
                     build <br/> things that <br/> matter.
                 </h1>
                 <h3 className={styles.divbanner__descriptiontext}  data-aos="fade-up"  data-aos-delay="400">
