@@ -1,5 +1,6 @@
 import React from 'react'
-import styles from './banner.module.css'
+import styles from './banner.module.css';
+import homeStyles from "../../styles/Home.module.css";
 import Link from 'next/link'
 import Buttons from '../Buttons/Buttons'
 
@@ -9,6 +10,9 @@ function Banner() {
         <>
         <div className={styles.topcover}>
             <div className={styles.divbanner}>
+                    <video className={homeStyles.bannervideo} autoPlay loop muted>
+                    <source src="/bgvideo.mp4" type='video/mp4' />
+                </video>
                 <h1 className={`${styles.divbanner__headtext} ${styles.theme_text}`}  data-aos="fade-up"  data-aos-delay="200">
                     build <br/> things that <br/> matter.
                 </h1>

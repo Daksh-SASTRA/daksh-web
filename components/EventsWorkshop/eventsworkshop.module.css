@@ -9,6 +9,8 @@
 
 .navigation {
     display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
 }
 
 .events__workshop__btn {

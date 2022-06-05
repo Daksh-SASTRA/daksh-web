@@ -18,7 +18,7 @@
 
 .bannervideo{
     /* transform: rotate(90deg) scale(2);  */
-    position: fixed;
+    position: absolute;
     top: 0;
     left: 0;
     width: 100vw;
@@ -43,7 +43,7 @@
 @media only screen and (max-width:1290px) {
     .bannervideo{
         transform: scale(2.8);  
-        position: fixed;
+        position: absolute;
         top: 0;
         left: 0;
         height: 100vh;
@@ -54,7 +54,7 @@
 @media only screen and (max-width:650px) {
     .bannervideo{
         transform: scale(3.5);  
-        position: fixed;
+        position: absolute;
         top: 0;
         left: 0;
         height: 100vh;
@@ -65,7 +65,7 @@
 @media only screen and (max-width:450px) {
     .bannervideo{
         transform: scale(4.5);  
-        position: fixed;
+        position: absolute;
         top: 0;
         left: 0;
         height: 100vh;

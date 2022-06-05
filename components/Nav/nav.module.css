@@ -48,7 +48,7 @@
 
 .navlink:hover {
     color: var(--white);
-    background-color: var(--secondaryBg);
+    background-color: rgba(47, 47, 47, 0.238);
     transition: all 0.3s ease-in-out;
 }
 
