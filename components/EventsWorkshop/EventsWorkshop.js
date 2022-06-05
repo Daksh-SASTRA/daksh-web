@@ -16,30 +16,31 @@ function EventsWorkshop({number}) {
 
     return (
         <div className={styles.events__workshop}>
-            <button className={(events==2) ? `${styles.events__workshop__btn} ${styles.active}` : styles.events__workshop__btn} onClick={()=> setEvents(2)}>Hackathons</button>
-            <button className={(events==0) ? `${styles.events__workshop__btn} ${styles.active}` : styles.events__workshop__btn} onClick={()=> setEvents(0)}>Events</button>
-            <button className={(events==1) ? `${styles.events__workshop__btn} ${styles.active}` : styles.events__workshop__btn} onClick={()=> setEvents(1)}>Workshop</button>
+            <div className={styles.navigation}>
+                <button className={(events==2) ? `${styles.events__workshop__btn} ${styles.active}` : styles.events__workshop__btn} onClick={()=> setEvents(2)}>Hackathons</button>
+                <button className={(events==0) ? `${styles.events__workshop__btn} ${styles.active}` : styles.events__workshop__btn} onClick={()=> setEvents(0)}>Events</button>
+                <button className={(events==1) ? `${styles.events__workshop__btn} ${styles.active}` : styles.events__workshop__btn} onClick={()=> setEvents(1)}>Workshop</button>
+            </div>
+            {(events == 0) ?
+                <div className={styles.events__section}>
+                    {Events.map((event, i) => {
+                        return <EventsCard data={event} key={i} />
+                    })}
 
-            {(events==0) ?
-            <div className={styles.events__section}>
-                {Events.map((event,i) => {
-                    return <EventsCard data = {event} key={i}/>
-                })}
-                
-            </div>
-            : (events==1) ? 
-            <div className={styles.events__section}>
-                {Workshop.map((workshop,i) => {
-                    return <WorkshopCard data = {workshop} key={i}/>
-                })}
-            </div>
-            :
-            <div className={styles.events__section}>
-                {Hackathons.map((workshop,i) => {
-                    return <HackathonsCard data = {workshop} key={i}/>
-                })}
-            </div>
-            } 
+                </div>
+                : (events == 1) ?
+                    <div className={styles.events__section}>
+                        {Workshop.map((workshop, i) => {
+                            return <WorkshopCard data={workshop} key={i} />
+                        })}
+                    </div>
+                    :
+                    <div className={styles.events__section}>
+                        {Hackathons.map((workshop, i) => {
+                            return <HackathonsCard data={workshop} key={i} />
+                        })}
+                    </div>
+            }
         </div>
     )
 }
