@@ -1,28 +1,25 @@
 .topcover{
     position: relative;
     width: 100%;
-    height: 100vh;
     max-height: 1000px;
     display: flex;
     align-items: center;
     justify-content: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-image: url('/BannerBg.jpg');
+    overflow: hidden;
+    height: 100vh;
 }
+
 .divbanner{
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 100vw;
+    height: 100%;
+    justify-content: center;
+    background-color: rgba(0,0,0,0.7);
+    margin: 0;
 }
-.divbannerfadebtm{
-    position: absolute;
-    height: 5rem;
-    width: 100%;
-    bottom: 0;
-    z-index: 1;
-    background-image:linear-gradient(180deg,transparent,rgba(255, 0, 0, 0),var(--primaryBg)) ;
-}
+
 .divbanner__headtext{
     font-size: 7rem;
     font-weight: 400;
@@ -82,7 +79,7 @@
 @media screen and (max-width:767px) {
     .divbanner {
         align-items: flex-start;
-        margin: 0 0 0 25px;
+        padding: 0 0 0 25px;
     }
     .divbanner > * {
         text-align: left;

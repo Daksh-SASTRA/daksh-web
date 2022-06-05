@@ -68,8 +68,8 @@
 .footer__contribution {
 	color: var(--secondaryFontColor);
 	padding-bottom: 1.5rem;
-	text-align: left;
-	margin-left: 1.5rem;
+	text-align: center;
+	background-color: var(--primaryBg);
 }
 
 @media only screen and (min-width: 700px) {
@@ -92,6 +92,8 @@
 	}
 	.footer__contribution {
 		text-align: center;
+		background-color: var(--primaryBg);
+		margin: 0;
 	}
 }
 
