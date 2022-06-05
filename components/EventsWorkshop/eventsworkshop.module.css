@@ -154,12 +154,13 @@
 
 .download_btn {
     position: relative;
-    background: rgba(255, 255, 255, 0.1);
+    /* background: rgba(255, 255, 255, 0.1); */
     transition: all 1s linear;
     margin-right: 8px;
     border-radius: 5px;
-    padding: 10px 16px;
-    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+    color: var(--secondaryFontColor);
+    /* padding: 10px 16px; */
+    /* box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2); */
 }
 
 .events__workshop__btn:hover {
@@ -177,8 +178,7 @@
     background-size: 400%;
 }
 
-.register_btn:hover,
-.download_btn:hover {
+.register_btn:hover {
     z-index: 1;
     animation: glow 8s linear infinite;
     background-image:var(--hover-gradient);;
@@ -241,6 +241,10 @@
     padding: 6px 20px;
     text-align: center;
     color: aliceblue;
+    z-index: 1;
+    animation: glow 8s linear infinite;
+    background-image:var(--hover-gradient);;
+    background-size: 400%;
 }
 
 .ecard_actions>a:hover {
@@ -303,7 +307,7 @@
     background: var(--secondaryBg);
     border-radius: 5px;
     color: white;
-    cursor: pointer;
+    cursor: not-allowed;
     font-size: 17px;
     transition: all 0.3s linear;
     text-align: center;
@@ -311,6 +315,7 @@
     align-items: center;
     justify-content: center;
     padding: 16px 32px;
+    pointer-events: none;
 }
 
 @media (max-width: 850px) {
