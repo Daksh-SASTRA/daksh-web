@@ -7,7 +7,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: blueviolet;
+    background-color: rgba(138, 43, 226, 0.7);
 }
 
 .card {

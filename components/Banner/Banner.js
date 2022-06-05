@@ -26,8 +26,6 @@ function Banner() {
                      </div>
                 </Link > */}
             </div>
-            <div className={styles.divbannerfadebtm}>
-            </div>
         </div>
    
    </>

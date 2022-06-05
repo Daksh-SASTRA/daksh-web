@@ -38,6 +38,9 @@ export default function Home() {
         <Loader />
       ) : (
         <main className={styles.main}>
+          <video className={styles.bannervideo} autoPlay loop muted>
+              <source src="/bgvideo.mp4" type='video/mp4' />
+          </video>
           <FloatingIcons />
           <Nav />
           <Banner />
