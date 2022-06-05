@@ -3,8 +3,12 @@
   position: relative;
   text-align: center;
   padding: 15px 30px;
-  color: blueviolet;
-  background-color:var(--white);
+  color: #2621b7;
+  background-color: var(--white);
+  /* background-image: var(--text-gradient-color); */
+  /* background-clip:padding-box; */
+  /* -webkit-background-clip: text; */
+  /* -webkit-text-fill-color: transparent; */
   cursor: pointer;
   font-size: 18px;
   font-family: content;
@@ -13,6 +17,6 @@
   line-height: 18px;
   transition: all 0.5s ease-in-out;
 }
-.global_button:hover{
-  color: blue;
+.global_button:hover {
+  color: #05559c;
 }

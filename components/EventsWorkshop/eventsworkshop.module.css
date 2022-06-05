@@ -32,9 +32,7 @@
 }
 
 .active {
-    background-image: linear-gradient(to right, #0abdc6, #00b5e1, #00a8fb, #0095ff, #7d78ff, #7b7eff, #7984ff, #788aff, #00afff, #00cdff, #00e6ff, #5ffbf1);
-
-    /* background-image: linear-gradient(to right , #0abdc6, #00b5e1, #00a8fb, #0095ff, #7d78ff, #7b7eff, #7984ff, #788aff, #00afff, #00cdff, #00e6ff, #5ffbf1); */
+    background-image: var(--gradient-right);
     background-size: 400%;
     color: #fff;
     background-color: rgb(30, 30, 30);
@@ -50,7 +48,7 @@
     width: 100%;
     padding: 30px;
     border-radius: 15px;
-    background-image: linear-gradient(to right top, rgb(10, 189, 198, 0.05), rgb(0, 181, 225, 0.05), rgb(0, 168, 251, 0.05), rgb(0, 149, 255, 0.05), rgb(125, 120, 255, 0.05), rgb(123, 126, 255, 0.05), rgb(121, 132, 255, 0.05), rgb(120, 138, 255, 0.05), rgb(0, 175, 255, 0.05), rgb(0, 205, 255, 0.05), rgb(0, 230, 255, 0.05), rgb(95, 251, 241, 0.05));
+    background-image: var(--card-background);
     display: flex;
     flex-direction: column;
     margin: 2rem 0;
@@ -65,7 +63,7 @@
 
 .ecard>h3,
 .ecard>h2 {
-    background-image: linear-gradient(to right top, #0abdc6, #00b5e1, #00a8fb, #0095ff, #7d78ff, #7b7eff, #7984ff, #788aff, #00afff, #00cdff, #00e6ff, #5ffbf1);
+    background-image: var(--text-gradient-color);
     background-clip: padding-box;
     -webkit-background-clip: text;
     background-size: 100%;
@@ -88,7 +86,7 @@
 .rounds>p:before {
     margin-right: 10px;
     content: counter(item);
-    color: #EA00D9;
+    color: var(--cool-pink);
     text-align: center;
     display: inline-block;
     font-weight: bold;
@@ -131,7 +129,7 @@
 }
 
 .poster>h3 {
-    background-image: linear-gradient(to right top, #0abdc6, #00b5e1, #00a8fb, #0095ff, #7d78ff, #7b7eff, #7984ff, #788aff, #00afff, #00cdff, #00e6ff, #5ffbf1);
+    background-image: var(--text-gradient-color);
     background-clip: padding-box;
     -webkit-background-clip: text;
     background-size: 100%;
@@ -140,7 +138,7 @@
 }
 
 .poster_contact>h3 {
-    background-image: linear-gradient(to right top, #0abdc6, #00b5e1, #00a8fb, #0095ff, #7d78ff, #7b7eff, #7984ff, #788aff, #00afff, #00cdff, #00e6ff, #5ffbf1);
+    background-image: var(--text-gradient-color);
     background-clip: padding-box;
     -webkit-background-clip: text;
     background-size: 100%;
@@ -167,20 +165,15 @@
 .events__workshop__btn:hover {
     z-index: 1;
     animation: glow 8s linear infinite;
-    background-image: linear-gradient(to right, #0abdc6, #00b5e1, #00a8fb, #0095ff, #7d78ff, #7d78ff, #7d78ff, #7d78ff, #0095ff, #00a8fb, #00b5e1, #0abdc6);
-    /* background-image: linear-gradient(to right , #0abdc6, #00b5e1, #00a8fb, #0095ff, #7d78ff, #7b7eff, #7984ff, #788aff, #00afff, #00cdff, #00e6ff, #5ffbf1); */
-
-    /* background-image: linear-gradient(to right, #21fa90, #00e9ce, #00d3fe, #00b6ff, #0093ff, #0093ff, #0093ff, #0093ff, #00b6ff, #00d3fe, #00e9ce, #21fa90); */
+    
+    background-image:var(--hover-gradient);;
     background-size: 400%;
 }
 
 .active {
     z-index: 1;
     animation: glow 8s linear infinite;
-    background-image: linear-gradient(to right, #0abdc6, #00b5e1, #00a8fb, #0095ff, #7d78ff, #7d78ff, #7d78ff, #7d78ff, #0095ff, #00a8fb, #00b5e1, #0abdc6);
-    /* background-image: linear-gradient(to right , #0abdc6, #00b5e1, #00a8fb, #0095ff, #7d78ff, #7b7eff, #7984ff, #788aff, #00afff, #00cdff, #00e6ff, #5ffbf1); */
-
-    /* background-image: linear-gradient(to right, #21fa90, #00e9ce, #00d3fe, #00b6ff, #0093ff, #0093ff, #0093ff, #0093ff, #00b6ff, #00d3fe, #00e9ce, #21fa90); */
+    background-image:var(--hover-gradient);;
     background-size: 400%;
 }
 
@@ -188,9 +181,7 @@
 .download_btn:hover {
     z-index: 1;
     animation: glow 8s linear infinite;
-    background-image: linear-gradient(to right, #0abdc6, #00b5e1, #00a8fb, #0095ff, #7d78ff, #7d78ff, #7d78ff, #7d78ff, #0095ff, #00a8fb, #00b5e1, #0abdc6);
-
-    /* background-image: linear-gradient(to right, #21fa90, #00e9ce, #00d3fe, #00b6ff, #0093ff, #0093ff, #0093ff, #0093ff, #00b6ff, #00d3fe, #00e9ce, #21fa90); */
+    background-image:var(--hover-gradient);;
     background-size: 400%;
 }
 
@@ -296,7 +287,6 @@
 .rules>p:before {
     content: "\2022";
     color: #EA00D9;
-    /* color: rgb(32, 194, 26); */
     font-weight: bold;
     display: inline-block;
     width: 1em;

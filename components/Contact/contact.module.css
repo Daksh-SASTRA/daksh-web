@@ -17,7 +17,7 @@
   margin: 5px;
   font-family: title, sans-serif;
   font-size: 1.8rem;
-  background: linear-gradient(45deg,rgb(100, 100, 100), rgb(150, 150, 150), rgb(195, 195, 195),  #fff);
+  background: var(--gradient-right);
   background-clip: text;
   -webkit-background-clip: text;  
   -moz-background-clip: text;  
@@ -53,13 +53,17 @@
   }
 }
 
+    /* color: rgb(32, 194, 26); */
 .pd-5 {
   padding-bottom: 5px;
 }
 
 .name {
   font-size: 1.3rem;
-  color: #28e769;
+  background-image: var(--text-gradient-color);
+  background-clip: padding-box;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .designation {
