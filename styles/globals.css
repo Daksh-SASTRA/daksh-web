@@ -34,15 +34,11 @@ body {
   margin: 0;
   font-family: content, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-  background-color: transparent;
+  background-color: var(--primaryBg);
   line-height: 1.5;
   letter-spacing: 1.15px;
   scroll-behavior: smooth;
   transition: all 1s;
-}
-
-html {
-  background-color: var(--primaryBg);
 }
 
 a {

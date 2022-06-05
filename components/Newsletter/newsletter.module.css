@@ -1,5 +1,6 @@
 .maincontainer{
-  background-color: rgba(0, 0, 0, 0.9);
+  background-color: var(--secondaryBg);
+  margin: 0 0 1%;
   padding-bottom: 3%;
   overflow: hidden;
 }
@@ -13,7 +14,7 @@
 .input_container{
   font-family: content;
   min-height: 16vh;
-  background-color: transparent;
+  background-color: var(--secondaryBg);
   color:var(--secondaryFontColor);
   display: flex;
   flex-wrap: wrap;
