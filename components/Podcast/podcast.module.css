@@ -42,8 +42,26 @@
 
 .theme_text{
   text-shadow: -3px -3px 0px rgba(255, 17, 96, 1),-3px -6px 0px rgba(4, 37, 255, 1),3px 0px 0px rgba(43, 255, 0, 1);
+  animation: glitch infinite 1s;
+
 }
 
+@keyframes glitch {
+
+    0%{
+        text-shadow: -3px -3px 0px rgba(255, 17, 96, 1),-3px -6px 0px rgba(4, 37, 255, 1),3px 0px 0px rgba(43, 255, 0, 1);
+    }
+    50%{
+        text-shadow: 2px 3px 0px rgba(255, 17, 96, 1),-3px 0px 0px rgba(4, 37, 255, 1),-4px 0px 0px rgba(43, 255, 0, 1);
+    }
+    70%{
+        text-shadow: 2px 3px 0px rgba(255, 17, 96, 1),-3px 3px 0px rgba(4, 37, 255, 1),-4px 0px 0px rgba(43, 255, 0, 1);
+    }
+    100%{ 
+        text-shadow: -3px -3px 0px rgba(255, 17, 96, 1),-3px -6px 0px rgba(4, 37, 255, 1),3px 0px 0px rgba(43, 255, 0, 1);
+    }
+    
+}
 
 .podcast__p{
     margin: 2rem 0;
