@@ -26,17 +26,17 @@ function HackathonsCard(props) {
             {isExpanded ? <h3>Contacts :</h3> : ""}
             {isExpanded ? Contacts(props.data.contacts) : ""}
             </div>
-            {isExpanded && props.data.timeline ? <img src={props.data.img}/> : ""}
+            {isExpanded && props.data.timeline ? <a style={{margin: 'auto'}} href={props.data.img} rel="noreferrer" target='_blank'><img src={props.data.img}/></a>: ""}
             </div>
             <button id = {styles.expand} onClick = {() => expand(!isExpanded)}> {isExpanded ? <FcCollapse /> : <FcExpand />} </button>
             <div className = {styles.ecard_actions}>
                 <h5>{props.data.date}</h5>
                 {props.data.download_link &&
-                <div className={islive ? styles.register : styles.disabled}>                  
-                    <a className={styles.download_btn} href={islive ? props.data.download_link : "/"} download={props.data.title} target={islive ? "_blank" : ""} rel="noreferrer">Download Pdf <img src='/download-solid.svg' height='16px'></img></a>
+                <div className={styles.register}>                  
+                    <a className={styles.download_btn} href={props.data.download_link} download={props.data.title} target={"_blank"} rel="noreferrer">Download Pdf <img src='/download-solid.svg' height='16px'></img></a>
                 </div>}
                 <div className={islive ? styles.register : styles.disabled}>                  
-                    <a className={styles.register_btn} href={islive ? props.data.register_link : "/"} target={islive ? "_blank" : ""} rel="noreferrer">Register</a>
+                    <a className={islive ? styles.register_btn : ''} href={islive ? props.data.register_link : "/"} target={islive ? "_blank" : ""} rel="noreferrer">{islive ? "Register" : "Closed"}</a>
                 </div>
             </div>
         </div>

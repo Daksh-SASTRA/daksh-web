@@ -1,5 +1,5 @@
 .about{
-    background-color:var(--secondaryBg);
+    background-color: rgba(0, 0, 0, 0.9);
     text-align: left;
     width: 100%;
     padding: 5rem;
@@ -14,7 +14,6 @@
 .row__about{
     display: flex;
     flex-direction: row;
-    /* flex-wrap: wrap; */
     align-items: center;
     justify-content: space-between;
 }
@@ -37,6 +36,29 @@
     font-size: 3rem;
     font-weight: 600;
     line-height: 1;
+}
+
+.theme_text{
+  text-shadow: -3px -3px 0px rgba(255, 17, 96, 1),-3px -6px 0px rgba(4, 37, 255, 1),3px 0px 0px rgba(43, 255, 0, 1);
+  animation: glitch infinite 3s;
+
+}
+
+@keyframes glitch {
+
+    0%{
+        text-shadow: -3px -3px 0px rgba(255, 17, 96, 1),-3px -6px 0px rgba(4, 37, 255, 1),3px 0px 0px rgba(43, 255, 0, 1);
+    }
+    50%{
+        text-shadow: 2px 3px 0px rgba(255, 17, 96, 1),-3px 0px 0px rgba(4, 37, 255, 1),-4px 0px 0px rgba(43, 255, 0, 1);
+    }
+    70%{
+        text-shadow: 2px 3px 0px rgba(255, 17, 96, 1),-3px 3px 0px rgba(4, 37, 255, 1),-4px 0px 0px rgba(43, 255, 0, 1);
+    }
+    100%{ 
+        text-shadow: -3px -3px 0px rgba(255, 17, 96, 1),-3px -6px 0px rgba(4, 37, 255, 1),3px 0px 0px rgba(43, 255, 0, 1);
+    }
+    
 }
 
 .about__p{

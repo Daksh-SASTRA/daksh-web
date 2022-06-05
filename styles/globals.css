@@ -17,6 +17,11 @@
 */
 
 :root {
+  --cool-pink:#EA00D9;
+  --hover-gradient: linear-gradient(to right, #0abdc6, #00b5e1, #00a8fb, #0095ff, #7d78ff, #7d78ff, #7d78ff, #7d78ff, #0095ff, #00a8fb, #00b5e1, #0abdc6);
+  --gradient-right:linear-gradient(to right, #0abdc6, #00b5e1, #00a8fb, #0095ff, #7d78ff, #7b7eff, #7984ff, #788aff, #00afff, #00cdff, #00e6ff, #5ffbf1);
+  --card-background:linear-gradient(to right top, rgb(10, 189, 198, 0.05), rgb(0, 181, 225, 0.05), rgb(0, 168, 251, 0.05), rgb(0, 149, 255, 0.05), rgb(125, 120, 255, 0.05), rgb(123, 126, 255, 0.05), rgb(121, 132, 255, 0.05), rgb(120, 138, 255, 0.05), rgb(0, 175, 255, 0.05), rgb(0, 205, 255, 0.05), rgb(0, 230, 255, 0.05), rgb(95, 251, 241, 0.05));
+  --text-gradient-color:linear-gradient(to right top, #0abdc6, #00b5e1, #00a8fb, #0095ff, #7d78ff, #7b7eff, #7984ff, #788aff, #00afff, #00cdff, #00e6ff, #5ffbf1);
   --primaryBg: #0f0f0f;
   --secondaryBg: #141414;
   --white: #f8f8f8;
@@ -29,11 +34,15 @@ body {
   margin: 0;
   font-family: content, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-  background-color: var(--primaryBg);
+  background-color: transparent;
   line-height: 1.5;
   letter-spacing: 1.15px;
   scroll-behavior: smooth;
   transition: all 1s;
+}
+
+html {
+  background-color: var(--primaryBg);
 }
 
 a {

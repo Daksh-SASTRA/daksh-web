@@ -1,4 +1,4 @@
-.events__workshop{
+.events__workshop {
     width: 80%;
     min-height: 100vh;
     margin-top: 20vh;
@@ -7,34 +7,41 @@
     text-align: left;
 }
 
-.events__workshop__btn{
+.navigation {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.events__workshop__btn {
     display: inline-flex;
-  position: relative;
-  text-align: center;
-  padding: 15px 30px;
-  color: var(--secondaryFontColor);
-  background-color:var(--secondaryBg);
-  opacity: 50%;
-  cursor: pointer;
-  font-size: 18px;
-  font-family: content;
-  font-weight: 700;
-  letter-spacing: 0.3px;
-  line-height: 18px;
-  transition: all 0.5s ease-in-out;
-  border-radius: 40px;
-  border: none;
-  margin-right: 20px;
-  margin-top: 10px;
+    opacity: 25%;
+    position: relative;
+    text-align: center;
+    padding: 15px 30px;
+    color: #fff;
+    background-color: var(--secondaryBg);
+    cursor: pointer;
+    font-size: 18px;
+    font-family: content;
+    font-weight: 700;
+    letter-spacing: 0.3px;
+    line-height: 18px;
+    transition: all 0.5s ease-in-out;
+    border-radius: 40px;
+    border: none;
+    margin-right: 20px;
 }
 
 .active {
-    color: rgb(32, 194, 26);
+    background-image: var(--gradient-right);
+    background-size: 400%;
+    color: #fff;
     background-color: rgb(30, 30, 30);
     opacity: 100%;
 }
 
-.events__section{
+.events__section {
     width: 100%;
     margin-top: 2.5rem;
 }
@@ -43,22 +50,22 @@
     width: 100%;
     padding: 30px;
     border-radius: 15px;
-    background-color: rgb(30, 30, 30);
+    background-image: var(--card-background);
     display: flex;
     flex-direction: column;
     margin: 2rem 0;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgb(11, 187, 5,0.10);
     transition: height 2s;
 }
 
-.ecard > p {
+.ecard>p {
     font-size: smaller;
     padding: 10px 0;
     margin-bottom: 10px;
 }
 
-.ecard > h3, .ecard > h2 {
-    background-image : linear-gradient(to right, rgb(32, 194, 26), 	#ffdf29);
+.ecard>h3,
+.ecard>h2 {
+    background-image: var(--text-gradient-color);
     background-clip: padding-box;
     -webkit-background-clip: text;
     background-size: 100%;
@@ -66,25 +73,26 @@
     -webkit-text-fill-color: transparent;
 }
 
-.ecard > h5,.ecard_actions > h5 {
+.ecard>h5,
+.ecard_actions>h5 {
     letter-spacing: 2px;
     color: var(--secondaryFontColor);
 }
 
-.rounds > p {
+.rounds>p {
     counter-increment: item;
     margin-bottom: 10px;
     font-size: small;
 }
 
-.rounds > p:before {
+.rounds>p:before {
     margin-right: 10px;
     content: counter(item);
-    color: rgb(32, 194, 26);
+    color: var(--cool-pink);
     text-align: center;
     display: inline-block;
-    font-weight: bold; 
-    width: 1em; 
+    font-weight: bold;
+    width: 1em;
     margin-left: -1em;
 }
 
@@ -96,10 +104,12 @@
     gap: 10px;
 }
 
-.ecard_actions > .register {
+.ecard_actions>.register {
+    height: 40px;
     display: flex;
     color: white;
     cursor: pointer;
+    gap: 16px;
     font-size: 17px;
     transition: all 0.3s linear;
     text-align: center;
@@ -107,11 +117,12 @@
     justify-content: space-between;
 }
 
-.poster{
+.poster {
     display: flex;
     justify-content: space-between;
 }
-.poster img{
+
+.poster img {
     width: auto;
     height: 350px;
     margin-right: auto;
@@ -119,8 +130,8 @@
     float: right;
 }
 
-.poster > h3{
-    background-image : linear-gradient(to right, rgb(32, 194, 26), 	#ffdf29);
+.poster>h3 {
+    background-image: var(--text-gradient-color);
     background-clip: padding-box;
     -webkit-background-clip: text;
     background-size: 100%;
@@ -128,8 +139,8 @@
     -webkit-text-fill-color: transparent;
 }
 
-.poster_contact > h3{
-    background-image : linear-gradient(to right, rgb(32, 194, 26), 	#ffdf29);
+.poster_contact>h3 {
+    background-image: var(--text-gradient-color);
     background-clip: padding-box;
     -webkit-background-clip: text;
     background-size: 100%;
@@ -137,41 +148,108 @@
     -webkit-text-fill-color: transparent;
 }
 
-.poster > p {
+.poster>p {
     font-size: smaller;
     padding: 10px 0;
     margin-bottom: 10px;
 }
 
-.download_btn{
-    background: rgb(19,179,7);
-    background: rgb(183, 183, 183);
-    background-clip: padding-box;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    border: 1px solid transparent;
+.download_btn {
+    position: relative;
+    /* background: rgba(255, 255, 255, 0.1); */
+    transition: all 1s linear;
+    margin-right: 8px;
     border-radius: 5px;
+    color: var(--secondaryFontColor);
     /* padding: 10px 16px; */
-    text-align: center;
-    display: flex;
-    align-items: center;
-    gap: 10px;
+    /* box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2); */
 }
 
-.register_btn{
-    background: rgb(19,179,7);
-    background: linear-gradient(90deg, rgb(32, 194, 26) 33%, rgb(11, 187, 5) 81%);
-    /* background-clip: padding-box;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    border: 1px solid transparent; */
+.events__workshop__btn:hover {
+    z-index: 1;
+    animation: glow 8s linear infinite;
+    
+    background-image:var(--hover-gradient);;
+    background-size: 400%;
+}
+
+.active {
+    z-index: 1;
+    animation: glow 8s linear infinite;
+    background-image:var(--hover-gradient);;
+    background-size: 400%;
+}
+
+.register_btn:hover {
+    z-index: 1;
+    animation: glow 8s linear infinite;
+    background-image:var(--hover-gradient);;
+    background-size: 400%;
+}
+
+@keyframes glow {
+    0% {
+        background-position: 0%;
+    }
+
+    100% {
+        background-position: 400%;
+    }
+}
+
+.events__workshop__btn::before {
+    content: "";
+    position: absolute;
+    background: inherit;
+    top: -5px;
+    opacity: 0;
+    right: -5px;
+    bottom: -5px;
+    left: -5px;
+    border-radius: 25px;
+    filter: blur(10px);
+    transition: opacity 0.5s;
+
+}
+
+.register_btn::before,
+.download_btn::before {
+    content: "";
+    position: absolute;
+    background: inherit;
+    top: -5px;
+    opacity: 0;
+    right: -5px;
+    bottom: -5px;
+    left: -5px;
+    border-radius: 5px;
+    filter: blur(10px);
+    transition: opacity 0.5s;
+}
+
+.events__workshop__btn::before,
+.register_btn:hover::before,
+.download_btn:hover::before {
+    opacity: 1;
+    z-index: -1;
+}
+
+.register_btn {
+    background: rgba(225, 255, 225, 0.1);
+    transition: all 1s linear;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+    position: relative;
     border-radius: 5px;
     padding: 6px 20px;
     text-align: center;
     color: aliceblue;
+    z-index: 1;
+    animation: glow 8s linear infinite;
+    background-image:var(--hover-gradient);;
+    background-size: 400%;
 }
 
-.ecard_actions > a:hover {
+.ecard_actions>a:hover {
     border: 1px solid white;
     transition: all 0.3s linear;
 }
@@ -212,26 +290,26 @@
     transition: all 0.3s linear;
 }
 
-.rules > p:before {
-    content: "\2022";  
-    color: rgb(32, 194, 26);
-    font-weight: bold; 
-    display: inline-block; 
-    width: 1em; 
+.rules>p:before {
+    content: "\2022";
+    color: #EA00D9;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
     margin-left: -1em;
 }
 
-.rules > p {
+.rules>p {
     margin-bottom: 10px;
     font-size: small;
 }
 
-.ecard_actions > .disabled {
+.ecard_actions>.disabled {
     height: 40px;
     background: var(--secondaryBg);
     border-radius: 5px;
     color: white;
-    cursor: pointer;
+    cursor: not-allowed;
     font-size: 17px;
     transition: all 0.3s linear;
     text-align: center;
@@ -239,24 +317,33 @@
     align-items: center;
     justify-content: center;
     padding: 16px 32px;
+    pointer-events: none;
 }
 
 @media (max-width: 850px) {
-    .events__workshop{
+    .events__workshop {
         width: 90%;
     }
-    .ecard{
+
+    .ecard {
         padding: 2rem 1.5rem;
     }
-        .poster {
-          flex-direction: column;
-        }
-        .poster img{
-            width:100%;
-        }
-        .ecard_actions{
-            flex-direction: column;
-            align-items: flex-start;
-        }
+
+    .poster {
+        flex-direction: column;
+    }
+
+    .poster img {
+        width: 100%;
+    }
+
+    .ecard_actions {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .events__workshop__btn {
+        padding: 15px 20px;
+    }
 
 }

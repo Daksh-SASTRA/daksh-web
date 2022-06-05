@@ -1,5 +1,5 @@
 .podcast{
-    background-color:var(--secondaryBg);
+    background-color:rgba(0, 0, 0, 0.8);
     text-align: left;
     padding: 5rem;
 }
@@ -38,6 +38,29 @@
     line-height: 1.2;
     font-weight: 600;
     margin: 0;
+}
+
+.theme_text{
+  text-shadow: -3px -3px 0px rgba(255, 17, 96, 1),-3px -6px 0px rgba(4, 37, 255, 1),3px 0px 0px rgba(43, 255, 0, 1);
+  animation: glitch infinite 3s;
+
+}
+
+@keyframes glitch {
+
+    0%{
+        text-shadow: -3px -3px 0px rgba(255, 17, 96, 1),-3px -6px 0px rgba(4, 37, 255, 1),3px 0px 0px rgba(43, 255, 0, 1);
+    }
+    50%{
+        text-shadow: 2px 3px 0px rgba(255, 17, 96, 1),-3px 0px 0px rgba(4, 37, 255, 1),-4px 0px 0px rgba(43, 255, 0, 1);
+    }
+    70%{
+        text-shadow: 2px 3px 0px rgba(255, 17, 96, 1),-3px 3px 0px rgba(4, 37, 255, 1),-4px 0px 0px rgba(43, 255, 0, 1);
+    }
+    100%{ 
+        text-shadow: -3px -3px 0px rgba(255, 17, 96, 1),-3px -6px 0px rgba(4, 37, 255, 1),3px 0px 0px rgba(43, 255, 0, 1);
+    }
+    
 }
 
 .podcast__p{

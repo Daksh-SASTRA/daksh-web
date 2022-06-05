@@ -25,8 +25,7 @@
   margin: 1rem;
   font-size: 1rem;
   border-radius: 15px;
-  background-color: rgb(30, 30, 30);
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgb(11, 187, 5,0.10);
+  background-image: var(--card-background);
 }
 
 .teams__teamimg{
@@ -35,7 +34,7 @@
 
 .teams__teamname{
   font-size: 1.5rem;
-  background: linear-gradient(to right, rgb(32, 194, 26), 	#ffdf29);
+  background: var(--text-gradient-color);
   background-size: 100%;
   background-clip: unset;
   -webkit-text-fill-color: transparent;

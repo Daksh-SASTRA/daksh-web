@@ -1,28 +1,25 @@
 .topcover{
     position: relative;
     width: 100%;
-    height: 100vh;
     max-height: 1000px;
     display: flex;
     align-items: center;
     justify-content: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-image: url('/BannerBg.jpg');
+    overflow: hidden;
+    height: 100vh;
 }
+
 .divbanner{
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 100vw;
+    height: 100%;
+    justify-content: center;
+    background-color: rgba(0,0,0,0.7);
+    margin: 0;
 }
-.divbannerfadebtm{
-    position: absolute;
-    height: 5rem;
-    width: 100%;
-    bottom: 0;
-    z-index: 1;
-    background-image:linear-gradient(180deg,transparent,rgba(255, 0, 0, 0),var(--primaryBg)) ;
-}
+
 .divbanner__headtext{
     font-size: 7rem;
     font-weight: 400;
@@ -56,10 +53,33 @@
     margin-top: 25px;
 }
 
+.theme_text{
+  text-shadow: -4px -4px 0px rgba(255, 17, 96, 1),-3px -7px 0px rgba(4, 37, 255, 1),5px 1px 0px rgba(43, 255, 0, 1);
+  animation: glitch infinite 3s;
+}
+
+@keyframes glitch {
+
+    0%{
+      text-shadow: -4px -4px 0px rgba(255, 17, 96, 1),-3px -7px 0px rgba(4, 37, 255, 1),5px 1px 0px rgba(43, 255, 0, 1);
+    }
+    50%{
+      text-shadow: 0px px 0px rgba(255, 17, 96, 1),-3px 0px 0px rgba(4, 37, 255, 1),1px 1px 0px rgba(43, 255, 0, 1);
+    }
+    70%{
+      text-shadow: 5px 5px 0px rgba(255, 17, 96, 1),-3px 7px 0px rgba(4, 37, 255, 1),-6px 1px 0px rgba(43, 255, 0, 1);
+    }
+    100%{
+      text-shadow: 0px px 0px rgba(255, 17, 96, 1),-3px 0px 0px rgba(4, 37, 255, 1),1px 1px 0px rgba(43, 255, 0, 1);
+   }
+    
+
+}
+
 @media screen and (max-width:767px) {
     .divbanner {
         align-items: flex-start;
-        margin: 0 0 0 25px;
+        padding: 0 0 0 25px;
     }
     .divbanner > * {
         text-align: left;

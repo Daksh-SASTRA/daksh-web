@@ -16,6 +16,15 @@
     margin: 0 auto;
 }
 
+.bannervideo{
+    /* transform: rotate(90deg) scale(2);  */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    z-index: -10;
+}
+
 .error__section {
     height: 100vh;
     display: flex;
@@ -31,3 +40,35 @@
     }
 }
 
+@media only screen and (max-width:1290px) {
+    .bannervideo{
+        transform: scale(2.8);  
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100vh;
+        z-index: -10;
+    }
+}
+
+@media only screen and (max-width:650px) {
+    .bannervideo{
+        transform: scale(3.5);  
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100vh;
+        z-index: -10;
+    }
+}
+
+@media only screen and (max-width:450px) {
+    .bannervideo{
+        transform: scale(4.5);  
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100vh;
+        z-index: -10;
+    }
+}

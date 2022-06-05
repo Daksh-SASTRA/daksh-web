@@ -1,6 +1,5 @@
 .maincontainer{
-  background-color: var(--secondaryBg);
-  margin: 0 0 1%;
+  background-color: rgba(0, 0, 0, 0.9);
   padding-bottom: 3%;
   overflow: hidden;
 }
@@ -14,7 +13,7 @@
 .input_container{
   font-family: content;
   min-height: 16vh;
-  background-color: var(--secondaryBg);
+  background-color: transparent;
   color:var(--secondaryFontColor);
   display: flex;
   flex-wrap: wrap;
@@ -35,7 +34,8 @@
   position: relative;
   text-align: center;
   padding: 15px 30px;
-  color: blueviolet;
+  color: #2621b7;
+  /* color: blueviolet; */
   background-color:var(--white);
   cursor: pointer;
   font-size: 18px;
@@ -48,7 +48,7 @@
   border: none;
 }
 .btn:hover{
-  color: blue;
+  color: #05559c;
 }
 @media screen and (max-width: 700px) {
   .maincontainer h3{
