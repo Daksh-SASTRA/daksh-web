@@ -1,23 +1,85 @@
 [
    {
-      "category":"Computer Science",
-      "title":"Artificial Intelligence",
-      "desc":"Can machines ever think? How about the Tesla's autopilot? How about the recommendations you get on YouTube based on your interests? Perplexed..!?? We are up with an answer for all your queries. What are you waiting for? Come, Join our AI workshop to learn Basics of Python, Machine Learning and their implementation in real life scenarios",
-      "date":"30 Nov",
-      "time":"9:00 AM",
-      "dateTime": "November 30, 2021 9:00:00",
-      "outcome": ["E-certificate of participation","Win exciting cash prizes"],
+      "title":"Drone Workshop",
+      "desc":"Learn - Create - Build  Fly your Drone! Fly Away!! Our Drones Workshop is a perfect platform for a novice to start exploring the world of quadrotors.",
+      "date":"17,18 June",
+      "time":"9am-1pm",
+      "dateTime": "June 17, 2022 9:00:00",
+      "outcome": ["NFT Certificates"],
       "prereq":[
-         "Laptop and Viable Internet Connection."
+         "Laptop and Viable Internet Connection"
       ],
       "fee":[
-         "450/- Per Head"
+         "900/- Per Head"
       ],
       "contacts":[
-         "Sabari Ganesh - 9566235855",
-         "Dhodeepya Sree - 9169339999",
-         "TSV Manoj - 8497936450"
+         "Sudharsan Muthaiyah - 9080732978",
+         "Bhavyasri - 9160887809",
+         "Aishwarya - 9573186095"
       ],
-      "register_link":"https://forms.gle/uEnNVNNLyagkhDZR6"
+      "img":"/Drone workshop.jpg",
+      "register_link":"https://linktr.ee/dcs_sastra?utm_source=qr_code"
+   },
+   {
+      "title":"VR & Metaverse Workshop",
+      "desc":"Want to be the next Elon Musk? Or want to do something in unexplored fields just like SpaceX and Tesla? So far, our experience with the internet has been two-dimensional at best. But, virtual reality is going to upend the world and cause a monumental shift in the way we surf, shop and experience the web. Want to learn more? Buckle up the experience of VR & Metaverse at our workshop!",
+      "date":"17,18 June",
+      "time":"9am-1pm",
+      "dateTime": "June 17, 2022 9:00:00",
+      "outcome": ["NFT Certificates"],
+      "prereq":[
+         "Laptop and Viable Internet Connection"
+      ],
+      "fee":[
+         "800/- Per Head"
+      ],
+      "contacts":[
+         "Dhodeepya - 9169339999",
+         "Vidya Sri - 9398785300",
+         "Dhanush - 9791055486"
+      ],
+      "img":"/metaverse-3.jpg",
+      "register_link":"https://linktr.ee/dcs_sastra?utm_source=qr_code"
+   },
+   {
+      "title":"Blockchain and NFT Workshop",
+      "desc":"Are you one among those who’s always worried about your privacy in the internet era yet, wants to own digital assets? Blockchain and NFTs are your savior! It is time for all of us, irrespective of whether we are in business or technology to understand the power of this fascinating technology. Sign up to learn more about Crypto currencies and creating digital assets!",
+      "date":"17,18 June",
+      "time":"9am-1pm",
+      "dateTime": "June 17, 2022 9:00:00",
+      "outcome": ["NFT Certificates"],
+      "prereq":[
+         "Laptop and Viable Internet Connection"
+      ],
+      "fee":[
+         "800/- Per Head"
+      ],
+      "contacts":[
+         "Siddarth - 9652463603",
+         "Saketh - 7075464656",
+         "Anisa - 9390071158"
+      ],
+      "img":"/nft-2.jpg",
+      "register_link":"https://linktr.ee/dcs_sastra?utm_source=qr_code"
+   },
+   {
+      "title":"RT-PCR Workshop",
+      "desc":"Ever wondered how the Covid tests became so quick? Or how DNA testing and identification is done with such criminal little evidence? Say no more! Sign up and learn anything and everything under Real Time - PCR and other magics of gene biology!",
+      "date":"17,18 June",
+      "time":"9am-1pm",
+      "dateTime": "June 17, 2022 9:00:00",
+      "outcome": ["NFT Certificates"],
+      "prereq":[
+         "None"
+      ],
+      "fee":[
+         "800/- Per Head"
+      ],
+      "contacts":[
+         "Balaji Bhargav - 8688745430",
+         "Sabari Ganesh - 9566235855"
+      ],
+      "img":"/RT-PCR.jpg",
+      "register_link":"https://linktr.ee/dcs_sastra?utm_source=qr_code"
    }
 ]
