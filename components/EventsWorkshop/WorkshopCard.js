@@ -20,6 +20,8 @@ function EventsCard(props) {
             <h2>{props.data.title}</h2>
             <p>{isExpanded ? props.data.desc : props.data.desc.substring(0,200) + '...'}</p>         
             {isExpanded && props.data.outcome ? <h3>Outcomes :</h3> : ""}
+            <div className={styles.poster}>
+            <div className={styles.poster_contact}>
             {isExpanded && props.data.outcome ? Rules(props.data.outcome) : ""}
             {isExpanded && props.data.prereq ? <h3>Pre-Requisites :</h3> : ""}
             {isExpanded && props.data.prereq ? Rules(props.data.prereq) : ""}
@@ -27,13 +29,15 @@ function EventsCard(props) {
             {isExpanded && props.data.fee ? Rules(props.data.fee) : ""}
             {isExpanded ? <h3>Contacts :</h3> : ""}
             {isExpanded ? Contacts(props.data.contacts) : ""}
-
+            </div>
+            {isExpanded ? <img className={styles.poster_img} src={props.data.img}/> : ""}
+            </div>
             <button id = {styles.expand} onClick = {() => expand(!isExpanded)}> {isExpanded ? <FcCollapse /> : <FcExpand />} </button>
             <div className = {styles.ecard_actions}>
-                <h5>{props.data.date}</h5>     
-                <h5>{props.data.time}</h5>  
+                <h5>{props.data.date}</h5>   
+                <h5>{props.data.time}</h5> 
                 <div className={islive ? styles.register : styles.disabled}>                  
-                    <a href={islive ? props.data.register_link : "/"} target={islive ? "_blank" : ""} rel="noreferrer">{islive ? "Register" : "Closed"}</a>
+                    <a className={styles.register_btn} href={islive ? props.data.register_link : "/"} target={islive ? "_blank" : ""} rel="noreferrer">{islive ? "Register" : "Closed"}</a>
                 </div>
             </div>
         </div>

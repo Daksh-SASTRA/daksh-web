@@ -42,7 +42,7 @@ function Nav() {
 				data-aos-delay="200"
 			>
 				<Link href="/events-workshop?q=hackathons">
-					<a className={styles.navlink}>Events/Workshops/Hackathons</a>
+					<a className={styles.navlink}>Workshops/Hackathons</a>
 				</Link>
 			</div>
 			<div

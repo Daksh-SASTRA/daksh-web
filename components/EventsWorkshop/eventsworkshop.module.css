@@ -130,6 +130,7 @@
     float: right;
 }
 
+
 .poster>h3 {
     background-image: var(--text-gradient-color);
     background-clip: padding-box;
