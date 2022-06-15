@@ -9,7 +9,7 @@ function Schedule() {
     return (
         <div>
             <Head>
-                <title>UTSAV 2022 - Schedule</title>
+                <title>Daksh 2022 - Schedule</title>
                 <meta name="description" content="Schedule of UTSAV 2022" />
                 <link rel="icon" href="/favicon.ico" />
             </Head>

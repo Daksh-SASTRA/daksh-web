@@ -6,6 +6,14 @@ import cstyles from '../Contact/contact.module.css';
 function SchedulePage() {
     const [day,setDay] = useState(0);
     const [activebt,setActiveBt] = useState(0);
+
+    const getEventName = (eventName) => {
+        const name = eventName.split(' ');
+        return name.map(n => {
+            const t = n.toLowerCase();
+            return t.charAt(0).toUpperCase() + t.slice(1);
+        }).join(" ");
+    }
     
     return (
         <div className={styles.schedule__container}>
@@ -28,7 +36,7 @@ function SchedulePage() {
                                 {return e.roundno==null ?
                                     <li key={i}>
                                         <div className={styles.timeline__content}> 
-                                            <div className={styles.eventname}>{e.eventname}</div>
+                                            <div className={styles.eventname}>{getEventName(e.eventname)}</div>
                                             <div className={styles.time}>
                                                 {e.fromtime+" "}-                                          
                                                 {" "+e.totime}
