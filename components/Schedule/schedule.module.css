@@ -1,178 +1,245 @@
-.schedule__container{
-  width: 80%;
-  margin: 20vh auto 0 auto;
+.schedule__container {
+	width: 80%;
+	margin: 20vh auto 0 auto;
 }
 
-.daybuttons{
-    margin-top: 1.5rem;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around
+.daybuttons {
+	margin-top: 1.5rem;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around
 }
 
-.daybuttons__button{
-    display: inline-flex;
-    position: relative;
-    text-align: center;
-    padding: 15px 30px;
-    color: var(--secondaryFontColor);
-    background-color:var(--secondaryBg);
-    opacity: 50%;
-    cursor: pointer;
-    font-size: 18px;
-    font-family: content;
-    font-weight: 700;
-    letter-spacing: 0.3px;
-    line-height: 18px;
-    transition: all 0.5s ease-in-out;
-    border-radius: 40px;
-    border: none;
-    margin-right: 20px;
+.daybuttons__button {
+	display: inline-flex;
+	opacity: 50%;
+	position: relative;
+	text-align: center;
+	padding: 15px 30px;
+	color: var(--secondaryFontColor);
+	background-color: var(--secondaryBg);
+	cursor: pointer;
+	font-size: 18px;
+	font-family: content;
+	font-weight: 700;
+	letter-spacing: 0.3px;
+	line-height: 18px;
+	transition: all 0.5s ease-in-out;
+	border-radius: 40px;
+	border: none;
+	margin-right: 20px;
 }
 
-.daybuttons__buttonactive{
-  display: inline-flex;
-    position: relative;
-    text-align: center;
-    padding: 15px 30px;
-    color: var(--secondaryFontColor);
-    background-color:var(--secondaryBg);
-    opacity: 50%;
-    cursor: pointer;
-    font-size: 18px;
-    font-family: content;
-    font-weight: 700;
-    letter-spacing: 0.3px;
-    line-height: 18px;
-    transition: all 0.5s ease-in-out;
-    border-radius: 40px;
-    border: none;
-    margin-right: 20px;
-    color: rgb(32, 194, 26);
-    background-color: rgb(30, 30, 30);
-    opacity: 100%;
+.daybuttons__buttonactive {
+
+	display: inline-flex;
+	position: relative;
+	text-align: center;
+	padding: 15px 30px;
+	background-image: var(--gradient-right);
+	background-size: 400%;
+	color: #fff;
+	opacity: 100%;
+	cursor: pointer;
+	font-size: 18px;
+	font-family: content;
+	font-weight: 700;
+	letter-spacing: 0.3px;
+	line-height: 18px;
+	transition: all 0.5s ease-in-out;
+	border-radius: 40px;
+	border: none;
+	margin-right: 20px;
+	background-color: rgb(30, 30, 30);
+	opacity: 100%;
 }
 
-.daybuttons__button:hover{
-    color:rgb(32, 194, 26);
+.daybuttons__button:hover {
+	z-index: 1;
+	animation: glow 8s linear infinite;
+
+	background-image: var(--hover-gradient);
+	;
+	background-size: 400%;
 }
-.container{
-    width: 100%;
-    display: flex;
-    align-items: flex-start;
-    justify-content: center;
-    padding: 75px 0;
+
+.daybuttons__buttonactive {
+	z-index: 1;
+	animation: glow 8s linear infinite;
+
+	background-image: var(--hover-gradient);
+	;
+	background-size: 400%;
 }
-.timeline{
-    width: 80%;
-    height: auto;
-    max-width: 800px;
-    margin: 0 auto;
-    position: relative;
+
+.daybuttons__button::before,
+.daybuttons__buttonactive::before {
+	opacity: 1;
+	z-index: -1;
+}
+
+@keyframes glow {
+	0% {
+		background-position: 0%;
+	}
+
+	100% {
+		background-position: 400%;
+	}
+}
+
+.daybuttons__button::before,
+.daybuttons__buttonactive::before {
+	content: "";
+	position: absolute;
+	background: inherit;
+	top: -5px;
+	right: -5px;
+	bottom: -5px;
+	left: -5px;
+	border-radius: 25px;
+	filter: blur(10px);
+	transition: opacity 0.5s;
+
+}
+
+.container {
+	width: 100%;
+	display: flex;
+	align-items: flex-start;
+	justify-content: center;
+	padding: 75px 0;
+}
+
+.timeline {
+	width: 80%;
+	height: auto;
+	max-width: 800px;
+	margin: 0 auto;
+	position: relative;
+}
+.venue{
+	font-size: 16px;
+	line-height: 30px;
+	font-weight: 300;
+	color: var(--secondaryFontColor);
 }
 .timeline .listofevents {
-    list-style: none;
+	list-style: none;
 }
+
 .timeline .listofevents li {
-    text-align: left;
-    padding: 20px;
-    background-color: #1e1f22;
-    color: var(--white);
-    border-radius: 10px;
-    margin-bottom: 20px;
+	text-align: left;
+	padding: 20px;
+	background-color: #1e1f22;
+	color: var(--white);
+	border-radius: 10px;
+	margin-bottom: 20px;
 }
+
 .timeline ul li:last-child {
-    margin-bottom: 0;
+	margin-bottom: 0;
 }
+
 .timeline__content .eventname {
-    font-weight: bold;
-    letter-spacing: 2.5px;
-    font-size: 25px;
-    line-height: 30px;
-    margin-bottom: 10px;
-    background-image : linear-gradient(to right, rgb(32, 194, 26), 	#ffdf29);
-    background-clip: padding-box;
-    -webkit-background-clip: text;
-    background-size: 100%;
-    margin-right: auto;
-    -webkit-text-fill-color: transparent;
+	font-weight: bold;
+	letter-spacing: 2.5px;
+	font-size: 25px;
+	line-height: 30px;
+	margin-bottom: 10px;
+	background-image: var(--text-gradient-color);
+	background-clip: padding-box;
+	-webkit-background-clip: text;
+	background-size: 100%;
+	margin-right: auto;
+	-webkit-text-fill-color: transparent;
 }
+
 .timeline__content .round {
-    font-size: 16px;
-    line-height: 30px;
-    font-weight: 300;
-    margin-bottom: 10px;
-    color: var(--secondaryFontColor);
+	font-size: 16px;
+	line-height: 30px;
+	font-weight: 300;
+	margin-bottom: 10px;
+	color: var(--secondaryFontColor);
 }
+
 .timeline__content .time {
-    font-size: 16px;
-    line-height: 30px;
-    font-weight: 300;
-    color: var(--secondaryFontColor);
+	font-size: 16px;
+	line-height: 30px;
+	font-weight: 300;
+	color: var(--secondaryFontColor);
 }
 
 
 @media only screen and (min-width: 768px) {
-    .timeline:before {
-      content: "";
-      position: absolute;
-      top: 0;
-      left: 50%;
-      transform: translateX(-50%);
-      width: 2px;
-      height: 100%;
-      background-color: gray;
-    }
-    .timeline .listofevents li {
-      width: 50%;
-      position: relative;
-      margin-bottom: 50px;
-    }
-    .timeline .listofevents li:nth-child(odd) {
-      float: left;
-      clear: right;
-      transform: translateX(-30px);
-      border-radius: 20px 0px 20px 20px;
-    }
-    .timeline .listofevents li:nth-child(even) {
-      float: right;
-      clear: left;
-      transform: translateX(30px);
-      border-radius: 0px 20px 20px 20px;
-    }
-    .timeline .listofevents li::before {
-      content: "";
-      position: absolute;
-      height: 20px;
-      width: 20px;
-      border-radius: 50%;
-      background-color: gray;
-      top: 0px;
-    }
-    .timeline .listofevents li:nth-child(odd)::before {
-      transform: translate(50%, -50%);
-      right: -30px;
-    }
-    .timeline .listofevents li:nth-child(even)::before {
-      transform: translate(-50%, -50%);
-      left: -30px;
-    }
-    .timeline .listofevents li:hover::before {
-      background-color:rgb(32, 194, 26);
-    }
-  }
+	.timeline:before {
+		content: "";
+		position: absolute;
+		top: 0;
+		left: 50%;
+		transform: translateX(-50%);
+		width: 2px;
+		height: 100%;
+		background-color: gray;
+	}
+
+	.timeline .listofevents li {
+		width: 50%;
+		position: relative;
+		margin-bottom: 50px;
+	}
+
+	.timeline .listofevents li:nth-child(odd) {
+		float: left;
+		clear: right;
+		transform: translateX(-30px);
+		border-radius: 20px 0px 20px 20px;
+	}
+
+	.timeline .listofevents li:nth-child(even) {
+		float: right;
+		clear: left;
+		transform: translateX(30px);
+		border-radius: 0px 20px 20px 20px;
+	}
+
+	.timeline .listofevents li::before {
+		content: "";
+		position: absolute;
+		height: 20px;
+		width: 20px;
+		border-radius: 50%;
+		background-color: gray;
+		top: 0px;
+	}
+
+	.timeline .listofevents li:nth-child(odd)::before {
+		transform: translate(50%, -50%);
+		right: -30px;
+	}
+
+	.timeline .listofevents li:nth-child(even)::before {
+		transform: translate(-50%, -50%);
+		left: -30px;
+	}
+
+	.timeline .listofevents li:hover::before {
+		background-color: var(--cool-pink);
+	}
+}
 
 @media screen and (max-width: 768px) {
-  .schedule__container{
-    width: 100%;
-    margin: 20vh 0 0 0;
-  }
-  .container {
-    padding: 40px 20px;
-  }
-  .timeline{
-    width: 100%;
-  }
+	.schedule__container {
+		width: 100%;
+		margin: 20vh 0 0 0;
+	}
+
+	.container {
+		padding: 40px 20px;
+	}
+
+	.timeline {
+		width: 100%;
+	}
 }
-  

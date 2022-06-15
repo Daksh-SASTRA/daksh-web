@@ -27,7 +27,7 @@ function Nav() {
 	const [navmenu, menuToggle] = useState(false);
 	var hnav = (
 		<div id={navmenu ? styles.vnav : styles.hnav}>
-			{/* <div
+			<div
 				className={styles.navbutton}
 				data-aos="fade-down"
 				data-aos-delay="50"
@@ -35,7 +35,7 @@ function Nav() {
 				<Link href="/schedule">
 					<a className={styles.navlink}>Schedule</a>
 				</Link>
-			</div> */}
+			</div>
 			<div
 				className={styles.navbutton}
 				data-aos="fade-down"
@@ -92,6 +92,7 @@ function Nav() {
 					src="/logo.png"
 					data-aos="fade-down"
 					data-aos-delay="200"
+					alt="Logo-Daksh"
 				/>
 			</Link>
 			{hnav}
