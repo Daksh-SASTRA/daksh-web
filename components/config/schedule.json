@@ -4,9 +4,14 @@
        "date":"16",
        "events":[
             {
+                "eventname":"Inaugral Event",
+                "fromtime":"6:00 PM",
+                "totime":"8:30 PM"
+            },
+            {
                 "eventname":"Skeleton Dance",
-                "fromtime":"4:00 PM",
-                "totime":"6:00 PM",
+                "fromtime":"7:30 PM",
+                "totime":"8:00 PM",
                 "venue":"OUTSIDE LIBRARY"
             }
         ]
@@ -25,7 +30,7 @@
              {
                 "eventname":"BATTERY CASING FOR ELECTRIC VEHICLES - HACKATHON",
                 "fromtime":"09:00 AM",
-                "totime":"12:00 PM",
+                "totime":"4:00 PM",
                 "venue":"VKJ-214"
             },
             {
@@ -77,7 +82,7 @@
                 "venue":"ASK 2 312"
             },
             {
-                "eventname":"PROSHOW",
+                "eventname":"PROSHOW - KARAN SINGH",
                 "fromtime":"02:00 PM",
                 "totime":"04:00 PM",
                 "venue":"NEW SOC AUDI"
@@ -108,15 +113,8 @@
         "date":"18",
         "events":[
             {
-                "eventname":"BATTERY CASING FOR ELECTRIC VEHICLES - HACKATHON",
-                "fromtime":"09:00 AM",
-                "totime":"12:00 PM",
-                "venue":"VKJ 214"
- 
-            },
-            {
                 "eventname":"BIG TECH DEBATE",
-                "fromtime":"10:00 AM",
+                "fromtime":"9:30 AM",
                 "totime":"05:00 PM",
                 "venue":"VV AUDI, VV128, VV126"
             },       
@@ -142,7 +140,7 @@
  
             },
             {
-                "eventname":"POWER TALK (DR. KAMAKOTI)",
+                "eventname":"POWER TALK ( DR. KAMAKOTI )",
                 "fromtime":"10:30 AM",
                 "totime":"12:30 PM",
                 "venue":"CHANAKYA AUDI"
@@ -171,7 +169,7 @@
             {
 
                 "eventname":"DRONES BATTERY MANAGEMENT - HACKATHON",
-                "fromtime":"10:00 PM",
+                "fromtime":"10:00 AM",
                 "totime":"01:00 PM",
                 "venue":"ASK 2 115"   
             },
@@ -180,6 +178,13 @@
                 "eventname":"Multiverse",
                 "fromtime":"04:00 PM",
                 "totime":"05:30 PM" ,
+                "venue":"ASK 2 312"  
+            },
+            {
+
+                "eventname":"Battery Casing For Electric Vehicles - Hackathon",
+                "fromtime":"9:00 AM",
+                "totime":"1:00 PM" ,
                 "venue":"ASK 2 312"  
             },
             {
@@ -208,30 +213,38 @@
         "date":"19",
         "events":[
             {
-                "eventname":"BATTERY CASING FOR ELECTRIC VEHICLES - HACKATHON",
-                "fromtime":"9:00 AM",
-                "totime":"01:00 PM",
-                "venue": "VKJ 214"
-            },
-            {
 
                 "eventname":"BIG TECH DEBATE",
-                "fromtime":"10:00 AM",
-                "totime":"05:00 PM",
+                "fromtime":"9:00 AM",
+                "totime":"1:00 PM",
                 "venue": "VV AUDI, VV128, VV126"
  
             },
             {
-                "eventname":"DRONES BATTERY MANAGEMENT",
+                "eventname":"Big Tech Debate",
+                "fromtime":"1:00 AM",
+                "totime":"4:30 PM",
+                "venue": "JVC AUDI"
+ 
+            },
+            {
+                "eventname":"Pitch Fest",
+                "fromtime":"9:00 AM",
+                "totime":"2:00 PM",
+                "venue": "ASK SEMINAR HALL"
+ 
+            },
+            {
+                "eventname":"Drone Management",
                 "fromtime":"09:30 AM",
-                "totime":"01:00 PM",
+                "totime":"1:00 PM",
                 "venue": "ASK 2 115"
  
             },
             {
-                "eventname":"Valedictory ceremony",
-                "fromtime":"04:30 PM",
-                "totime":"06:30 PM",
+                "eventname":"Valedictory Ceremony",
+                "fromtime":"4:30 AM",
+                "totime":"6:30 PM",
                 "venue": "CHANAKYA AUDI"
  
             },
