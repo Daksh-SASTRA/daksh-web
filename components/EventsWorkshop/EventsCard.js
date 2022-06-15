@@ -17,7 +17,8 @@ function EventsCard(props) {
         <div className = {styles.ecard} data-aos="fade-up">
             <h5>{props.data.category}</h5>
             <h2>{props.data.title}</h2>
-            <p>{isExpanded ? props.data.desc : props.data.desc.substring(0,200) + '...'}</p>         
+            <p>{isExpanded ? props.data.desc : props.data.desc.substring(0,200) + '...'}</p>
+            {isExpanded && props.data.poster ? <div className= {styles.poster}><img src={props.data.poster}></img></div> : ""}         
             {isExpanded && props.data.rounds ? <h3>Rounds :</h3> : ""}
             {isExpanded && props.data.rounds ? Rules(props.data?.rounds || []) : ""}
             {isExpanded && props.data.rules ? <h3>Rules :</h3> : ""}
@@ -34,7 +35,7 @@ function EventsCard(props) {
                 <h5>{props.data.date}</h5>     
                 <h5>{props.data.time}</h5>  
                 <div className={islive ? styles.register : styles.disabled}>                  
-                    <a href={islive ? props.data.register_link : "/"} target={islive ? "_blank" : ""} rel="noreferrer">{islive ? "Register" : "Closed"}</a>
+                    <a className={islive ? styles.register_btn : ''} href={islive ? props.data.register_link : "/"} target={islive ? "_blank" : ""} rel="noreferrer">{islive ? "Register" : "Closed"}</a>
                 </div>   
             </div>
         </div>
