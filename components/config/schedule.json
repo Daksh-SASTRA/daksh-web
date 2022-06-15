@@ -6,7 +6,8 @@
             {
                 "eventname":"Skeleton Dance",
                 "fromtime":"4:00 PM",
-                "totime":"6:00 PM"
+                "totime":"6:00 PM",
+                "venue":"OUTSIDE LIBRARY"
             }
         ]
     },
@@ -18,72 +19,86 @@
              {
                  "eventname":"SPACE DEBRIS EXTRACTION - HACKATHON",
                  "fromtime":"10:00 AM",
-                 "totime":"12:00 PM"
+                 "totime":"12:00 PM",
+                 "venue":"VKJ-217"
              },
              {
                 "eventname":"BATTERY CASING FOR ELECTRIC VEHICLES - HACKATHON",
                 "fromtime":"09:00 AM",
-                "totime":"12:00 PM"
+                "totime":"12:00 PM",
+                "venue":"VKJ-214"
             },
             {
                 "eventname":"BIOCOMPATIBLE IMPLANT WITH MRI CAPABILITIES - HACKATHON",
                 "fromtime":"09:30 AM",
-                "totime":"02:00 PM"
+                "totime":"02:00 PM",
+                "venue":"VV-225"
             },
             {
                 "eventname":"BARTERING NFTs - HACKATHON",
                 "fromtime":"09:30 AM",
-                "totime":"02:00 PM"
+                "totime":"02:00 PM",
+                "venue":"VV-130"
             },
             {
                 "eventname":"INTELLIGENT FARMING SYSTEM",
                 "fromtime":"10:00 AM",
-                "totime":"01:00 PM"
+                "totime":"01:00 PM",
+                "venue":"JVC-207"
             },
             {
                 "eventname":"BLOCKCHAIN - NFT  WORKSHOP",
                 "fromtime":"09:00 AM",
-                "totime":"01:00 PM"
+                "totime":"01:00 PM",
+                "venue":"ASK 1 SEMINAR HALL 2ND FLOOR"
             },
             {
                 "eventname":"METAVERSE - VR WORKSHOP",
                 "fromtime":"09:00 AM",
-                "totime":"01:00 PM"
+                "totime":"01:00 PM",
+                "venue":"ASK 1 SEMINAR HALL 3RD FLOOR"
             },
             {
                 "eventname":"RTPCR WORKSHOP",
                 "fromtime":"09:00 AM",
-                "totime":"01:00 PM"
+                "totime":"01:00 PM",
+                "venue":"ASK 2 BOARD ROOM (314)"
             },
             {
                 "eventname":"DRONES BATTERY MANAGEMENT - HACKATHON",
                 "fromtime":"10:00 AM",
-                "totime":"01:00 PM"
+                "totime":"01:00 PM",
+                "venue":"ASK 2 115"
             },
             {
                 "eventname":"Multiverse",
                 "fromtime":"04:00 PM",
-                "totime":"05:30 PM"
+                "totime":"05:30 PM",
+                "venue":"ASK 2 312"
             },
             {
                 "eventname":"PROSHOW",
                 "fromtime":"02:00 PM",
-                "totime":"04:00 PM"
+                "totime":"04:00 PM",
+                "venue":"NEW SOC AUDI"
             },
             {
                 "eventname":"VOICE ASSISTANCE FOR THE VISUALLY IMPAIRED - HACKATHON",
                 "fromtime":"10:00 AM",
-                "totime":"01:00 PM"
+                "totime":"01:00 PM",
+                "venue":"SOC 104 (LAB 1)"
             },
             {
                 "eventname":"DRONES WORKSHOP",
                 "fromtime":"09:00 AM",
-                "totime":"01:00 PM"
+                "totime":"01:00 PM",
+                "venue":"LTC 201"
             },
             {
                 "eventname":"SMART PISCICULTURE - HACKATHON",
                 "fromtime":"09:00 AM",
-                "totime":"03:30 PM"
+                "totime":"03:30 PM",
+                "venue":"LTC 111"
             }
          ]
      },
@@ -95,78 +110,91 @@
             {
                 "eventname":"BATTERY CASING FOR ELECTRIC VEHICLES - HACKATHON",
                 "fromtime":"09:00 AM",
-                "totime":"12:00 PM"
+                "totime":"12:00 PM",
+                "venue":"VKJ 214"
  
             },
             {
                 "eventname":"BIG TECH DEBATE",
                 "fromtime":"10:00 AM",
-                "totime":"05:00 PM"
+                "totime":"05:00 PM",
+                "venue":"VV AUDI, VV128, VV126"
             },       
             {
                 "eventname":"BIOCOMPATIBLE IMPLANT WITH MRI CAPABILITIES - HACKATHON",
                 "fromtime":"9:30 AM",
-                "totime":"2:00 PM"
+                "totime":"2:00 PM",
+                "venue":"VV 225"
  
             },
             {
                 "eventname":"BARTERING NFTs HACKATHON",
                 "fromtime":"9:00 AM",
-                "totime":"5:00 PM"
+                "totime":"5:00 PM",
+                "venue":"VV 130"
  
             },
             {
                 "eventname":"INTELLIGENT FARMING SYSTEM",
                 "fromtime":"10:00 AM",
-                "totime":"1:00 PM"
+                "totime":"1:00 PM",
+                "venue":"JVC 207"
  
             },
             {
                 "eventname":"POWER TALK (DR. KAMAKOTI)",
                 "fromtime":"10:30 AM",
-                "totime":"12:30 PM"
+                "totime":"12:30 PM",
+                "venue":"CHANAKYA AUDI"
  
             },
             {
                 "eventname":"BLOCKCHAIN - NFT  WORKSHOP",
                 "fromtime":"09:00 AM",
-                "totime":"01:00 PM"
+                "totime":"01:00 PM",
+                "venue":"ASK 1 SEMINAR HALL 2ND FLOOR"
             },
             {
                 "eventname":"METAVERSE - VR WORKSHOP",
                 "fromtime":"09:00 AM",
-                "totime":"01:00 PM"
+                "totime":"01:00 PM",
+                "venue":"ASK 1 SEMINAR HALL 3RD FLOOR"
  
             },
             {
                 "eventname":"RTPCR WORKSHOP",
                 "fromtime":"09:00 AM",
-                "totime":"01:30 PM"
+                "totime":"01:30 PM",
+                "venue":"ASK 2 BOARD ROOM (314)"
  
             },
             {
 
                 "eventname":"DRONES BATTERY MANAGEMENT - HACKATHON",
                 "fromtime":"10:00 PM",
-                "totime":"01:00 PM"   
+                "totime":"01:00 PM",
+                "venue":"ASK 2 115"   
             },
             {
 
                 "eventname":"Multiverse",
                 "fromtime":"04:00 PM",
-                "totime":"05:30 PM"   
+                "totime":"05:30 PM" ,
+                "venue":"ASK 2 312"  
             },
             {
 
                 "eventname":"DRONES WORKSHOP",
                 "fromtime":"09:00 AM",
-                "totime":"01:00 PM"  
+                "totime":"01:00 PM",
+                "venue":"LTC 101"  
             },
             {
 
                 "eventname":"SMART PISCICULTURE - HACKATHON",
                 "fromtime":"09:00 AM",
-                "totime":"03:30 PM"   
+                "totime":"03:30 PM",
+                "venue":"LTC 111"   
             }
 
 
@@ -182,37 +210,43 @@
             {
                 "eventname":"BATTERY CASING FOR ELECTRIC VEHICLES - HACKATHON",
                 "fromtime":"9:00 AM",
-                "totime":"01:00 PM"
+                "totime":"01:00 PM",
+                "venue": "VKJ 214"
             },
             {
 
                 "eventname":"BIG TECH DEBATE",
                 "fromtime":"10:00 AM",
-                "totime":"05:00 PM"
+                "totime":"05:00 PM",
+                "venue": "VV AUDI, VV128, VV126"
  
             },
             {
                 "eventname":"DRONES BATTERY MANAGEMENT",
                 "fromtime":"09:30 AM",
-                "totime":"01:00 PM"
+                "totime":"01:00 PM",
+                "venue": "ASK 2 115"
  
             },
             {
                 "eventname":"Valedictory ceremony",
                 "fromtime":"04:30 PM",
-                "totime":"06:30 PM"
+                "totime":"06:30 PM",
+                "venue": "CHANAKYA AUDI"
  
             },
             {
                 "eventname":"VOICE ASSISTANCE FOR THE VISUALLY IMPAIRED - HACKATHON",
                 "fromtime":"09:00 AM",
-                "totime":"04:30 PM"
+                "totime":"04:30 PM",
+                "venue": "SOC 104 (LAB 1)"
  
             },
             {
                 "eventname":"SMART PISCICULTURE - HACKATHON",
                 "fromtime":"09:00 AM",
-                "totime":"04:00 PM"
+                "totime":"04:00 PM",
+                "venue": "LTC 111"
  
             }
         ]
