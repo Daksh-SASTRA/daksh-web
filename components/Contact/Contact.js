@@ -19,7 +19,7 @@ function Contact() {
                     {/* <span className={styles.phnNo}>+91 9884822554</span> */}
                 </div>
                 <div className={`${styles.contacts} ${styles.flexCenter}`} data-aos="fade-up" data-aos-delay="100">
-                    <span className={`${styles.name} ${styles.pd-5}`}>Ajai Balaganesh</span>
+                    <span className={`${styles.name} ${styles.pd-5}`}>Ajai Balaganesh KR</span>
                     <span className={`${styles.designation} ${styles.pd-5}`}>Student Secretary</span> 
                     <a href="mailto:chairman.daksh@sastra.ac.in" className={styles.email}>chairman.daksh@sastra.ac.in</a>   
                     {/* <span className={styles.phnNo}>+91 7397067957</span> */}
@@ -45,7 +45,7 @@ function Contact() {
                 <div className={`${styles.contacts} ${styles.flexCenter}`} data-aos="fade-up"  data-aos-delay="200">
                     <span className={`${styles.name} ${styles.pd-5}`}>Achint Patro</span>
                     <span className={`${styles.designation} ${styles.pd-5}`}>Overall Technical Coordinator</span> 
-                    <a href="mailto:lalitha.otcdaksh@gmail.com" className={styles.email}>otc.daksh@gmail.com</a>   
+                    <a href="mailto:otc.daksh@sastra.ac.in" className={styles.email}>otc.daksh@sastra.ac.in</a>   
                     {/* <span className={styles.phnNo}>+91 6379603262</span> */}
                 </div>
             </div>
