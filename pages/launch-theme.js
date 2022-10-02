@@ -11,7 +11,7 @@ function LaunchTheme() {
         <div>
             <ToastContainer style={{zIndex: 999999}}/>
             <Head>
-                <title>Daksh 2022 - Launch Theme</title>
+                <title>Daksh 2023 - Launch Theme</title>
                 <link rel="icon" href="/favicon.ico" />
             </Head>
             

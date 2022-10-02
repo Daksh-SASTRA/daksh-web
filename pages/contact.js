@@ -9,7 +9,7 @@ function Contact() {
     return (
         <div>
             <Head>
-                <title>Daksh 2022 - Contact</title>
+                <title>Daksh 2023 - Contact</title>
                 <meta name="description" content="Contact details of the coordinator, secretary, treasurer and heads of Daksh" />
                 <link rel="icon" href="/favicon.ico" />
             </Head>

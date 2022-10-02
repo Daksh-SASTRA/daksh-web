@@ -9,7 +9,7 @@ function Contact() {
     return (
         <div>
             <Head>
-                <title>Daksh 2022</title>
+                <title>Daksh 2023</title>
                 <link rel="icon" href="/favicon.ico" />
             </Head>
 
