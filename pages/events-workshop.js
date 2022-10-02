@@ -24,7 +24,7 @@ function Events() {
     return (
         <div>
             <Head>
-                <title>Daksh 2022 - Events/Workshop/Hackathon</title>
+                <title>Daksh 2023 - Events/Workshop/Hackathon</title>
                 <link rel="icon" href="/favicon.ico" />
             </Head>
 
