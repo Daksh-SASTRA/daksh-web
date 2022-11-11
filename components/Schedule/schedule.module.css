@@ -72,7 +72,23 @@
 	;
 	background-size: 400%;
 }
-
+.register_button {
+	margin-top: 12px;
+    padding: 12px 20px;
+	font-size: 18px;
+	font-weight:600;
+    text-align: center;
+    color: aliceblue;
+    animation: glow 8s linear infinite;
+    background-image:var(--hover-gradient);
+	border-radius: 5px;
+    background-size: 400%;
+	border-style: hidden;
+}
+.events_of_the_day{
+	margin: 20px 0px;
+	padding: 12px;
+}
 .daybuttons__button::before,
 .daybuttons__buttonactive::before {
 	opacity: 1;

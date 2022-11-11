@@ -26,10 +26,17 @@ function SchedulePage() {
                 <button className={activebt == 2 ? styles.daybuttons__buttonactive : styles.daybuttons__button} onClick={()=> {setDay(2);setActiveBt(2);}}>Day 2</button>
                 <button className={activebt == 3 ? styles.daybuttons__buttonactive : styles.daybuttons__button} onClick={()=> {setDay(3);setActiveBt(3);}}>Day 3</button>
             </div>
-           
-        
+            
+                
+            
         {day == 0 || 1 || 2 || 3?
-            <div className={styles.container} data-aos="fade-up">
+        <div>
+            <div className={styles.events_of_the_day} data-aos="fade-up">
+            <p>Register for Day {day} Events</p>
+            <button className={styles.register_button}>Register</button>
+            </div>
+            <div  className={styles.container} >
+               
                 <div className={styles.timeline}>
                     <ul className={styles.listofevents}>
                         {ScheduleData[day].events.map((e,i) =>
@@ -66,12 +73,15 @@ function SchedulePage() {
                 </div>
 
             </div>
+        </div>
         :
             <div>
                 
             </div>
+       
         }
         </div>
+        
     )
 }
 
