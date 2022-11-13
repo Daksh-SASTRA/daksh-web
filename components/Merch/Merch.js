@@ -11,13 +11,13 @@ function Merch(){
     <div className={styles.merch__details}>
         <div className={styles.merch__imageswrap}>
             <div className={styles.merch__element}>
-               <p className={styles.merch__elem__header}>S I Z E C H A R T</p>
-                <img src='/s1.jpeg' alt='sizechart' className={styles.merch__chart}></img>
+               <p className={styles.merch__elem__header}>SIZE-CHART</p>
+                <img src='/s1.jpeg' alt='sizechart' className={styles.merch__image}></img>
                 
             </div>
             <div className={styles.merch__element}>
-                <p className={styles.merch__elem__header}>T S H I R T D E S I G N</p>
-                <img src='/t1.jpg' alt='teedesign'  className={styles.merch__image}></img>
+                <p className={styles.merch__elem__header}>T-SHIRT DESIGN</p>
+                <img src='/t1.png' alt='teedesign'  className={styles.merch__image}></img>
                 
             </div>
            
