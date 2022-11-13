@@ -17,7 +17,7 @@ function Merch(){
             </div>
             <div className={styles.merch__element}>
                 <p className={styles.merch__elem__header}>T-SHIRT DESIGN</p>
-                <img src='/t1.png' alt='teedesign'  className={styles.merch__image}></img>
+                <img src='/t1.jpg' alt='teedesign'  className={styles.merch__image}></img>
                 
             </div>
            
