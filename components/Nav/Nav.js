@@ -42,7 +42,7 @@ function Nav() {
 				data-aos-delay="200"
 			>
 				<Link href="/merch">
-					<a className={styles.navlink}>Merchanidse</a>
+					<a className={styles.navlink}>Merchandise</a>
 				</Link>
 			</div>
 			<div
