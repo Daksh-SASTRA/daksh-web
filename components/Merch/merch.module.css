@@ -183,7 +183,9 @@
     font-size: 1.2rem;
   }
   .merch__sizebubble {
+    font-size: 0.7rem;
     margin: 0 2px;
-    width: 32px;
+    width: 30px;
+    padding: 3px;
   }
 }
