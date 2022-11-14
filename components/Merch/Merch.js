@@ -5,7 +5,7 @@ import cstyles from '../Contact/contact.module.css';
 function Merch(){
     return(
     <div className={styles.merch_container}>
-    <div className={`${cstyles.contactHeadingMain} ${cstyles.flexCenter}`} data-aos="fade-down">
+    <div className={`${styles.merchHeadingMain} ${cstyles.flexCenter}`} data-aos="fade-down">
         M E R C H A N D I S E
     </div>
     <div className={styles.merch__details}>
