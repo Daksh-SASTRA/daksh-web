@@ -154,10 +154,10 @@
 }
 @media screen and (max-width: 768px) {
   .merchHeadingMain {
-    font-size: 1.1rem;
+    font-size: 1.35rem;
     margin: 0;
   }
-  .merch__imageswrap {
+  /* .merch__imageswrap {
     flex-wrap: wrap;
   }
   .merch__elem__header {
@@ -167,5 +167,23 @@
     width: 90%;
     border-radius: 5%;
     margin: 12px auto;
+  } */
+  /* New CSS  */
+  .merch__details {
+    flex-direction: column;
+    padding: 10px;
+  }
+  .merch__imagecontainer {
+    width: 100%;
+  }
+  .merch__desccontainer {
+    width: 100%;
+  }
+  .merch__header {
+    font-size: 1.2rem;
+  }
+  .merch__sizebubble {
+    margin: 0 2px;
+    width: 32px;
   }
 }
