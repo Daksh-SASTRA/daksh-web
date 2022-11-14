@@ -32,7 +32,7 @@ function Sponsers() {
     dots: false,
     arrows: false,
     variableWidth: true,
-    autoplaySpeed:1000,
+    autoplaySpeed:3000,
     speed: 500,
     mobileFirst: true,
     slidesToShow:2,
