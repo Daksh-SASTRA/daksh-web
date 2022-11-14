@@ -78,7 +78,7 @@ function Sponsers() {
             <img className={styles.sponser_infinite} src="/sponsers/d2k23/gold cup.png" alt="sponser-5" width="250px" height="150px" />
           </div>
           <div className={styles.sponsers__div} >
-            <img className={styles.sponser_infinite} src="/sponsers/d2k23/ZAPP_AdventurePartner.png" alt="sponser-6" width="250px" height="150px" />
+            <img className={styles.sponser_infinite} src="/sponsers/d2k23/Zapp_AdventurePartner.png" alt="sponser-6" width="250px" height="150px" />
           </div>
           <div className={styles.sponsers__div} >
             <img className={`${styles.sponser_infinite} ${styles.blackBackground}`} src="/sponsers/d2k23/Drunken Monkey logo.png" alt="sponser-7" width="250px" height="150px" />
