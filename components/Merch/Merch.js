@@ -22,7 +22,7 @@ function Merch(){
             </div>
            
         </div>
-        <button type='button' className={styles.merch__buy}>BUY</button>
+        <a href="https://rzp.io/l/L3EXYzRK" className={styles.merch__buy}>BUY</a>
     </div>
     </div>
     )

@@ -84,16 +84,11 @@ function Sponsers() {
             <img className={`${styles.sponser_infinite} ${styles.blackBackground}`} src="/sponsers/d2k23/Drunken Monkey logo.png" alt="sponser-7" width="250px" height="150px" />
           </div>
           <div className={styles.sponsers__div} >
-            <img className={styles.sponser_infinite} src="/sponsers/d2k23/cascade cafe logo.jpg" alt="sponser-8" width="250px" height="150px" />
-          </div>
-          <div className={styles.sponsers__div} >
             <img className={styles.sponser_infinite} src="/sponsers/d2k23/bookchor logo.jpeg" alt="sponser-9" width="250px" height="150px" />
           </div>
           <div className={styles.sponsers__div} >
             <img className={styles.sponser_infinite} src="/sponsers/d2k23/cascade cafe logo.jpg" alt="sponser-8" width="250px" height="150px" />
           </div>
-          
-          
         </Slider>
       </div>
     </section>
