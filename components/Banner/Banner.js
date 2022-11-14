@@ -19,6 +19,8 @@ function Banner() {
                 <h3 className={styles.divbanner__descriptiontext}  data-aos="fade-up"  data-aos-delay="400">
                     Daksh is Happening very soon
                 </h3>
+
+                <a href='http://register.dakshtech.org:4000/' data-aos="fade-up"  data-aos-delay="200" className={styles.register__btn}>REGISTER FOR UTSAV</a>
                 {/* <Link href="#newsletter">
                     <a className={styles.divbanner__eveandwsbtn}>
                         Events and Workshops

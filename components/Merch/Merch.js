@@ -8,7 +8,7 @@ function Merch(){
     <div className={`${styles.merchHeadingMain} ${cstyles.flexCenter}`} data-aos="fade-down">
         M E R C H A N D I S E
     </div>
-    <div className={styles.merch__details}>
+    <div className={styles.merch__details} data-aos="fade-down">
         <div className={styles.merch__imageswrap}>
             <div className={styles.merch__element}>
                <p className={styles.merch__elem__header}>SIZE-CHART</p>

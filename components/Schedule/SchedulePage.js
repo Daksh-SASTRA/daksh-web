@@ -34,9 +34,11 @@ function SchedulePage() {
             <div className={styles.events_of_the_day} data-aos="fade-up">
             <p>Register for Day {day} Events</p>
             <button className={styles.register_button}>Register</button>
+           
             </div>
-            <div  className={styles.container} >
-               
+            <div  className={styles.container} data-aos="fade-up">
+            <p className={styles.eventname}><b>Schedule for UTSAV will be updated soon !</b></p>
+            {/*
                 <div className={styles.timeline}>
                     <ul className={styles.listofevents}>
                         {ScheduleData[day].events.map((e,i) =>
@@ -70,7 +72,9 @@ function SchedulePage() {
                             })
                         }
                     </ul>
+                    
                 </div>
+            */}
 
             </div>
         </div>
