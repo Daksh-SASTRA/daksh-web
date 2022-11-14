@@ -59,7 +59,7 @@ function Merch() {
                     <div className={styles.merch__imageoperation} onClick={goToNext}><FaArrowRight /></div>
                 </div>
                 <div className={styles.merch__desccontainer}>
-                    <div className={styles.merch__header}>DAKSH T-Shirt</div>
+                    <div className={styles.merch__header}>UTSAV T-Shirt</div>
                     <div className={styles.merch__description}>
                         <p>Available sizes:</p>
                         <div className={styles.merch__sizecontainer}>
