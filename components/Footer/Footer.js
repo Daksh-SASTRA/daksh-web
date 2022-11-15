@@ -75,8 +75,17 @@ function Footer() {
 					<Link href="/contact">
 						<a>Contact</a>
 					</Link>
-					<Link href="https://merchant.razorpay.com/policy/KfyiFtCr6aXFsA/privacy">
+					<Link href="https://merchant.razorpay.com/policy/KfyiFtCr6aXFsA/privacy" target="blank">
 						<a>Privacy policy</a>
+					</Link>
+					<Link href="https://merchant.razorpay.com/policy/KfyiFtCr6aXFsA/terms" target="blank">
+						<a>Terms and Conditions</a>
+					</Link>
+					<Link href="https://merchant.razorpay.com/policy/KfyiFtCr6aXFsA/refund" target="blank">
+						<a>Cancellation and Refund</a>
+					</Link>
+					<Link href="https://merchant.razorpay.com/policy/KfyiFtCr6aXFsA/shipping" target="blank">
+						<a>Shipping and Delivery</a>
 					</Link>
 				</div>
 				{/* <div className={styles.footer_contact}>
