@@ -26,12 +26,12 @@ function EventsCard(props) {
                     {isExpanded && props.data.rules ? Rules(props.data?.rules || []) : ""}
                     {isExpanded && props.data.judging ? <h3>Judging Criteria :</h3> : ""}
                     {isExpanded && props.data.judging ? Rules(props.data?.judging || []) : ""}
-                    {isExpanded && props.data.prizes ? <h3>Prize :</h3> : ""}
-                    {isExpanded ? Rules(props.data?.prizes || []) : ""}
+                    {/* {isExpanded && props.data.prizes ? <h3>Prize :</h3> : ""} */}
+                    {/* {isExpanded ? Rules(props.data?.prizes || []) : ""} */}
                     {isExpanded && props.data.contacts ? <h3>Contacts :</h3> : ""}
                     {isExpanded ? Contacts(props.data?.contacts || []) : ""}
                 </div>
-                {isExpanded && props.data.poster ? <img src={props.data.poster} /> : ""}
+                {/* {isExpanded && props.data.poster ? <img src={props.data.poster} /> : ""} */}
 
             </div>
 
@@ -39,8 +39,8 @@ function EventsCard(props) {
 
             <button id={styles.expand} onClick={() => expand(!isExpanded)}> {isExpanded ? <FcCollapse /> : <FcExpand />} </button>
             <div className={styles.ecard_actions}>
-                <h5>{props.data.date}</h5>
-                <h5>{props.data.time}</h5>
+                {/* <h5>{props.data.date}</h5>
+                <h5>{props.data.time}</h5> */}
                 <div className={islive ? styles.register : styles.disabled}>
                     <a className={islive ? styles.register_btn : ''} href={islive ? props.data.register_link : "/"} target={islive ? "_blank" : ""} rel="noreferrer">{islive ? "Register" : "Closed"}</a>
                 </div>

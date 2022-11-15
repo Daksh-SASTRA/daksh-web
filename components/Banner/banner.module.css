@@ -57,20 +57,7 @@
   text-shadow: -4px -4px 0px rgba(255, 17, 96, 1),-3px -7px 0px rgba(4, 37, 255, 1),5px 1px 0px rgba(43, 255, 0, 1);
   animation: glitch infinite 3s;
 }
-.register__btn{
-    margin-top: 32px;
-    padding: 12px 20px;
-	font-size: 18px;
-	font-weight:600;
-    text-align: center;
-    color: aliceblue;
-    animation: glow 8s linear infinite;
-    background-image:var(--hover-gradient);
-	border-radius: 5px;
-    background-size: 400%;
-	border-style: hidden;
-	cursor: pointer;
-}
+
 @keyframes glitch {
 
     0%{
@@ -89,31 +76,7 @@
 
 }
 
-@keyframes glow {
-	0% {
-		background-position: 0%;
-	}
-
-	100% {
-		background-position: 400%;
-	}
-}
-
 @media screen and (max-width:767px) {
-    .register__btn{
-        margin-top: 12px;
-        padding: 10px;
-        font-size: 12px;
-        font-weight:600;
-        text-align: center;
-        color: aliceblue;
-        animation: glow 8s linear infinite;
-        background-image:var(--hover-gradient);
-        border-radius: 5px;
-        background-size: 400%;
-        border-style: hidden;
-        cursor: pointer;
-    }
     .divbanner {
         align-items: flex-start;
         padding: 0 0 0 25px;

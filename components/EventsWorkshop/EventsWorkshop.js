@@ -36,9 +36,9 @@ function EventsWorkshop({number}) {
                     </div>
                     :
                     <div className={styles.events__section}>
-                        {Hackathons.map((workshop, i) => {
+                        {/* {Hackathons.map((workshop, i) => {
                             return <HackathonsCard data={workshop} key={i} />
-                        })}
+                        })} */}
                     </div>
             }
         </div>

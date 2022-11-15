@@ -1,19 +1,196 @@
 [
    {
-      "category":"TEAM TECHNOTAINMENT",
-      "title":"Big Tech Debate",
-      "desc":"The Big Tech Debate is all about exhibiting your whizz-kid brains and tickling your intellectual nerves. This event has rounds with a series of quizzes, trades, crypto games, bidding battles, and not to forget, THE BIG TECH DEBATE. You don't have to be all smarty pants to participate, we will guide you through every round. The only requirement is...... to brace yourselves for a  neural rush.",
-      "date":"18 June",
+      "category":"SOCE",
+      "title":"CiviQuest",
+      "desc":"Dumb charades has never been more Civil!.Get ready to flaunt your civil engineering knowledge in  a fun filled quest, come with a mate who gets you even when you don’t speak!",
+      "date":"19 November and 20 November",
       "time":"10:00 AM",
-      "dateTime": "June 18, 2022 10:00:00",
+      "dateTime": "November 20, 2022 10:00:00",
       "contacts":[
-         "9952410114 - Sindhuja",
-         "9597826034 - Balaji V"
+         "9493818588-Charishma M",
+         "9392979899  - Vineesh K"
       ],
       "prizes":[
         "Total prizes worth 15k!"
      ],
-      "register_link":"https://linktr.ee/dcs_sastra?ltsid=e8e56d36-0599-4cbe-91bc-a4acd9c089bb",
+      "register_link":"http://register.dakshtech.org:4000/",
+      "poster": "/btd_sponsor_final.png"
+   },
+   {
+      "category":"SOCE",
+      "title":"ReStruct",
+      "desc":"Decipher the clues to build your dream model!.Constructingyour dream model isn’t a bridge too far anymore.Do register and seize the chance to bring out the Bob the Builder in you!",
+      "time":"10:00 AM",
+      "dateTime": "November 20, 2022 10:00:00",
+      "contacts":[
+         "9092289106- Dharani K",
+         " 8667388656  - Reza Taufiq"
+      ],
+      "prizes":[
+        "Total prizes worth 15k!"
+     ],
+      "register_link":"http://register.dakshtech.org:4000/",
+      "poster": "/btd_sponsor_final.png"
+   },
+   {
+      "category":"SOC",
+      "title":"Encode to Decode",
+      "desc":"Are you up for a tech scavenger hunt with a friend? Then this is the event for you. Team SOC is putting on a fun and mind-blowing tech event for you. Pull your socks up for a technological adventure!.",
+      "time":"10:00 AM",
+      "dateTime": "November 20, 2022 10:00:00",
+      "contacts":[
+         "9952021165- Busam Sai Sneha",
+         "9962904083  - Mulagala Vrinda"
+      ],
+      "prizes":[
+        "Total prizes worth 15k!"
+     ],
+      "register_link":"http://register.dakshtech.org:4000/",
+      "poster": "/btd_sponsor_final.png"
+   },
+   {
+      "category":"SOC",
+      "title":"The Brainwave",
+      "desc":"Coding is so powerful that it can make an extremely untalented mind a top-notch-coder.Hop on for the SoC coding event!",
+      "time":"10:00 AM",
+      "dateTime": "November 20, 2022 10:00:00",
+      "contacts":[
+         "7395951342- Saai Sudarsanan D",
+         "984057565  - Karthik"
+      ],
+      "prizes":[
+        "Total prizes worth 15k!"
+     ],
+      "register_link":"http://register.dakshtech.org:4000/",
+      "poster": "/btd_sponsor_final.png"
+   },
+   {
+      "category":"SCBT",
+      "title":"Escapedom",
+      "desc":"It's time to grin from ear to ear as a scintillating SCBT game is here to create some brilliant buzz!!! Get ready to chase the clues. Register now to stir things up!!!",
+      "time":"10:00 AM",
+      "dateTime": "November 20, 2022 10:00:00",
+      "contacts":[
+         "8220090164 - A.Deekshana",
+         "9677292466 - Karthik"
+      ],
+      "prizes":[
+        "Total prizes worth 15k!"
+     ],
+      "register_link":"http://register.dakshtech.org:4000/",
+      "poster": "/btd_sponsor_final.png"
+   },
+   {
+      "category":"SCBT",
+      "title":"Watch your step",
+      "desc":"Are you an enthusiast of randomness?  Let the tiles and dice decide your luck!1..2..3..hop, oops! Wrong title, it's time to stop! Pair up with a friend and move according to the colour of the tiles and brace yourself for the pace of this quiz . Don't forget to pack your luck!",
+      "time":"10:00 AM",
+      "dateTime": "November 20, 2022 10:00:00",
+      "contacts":[
+         "8925461371 - Shrivarshini V",
+         "9345446904 - Vidhya Shree S. A"
+      ],
+      "prizes":[
+        "Total prizes worth 15k!"
+     ],
+      "register_link":"http://register.dakshtech.org:4000/",
+      "poster": "/btd_sponsor_final.png"
+   },
+   {
+      "category":"SOME",
+      "title":"Mechaholic Masterminds",
+      "desc":"Get a move on for an enthralling knockout online timed quiz followed by a snappy bumble game.",
+      "time":"10:00 AM",
+      "dateTime": "November 20, 2022 10:00:00",
+      "contacts":[
+         "9655953131 - RAAJA",
+         "7981399053 - KRISHNA"
+      ],
+      "prizes":[
+        "Total prizes worth 15k!"
+     ],
+      "register_link":"http://register.dakshtech.org:4000/",
+      "poster": "/btd_sponsor_final.png"
+   },
+   {
+      "category":"SOME",
+      "title":"float-etic propellants feud",
+      "desc":"Pressure's off but the fight's on! Load your tool kits cause it's time to build!Gear up and kick the fun pedal off cause team SOME got something for you. Go enroll quickly and we will not delay the fun ",
+      "time":"10:00 AM",
+      "dateTime": "November 20, 2022 10:00:00",
+      "contacts":[
+         "7995646125 - ANV PRANAV",
+         "7338781505 - MAHESHWARAN"
+      ],
+      "prizes":[
+        "Total prizes worth 15k!"
+     ],
+      "register_link":"http://register.dakshtech.org:4000/",
+      "poster": "/btd_sponsor_final.png"
+   },
+   {
+      "category":"SEEE",
+      "title":" Fix your Fuses",
+      "desc":" We’re plugged in with the very best electrical tools!Guys… UTSAV is back and it's calling you, so get ready with your connecting wires and prepare to  win the race of electrons!",
+      "time":"10:00 AM",
+      "dateTime": "November 20, 2022 10:00:00",
+      "contacts":[
+         "9390099219 - Preethika",
+         "9790121532 - Arshath"
+      ],
+      "prizes":[
+        "Total prizes worth 15k!"
+     ],
+      "register_link":"http://register.dakshtech.org:4000/",
+      "poster": "/btd_sponsor_final.png"
+   },
+   {
+      "category":"INFINITY",
+      "title":"TechLinked: Hunt the hint",
+      "desc":"An enviable expertise in Cyber Security holds the key to this riveting tech hunt!There will always be hordes of people searching for the treasure, but only the brightest will be able to perceive that the true prize is our safety and security. Don your thinking caps as it is time for an adventure!",
+      "dateTime": "November 20, 2022 10:00:00",
+      "contacts":[
+         "8531829818 - Shyam",
+         "7010316776 - Kadhirravan"
+      ],
+      "prizes":[
+        "Total prizes worth 15k!"
+     ],
+      "register_link":"http://register.dakshtech.org:4000/",
+      "poster": "/btd_sponsor_final.png"
+   },
+   {
+      "category":"TECHNOTAINMENT",
+      "title":"Moneyball",
+      "desc":"In this event, the Participants are allotted a base value and are allowed to answer a few tech based questions in order to get a bonus which helps them in the second round.The second round aims to capture the difference between entities whose prices boom over time,and those whose prices drop. Participating Teams are to use the information provided to them in various forms to make wise decisions, on which entity maexperience an influx/reduction in demand at a later date. The Participants are rewarded with points for taking the right decisions, and the Team with the highest set of points will be declared the Winner",
+      "prizes":[
+        "Total prizes worth 15k!"
+     ],
+      "register_link":"http://register.dakshtech.org:4000/",
+      "poster": "/btd_sponsor_final.png"
+   },
+   {
+      "category":"TECHNOTAINMENT",
+      "title":"Sherlock",
+      "desc":"A Mystery Solving event Participants will be the Detectives and they will be taken through an elaborate storyline with subtle hints and clues that direct them towards solving the mystery and finding out the culprit. The story will have suspects, their own motives and clues and evidence they leave behind which has to be deciphered by the Participants in order to uncover the mystery.",
+      "prizes":[
+        "Total prizes worth 15k!"
+     ],
+      "register_link":"http://register.dakshtech.org:4000/",
+      "poster": "/btd_sponsor_final.png"
+   },
+   {
+      "category":"TECHNOTAINMENT",
+      "title":"SPARDHA Quiz",
+      "desc":"The event consists of 2 rounds of Gen quiz spanning all topics from current world affairs to the Entertainment world. The Quiz consists of some very interesting components like Pounce and Bounce, Wheel of Fortune and Rapid Fire rounds.",
+      "prizes":[
+        "Total prizes worth 15k!"
+     ],
+     "contacts":[
+      "9952410114 - Sindhuja.C",
+      "9597826034 - Balaji Vaasan"
+   ],
+      "register_link":"http://register.dakshtech.org:4000/",
       "poster": "/btd_sponsor_final.png"
    }
 ]

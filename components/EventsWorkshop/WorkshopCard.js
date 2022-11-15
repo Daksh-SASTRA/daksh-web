@@ -22,15 +22,15 @@ function EventsCard(props) {
             {isExpanded && props.data.outcome ? <h3>Outcomes :</h3> : ""}
             <div className={styles.poster}>
             <div className={styles.poster_contact}>
-            {isExpanded && props.data.outcome ? Rules(props.data.outcome) : ""}
-            {isExpanded && props.data.prereq ? <h3>Pre-Requisites :</h3> : ""}
+            {/* {isExpanded && props.data.outcome ? Rules(props.data.outcome) : ""} */}
+            {isExpanded && props.data.prereq ? <h3>Prerequisite :</h3> : ""}
             {isExpanded && props.data.prereq ? Rules(props.data.prereq) : ""}
             {isExpanded && props.data.fee ? <h3>Price :</h3> : ""}
             {isExpanded && props.data.fee ? Rules(props.data.fee) : ""}
             {isExpanded ? <h3>Contacts :</h3> : ""}
             {isExpanded ? Contacts(props.data.contacts) : ""}
             </div>
-            {isExpanded ? <img className={styles.poster_img} src={props.data.img}/> : ""}
+            {/* {isExpanded ? <img className={styles.poster_img} src={props.data.img}/> : ""} */}
             </div>
             <button id = {styles.expand} onClick = {() => expand(!isExpanded)}> {isExpanded ? <FcCollapse /> : <FcExpand />} </button>
             <div className = {styles.ecard_actions}>
