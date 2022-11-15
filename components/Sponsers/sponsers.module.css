@@ -24,7 +24,7 @@
 }
 
 .sponsers__div {
-    padding: 20px 40px;
+    padding: 20px 100px;
 }
 
 /* .sponser_infinite{
@@ -37,10 +37,18 @@
     /* height: 80px; */
 }
 
+@media (max-width:1200px) {
+    .sponser_slider{
+        height: 240px;
+    }
 
+}
 @media (max-width: 850px){
     .sponsers{
         padding: 2rem;
+    }
+    .sponser_slider{
+        height: 240px;
     }
     .sponsers__h3{
         font-size: 2.5rem;
