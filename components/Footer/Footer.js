@@ -75,6 +75,9 @@ function Footer() {
 					<Link href="/contact">
 						<a>Contact</a>
 					</Link>
+					<Link href="https://merchant.razorpay.com/policy/KfyiFtCr6aXFsA/privacy">
+						<a>Privacy policy</a>
+					</Link>
 				</div>
 				{/* <div className={styles.footer_contact}>
 					<h2>Contact</h2>
