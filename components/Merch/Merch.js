@@ -73,7 +73,7 @@ function Merch() {
                         </div>
                     </div>
                     <div className={styles.merch__prizetag}> ₹250/-</div>
-                    <a href="https://rzp.io/l/L3EXYzRK" className={styles.merch__buy}>BUY</a>
+                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSeIFUaR5NXs-9Eyy2wgSvpHHXlXaYox8agwp1UJGVtgXh5HJw/viewform" className={styles.merch__buy}>BUY</a>
                 </div>
             </div>
         </div>

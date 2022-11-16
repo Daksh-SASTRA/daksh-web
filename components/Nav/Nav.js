@@ -42,7 +42,8 @@ function Nav() {
 				data-aos-delay="200"
 			>
 				<Link href="/merch">
-					<a className={styles.navlink}>Merchandise</a>
+					<a className={styles.navlink}>Merchandise
+					</a>
 				</Link>
 			</div>
 			<div
@@ -50,7 +51,7 @@ function Nav() {
 				data-aos="fade-down"
 				data-aos-delay="200"
 			>
-				<Link href="/events-workshop?q=hackathons">
+				<Link href="/events-workshop?q=events">
 					<a className={styles.navlink}>Workshops/Hackathons</a>
 				</Link>
 			</div>

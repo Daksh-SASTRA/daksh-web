@@ -20,7 +20,7 @@ export default function Home() {
   useEffect(() => {
     setTimeout(() => {
       setLoader(false);
-    }, 1500);
+    }, 500);
   }, []);
   return (
     <div className={styles.container}>

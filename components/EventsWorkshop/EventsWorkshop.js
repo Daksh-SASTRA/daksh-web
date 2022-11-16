@@ -8,7 +8,7 @@ import Workshop from "../config/workshop.json";
 import Hackathons from "../config/hackathons.json";
 
 function EventsWorkshop({number}) {
-    const [events,setEvents] = useState(number || 2);
+    const [events,setEvents] = useState(number || 0);
 
     useEffect(() => {
         setEvents(number);
@@ -17,8 +17,8 @@ function EventsWorkshop({number}) {
     return (
         <div className={styles.events__workshop}>
             <div className={styles.navigation}>
-                <button className={(events==2) ? `${styles.events__workshop__btn} ${styles.active}` : styles.events__workshop__btn} onClick={()=> setEvents(2)}>Hackathons</button>
                 <button className={(events==0) ? `${styles.events__workshop__btn} ${styles.active}` : styles.events__workshop__btn} onClick={()=> setEvents(0)}>Events</button>
+                {/* <button className={(events==2) ? `${styles.events__workshop__btn} ${styles.active}` : styles.events__workshop__btn} onClick={()=> setEvents(2)}>Hackathons</button> */}
                 <button className={(events==1) ? `${styles.events__workshop__btn} ${styles.active}` : styles.events__workshop__btn} onClick={()=> setEvents(1)}>Workshop</button>
             </div>
             {(events == 0) ?

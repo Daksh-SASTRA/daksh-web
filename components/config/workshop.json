@@ -14,6 +14,23 @@
          "Vardhan - 8897154682",
          "Vaishnavi - 6382822522"
       ],
-      "register_link":"http://register.dakshtech.org:4000/"
+      "register_link":"https://docs.google.com/forms/d/e/1FAIpQLSd4lhKwyau58hEQZud8_K4OPbabSTHok_KS1b-bxwLeWHHCPQ/viewform"
+   },
+   {
+      "title":"Origami Workshop",
+      "desc":"Hold On! Tired of your routine? Twist, Turn, Fold!! A fun place to get creative and relaxed. A great session to learn the nook and corner of Origami!!",
+      "date":"19,20 November",
+      "dateTime": "November 20, 2022 9:00:00",
+      "prereq":[
+         "None"
+      ],
+      "fee":[
+         "50/- Per Head"
+      ],
+      "contacts":[
+         "Samhitha S - 8106763865",
+         "Gowtham R - 6385287302"
+      ],
+      "register_link":"https://docs.google.com/forms/d/e/1FAIpQLSdayg-fR9OmB560p4gpnOpv786gB5sJYLmD02JLxFXwD4MiHw/viewform"
    }
 ]
