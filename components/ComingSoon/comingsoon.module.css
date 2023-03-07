@@ -1,0 +1,12 @@
+.container {
+  text-align: center;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 75px;
+  color: #da0037;
+  text-shadow: -0.8px 0.8px 0 #ededed, -1.6px 1.6px 0 #ededed,
+    -2.4px 2.4px 0 #ededed, -3.2px 3.2px 0 #ededed, -4px 4px 0 #ededed,
+    -4.8px 4.8px 0 #ededed, -5.6px 5.6px 0 #ededed;
+}
