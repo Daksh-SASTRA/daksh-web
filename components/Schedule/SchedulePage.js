@@ -36,7 +36,7 @@ function SchedulePage() {
             <button className={styles.register_button} ><a href="http://register.dakshtech.org:4000/">Register</a></button>
             </div>
             <div  className={styles.container} data-aos="fade-up">
-            <p className={styles.eventname}><b>Schedule for UTSAV will be updated soon !</b></p>
+            <p className={styles.eventname}><b>Schedule for DAKSH-2023 will be updated soon !</b></p>
             </div>
             {/* <div  className={styles.container} >
                

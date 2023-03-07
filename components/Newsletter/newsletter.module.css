@@ -34,7 +34,8 @@
   position: relative;
   text-align: center;
   padding: 15px 30px;
-  color: #2621b7;
+  /* color: #2621b7; */
+    color: #DA0037;
   /* color: blueviolet; */
   background-color:var(--white);
   cursor: pointer;
@@ -48,8 +49,10 @@
   border: none;
 }
 .btn:hover{
-  color: #05559c;
+  /* color: #05559c; */
+  color: #ff0040;
 }
+
 @media screen and (max-width: 700px) {
   .maincontainer h3{
     font-family: title;

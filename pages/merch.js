@@ -10,7 +10,7 @@ function MerchandisePage() {
         <div>
             <Head>
                 <title>Daksh 2023 - Merchandise</title>
-                <meta name="description" content="Merchandise for UTSAV 2023" />
+                <meta name="description" content="Merchandise for DAKSH 2023" />
                 <link rel="icon" href="/favicon.ico" />
             </Head>
 

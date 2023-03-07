@@ -38,27 +38,21 @@
     line-height: 1;
 }
 
-.theme_text{
-  text-shadow: -3px -3px 0px rgba(255, 17, 96, 1),-3px -6px 0px rgba(4, 37, 255, 1),3px 0px 0px rgba(43, 255, 0, 1);
-  animation: glitch infinite 3s;
-
+.theme_text {
+    text-shadow: 5px 4px 2px rgba(218, 0, 55, 1);
+    animation: glitch infinite 3s;
 }
 
 @keyframes glitch {
 
-    0%{
-        text-shadow: -3px -3px 0px rgba(255, 17, 96, 1),-3px -6px 0px rgba(4, 37, 255, 1),3px 0px 0px rgba(43, 255, 0, 1);
+    0% {
+        text-shadow: -5px -4px 2px rgba(218, 0, 55, 1);
     }
-    50%{
-        text-shadow: 2px 3px 0px rgba(255, 17, 96, 1),-3px 0px 0px rgba(4, 37, 255, 1),-4px 0px 0px rgba(43, 255, 0, 1);
+
+    100% {
+        text-shadow: 5px 4px 2px rgba(218, 0, 55, 1);
     }
-    70%{
-        text-shadow: 2px 3px 0px rgba(255, 17, 96, 1),-3px 3px 0px rgba(4, 37, 255, 1),-4px 0px 0px rgba(43, 255, 0, 1);
-    }
-    100%{ 
-        text-shadow: -3px -3px 0px rgba(255, 17, 96, 1),-3px -6px 0px rgba(4, 37, 255, 1),3px 0px 0px rgba(43, 255, 0, 1);
-    }
-    
+
 }
 
 .about__p{

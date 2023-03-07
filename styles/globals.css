@@ -18,14 +18,22 @@
 
 :root {
   --cool-pink:#EA00D9;
-  --hover-gradient: linear-gradient(to right, #0abdc6, #00b5e1, #00a8fb, #0095ff, #7d78ff, #7d78ff, #7d78ff, #7d78ff, #0095ff, #00a8fb, #00b5e1, #0abdc6);
+  /* --hover-gradient: linear-gradient(to right, #0abdc6, #00b5e1, #00a8fb, #0095ff, #7d78ff, #7d78ff, #7d78ff, #7d78ff, #0095ff, #00a8fb, #00b5e1, #0abdc6);
   --gradient-right:linear-gradient(to right, #0abdc6, #00b5e1, #00a8fb, #0095ff, #7d78ff, #7b7eff, #7984ff, #788aff, #00afff, #00cdff, #00e6ff, #5ffbf1);
   --card-background:linear-gradient(to right top, rgb(10, 189, 198, 0.05), rgb(0, 181, 225, 0.05), rgb(0, 168, 251, 0.05), rgb(0, 149, 255, 0.05), rgb(125, 120, 255, 0.05), rgb(123, 126, 255, 0.05), rgb(121, 132, 255, 0.05), rgb(120, 138, 255, 0.05), rgb(0, 175, 255, 0.05), rgb(0, 205, 255, 0.05), rgb(0, 230, 255, 0.05), rgb(95, 251, 241, 0.05));
-  --text-gradient-color:linear-gradient(to right top, #0abdc6, #00b5e1, #00a8fb, #0095ff, #7d78ff, #7b7eff, #7984ff, #788aff, #00afff, #00cdff, #00e6ff, #5ffbf1);
+  --text-gradient-color:linear-gradient(to right top, #0abdc6, #00b5e1, #00a8fb, #0095ff, #7d78ff, #7b7eff, #7984ff, #788aff, #00afff, #00cdff, #00e6ff, #5ffbf1); */
+  --hover-gradient: linear-gradient(to right, #DA0037,  #c00b39,#DA0037);
+  /* --gradient-right: linear-gradient(270deg, rgba(218, 0, 55, 1) 0%, rgba(237, 237, 237, 1) 40%, rgba(218, 0, 55, 1) 100%); */
+  --gradient-right: linear-gradient(to right top, #DA0037, #DA0037);
+  /* --card-background: linear-gradient(to right , rgba(68, 68, 68, 0.2) 0%, rgba(23, 23, 23, 0.2) 49%, rgba(68, 68, 68, 0.2) 100%); */
+  --card-background: linear-gradient(to right, rgba(68, 68, 68, 0.2) 0%, rgba(68, 68, 68, 0.2) 100%);
+  --text-gradient-color: linear-gradient(to right top, #DA0037, #DA0037);
   --primaryBg: #0f0f0f;
   --secondaryBg: #141414;
-  --white: #f8f8f8;
-  --secondaryFontColor: #B6B6B6;
+  /* --white: #f8f8f8; */
+  --white:#f8f8f8;
+  /* --secondaryFontColor: #B6B6B6; */
+  --secondaryFontColor: #EDEDED;
 }
 
 html,

@@ -3,7 +3,8 @@
   position: relative;
   text-align: center;
   padding: 15px 30px;
-  color: #2621b7;
+  /* color: #2621b7; */
+  color: #DA0037;
   background-color: var(--white);
   /* background-image: var(--text-gradient-color); */
   /* background-clip:padding-box; */
@@ -18,5 +19,6 @@
   transition: all 0.5s ease-in-out;
 }
 .global_button:hover {
-  color: #05559c;
+  /* color: #05559c; */
+  color:#ff0040;
 }
