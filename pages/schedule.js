@@ -4,7 +4,7 @@ import styles from '../styles/Home.module.css'
 import SchedulePage from "../components/Schedule/SchedulePage";
 import Nav from '../components/Nav/Nav'
 import Footer from '../components/Footer/Footer'
-
+import ComingSoon from '../components/ComingSoon/ComingSoon';
 function Schedule() {
     return (
         <div>
@@ -16,6 +16,7 @@ function Schedule() {
 
             <main className={styles.main}>
                 <Nav/>
+                <ComingSoon />
                 {/* <SchedulePage/> */}
                 <Footer/>
             </main>

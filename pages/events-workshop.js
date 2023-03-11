@@ -5,6 +5,8 @@ import styles from '../styles/Home.module.css'
 import Nav from '../components/Nav/Nav'
 import Footer from '../components/Footer/Footer'
 import EventsWorkshop from '../components/EventsWorkshop/EventsWorkshop'
+import ComingSoon from '../components/ComingSoon/ComingSoon';
+
 
 function Events() {
     const { query } = useRouter();
@@ -30,6 +32,7 @@ function Events() {
 
             <main className={styles.main}>
                 <Nav />
+                <ComingSoon />
                 {/* <EventsWorkshop number={number}/> */}
                 <Footer />
             </main>
