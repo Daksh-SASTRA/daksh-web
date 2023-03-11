@@ -9,24 +9,24 @@ function BannerCards() {
     const carousel_items=[
       {
         idx:0,
-        description:"Podcasts",
-        src:'/tech.png',
-        buttonText:'view',
-        href: "/podcast"
-      },
-      {
-        idx:1,
         description:"Events",
         src:'/events.png',
         buttonText:'view',
         href: "/events-workshop"
       },
       {
-        idx:2,
+        idx:1,
         description:"Workshops",
         src:'/workshop.png',
         buttonText:'view',
         href: "/events-workshop"
+      },
+      {
+        idx:2,
+        description:"Podcasts",
+        src:'/tech.png',
+        buttonText:'view',
+        href: "/podcast"
       },
       {
         idx:3,
