@@ -10,13 +10,13 @@ function Schedule() {
         <div>
             <Head>
                 <title>Daksh 2023 - Schedule</title>
-                <meta name="description" content="Schedule of UTSAV 2022" />
+                <meta name="description" content="Schedule of DAKSH 2023" />
                 <link rel="icon" href="/favicon.ico" />
             </Head>
 
             <main className={styles.main}>
                 <Nav/>
-                <SchedulePage/>
+                {/* <SchedulePage/> */}
                 <Footer/>
             </main>
         </div>
