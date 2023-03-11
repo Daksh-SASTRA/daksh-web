@@ -1,0 +1,28 @@
+
+.container{
+    min-height: calc(90vh);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.text {
+    position: relative;
+    color: #ededed;
+    font-weight: 700;
+    font-size: 5.4rem;
+    line-height: 1em;
+    letter-spacing: 10px;
+    text-align: center;
+    transform: rotate(-0) skew(0deg);
+}
+
+.text:before {
+    content: attr(data-text);
+    position: absolute;
+    top: 30px;
+    left: -30px;
+    color: #fff;
+    text-shadow: none;
+    filter: blur(8px);
+    z-index: -1;
+}
