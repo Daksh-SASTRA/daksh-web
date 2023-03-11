@@ -4,6 +4,7 @@ import styles from '../styles/Home.module.css'
 import Merch from "../components/Merch/Merch";
 import Nav from '../components/Nav/Nav'
 import Footer from '../components/Footer/Footer'
+import ComingSoon from '../components/ComingSoon/ComingSoon';
 
 function MerchandisePage() {
     return (
@@ -17,6 +18,7 @@ function MerchandisePage() {
             <main className={styles.main}>
                 <Nav/>
                 {/* <Merch/> */}
+                <ComingSoon />
                 <Footer/>
             </main>
         </div>
