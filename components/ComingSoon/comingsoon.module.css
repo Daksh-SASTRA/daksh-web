@@ -1,10 +1,10 @@
-
 .container{
-    min-height: calc(90vh);
+    min-height: calc(80vh);
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
 .text {
     position: relative;
     color: #ededed;
@@ -13,7 +13,7 @@
     line-height: 1em;
     letter-spacing: 10px;
     text-align: center;
-    transform: rotate(-0) skew(0deg);
+    /* transform: rotate(-0) skew(0deg); */
 }
 
 .text:before {
@@ -25,4 +25,10 @@
     text-shadow: none;
     filter: blur(8px);
     z-index: -1;
+}
+
+@media screen and (max-width: 450px) {
+    .text {
+        font-size: 4rem;
+    }
 }
