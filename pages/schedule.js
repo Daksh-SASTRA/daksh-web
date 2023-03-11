@@ -16,7 +16,7 @@ function Schedule() {
 
             <main className={styles.main}>
                 <Nav/>
-                <SchedulePage/>
+                {/* <SchedulePage/> */}
                 <Footer/>
             </main>
         </div>

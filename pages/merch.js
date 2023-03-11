@@ -16,7 +16,7 @@ function MerchandisePage() {
 
             <main className={styles.main}>
                 <Nav/>
-                <Merch/>
+                {/* <Merch/> */}
                 <Footer/>
             </main>
         </div>

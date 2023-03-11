@@ -58,8 +58,9 @@
   animation: glitch infinite 3s;
 } */
 .theme_text{
-    text-shadow: 5px 4px 2px rgba(218, 0, 55, 1);
-    animation: glitch infinite 3s;
+    /* text-shadow: 5px 4px 2px rgba(218, 0, 55, 1); */
+    text-shadow: 9px 7px 4px rgba(218, 0, 55, 1);
+    /* animation: glitch infinite 3s; */
 }
 
 .register__btn{
@@ -77,7 +78,7 @@
 	cursor: pointer;
 }
 
-@keyframes glitch {
+/* @keyframes glitch {
 
     0% {
         text-shadow: -5px -4px 2px rgba(218, 0, 55, 1);
@@ -87,7 +88,7 @@
         text-shadow:5px 4px 2px rgba(218, 0, 55, 1);
     }
 
-}
+} */
 /* @keyframes glitch {
 
     0%{

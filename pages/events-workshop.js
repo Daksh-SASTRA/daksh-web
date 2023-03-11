@@ -30,7 +30,7 @@ function Events() {
 
             <main className={styles.main}>
                 <Nav />
-                <EventsWorkshop number={number}/>
+                {/* <EventsWorkshop number={number}/> */}
                 <Footer />
             </main>
         </div>

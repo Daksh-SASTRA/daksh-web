@@ -14,12 +14,12 @@ function Banner() {
                         <source src="/bgvideo.mp4" type='video/mp4' />
                     </video> */}
                     <h1 className={`${styles.divbanner__headtext} ${styles.theme_text}`} data-aos="fade-up" data-aos-delay="200">
-                        Build <br /> Things That <br /> Matter.
+                        build <br /> things that <br /> matter.
                     </h1>
                     <h3 className={styles.divbanner__descriptiontext} data-aos="fade-up" data-aos-delay="400">
                         Daksh is Happening very soon
                     </h3>
-                    <a href='https://linktr.ee/daksh2023' data-aos="fade-up" data-aos-delay="200" className={styles.register__btn}>COMING SOON ...</a>
+                    {/* <a href='https://linktr.ee/daksh2023' data-aos="fade-up" data-aos-delay="200" className={styles.register__btn}>COMING SOON ...</a> */}
                     {/* <Link href="#newsletter">
                     <a className={styles.divbanner__eveandwsbtn}>
                         Events and Workshops
