@@ -4,7 +4,7 @@
   text-align: center;
   padding: 15px 30px;
   /* color: #2621b7; */
-  color: #DA0037;
+  color: #262D33;
   background-color: var(--white);
   /* background-image: var(--text-gradient-color); */
   /* background-clip:padding-box; */
@@ -20,5 +20,13 @@
 }
 .global_button:hover {
   /* color: #05559c; */
-  color:#ff0040;
+  background-color: #262D33;
+  color:var(--white);
+}
+@media screen and (max-width: 500px){
+  .global_button{
+    padding: 10px 20px;
+    font-size: 12px;
+
+  }
 }
