@@ -7,7 +7,7 @@ import Footer from '../components/Footer/Footer'
 import EventsWorkshop from '../components/EventsWorkshop/EventsWorkshop'
 import ComingSoon from '../components/ComingSoon/ComingSoon';
 
-//
+// events update 
 function Events() {
     const { query } = useRouter();
     const [number,setNumber] = useState(0);
