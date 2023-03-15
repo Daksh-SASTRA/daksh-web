@@ -32,8 +32,8 @@ function Events() {
 
             <main className={styles.main}>
                 <Nav />
-                <ComingSoon />
-                {/* <EventsWorkshop number={number}/> */}
+                {/* <ComingSoon /> */}
+                <EventsWorkshop number={number}/>
                 <Footer />
             </main>
         </div>
