@@ -2,7 +2,7 @@
     display: flex;
     padding: 5rem;
     /* background-color: rgba(0, 0, 0, 0.9); */
-    background-color: var(--color-violet);
+    background-color: var(--color-medium-blue);
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-evenly;

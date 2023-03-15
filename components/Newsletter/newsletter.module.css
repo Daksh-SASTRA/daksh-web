@@ -1,6 +1,6 @@
 .maincontainer{
   background-color: rgba(0, 0, 0, 0.9);
-  background-color: var(--color-violet);
+  background-color: var(--color-medium-blue);
   padding-bottom: 3%;
   overflow: hidden;
 }
