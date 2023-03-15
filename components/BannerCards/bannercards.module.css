@@ -7,7 +7,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: var(--gradient-right);
+    /* background-image: var(--gradient-right); */
+    background-color: var(--color-white);
+    /* background-color: transparent; */
 }
 
 .card {
@@ -15,7 +17,9 @@
     width: 250px !important;
     height: 375px;
     max-height: 375px;
-    background-color: var(--secondaryBg);
+    /* background-color: var(--secondaryBg); */
+    /* background-color: var(--color-violet); */
+    background-color: var(--color-black);
     border-radius: 10px;
     margin: auto 0px;
     display: flex;
@@ -31,7 +35,8 @@
     width: 250px !important;
     height: 400px;
     max-height: 400px;
-    background-color: rgb(0,0,0);
+    /* background-color: rgb(0,0,0); */
+    background-color: var(--color-medium-blue);
     border-radius: 10px;
     margin: auto 0px;
     display: flex;

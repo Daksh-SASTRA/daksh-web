@@ -34,6 +34,15 @@
   --white:#f8f8f8;
   /* --secondaryFontColor: #B6B6B6; */
   --secondaryFontColor: #EDEDED;
+
+  /* New design  */
+  --color-white: #F9F7F7;
+  --color-violet: #66347F;
+  --color-black: #262D33;
+  --color-light-blue: #dbe2ef;
+  --color-medium-blue: #3f72af;
+  --color-dark-blue: #112d4e; 
+
 }
 
 html,
@@ -50,7 +59,11 @@ body {
 }
 
 html {
-  background-color: var(--primaryBg);
+  /* background-color: var(--primaryBg); */
+  /* background-color: var(--color-white); */
+  background: url("/backgbanner.png");
+  background-repeat: repeat;
+  background-size: 100%;
 }
 
 a {
@@ -64,3 +77,10 @@ a {
   padding: 0;
 }
 
+@media only screen and (max-width:650px) {
+  html {
+    background-image: url("/backgbanner2.png");
+    background-size: 150%;
+    background-position: center;
+  }
+}

@@ -4,8 +4,9 @@
   text-align: center;
   padding: 15px 30px;
   /* color: #2621b7; */
-  color: #DA0037;
-  background-color: var(--white);
+  /* color: #DA0037; */
+  color: var(--color-white);
+  background-color: var(--color-black);
   /* background-image: var(--text-gradient-color); */
   /* background-clip:padding-box; */
   /* -webkit-background-clip: text; */
@@ -13,12 +14,15 @@
   cursor: pointer;
   font-size: 18px;
   font-family: content;
-  font-weight: 700;
-  letter-spacing: 0.3px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
   line-height: 18px;
-  transition: all 0.5s ease-in-out;
+  transition: all 0.35s ease-in-out;
+  /* border-radius: 2px; */
 }
 .global_button:hover {
   /* color: #05559c; */
-  color:#ff0040;
+  /* color:#ff0040; */
+  color: var(--color-black);
+  background-color: var(--color-white);
 }
