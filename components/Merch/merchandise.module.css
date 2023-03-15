@@ -1,8 +1,6 @@
 .imageContainer {
     position: relative;
-
 }
-
 .imageContainer>h1 {
     position: absolute;
     font-size: 8.4rem;
@@ -11,17 +9,16 @@
     transform: translate(-50%, -50%);
 }
 .merchImage{
-    margin: 0 auto;    
-    width: 70%;
+    margin: 0 auto 2rem auto;    
+    width: 50%;
+
 }
 
 @media screen and (max-width:1080px){
     .imageContainer>h1{
         font-size: 8rem;
     }
-    .merchImage{
-        width: 100%;
-    }
+        
 }
 
 @media screen and (max-width: 1000px){
@@ -29,7 +26,7 @@
         font-size: 12rem;
     }
     .merchImage{
-        width: 70%;
+        width: 40%;
     }   
 }
 @media screen and (max-width: 850px){
@@ -42,7 +39,7 @@
         font-size: 8rem;
     }   
     .merchImage{
-        width:70%;
+        width:40%;
     }
 }
 @media screen and (max-width: 600px){
@@ -50,7 +47,7 @@
         font-size: 7rem;
     }   
     .merchImage{
-        width:75%;
+        width:40%;
     }
 }
 @media screen and (max-width: 500px){
@@ -58,7 +55,7 @@
         font-size: 6rem;
     }   
     .merchImage{
-        width:80%;
+        width:40%;
     }
 }
 @media screen and (max-width: 400px){
@@ -66,7 +63,7 @@
         font-size: 5.5rem;
     }   
     .merchImage{
-        width:70%;
+        width:50%;
     }
 }
 @media screen and (max-width: 350px){
@@ -74,7 +71,7 @@
         font-size: 4.5rem;
     }   
     .merchImage{
-        width:70%;
+        width:50%;
     }
 }
 @media screen and (max-width: 300px){
@@ -82,6 +79,6 @@
         font-size: 4rem;
     }   
     .merchImage{
-        width:70%;
+        width:50%;
     }
 }

@@ -26,3 +26,10 @@
   color: var(--color-black);
   background-color: var(--color-white);
 }
+@media screen and (max-width: 500px){
+  .global_button{
+    padding: 10px 20px;
+    font-size: 12px;
+
+  }
+}
