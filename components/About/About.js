@@ -18,7 +18,7 @@ function About() {
                         </Link> */}
                          <Link href="/teams" >
                              <div>
-                              <Buttons text="Teams" radius="40px" />
+                              <Buttons text="TEAMS" radius="10px" />
                              </div>
                         </Link>
                     </div>
