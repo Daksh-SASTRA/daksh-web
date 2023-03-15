@@ -74,3 +74,10 @@ a {
   padding: 0;
 }
 
+@media only screen and (max-width:650px) {
+  html {
+    background-image: url("/backgbanner2.png");
+    background-size: 150%;
+    background-position: center;
+  }
+}
