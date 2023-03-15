@@ -18,9 +18,9 @@ function EventsWorkshop({number}) {
     return (
         <div className={styles.events__workshop}>
             <div className={styles.navigation}>
-                <button className={(events==0) ? `${styles.events__workshop__btn} ${styles.active}` : styles.events__workshop__btn} onClick={()=> setEvents(0)}>EVENTS</button>
+                <button className={(events==0) ? `${styles.events__workshop__btn} ${styles.active}` : styles.events__workshop__btn} onClick={()=> setEvents(0)}>WORKSHOP</button>
+                <button className={(events==1) ? `${styles.events__workshop__btn} ${styles.active}` : styles.events__workshop__btn} onClick={()=> setEvents(1)}>EVENTS</button>
                 {/* <button className={(events==2) ? `${styles.events__workshop__btn} ${styles.active}` : styles.events__workshop__btn} onClick={()=> setEvents(2)}>Hackathons</button> */}
-                <button className={(events==1) ? `${styles.events__workshop__btn} ${styles.active}` : styles.events__workshop__btn} onClick={()=> setEvents(1)}>WORKSHOP</button>
             </div>
             {(events == 0) ?
                 <div className={styles.events__section}>

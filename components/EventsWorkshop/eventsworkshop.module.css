@@ -20,8 +20,8 @@
     position: relative;
     text-align: center;
     padding: 15px 30px;
-    color: #112D4E;
-    /* background-color: #F9F7F7; */
+    color: var(--color-dark-blue);
+    /* background-color: var(--color-white); */
     cursor: pointer;
     font-size: 18px;
     font-family: content;
@@ -36,9 +36,9 @@
 }
 
 .active {
-    background-color: #F9F7F7;
+    background-color: var(--color-white);
     background-size: 400%;
-    color:#112D4E;
+    color: var(--color-dark-blue);
     background-color: rgb(30, 30, 30);
     opacity: 100%;
 }
@@ -77,8 +77,14 @@
     -webkit-text-fill-color: transparent;
 }
 
-.cardContent > h2{
+.cardContent>h2 {
     margin-bottom: 4px;
+    font-size: 2rem;
+}
+
+.cardContent>p {
+    margin-bottom: 5px;
+    /* font-size: 2rem; */
 }
 
 .ecard>h5,
@@ -111,7 +117,7 @@
     align-items: center;
     flex-wrap: wrap;
     gap: 20px;
-    padding-top:5%;
+    padding-top: 5%;
 }
 
 .ecard_styles {
@@ -164,7 +170,8 @@
     object-fit: cover;
 
 }
-.cardContent{
+
+.cardContent {
     padding: 0 2%;
 }
 
@@ -205,19 +212,19 @@
 
 .events__workshop__btn:hover {
     z-index: 1;
-    background-color: #F9F7F7;
+    background-color: var(--color-white);
 }
 
 .active {
     z-index: 1;
-    animation: glow 8s linear infinite;
-    background-color:#F9F7F7;
+    /* animation: glow 8s linear infinite; */
+    background-color: var(--color-white);
     background-size: 400%;
 }
 
 /* .register_btn:hover {
     z-index: 1;
-    background-color:#F9F7F7;
+    background-color:var(--color-white);
 } */
 
 /* @keyframes glow {
@@ -275,11 +282,11 @@
     border-radius: 5px;
     padding: 10px 35px;
     text-align: center;
-    color: #112D4E;
+    color: var(--color-dark-blue);
     font-weight: bold;
     z-index: 1;
     animation: glow 8s linear infinite;
-    background-color: #F9F7F7;
+    background-color: var(--color-white);
     background-size: 400%;
 }
 
@@ -366,12 +373,16 @@
     }
 
     .cardImg {
-        width: 80%;
-        padding-top: 10%;
+        width: 100%;
+        padding: 2% 0;
     }
 
     .poster {
         flex-direction: column;
+    }
+
+    .cardContent>p {
+        margin-bottom: 20px;
     }
 
     .poster img {
