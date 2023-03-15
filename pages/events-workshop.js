@@ -14,9 +14,9 @@ function Events() {
 
     useEffect(() => {
         if(query.q === 'events'){
-            setNumber(0);
-        }else if(query.q === 'workshops'){
             setNumber(1);
+        }else if(query.q === 'workshops'){
+            setNumber(0);
         }else if(query.q === 'hackathons'){
             setNumber(2);
         }
