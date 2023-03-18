@@ -8,7 +8,7 @@
     justify-content: center;
     align-items: center;
     /* background-image: var(--gradient-right); */
-    background-color: var(--color-white);
+    background-color: var(--color-blue-1);
     /* background-color: transparent; */
 }
 
@@ -19,8 +19,7 @@
     max-height: 375px;
     /* background-color: var(--secondaryBg); */
     /* background-color: var(--color-violet); */
-    background-color: var(--color-black);
-    border-radius: 10px;
+    /* border-radius: 10px; */
     margin: auto 0px;
     display: flex;
     flex-direction: column;
@@ -28,6 +27,9 @@
     justify-content: center;
     transition: all 0.5s;
     transform: scale(0.8);
+    background: rgba(10, 3, 68, 0.8);
+    box-shadow: 8px 8px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
 }
 
 .card_active {
@@ -36,16 +38,17 @@
     height: 400px;
     max-height: 400px;
     /* background-color: rgb(0,0,0); */
-    background-color: var(--color-medium-blue);
-    border-radius: 10px;
+    background-color: var(--color-blue-2);
+    border-radius: 30px;
     margin: auto 0px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    box-shadow: rgb(0,0,0);
+    /* box-shadow: rgb(0,0,0); */
     transform: scale(1);
-    box-shadow: rgba(25, 25, 26, 0.5) 0px 7px 29px 0px;
+    /* box-shadow: rgba(25, 25, 26, 0.5) 0px 7px 29px 0px; */
+    box-shadow: 8px 8px 10px rgba(0, 0, 0, 0.25);
 }
 
 .center {
