@@ -2,8 +2,7 @@ import React from "react";
 import styles from "./productDetails.module.css";
 import Image from "next/image";
 import Button from "../Buttons/Buttons";
-import tshirt from "../../public/shirtpreview/tshirt.webp";
-import hoodie from "../../public/shirtpreview/hoodie.webp";
+
 import Link from "next/link";
 
 function Product({ productName, imageLink }) {
@@ -11,7 +10,7 @@ function Product({ productName, imageLink }) {
   return (
     <div className={styles.product_details_container}>
       <div className={styles.product_image}>
-        <Image src={tshirt} width={500} height={600} />
+        <Image src={imageLink} width={500} height={600} />
       </div>
       <div className={styles.product_details}>
         <div className={styles.product_name}>{productName}</div>
