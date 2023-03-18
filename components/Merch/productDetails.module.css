@@ -1,0 +1,133 @@
+.product_details_container {
+  display: flex;
+  max-width: 90%;
+  margin: 20vh auto 20vh auto;
+}
+
+.product_image {
+  width: 70%;
+}
+
+.product_details {
+  display: flex;
+  flex-direction: column;
+  padding-left: 50px;
+}
+
+.product_name {
+  font-size: 8rem;
+  font-weight: bold;
+  text-align: left;
+}
+
+.product_desc {
+  text-align: left;
+  font-size: 12px;
+  width: 70%;
+}
+
+.product_price {
+  font-size: 30px;
+  font-weight: bold;
+  text-align: left;
+  margin-top: 25px;
+}
+
+.product_size {
+  margin-top: 20px;
+}
+
+.product_size > h3 {
+  text-align: left;
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.order_now_button {
+  text-align: left;
+  margin-top: 30px;
+}
+
+.merch__sizecontainer {
+  width: 32%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 6px;
+  /* gap: 10px; */
+}
+
+.merch__sizebubble {
+  /* background-color: white; */
+  color: white;
+  border: 2px solid white;
+  width: 50px;
+  aspect-ratio: 1;
+  padding: 6px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.9rem;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1190px) {
+  .product_details_container {
+    max-width: 100%;
+  }
+
+  .product_name {
+    font-size: 6rem;
+  }
+
+  .merch__sizecontainer {
+    width: 40%;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .product_details_container {
+    display: block;
+  }
+
+  .product_image {
+    width: 50%;
+    text-align: center;
+    margin: auto;
+  }
+
+  .product_name {
+    font-size: 6rem;
+  }
+
+  .product_details {
+    padding: 0px;
+    text-align: center;
+  }
+
+  .product_name {
+    text-align: center;
+  }
+
+  .product_desc {
+    align-self: center;
+  }
+
+  .product_price {
+    text-align: center;
+  }
+
+  .product_size > h3 {
+    text-align: center;
+  }
+
+  .order_now_button {
+    text-align: center;
+  }
+
+  .merch__sizecontainer {
+    width: 50%;
+    margin: auto;
+  }
+}
