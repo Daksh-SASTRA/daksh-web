@@ -5,8 +5,8 @@
   padding: 15px 30px;
   /* color: #2621b7; */
   /* color: #DA0037; */
-  color: var(--color-white);
-  background-color: var(--color-black);
+  color: var(--color-black);
+  background-color: var(--color-white);
   /* background-image: var(--text-gradient-color); */
   /* background-clip:padding-box; */
   /* -webkit-background-clip: text; */
@@ -23,8 +23,8 @@
 .global_button:hover {
   /* color: #05559c; */
   /* color:#ff0040; */
-  color: var(--color-black);
-  background-color: var(--color-white);
+  color: var(--color-white);
+  background-color: var(--color-black);
 }
 @media screen and (max-width: 500px){
   .global_button{

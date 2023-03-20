@@ -11,7 +11,7 @@ import btn from '../Buttons/buttons.module.css';
 
 function Merch({merchName, imageLink, shoppingLink}) {
     return (
-        <div>
+        <div className={styles.glassyCard}>
         <div className={styles.imageContainer}>
             <h1>{merchName}</h1>
             <div className={styles.merchImage}>

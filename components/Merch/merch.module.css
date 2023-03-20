@@ -1,10 +1,11 @@
 .merch_container {
   display: flex;
-  margin: 20vh auto 20vh auto;
+  gap: 10vh;
+  margin: 20vh 10vh 20vh 10vh;
 }
 @media screen and (max-width: 1000px){
   .merch_container{
-    margin: 15vh auto 15vh auto;
+    margin: 15vh 2.5rem 15vh 2.5rem;
     gap: 5rem;
     flex-direction: column;
   }
