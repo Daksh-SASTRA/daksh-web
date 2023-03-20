@@ -1,12 +1,11 @@
 .maincontainer{
   background-color: rgba(0, 0, 0, 0.9);
-  background-color: var(--color-blue-2);
   padding-bottom: 3%;
   overflow: hidden;
 }
 .maincontainer h3{
     font-family: title;
-    color: var(--color-white);
+    color: var(--white);
     text-align: center;
     font-size: 2rem;
     margin: 1rem 0 0 0;
@@ -15,7 +14,7 @@
   font-family: content;
   min-height: 16vh;
   background-color: transparent;
-  color:var(--color-black);
+  color:var(--secondaryFontColor);
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -36,9 +35,9 @@
   text-align: center;
   padding: 15px 30px;
   /* color: #2621b7; */
-  /* color: #DA0037; */
-  color: var(--color-white);
-  background-color:var(--color-black);
+    color: #DA0037;
+  /* color: blueviolet; */
+  background-color:var(--white);
   cursor: pointer;
   font-size: 18px;
   font-family: content;
@@ -51,8 +50,7 @@
 }
 .btn:hover{
   /* color: #05559c; */
-  color: var(--color-black);
-  background-color: var(--color-white);
+  color: #ff0040;
 }
 
 @media screen and (max-width: 700px) {

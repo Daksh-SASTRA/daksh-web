@@ -15,13 +15,12 @@
 
 .events__workshop__btn {
     display: inline-flex;
-    background: rgba(255, 255, 255, 0.3);
-    /* backdrop-filter: blur(3.8px); */
+    opacity: 25%;
     position: relative;
     text-align: center;
     padding: 15px 30px;
-    color: var(--color-dark-blue);
-    /* background-color: var(--color-white); */
+    color: #fff;
+    background-color: var(--secondaryBg);
     cursor: pointer;
     font-size: 18px;
     font-family: content;
@@ -29,16 +28,15 @@
     letter-spacing: 0.3px;
     line-height: 18px;
     transition: all 0.5s ease-in-out;
-    border-radius: 10px;
+    border-radius: 40px;
     border: none;
     margin-right: 20px;
-    box-shadow: 6px 9px 12px -3px rgba(0, 0, 0, 0.65);
 }
 
 .active {
-    background-color: var(--color-white);
+    background-image: var(--gradient-right);
     background-size: 400%;
-    color: var(--color-dark-blue);
+    color: #fff;
     background-color: rgb(30, 30, 30);
     opacity: 100%;
 }
@@ -50,13 +48,11 @@
 
 .ecard {
     width: 100%;
-    padding: 20px;
-    border-radius: 20px;
-    background-color: rgba(255, 255, 255, 0.20);
-    backdrop-filter: blur(3.8px);
-    box-shadow: 6px 9px 12px -3px rgba(0, 0, 0, 0.65);
+    padding: 30px;
+    border-radius: 15px;
+    background-image: var(--card-background);
     display: flex;
-    /* flex-direction: row; */
+    flex-direction: column;
     margin: 2rem 0;
     transition: height 2s;
 }
@@ -75,16 +71,6 @@
     background-size: 100%;
     margin-right: auto;
     -webkit-text-fill-color: transparent;
-}
-
-.cardContent>h2 {
-    margin-bottom: 4px;
-    font-size: 2rem;
-}
-
-.cardContent>p {
-    margin-bottom: 5px;
-    /* font-size: 2rem; */
 }
 
 .ecard>h5,
@@ -110,23 +96,12 @@
     margin-left: -1em;
 }
 
-
 .ecard_actions {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 20px;
-    padding-top: 5%;
-}
-
-.ecard_styles {
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-    gap: 20px;
-    padding-top: 5%;
+    gap: 10px;
 }
 
 .ecard_actions>.register {
@@ -155,25 +130,6 @@
     float: right;
 }
 
-.cardImg {
-    width: 50%;
-    height: auto;
-    overflow: hidden;
-    /* padding: 2%; */
-
-}
-
-.cardImg img {
-    width: 100%;
-    height: 100%;
-    border-radius: 15px;
-    object-fit: cover;
-
-}
-
-.cardContent {
-    padding: 0 2%;
-}
 
 .poster>h3 {
     background-image: var(--text-gradient-color);
@@ -212,22 +168,27 @@
 
 .events__workshop__btn:hover {
     z-index: 1;
-    background-color: var(--color-white);
+    animation: glow 8s linear infinite;
+    
+    background-image:var(--hover-gradient);;
+    background-size: 400%;
 }
 
 .active {
     z-index: 1;
-    /* animation: glow 8s linear infinite; */
-    background-color: var(--color-white);
+    animation: glow 8s linear infinite;
+    background-image:var(--hover-gradient);;
     background-size: 400%;
 }
 
-/* .register_btn:hover {
+.register_btn:hover {
     z-index: 1;
-    background-color:var(--color-white);
-} */
+    animation: glow 8s linear infinite;
+    background-image:var(--hover-gradient);;
+    background-size: 400%;
+}
 
-/* @keyframes glow {
+@keyframes glow {
     0% {
         background-position: 0%;
     }
@@ -235,7 +196,7 @@
     100% {
         background-position: 400%;
     }
-} */
+}
 
 .events__workshop__btn::before {
     content: "";
@@ -267,12 +228,12 @@
     transition: opacity 0.5s;
 }
 
-/* .events__workshop__btn::before,
+.events__workshop__btn::before,
 .register_btn:hover::before,
 .download_btn:hover::before {
     opacity: 1;
     z-index: -1;
-} */
+}
 
 .register_btn {
     background: rgba(225, 255, 225, 0.1);
@@ -280,20 +241,19 @@
     box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
     position: relative;
     border-radius: 5px;
-    padding: 10px 35px;
+    padding: 6px 20px;
     text-align: center;
-    color: var(--color-dark-blue);
-    font-weight: bold;
+    color: aliceblue;
     z-index: 1;
     animation: glow 8s linear infinite;
-    background-color: var(--color-white);
+    background-image:var(--hover-gradient);;
     background-size: 400%;
 }
 
-/* .ecard_actions>a:hover {
+.ecard_actions>a:hover {
     border: 1px solid white;
     transition: all 0.3s linear;
-} */
+}
 
 .rounds {
     padding: 20px;
@@ -325,11 +285,11 @@
     transition: all 0.3s linear;
 }
 
-/* #expand:hover {
+#expand:hover {
     border: 1px solid white;
     border-radius: 5px;
     transition: all 0.3s linear;
-} */
+}
 
 .rules>p:before {
     content: "\2022";
@@ -367,22 +327,11 @@
     }
 
     .ecard {
-        flex-direction: column;
-        padding: 1.5rem;
-        align-items: center;
-    }
-
-    .cardImg {
-        width: 100%;
-        padding: 2% 0;
+        padding: 2rem 1.5rem;
     }
 
     .poster {
         flex-direction: column;
-    }
-
-    .cardContent>p {
-        margin-bottom: 20px;
     }
 
     .poster img {
@@ -390,8 +339,7 @@
     }
 
     .ecard_actions {
-        margin-top: 10%;
-        flex-direction: row;
+        flex-direction: column;
         align-items: flex-start;
     }
 

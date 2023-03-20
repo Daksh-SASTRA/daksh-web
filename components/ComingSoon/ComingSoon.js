@@ -5,7 +5,7 @@ import styles from "./comingsoon.module.css";
 const ComingSoon = () => {
   let shadow = "";
   for (let i = 0; i < 30; i++) {
-    shadow += `${(shadow ? "," : "") + -i * 0.3}px ${-i * 0.4}px 0px #3f72af`;
+    shadow += `${(shadow ? "," : "") + -i * 0.3}px ${-i * 0.4}px 0px #DA0037`;
   }
 
   const shadowStyle = {
