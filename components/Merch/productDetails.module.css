@@ -18,6 +18,7 @@
   font-size: 8rem;
   font-weight: bold;
   text-align: left;
+  textTransform: 'uppercase';
 }
 
 .product_desc {

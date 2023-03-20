@@ -2,7 +2,6 @@ import React from "react";
 import styles from "./productDetails.module.css";
 import Image from "next/image";
 import Button from "../Buttons/Buttons";
-
 import Link from "next/link";
 
 function Product({ productName, imageLink }) {

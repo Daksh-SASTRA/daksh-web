@@ -9,8 +9,7 @@ import hoodie from "../../public/shirtpreview/hoodie.webp";
 function ProductDetails() {
   let router = useRouter();
   let name = router.query.product;
-  name = name.toUpperCase() 
-  let imageLink = name == "TSHIRT" ? tshirt: hoodie;
+  let imageLink = name == "tshirt" ? tshirt: hoodie;
   return (
     <main className={styles.main}>
       <Nav />
