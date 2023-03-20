@@ -34,6 +34,19 @@
   --white:#f8f8f8;
   /* --secondaryFontColor: #B6B6B6; */
   --secondaryFontColor: #EDEDED;
+
+  /* New design  */
+  --color-white: #F9F7F7;
+  --color-violet: #66347F;
+  --color-black: #262D33;
+  --color-light-blue: #dbe2ef;
+  --color-medium-blue: #3f72af;
+  --color-dark-blue: #112d4e; 
+
+  --color-blue-1: #192FB8;
+  --color-blue-2: #0A0344;
+
+  --gradient-blue: linear-gradient(to right top, #192FB8, #F9F7F7);
 }
 
 html,
@@ -50,7 +63,12 @@ body {
 }
 
 html {
-  background-color: var(--primaryBg);
+  /* background-color: var(--primaryBg); */
+  /* background-color: var(--color-white); */
+  background: url("/backgbanner.webp");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100%;
 }
 
 a {
@@ -64,3 +82,10 @@ a {
   padding: 0;
 }
 
+@media only screen and (max-width:650px) {
+  html {
+    background-image: url("/backgbanner2.webp");
+    background-size: 150%;
+    background-position: center;
+  }
+}

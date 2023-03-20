@@ -16,8 +16,9 @@
   padding: 10px 20px;
   margin: 5px;
   font-family: title, sans-serif;
-  font-size: 1.8rem;
-  background: var(--gradient-right);
+  font-size: 2.8rem;
+  /* background: var(--gradient-right); */
+  background: var(--gradient-blue);
   background-clip: text;
   -webkit-background-clip: text;  
   -moz-background-clip: text;  
@@ -42,6 +43,15 @@
   padding: 10px;
   margin: 20px 0;
   font-size: 1rem;
+  border-radius: 20px;
+}
+
+.contacts img {
+  width: 150px;
+  border-radius: 50%;
+  aspect-ratio: 1;
+  object-fit: cover;
+  object-position: center;
 }
 
 @keyframes fadeIn {
@@ -60,14 +70,16 @@
 
 .name {
   font-size: 1.3rem;
-  background-image: var(--text-gradient-color);
+  /* background-image: var(--text-gradient-color);
   background-clip: padding-box;
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  -webkit-text-fill-color: transparent; */
+  /* color: var(--color-blue-1); */
 }
 
 .designation {
   font-size: 1.1rem;
+  color: var(--color-light-blue);
 }
 
 .email:hover {
@@ -82,11 +94,11 @@
 
 @media screen and (max-width: 500px) {
   .contactHeadingMain {
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     padding: 10px;
   }
 
   .contacts {
-    width: fit-content;
+    width: 90%;
   }
 }

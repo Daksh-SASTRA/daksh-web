@@ -1,0 +1,20 @@
+[
+    {
+        "title": "VR Workshop",
+        "desc": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime voluptatem aspernatur dicta, error corporis aliquam optio sit rerum harum laboriosam autem tenetur. Dolorum nemo reprehenderit qui! Eum maxime vel tenetur deserunt quisquam ea soluta sequi recusandae placeat omnis iure eveniet nesciunt enim qui beatae dolor debitis fugiat, quaerat maiores a.",
+        "fees": "Rs800",
+        "poster": "/event-1.png"
+    },
+    {
+        "title": "AI Workshop",
+        "desc": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime voluptatem aspernatur dicta, error corporis aliquam optio sit rerum harum laboriosam autem tenetur. Dolorum nemo reprehenderit qui! Eum maxime vel tenetur deserunt quisquam ea soluta sequi recusandae placeat omnis iure eveniet nesciunt enim qui beatae dolor debitis fugiat, quaerat maiores a.",
+        "fees": "Rs800",
+        "poster": "/event-2.png"
+    },
+    {
+        "title": "IOT Workshop",
+        "desc": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime voluptatem aspernatur dicta, error corporis aliquam optio sit rerum harum laboriosam autem tenetur. Dolorum nemo reprehenderit qui! Eum maxime vel tenetur deserunt quisquam ea soluta sequi recusandae placeat omnis iure eveniet nesciunt enim qui beatae dolor debitis fugiat, quaerat maiores a.",
+        "fees": "Rs800",
+        "poster": "/event-1.png"
+    }
+]
