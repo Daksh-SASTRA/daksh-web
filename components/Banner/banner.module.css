@@ -63,7 +63,7 @@
 .theme_text {
   /* text-shadow: 5px 4px 2px rgba(218, 0, 55, 1); */
   /* text-shadow: 9px 7px 4px rgba(218, 0, 55, 1); */
-  text-shadow: 4px 6px 1px var(--color-violet);
+  text-shadow: 4px 6px 2px var(--color-blue-2);
   /* animation: glitch infinite 3s; */
 }
 

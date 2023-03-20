@@ -1,6 +1,6 @@
 .sponsers{
-    background-color:var(--white);
-    color:var(--primaryBg);
+    background-color:var(--color-blue-1);
+    color:var(--color-white);
     padding: 5rem;
 }
 

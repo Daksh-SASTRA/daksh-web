@@ -14,9 +14,9 @@ function Events() {
 
     useEffect(() => {
         if(query.q === 'events'){
-            setNumber(0);
-        }else if(query.q === 'workshops'){
             setNumber(1);
+        }else if(query.q === 'workshops'){
+            setNumber(0);
         }else if(query.q === 'hackathons'){
             setNumber(2);
         }
@@ -32,8 +32,8 @@ function Events() {
 
             <main className={styles.main}>
                 <Nav />
-                <ComingSoon />
-                {/* <EventsWorkshop number={number}/> */}
+                {/* <ComingSoon /> */}
+                <EventsWorkshop number={number}/>
                 <Footer />
             </main>
         </div>

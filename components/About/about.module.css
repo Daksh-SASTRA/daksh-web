@@ -1,6 +1,6 @@
 .about{
     /* background-color: rgba(0, 0, 0, 0.9); */
-    background-color: var(--color-medium-blue);
+    background-color: var(--color-white);
     text-align: left;
     width: 100%;
     padding: 5rem;
@@ -34,7 +34,7 @@
 .about__h3{
     /* color: var(--white); */
     /* color: var(--color-white); */
-    color: var(--color-black);
+    color: var(--color-blue-1);
     font-family: title;
     font-size: 3rem;
     font-weight: 600;
@@ -62,7 +62,7 @@
 .about__p{
     margin: 2rem 0;
     font-size: 1rem;
-    color:var(--secondaryFontColor);
+    color:var(--color-blue-2);
     font-weight: 400;
     font-family: content;
 }
