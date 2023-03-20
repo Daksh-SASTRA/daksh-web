@@ -46,6 +46,7 @@
   --color-blue-1: #192FB8;
   --color-blue-2: #0A0344;
 
+  --gradient-blue: linear-gradient(to right top, #192FB8, #F9F7F7);
 }
 
 html,
