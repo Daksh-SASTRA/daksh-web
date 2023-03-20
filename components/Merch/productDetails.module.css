@@ -18,7 +18,7 @@
   font-size: 8rem;
   font-weight: bold;
   text-align: left;
-  textTransform: 'uppercase';
+  text-transform: uppercase;
 }
 
 .product_desc {
