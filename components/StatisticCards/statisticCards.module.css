@@ -1,8 +1,7 @@
 .container{
     display: flex;
     padding: 5rem;
-    /* background-color: rgba(0, 0, 0, 0.9); */
-    background-color: var(--color-blue-2);
+    background-color: rgba(0, 0, 0, 0.9);
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-evenly;
@@ -24,7 +23,7 @@
 .container span{
    font-family: content;
    font-weight: bold;
-   color: var(--color-blue-1);
+   color: var(--secondaryFontColor);
 }
 
 .counter{

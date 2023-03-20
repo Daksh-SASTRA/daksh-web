@@ -7,16 +7,16 @@ import Footer from '../components/Footer/Footer'
 import EventsWorkshop from '../components/EventsWorkshop/EventsWorkshop'
 import ComingSoon from '../components/ComingSoon/ComingSoon';
 
-//
+
 function Events() {
     const { query } = useRouter();
     const [number,setNumber] = useState(0);
 
     useEffect(() => {
         if(query.q === 'events'){
-            setNumber(1);
-        }else if(query.q === 'workshops'){
             setNumber(0);
+        }else if(query.q === 'workshops'){
+            setNumber(1);
         }else if(query.q === 'hackathons'){
             setNumber(2);
         }
@@ -32,8 +32,8 @@ function Events() {
 
             <main className={styles.main}>
                 <Nav />
-                {/* <ComingSoon /> */}
-                <EventsWorkshop number={number}/>
+                <ComingSoon />
+                {/* <EventsWorkshop number={number}/> */}
                 <Footer />
             </main>
         </div>

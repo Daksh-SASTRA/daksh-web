@@ -25,13 +25,12 @@
 
 .footer_icon {
 	font-size: 30px;
-	color: var(--color-white);
+	color: var(--secondaryFontColor);
 	transition: all linear 0.25s;
 }
 .footer_icon:hover {
-	/* font-size: 32px; */
-	color: var(--color-violet);
-	transform: scale(0.95);
+	font-size: 32px;
+	color: var(--white);
 }
 
 .footer_right {
@@ -57,13 +56,13 @@
 
 .footer_links a,
 .footer_contact a {
-	color: var(--color-white);
+	color: var(--secondaryFontColor);
 	transition: all 0.5s;
 	margin-bottom: 0;
 }
 
 .footer_links a:hover {
-	color: var(--color-medium-blue);
+	color: var(--white);
 }
 
 .footer__contribution {
