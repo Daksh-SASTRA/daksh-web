@@ -1,13 +1,9 @@
 import React from 'react'
 import Head from 'next/head'
 import styles from '../../styles/Home.module.css'
-import Merch from "../../components/Merch/Merch";
+import Merch from "../../components/Merch/MerchComp";
 import Nav from '../../components/Nav/Nav'
 import Footer from '../../components/Footer/Footer'
-// import ComingSoon from '../../components/ComingSoon/ComingSoon';
-// import 
-import front from '../../public/shirtpreview/Front.png'
-import back from '../../public/shirtpreview/Back.png'
 
 function MerchandisePage() {
     return (
