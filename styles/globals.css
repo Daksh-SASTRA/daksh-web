@@ -69,6 +69,9 @@ html {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: 100%;
+  -webkit-background-size: 100%;
+  -o-background-size: 100%;
+  -moz-background-size: 100%
 }
 
 a {
@@ -87,5 +90,8 @@ a {
     background-image: url("/backgbanner2.webp");
     background-size: 150%;
     background-position: center;
+    -webkit-background-size: 150%;
+    -o-background-size: 150%;
+    -moz-background-size: 150%
   }
 }
