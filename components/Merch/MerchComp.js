@@ -1,8 +1,8 @@
 import React, { useState } from 'react'
 import styles from './merch.module.css'
 import MerchItem from "./Merchandise";
-import tshirt from '../../public/shirtpreview/tshirt.webp'
-import hoodie from '../../public/shirtpreview/hoodie.webp'
+import tshirt from '../../public/shirtpreview/tee_front.webp'
+import hoodie from '../../public/shirtpreview/hoodie_front.webp'
 
 
 function Merch() {
