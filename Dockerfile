@@ -4,6 +4,8 @@ WORKDIR /app
 
 COPY . .
 
+RUN yarn add sharp
+
 RUN npm i
 
 RUN npm run build
