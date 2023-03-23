@@ -1,16 +1,46 @@
-import React from "react";
+import React, {useState} from "react";
 import styles from "./productDetails.module.css";
 import Image from "next/image";
 import Button from "../Buttons/Buttons";
 import Link from "next/link";
+import styles_ from './merch.module.css'
+import { FaArrowRight, FaArrowLeft } from 'react-icons/fa'
 
-function Product({ productName, imageLink }) {
+
+
+function Product({ productName, imageLinks }) {
   // productName = productName.toUpperCase();
+  const [shirtIndex, setShirtIndex] = useState(0)
+
+  const goToNext = () => {
+      if (shirtIndex >= 1) {
+          setShirtIndex(0)
+      }
+      else {
+          setShirtIndex(() => setShirtIndex(shirtIndex + 1))
+      }
+  }
+
+  const goToPrev = () => {
+      if (shirtIndex <= 0) {
+          setShirtIndex(1)
+      }
+      else {
+          setShirtIndex(() => setShirtIndex(shirtIndex - 1))
+      }
+  }
+
   return (
     <div className={styles.product_details_container}>
-      <div className={styles.product_image}>
-        <Image src={imageLink} width={500} height={600} />
+    <div>
+
+      <div className={styles_.merch__imagecontainer}>
+        <div className={styles_.merch__imageoperation} onClick={goToPrev} ><FaArrowLeft /></div>
+        <div className={styles_.merch__imageshirt}><Image src={imageLinks[shirtIndex]} width={500} height={600} /></div>
+        <div className={styles_.merch__imageoperation} onClick={goToNext}><FaArrowRight /></div>
+
       </div>
+    </div>
       <div className={styles.product_details}>
         <div className={styles.product_name}>{productName}</div>
         <div className={styles.product_desc}>
