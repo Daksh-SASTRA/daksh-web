@@ -11,7 +11,7 @@ import hoodie_back from "../../public/shirtpreview/hoodie_back.webp";
 function ProductDetails() {
   let router = useRouter();
   let name = router.query.product;
-  let imageLinks = name == "tshirt" ? [tshirt_back, tshirt_front]: [hoodie_front, hoodie_back];
+  let imageLinks = name == "tshirt" ? [tshirt_front, tshirt_back]: [hoodie_front, hoodie_back];
   return (
     <main className={styles.main}>
       <Nav />
