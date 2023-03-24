@@ -4,7 +4,7 @@ WORKDIR /app
 
 COPY . .
 
-#RUN yarn add sharp
+RUN yarn add sharp
 
 RUN npm i
 
