@@ -17,16 +17,17 @@ function Events() {
             setNumber(1);
         }else if(query.q === 'workshops'){
             setNumber(0);
-        }else if(query.q === 'hackathons'){
-            setNumber(2);
         }
+        // else if(query.q === 'hackathons'){
+        //     setNumber(2);
+        // }
         console.log(query);
     },[query])
 
     return (
         <div>
             <Head>
-                <title>Daksh 2023 - Events/Workshop/Hackathon</title>
+                <title>Daksh 2023 - Events/Workshop</title>
                 <link rel="icon" href="/favicon.ico" />
             </Head>
 
