@@ -4,7 +4,7 @@ import Link from 'next/link';
 
 function Hackathons () {
     return (
-        <div className={${styles.conatiner}}>
+        <div className={`${styles.conatiner}`}>
             <h1>Hackathons</h1>
         </div>
     )
