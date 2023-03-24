@@ -99,7 +99,7 @@ function Sponsers() {
 					<div className={styles.sponsers__div}>
 						<img
 							className={styles.sponser_infinite}
-							src="/sponsers/d2k23/TATA_ELXSI.png"
+							src="/sponsers/d2k23/tata_elxsi.png"
 							alt="sponser-8"
 							width="250px"
 							height="150px"
