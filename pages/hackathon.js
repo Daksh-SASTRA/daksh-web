@@ -18,7 +18,7 @@ function Hackathon() {
             </Head>
             <main className={styles.main}>
                 <Nav />
-                <h1>Hackathons</h1>
+                <Hackathons/>
                 <Footer />
             </main>
         </div>
