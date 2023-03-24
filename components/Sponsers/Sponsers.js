@@ -153,7 +153,7 @@ function Sponsers() {
 					<div className={styles.sponsers__div}>
 						<img
 							className={styles.sponser_infinite}
-							src="/sponsers/d2k23/Aruba_Networks_logo.png"
+							src="/sponsers/d2k23/Aruba_Networks_logo_.png"
 							alt="sponser-8"
 							width="250px"
 							height="150px"
@@ -162,7 +162,7 @@ function Sponsers() {
 					<div className={styles.sponsers__div}>
 						<img
 							className={styles.sponser_infinite}
-							src="/sponsers/d2k23/intel_1_API.png"
+							src="/sponsers/d2k23/intel_1_API_.png"
 							alt="sponser-8"
 							width="250px"
 							height="150px"
@@ -171,7 +171,7 @@ function Sponsers() {
 					<div className={styles.sponsers__div}>
 						<img
 							className={styles.sponser_infinite}
-							src="/sponsers/d2k23/Fortinet.png"
+							src="/sponsers/d2k23/Fortinet_.png"
 							alt="sponser-8"
 							width="250px"
 							height="150px"
@@ -180,7 +180,7 @@ function Sponsers() {
 					<div className={styles.sponsers__div}>
 						<img
 							className={styles.sponser_infinite}
-							src="/sponsers/d2k23/TATA_ELXSI.jpg"
+							src="/sponsers/d2k23/TATA_ELXSI.png"
 							alt="sponser-8"
 							width="250px"
 							height="150px"
@@ -189,7 +189,7 @@ function Sponsers() {
 					<div className={styles.sponsers__div}>
 						<img
 							className={styles.sponser_infinite}
-							src="/sponsers/d2k23/TATA-Communications-Logo.png"
+							src="/sponsers/d2k23/TATA-Communications-Logo_.png"
 							alt="sponser-8"
 							width="250px"
 							height="150px"
