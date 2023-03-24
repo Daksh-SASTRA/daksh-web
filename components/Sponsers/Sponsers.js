@@ -63,7 +63,7 @@ function Sponsers() {
 					<div className={styles.sponsers__div}>
 						<img
 							className={styles.sponser_infinite}
-							src="/sponsers/d2k23/TEG.jpeg"
+							src="/sponsers/d2k23/Teg_new.png"
 							alt="sponser-8"
 							width="250px"
 							height="150px"
