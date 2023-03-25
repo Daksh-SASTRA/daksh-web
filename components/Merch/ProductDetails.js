@@ -8,7 +8,7 @@ import { FaArrowRight, FaArrowLeft } from 'react-icons/fa'
 
 
 
-function Product({ productName, imageLinks }) {
+function Product({ productName, imageLinks, price }) {
   // productName = productName.toUpperCase();
   const [shirtIndex, setShirtIndex] = useState(0)
 
@@ -48,7 +48,7 @@ function Product({ productName, imageLinks }) {
           fabric to help keep sweat off your skin while.
         </div>
 
-        <div className={styles.product_price}>₹299</div>
+        <div className={styles.product_price}>₹{price}</div>
 
         <div className={styles.product_size}>
           <h3>SELECT SIZE</h3>

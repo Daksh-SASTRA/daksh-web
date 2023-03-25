@@ -12,10 +12,11 @@ function ProductDetails() {
   let router = useRouter();
   let name = router.query.product;
   let imageLinks = name == "tshirt" ? [tshirt_front, tshirt_back]: [hoodie_front, hoodie_back];
+  let price = name == "tshirt" ? 250: 400;
   return (
     <main className={styles.main}>
       <Nav />
-      <Product productName={name} imageLinks={imageLinks} />
+      <Product productName={name} imageLinks={imageLinks} price={price} />
       <Footer />
     </main>
   );
