@@ -1,0 +1,16 @@
+[
+    {
+        "title": "Country-con",
+        "desc": "Make the future bright with your insight! Put your critical-thinking skills to the test! Join us as we explore the countless conundrums faced by multiple countries.",
+        "fees": "Free",
+        "poster": "/event-1.png",
+        "download": "/events/country_con.pdf"
+    },
+    {
+        "title": "Ideathon",
+        "desc": "Get, Set, Ideate! Here’s a great opportunity presented by an esteemed organisation like DRDO to solve the problems associated with current trends",
+        "fees": "Free",
+        "poster": "/event-1.png",
+        "download": "/events/Ideathon.pdf"
+    }
+]

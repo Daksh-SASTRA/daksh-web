@@ -1,0 +1,44 @@
+[
+    {
+        "title": "Oracle APEX Workshop",
+        "desc": "Learn the ins and outs of the Oracle APEX platform to create your own web application with ease!",
+        "fees": "Free",
+        "poster": "/event-1.png"
+    },
+    {
+        "title": "Product Design Workshop",
+        "desc": "Watch your imagination come to life with a guided design thinking process!",
+        "fees": "Free",
+        "poster": "/event-1.png"
+    },
+    {
+        "title": "3D printing and designing workshop",
+        "desc": "Get practical skills and a vivid understanding of 3D designing and printing in order to make a difference.",
+        "fees": "Free",
+        "poster": "/event-1.png"
+    },
+    {
+        "title": "Web3 and NFT Workshop",
+        "desc": "Learn everything there is to know about the potential combination of Web3 and NFTs serving as a platform for greater innovation",
+        "fees": "Free",
+        "poster": "/event-1.png"
+    },
+    {
+        "title": "VR Workshop",
+        "desc": " Enter a new world of possibilities by learning about the wonders of virtual reality.",
+        "fees": "Free",
+        "poster": "/event-1.png"
+    },
+    {
+        "title": "Fortinet’s Cybersecurity Workshop",
+        "desc": "Gain in-depth knowledge about cybersecurity and the techniques involved.",
+        "fees": "Free",
+        "poster": "/event-1.png"
+    },
+    {
+        "title": "BSL-2, BSL-3 Lab Training Workshop",
+        "desc": "Discover, Elevate and Unleash your laboratory skills!",
+        "fees": "Free",
+        "poster": "/event-1.png"
+    }
+]

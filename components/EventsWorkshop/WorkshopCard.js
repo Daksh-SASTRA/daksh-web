@@ -20,7 +20,7 @@ function EventsCard(props) {
             <div className={styles.cardContent}>
                 <h5>{props.data.category}</h5>
                 <h2>{props.data.title}</h2>
-                <p>{isExpanded ? props.data.desc : props.data.desc.substring(0, 200) + '...'}</p>
+                <p>{isExpanded ? props.data.desc : props.data.desc.substring(0, 70) + '...'}</p>
                 <div className={isExpanded ? styles.ecard_styles : styles.ecard_actions}>
                     {isExpanded ? <p >Fee: {props.data.fees}</p> : ""}
 

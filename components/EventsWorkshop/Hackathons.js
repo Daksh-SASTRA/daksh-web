@@ -1,8 +1,8 @@
 import React from 'react';
 import styles from './eventsworkshop.module.css'
 import ctstyles from "../Contact/contact.module.css";
-import EventsCard from './EventsCard';
-import Dummy from "../config/hackathons2k23.json";
+import HackathonsCard from './HackathonsCard';
+import Hackathon from "../config/hackathons2k23.json";
 function Hackathons() {
     return (
         <div className={styles.events__workshop}>
@@ -14,8 +14,8 @@ function Hackathons() {
                 HACKATHONS
             </div>
             <div className={styles.events__section}>
-                {Dummy.map((event, i) => {
-                    return <EventsCard data={event} key={i} />
+                {Hackathon.map((hackathon, i) => {
+                    return <HackathonsCard data={hackathon} key={i} />
                 })}
             </div>
         </div>

@@ -50,12 +50,13 @@
 
 .ecard {
     width: 100%;
-    padding: 20px;
+    padding:  30px 10px;
     border-radius: 20px;
     background-color: rgba(255, 255, 255, 0.20);
     backdrop-filter: blur(3.8px);
     box-shadow: 6px 9px 12px -3px rgba(0, 0, 0, 0.65);
     display: flex;
+    /* gap: 20px; */
     /* flex-direction: row; */
     margin: 2rem 0;
     transition: height 2s;
@@ -142,6 +143,14 @@
     justify-content: space-between;
 }
 
+.download{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+}
+
+
 .poster {
     display: flex;
     justify-content: space-between;
@@ -156,7 +165,10 @@
 }
 
 .cardImg {
-    width: 50%;
+    /* width: 23%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: auto;
     overflow: hidden;
     /* padding: 2%; */
@@ -164,8 +176,8 @@
 }
 
 .cardImg img {
-    width: 100%;
-    height: 100%;
+    width: 80%;
+    height: auto;
     border-radius: 15px;
     object-fit: cover;
 
@@ -373,7 +385,8 @@
     }
 
     .cardImg {
-        width: 100%;
+        
+        /* width: 100%; */
         padding: 2% 0;
     }
 
