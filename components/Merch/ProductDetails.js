@@ -6,9 +6,9 @@ import Link from "next/link";
 import styles_ from "./merch.module.css";
 import { FaArrowRight, FaArrowLeft } from "react-icons/fa";
 
-function Product({ productName, imageLinks }) {
-	// productName = productName.toUpperCase();
-	const [shirtIndex, setShirtIndex] = useState(0);
+function Product({ productName, imageLinks, price }) {
+  // productName = productName.toUpperCase();
+  const [shirtIndex, setShirtIndex] = useState(0)
 
 	const goToNext = () => {
 		if (shirtIndex >= 1) {
@@ -48,31 +48,31 @@ function Product({ productName, imageLinks }) {
 					fabric to help keep sweat off your skin while.
 				</div>
 
-				<div className={styles.product_price}>₹299</div>
+        <div className={styles.product_price}>₹{price}</div>
 
-				<div className={styles.product_size}>
-					<h3>SIZES</h3>
-					<div className={styles.merch__sizecontainer}>
-						<span className={styles.merch__sizebubble}>XS</span>
-						<span className={styles.merch__sizebubble}>S</span>
-						<span className={styles.merch__sizebubble}>M</span>
-					</div>
-					<br></br>
-					<div className={styles.merch__sizecontainer}>
-						<span className={styles.merch__sizebubble}>L</span>
-						<span className={styles.merch__sizebubble}>XL</span>
-						<span className={styles.merch__sizebubble}>XXL</span>
-					</div>
-				</div>
+        <div className={styles.product_size}>
+          <h3>AVAILABLE SIZES</h3>
+          <div className={styles.merch__sizecontainer}>
+            <span className={styles.merch__sizebubble}>XS</span>
+            <span className={styles.merch__sizebubble}>S</span>
+            <span className={styles.merch__sizebubble}>M</span>
+          </div>
+          <br></br>
+          <div className={styles.merch__sizecontainer}>
+            <span className={styles.merch__sizebubble}>L</span>
+            <span className={styles.merch__sizebubble}>XL</span>
+            <span className={styles.merch__sizebubble}>XXL</span>
+          </div>
+        </div>
 
-				<div className={styles.order_now_button}>
-					<Link href={"#"}>
-						<Button text="ORDER NOW &rarr;"></Button>
-					</Link>
-				</div>
-			</div>
-		</div>
-	);
+        <div className={styles.order_now_button}>
+          <Link href={"#"}>
+            <Button text="ORDER NOW &rarr;"></Button>
+          </Link>
+        </div>
+      </div>
+    </div>
+  );
 }
 
 export default Product;

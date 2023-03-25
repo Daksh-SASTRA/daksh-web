@@ -1,7 +1,10 @@
 .merch_container {
   display: flex;
   gap: 10vh;
-  margin: 20vh 10vh 20vh 10vh;
+  align-items: center;
+  justify-content: center;
+  /* margin: 20vh 10vh 20vh 10vh; */
+  margin: 10vh;
 }
 @media screen and (max-width: 1000px){
   .merch_container{
