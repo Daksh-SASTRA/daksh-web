@@ -16,7 +16,7 @@ function ProductDetails() {
   return (
     <main className={styles.main}>
       <Nav />
-      <Product productName={name} imageLinks={imageLinks} price={price} />
+      <Product productName={name} imageLinks={imageLinks} price={price}/>
       <Footer />
     </main>
   );

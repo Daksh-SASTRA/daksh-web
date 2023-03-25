@@ -51,7 +51,7 @@ function Product({ productName, imageLinks, price }) {
         <div className={styles.product_price}>₹{price}</div>
 
         <div className={styles.product_size}>
-          <h3>SELECT SIZE</h3>
+          <h3>AVAILABLE SIZES</h3>
           <div className={styles.merch__sizecontainer}>
             <span className={styles.merch__sizebubble}>XS</span>
             <span className={styles.merch__sizebubble}>S</span>
