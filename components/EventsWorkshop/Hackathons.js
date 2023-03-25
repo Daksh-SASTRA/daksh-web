@@ -2,7 +2,7 @@ import React from 'react';
 import styles from './eventsworkshop.module.css'
 import ctstyles from "../Contact/contact.module.css";
 import EventsCard from './EventsCard';
-import Dummy from "../config/dummy.json";
+import Dummy from "../config/hackathons2k23.json";
 function Hackathons() {
     return (
         <div className={styles.events__workshop}>
