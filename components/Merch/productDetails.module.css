@@ -99,7 +99,7 @@
   }
 
   .product_name {
-    font-size: 6rem;
+    font-size: 4rem;
   }
 
   .product_details {
@@ -130,5 +130,11 @@
   .merch__sizecontainer {
     width: 50%;
     margin: auto;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .product_name {
+    font-size: 3rem;
   }
 }
