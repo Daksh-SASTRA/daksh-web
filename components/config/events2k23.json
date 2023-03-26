@@ -2,15 +2,42 @@
     {
         "title": "Country-con",
         "desc": "Make the future bright with your insight! Put your critical-thinking skills to the test! Join us as we explore the countless conundrums faced by multiple countries.",
-        "fees": "Free",
+        "fees": "Rs50",
         "poster": "/event-1.png",
-        "download": "/events/country_con.pdf"
+        "download": "/events/country_con.pdf",
+        "contacts": [
+            "8497936450 - Manoj TSV",
+            "9655953131 - Raaja"
+        ],
+        "register_link": ""
     },
     {
         "title": "Ideathon",
         "desc": "Get, Set, Ideate! Here’s a great opportunity presented by an esteemed organisation like DRDO to solve the problems associated with current trends",
-        "fees": "Free",
+        "fees": "Rs50",
         "poster": "/event-1.png",
-        "download": "/events/Ideathon.pdf"
+        "download": "/events/Ideathon.pdf",
+        "contacts": [
+            "9952021165 - Busam Sai Sneha",
+            "8220090164 - Deekshana A"
+        ],
+        "register_link": ""
+    }
+    ,
+    {
+        "title": "Drone Line of Sight Competition",
+        "desc": "Arm your quad and Race!",
+        "fees": "Rs350",
+        "poster": "/events/drone-line.jpg",
+        "contacts" : ["Ashwin-9500397830"],
+        "register_link": "https://forms.gle/G3gbgfkPkHRAh3BaA"
+    },
+    {
+        "title": "FPV Drone Race Lift off!",
+        "desc": "Get Your racing gear ready",
+        "fees": "Rs350",
+        "poster": "/events/fpv-drone.jpg",
+        "contacts": ["Ashwin-9500397830"],
+        "register_link": "https://forms.gle/G3gbgfkPkHRAh3BaA"
     }
 ]

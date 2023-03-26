@@ -165,7 +165,7 @@
 }
 
 .cardImg {
-    /* width: 23%; */
+    width: 30%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -197,12 +197,12 @@
 }
 
 .poster_contact>h3 {
-    background-image: var(--text-gradient-color);
-    background-clip: padding-box;
-    -webkit-background-clip: text;
+    color: var(--color-light-blue);
+    /* background-clip: padding-box;
+    -webkit-background-clip: text; */
     background-size: 100%;
     margin-right: auto;
-    -webkit-text-fill-color: transparent;
+    /* -webkit-text-fill-color: transparent; */
 }
 
 .poster>p {
@@ -320,7 +320,7 @@
 }
 
 .contacts {
-    padding: 20px;
+    padding: 10px;
 }
 
 #expand {
@@ -386,7 +386,7 @@
 
     .cardImg {
         
-        /* width: 100%; */
+        width: 100%;
         padding: 2% 0;
     }
 
