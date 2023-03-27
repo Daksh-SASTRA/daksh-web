@@ -13,6 +13,7 @@ function ProductDetails() {
   let name = router.query.product;
   let imageLinks = name == "tshirt" ? [tshirt_front, tshirt_back]: [hoodie_front, hoodie_back];
   let price = name == "tshirt" ? 250: 400;
+  name = name == "tshirt" ? "oversized tshirt":"Hoodie"; 
   return (
     <main className={styles.main}>
       <Nav />

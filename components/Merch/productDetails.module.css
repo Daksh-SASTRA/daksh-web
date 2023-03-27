@@ -15,10 +15,11 @@
 }
 
 .product_name {
-  font-size: 8rem;
+  font-size: 5.5rem;
+  /* font-size: 8rem; */
   font-weight: bold;
   text-align: left;
-  text-transform: uppercase;
+  text-transform:capitalize;
 }
 
 .product_desc {
@@ -132,6 +133,11 @@
   }
 }
 
+@media screen and (max-width: 670px) {
+  .product_name {
+    font-size: 3rem;
+  }
+}
 @media screen and (max-width: 425px) {
   .product_name {
     font-size: 3rem;
