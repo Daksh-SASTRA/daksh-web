@@ -14,7 +14,7 @@ function ProductDetails() {
   let router = useRouter();
   let name = router.query.product;
   let imageLinks = name == "tshirt" ? [tshirt_front, tshirt_back]: [hoodie_front, hoodie_back];
-  let price = name == "tshirt" ? 250: 400;
+  let price = name == "tshirt" ? 250: 450;
   name = name == "tshirt" ? "oversized tshirt":"hoodie"; 
   let form = name == "tshirt"?t_form: hoodie_form
   return (
