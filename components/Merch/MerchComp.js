@@ -6,11 +6,11 @@ import hoodie from '../../public/shirtpreview/hoodie_front.webp'
 
 
 function Merch() {
-
     return (
+
         <div className={styles.merch_container}>
                 <MerchItem merchName={"TSHIRT"} imageLink={tshirt} shoppingLink="/merch/tshirt"/>
-                {/* <MerchItem merchName={"HOODIE"} imageLink={hoodie} shoppingLink="/merch/hoodie"/> */}
+                <MerchItem merchName={"HOODIE"} imageLink={hoodie} shoppingLink="/merch/hoodie" />
         </div>
     )
 }

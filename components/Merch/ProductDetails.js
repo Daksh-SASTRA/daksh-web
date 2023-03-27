@@ -6,7 +6,7 @@ import Link from "next/link";
 import styles_ from "./merch.module.css";
 import { FaArrowRight, FaArrowLeft } from "react-icons/fa";
 
-function Product({ productName, imageLinks, price }) {
+function Product({ productName, imageLinks, price, buyNowLink }) {
   // productName = productName.toUpperCase();
   const [shirtIndex, setShirtIndex] = useState(0)
 
@@ -43,10 +43,7 @@ function Product({ productName, imageLinks, price }) {
 			</div>
 			<div className={styles.product_details}>
 				<div className={styles.product_name}>{productName}</div>
-				<div className={styles.product_desc}>
-					The Liverpool F.C. Stadium Home Shirt features highly breathable
-					fabric to help keep sweat off your skin while.
-				</div>
+				
 
         <div className={styles.product_price}>₹{price}</div>
 
@@ -66,9 +63,9 @@ function Product({ productName, imageLinks, price }) {
         </div>
 
         <div className={styles.order_now_button}>
-          <Link href={"#"}>
+          <a href={buyNowLink}>
             <Button text="ORDER NOW &rarr;"></Button>
-          </Link>
+          </a>
         </div>
       </div>
     </div>

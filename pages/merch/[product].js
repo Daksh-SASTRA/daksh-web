@@ -9,14 +9,18 @@ import hoodie_front from "../../public/shirtpreview/hoodie_front.webp";
 import hoodie_back from "../../public/shirtpreview/hoodie_back.webp";
 
 function ProductDetails() {
+  let hoodie_form = "https://forms.gle/fJd4TKBH7T2rGfBe7"
+  let t_form = "https://forms.gle/uEKkCVD5srPdEyqk6"
   let router = useRouter();
   let name = router.query.product;
   let imageLinks = name == "tshirt" ? [tshirt_front, tshirt_back]: [hoodie_front, hoodie_back];
-  let price = name == "tshirt" ? 250: 400;
+  let price = name == "tshirt" ? 250: 450;
+  let form = name == "tshirt"?t_form: hoodie_form;
+  name = name == "tshirt" ? "oversized tshirt":"hoodie"; 
   return (
     <main className={styles.main}>
       <Nav />
-      <Product productName={name} imageLinks={imageLinks} price={price}/>
+      <Product productName={name} imageLinks={imageLinks} price={price} buyNowLink={form}/>
       <Footer />
     </main>
   );
