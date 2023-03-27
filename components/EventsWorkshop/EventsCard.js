@@ -20,11 +20,11 @@ function EventsCard(props) {
                 <h5>{props.data.category}</h5>
                 <h2>{props.data.title}</h2>
                 <p>{isExpanded ? props.data.desc : props.data.desc.substring(0, 70) + '...'}</p>
-                <h5>{props.data.date}</h5>
+                {/* <h5>{props.data.date}</h5>
                 <div className={styles.poster_contact} >
                     {isExpanded && props.data.contacts ? <h3>Contacts :</h3> : ""}
                     {isExpanded ? Contacts(props.data?.contacts || []) : ""}
-                </div>
+                </div> */}
                 {isExpanded && props.data.download ? <div className={styles.download} onClick={() => expand(!isExpanded)}>
                     <a className={styles.register_btn} href={props.data.download} target={"_blank"} rel="noreferrer"><i className={styles.down_icon}><HiDownload /></i>{"  Download"}</a>
                 </div> : ""}
