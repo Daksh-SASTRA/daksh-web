@@ -63,7 +63,7 @@ function Product({ productName, imageLinks, price, buyNowLink }) {
         </div>
 
         <div className={styles.order_now_button}>
-          <a href={buyNowLink} target="_blank">
+          <a href={buyNowLink}>
             <Button text="ORDER NOW &rarr;"></Button>
           </a>
         </div>
