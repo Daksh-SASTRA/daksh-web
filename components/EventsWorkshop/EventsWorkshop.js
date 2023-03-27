@@ -2,10 +2,10 @@ import React,{useEffect, useState} from 'react';
 import styles from './eventsworkshop.module.css'
 import EventsCard from './EventsCard';
 import WorkshopCard from './WorkshopCard';
-import HackathonsCard from './HackathonsCard';
-import Dummy from "../config/dummy.json";
+
+import Events from "../config/events2k23.json";
 // import Events from '../config/events.json';
-// import Workshop from "../config/workshop.json";
+import Workshop from "../config/workshops2k23.json";
 // import Hackathons from "../config/hackathons.json";
 
 function EventsWorkshop({number}) {
@@ -24,15 +24,15 @@ function EventsWorkshop({number}) {
             </div>
             {(events == 0) ?
                 <div className={styles.events__section}>
-                    {Dummy.map((event, i) => {
-                        return <EventsCard data={event} key={i} />
+                    {Workshop.map((workshop, i) => {
+                        return <WorkshopCard data={workshop} key={i} />
                     })}
 
                 </div>
                 : (events == 1) ?
                     <div className={styles.events__section}>
-                        {Dummy.map((workshop, i) => {
-                            return <WorkshopCard data={workshop} key={i} />
+                        {Events.map((event, i) => {
+                            return <EventsCard data={event} key={i} />
                         })}
                     </div>
                     :

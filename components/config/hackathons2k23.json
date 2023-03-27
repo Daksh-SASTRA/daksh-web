@@ -3,24 +3,24 @@
         "title": "Hackathon by Intel",
         "desc": "Weild the power of oneAPI and devise a digital solution to a prevalent problem",
         "fees": "Free",
-        "poster": "/event-1.png"
+        "download": "/events/Intel-oneAPI.pdf",
+        "poster": "/events/Intel-hackathon.jpg",
+        "register_link": "https://forms.gle/Fj8Ax4K58uy3i2oY6"
     },
     {
         "title": "Hackathon by Zifo's Scienteka",
         "desc": "Develop strategies for effective usage of data and technology to improve patient care",
         "fees": "Free",
-        "poster": "/event-1.png"
+        "download": "/events/Zifo.pdf",
+        "poster": "/events/zifo-hackathon.jpg",
+        "register_link": "https://forms.gle/FGJwWYZAPCGtsfLF6"
     },
     {
         "title": "IoT in Construction Sites",
         "desc": "Deliver the effective use of IoT in monitoring and controlling construction activities at project sites",
         "fees": "Free",
-        "poster":"/event-1.png"
-    },
-    {
-        "title": "Cyber Security Hackathon",
-        "desc": "You are online, so are the bad guys! Develop strategies for your defense!",
-        "fees":"Free",
-        "poster":"/event-1.png"
+        "download": "/events/iot-hack.pdf",
+        "poster": "/events/Civil_hackathon.jpg",
+        "register_link": "https://forms.gle/w9L54qyQhmZYYgmX9"
     }
 ]

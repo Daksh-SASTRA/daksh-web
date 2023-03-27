@@ -50,12 +50,13 @@
 
 .ecard {
     width: 100%;
-    padding: 20px;
+    padding: 30px 10px;
     border-radius: 20px;
     background-color: rgba(255, 255, 255, 0.20);
     backdrop-filter: blur(3.8px);
     box-shadow: 6px 9px 12px -3px rgba(0, 0, 0, 0.65);
     display: flex;
+    /* gap: 20px; */
     /* flex-direction: row; */
     margin: 2rem 0;
     transition: height 2s;
@@ -114,7 +115,7 @@
 .ecard_actions {
     display: flex;
     justify-content: flex-start;
-    align-items: center;
+    align-items: flex-end;
     flex-wrap: wrap;
     gap: 20px;
     padding-top: 5%;
@@ -142,6 +143,14 @@
     justify-content: space-between;
 }
 
+.download {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+}
+
+
 .poster {
     display: flex;
     justify-content: space-between;
@@ -156,7 +165,10 @@
 }
 
 .cardImg {
-    width: 50%;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: auto;
     overflow: hidden;
     /* padding: 2%; */
@@ -164,14 +176,15 @@
 }
 
 .cardImg img {
-    width: 100%;
-    height: 100%;
+    width: 80%;
+    height: auto;
     border-radius: 15px;
     object-fit: cover;
 
 }
 
 .cardContent {
+    width: 70%;
     padding: 0 2%;
 }
 
@@ -185,12 +198,12 @@
 }
 
 .poster_contact>h3 {
-    background-image: var(--text-gradient-color);
-    background-clip: padding-box;
-    -webkit-background-clip: text;
+    color: var(--color-light-blue);
+    /* background-clip: padding-box;
+    -webkit-background-clip: text; */
     background-size: 100%;
     margin-right: auto;
-    -webkit-text-fill-color: transparent;
+    /* -webkit-text-fill-color: transparent; */
 }
 
 .poster>p {
@@ -308,7 +321,7 @@
 }
 
 .contacts {
-    padding: 20px;
+    padding: 10px;
 }
 
 #expand {
@@ -373,8 +386,13 @@
     }
 
     .cardImg {
+
         width: 100%;
         padding: 2% 0;
+    }
+
+    .cardContent {
+        width: 100%;
     }
 
     .poster {

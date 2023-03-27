@@ -1,0 +1,61 @@
+[
+    {
+        "title": "Networking and Wireless Technology Workshop",
+        "desc": "Explore the endless possibilities of networking and wireless technology with HP Aruba.",
+        "fees": "Rs800",
+        "poster": "/events/wireless.jpg",
+        "register_link" : "https://forms.gle/2tw1tPLm8FGDzwFf6"
+    },
+    {
+        "title": "Oracle APEX Workshop",
+        "desc": "Learn the ins and outs of the Oracle APEX platform to create your own web application with ease!",
+        "fees": "Rs800",
+        "poster": "/events/Oracle.jpg",
+        "register_link": "https://forms.gle/aKKRGX7bEFM1jNYg8"
+    },
+    {
+        "title": "Product Design Workshop",
+        "desc": "Watch your imagination come to life with a guided design thinking process!",
+        "fees": "Rs800",
+        "poster": "/events/TATAws.jpg",
+        "download": "/events/Product-Design-Workshop.pdf",
+        "register_link": "https://forms.gle/2tw1tPLm8FGDzwFf6"
+    },
+    {
+        "title": "Fortinet's Cybersecurity Workshop",
+        "desc": "Gain in-depth knowledge about cybersecurity and the techniques involved.",
+        "fees": "Rs800",
+        "poster": "/events/FortinetWS3.jpg",
+        "register_link": "https://forms.gle/uxp1WEf4K9QGe9GX9"
+    },
+    {
+        "title": "VR Workshop",
+        "desc": " Enter a new world of possibilities by learning about the wonders of virtual reality.",
+        "fees": "Rs1500",
+        "poster": "/events/VR.jpg",
+        "download": "/events/VR-Workshop.pdf",
+        "register_link": "https://forms.gle/BZtjJt6aAGv6PvUq7"
+    },
+    {
+        "title": "3D printing and designing workshop",
+        "desc": "Get practical skills and a vivid understanding of 3D designing and printing in order to make a difference.",
+        "fees": "Rs1500",
+        "poster": "/events/3D_printing.jpg",
+        "register_link": "https://forms.gle/rjnz5urrDgaDQE6S6"
+    },
+    {
+        "title": "Web3 and NFT Workshop",
+        "desc": "Learn everything there is to know about the potential combination of Web3 and NFTs serving as a platform for greater innovation",
+        "fees": "Rs1500",
+        "poster": "/events/NFT.jpg",
+        "register_link": "https://forms.gle/nCKRBwX8qwefFLX58"
+    },
+    {
+        "title": "BSL-2, BSL-3 Lab Training Workshop",
+        "desc": "Discover, Elevate and Unleash your laboratory skills!",
+        "fees": "Rs1500",
+        "poster": "/events/BSL_2_3.jpg",
+        "download": "/events/BSL_workshop.pdf",
+        "register_link": "https://forms.gle/ZCb2a1BwyghhtrVe8"
+    }
+]

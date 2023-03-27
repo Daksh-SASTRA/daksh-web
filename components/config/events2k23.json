@@ -1,0 +1,44 @@
+[
+    {
+        "title": "Country-con",
+        "desc": "Make the future bright with your insight! Put your critical-thinking skills to the test! Join us as we explore the countless conundrums faced by multiple countries.",
+        "fees": "Rs50",
+        "poster": "/events/country-con.png",
+        "download": "/events/country_con.pdf",
+        "register_link": "https://forms.gle/dUACFE5HseXSh9qs9"
+    },
+    {
+        "title": "Ideathon",
+        "desc": "Get, Set, Ideate! Here's a great opportunity presented by an esteemed organisation like DRDO to solve the problems associated with current trends",
+        "fees": "Rs50",
+        "poster": "/events/ideathon.jpg",
+        "download": "/events/Ideathon.pdf",
+        "register_link": "https://forms.gle/hqEWGRVChCDMqRFA7"
+    }
+    ,
+    {
+        "title": "The Forensic Deception",
+        "desc": "A culprit on the run,A crime scene left behind.Discover the highly Of deciphering the clues.And when it all feels elementary, the crime scene tape lifts up, To allow you entry.Psst, Sherlock would be lost without Watson, so come in teams of 2!",
+        "fees": "Rs50",
+        "poster": "/events/Techno_post.jpg",
+        "download": "/events/forensic.pdf",
+        "register_link": "https://forms.gle/KfC9Xm54UryVdX4r6"
+    }
+    ,
+    {
+        "title": "Drone Line of Sight Competition",
+        "desc": "Arm your quad and Race!",
+        "fees": "Rs350",
+        "poster": "/events/drone-line.jpg",
+        "download": "/events/Drone-LOS.pdf",
+        "register_link": "https://forms.gle/G8TZDoKbR58tbRrA7"
+    },
+    {
+        "title": "FPV Drone Race Lift off!",
+        "desc": "Get Your racing gear ready",
+        "fees": "Rs350",
+        "poster": "/events/fpv-drone.jpg",
+        "download": "/events/Drone-Race.pdf",
+        "register_link": "https://forms.gle/aNjJWNgqFYXFVnrW6"
+    }
+]
