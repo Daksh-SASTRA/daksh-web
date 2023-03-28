@@ -41,13 +41,15 @@
         "desc": "Get practical skills and a vivid understanding of 3D designing and printing in order to make a difference.",
         "fees": "Rs1500",
         "poster": "/events/3D_printing.jpg",
+        "download": "/events/3D_printing.pdf",
         "register_link": "https://forms.gle/rjnz5urrDgaDQE6S6"
     },
     {
-        "title": "Web3 and NFT Workshop",
+        "title": "Web3 and Tokenomics",
         "desc": "Learn everything there is to know about the potential combination of Web3 and NFTs serving as a platform for greater innovation",
         "fees": "Rs1500",
         "poster": "/events/NFT.jpg",
+        "download": "/events/web3.pdf",
         "register_link": "https://forms.gle/nCKRBwX8qwefFLX58"
     },
     {
