@@ -8,7 +8,7 @@
         "register_link": "https://forms.gle/Fj8Ax4K58uy3i2oY6"
     },
     {
-        "title": "Hackathon by Zifo's Scienteka",
+        "title": "Zifo's Scienteka",
         "desc": "Develop strategies for effective usage of data and technology to improve patient care",
         "fees": "Free",
         "download": "/events/Zifo.pdf",
@@ -22,5 +22,21 @@
         "download": "/events/iot-hack.pdf",
         "poster": "/events/Civil_hackathon.jpg",
         "register_link": "https://forms.gle/w9L54qyQhmZYYgmX9"
+    },
+    {
+        "title": "Cybersecurity Hackathon",
+        "desc": "You are online, so are the bad guys! Develop strategies for your defense!",
+        "fees": "Free",
+        "download": "/events/cyber-hack.pdf",
+        "poster": "/events/cyber-hack.jpg",
+        "register_link": "https://forms.gle/Bo3R9gokv4K1mzgY6"
+    },
+    {
+        "title": "Automation of LLRR",
+        "desc": "Build automated data analysis and reporting tools for LLRR",
+        "fees": "Free",
+        "download": "/events/astrazeneca.pdf",
+        "poster": "/events/astrazeneca.jpg",
+        "register_link": "https://forms.gle/LmqFKUZkxtZA3pqc8"
     }
 ]
