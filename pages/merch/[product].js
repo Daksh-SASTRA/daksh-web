@@ -13,10 +13,19 @@ function ProductDetails() {
   let t_form = "https://forms.gle/uEKkCVD5srPdEyqk6"
   let router = useRouter();
   let name = router.query.product;
-  let imageLinks = name == "tshirt" ? [tshirt_front, tshirt_back]: [hoodie_front, hoodie_back];
-  let price = name == "tshirt" ? 250: 450;
-  let form = name == "tshirt"?t_form: hoodie_form;
-  name = name == "tshirt" ? "oversized tshirt":"hoodie"; 
+  if(name != "tshirt") {
+    name = "tshirt"
+  }
+  // let imageLinks = name == "tshirt" ? [tshirt_front, tshirt_back]: [hoodie_front, hoodie_back];
+  // let price = name == "tshirt" ? 250: 450;
+  // let form = name == "tshirt"?t_form: hoodie_form;
+  // name = name == "tshirt" ? "oversized tshirt":"hoodie"; 
+
+  let imageLinks = name == "tshirt" ? [tshirt_front, tshirt_back] : '';
+  let price = name == "tshirt" ? 250 : '';
+  let form = name == "tshirt"? t_form : '';
+  name = name == "tshirt" ? "oversized tshirt":''; 
+
   return (
     <main className={styles.main}>
       <Nav />
