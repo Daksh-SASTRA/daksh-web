@@ -12,7 +12,7 @@
 }
 
 .daybuttons__button {
-	display: inline-flex;
+	display: block;
 	opacity: 50%;
 	position: relative;
 	text-align: center;
@@ -24,7 +24,7 @@
 	font-family: content;
 	font-weight: 700;
 	letter-spacing: 0.3px;
-	line-height: 18px;
+	line-height: 36px;
 	transition: all 0.5s ease-in-out;
 	border-radius: 40px;
 	border: none;
@@ -33,7 +33,7 @@
 
 .daybuttons__buttonactive {
 
-	display: inline-flex;
+	display: block;
 	position: relative;
 	text-align: center;
 	padding: 15px 30px;
@@ -46,7 +46,7 @@
 	font-family: content;
 	font-weight: 700;
 	letter-spacing: 0.3px;
-	line-height: 18px;
+	line-height: 36px;
 	transition: all 0.5s ease-in-out;
 	border-radius: 40px;
 	border: none;
@@ -72,6 +72,11 @@
 	;
 	background-size: 400%;
 }
+
+.date {
+	font-size: 44px;
+}
+
 .register_button {
 	margin-top: 12px;
     padding: 12px 20px;
@@ -149,7 +154,8 @@
 .timeline .listofevents li {
 	text-align: left;
 	padding: 20px;
-	background-color: #1e1f22;
+	background-color: rgba(255, 255, 255, 0.30);
+	box-shadow:  9px 12px -3px rgba(0, 0, 0, 0.65);
 	color: var(--white);
 	border-radius: 10px;
 	margin-bottom: 20px;
@@ -198,7 +204,7 @@
 		transform: translateX(-50%);
 		width: 2px;
 		height: 100%;
-		background-color: gray;
+		background-color: white;
 	}
 
 	.timeline .listofevents li {
@@ -227,7 +233,7 @@
 		height: 20px;
 		width: 20px;
 		border-radius: 50%;
-		background-color: gray;
+		background-color: white;
 		top: 0px;
 	}
 

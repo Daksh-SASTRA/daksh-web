@@ -16,8 +16,8 @@ function Schedule() {
 
             <main className={styles.main}>
                 <Nav/>
-                <ComingSoon />
-                {/* <SchedulePage/> */}
+                {/* <ComingSoon /> */}
+                <SchedulePage/>
                 <Footer/>
             </main>
         </div>
