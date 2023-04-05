@@ -4,15 +4,9 @@
        "date":"16",
        "events":[
             {
-                "eventname":"Inaugral Event",
-                "fromtime":"6:00 PM",
-                "totime":"8:30 PM"
-            },
-            {
-                "eventname":"Skeleton Dance",
-                "fromtime":"7:30 PM",
-                "totime":"8:00 PM",
-                "venue":"OUTSIDE LIBRARY"
+                "eventname":"Shri Harskesh Mittal - INAUGRATION",
+                "fromtime":"4:00 PM",
+                "totime":"6:00 PM"
             }
         ]
     },
@@ -22,13 +16,29 @@
         "date":"7",
         "events":[
              {
+                 "eventname":"TIGER ANALYTICS - POWERTALK",
+                 "fromtime":"11:00 AM",
+                 "totime":"1:00 PM"
+             },
+             {
+                 "eventname":"prof. V Kamakoti - POWERTALK",
+                 "fromtime":"2:00 PM",
+                 "totime":"4:00 PM"
+             },
+             {
+                 "eventname":"Ela Naveen - ProShow",
+                 "fromtime":"2:00 PM",
+                 "totime":"4:00 PM",
+                 "venue":"basketball court"
+             },
+             {
                  "eventname":"ZIFO SEMINAR - HACKATHON",
                  "fromtime":"9:00 AM",
                  "totime":"6:00 PM",
                  "venue":"NVM AUDI"
              },
              {
-                "eventname":"TCS HACKATHONS",
+                "eventname":"TATA COMMUNICATION HACKATHONS",
                 "fromtime":"09:00 AM",
                 "totime":"6:00 PM",
                 "venue":"LTC-101"
@@ -46,7 +56,7 @@
                 "venue":"LTC-401"
             },
             {
-                "eventname":"ASTRA ZENECA HACATHONS",
+                "eventname":"ASTRA ZENECA HACKATHONS",
                 "fromtime":"9:00 AM",
                 "totime":"6:00 PM",
                 "venue":"LTC-118"
@@ -131,13 +141,24 @@
         "date":"18",
         "events":[
             {
+                "eventname":"Beatbox and Silamabattam - Proshow",
+                "fromtime":"4:00 PM",
+                "totime":"6:00 PM",
+                "venue":"basketball court"
+            },
+            {
+                "eventname":"shri T S Tirumurti - powertalk",
+                "fromtime":"11:00 AM",
+                "totime":"1:00 PM"
+            },
+            {
                 "eventname":"ZIFO SEMINAR - HACKATHON",
                 "fromtime":"9:00 AM",
                 "totime":"6:00 PM",
                 "venue":"NVM AUDI"
             },
             {
-               "eventname":"TCS HACKATHONS",
+               "eventname":"TATA COMMUNICATION HACKATHONS",
                "fromtime":"09:00 AM",
                "totime":"6:00 PM",
                "venue":"LTC-101"
@@ -243,7 +264,7 @@
                 "venue":"NVM AUDI"
             },
             {
-               "eventname":"TCS HACKATHONS",
+               "eventname":"TATA COMMUNICATION HACKATHONS",
                "fromtime":"09:00 AM",
                "totime":"6:00 PM",
                "venue":"LTC-101"

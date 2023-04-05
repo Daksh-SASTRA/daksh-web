@@ -4,8 +4,8 @@ import ScheduleData from "../config/schedule.json";
 import cstyles from '../Contact/contact.module.css';
 
 function SchedulePage() {
-    const [day,setDay] = useState(1);
-    const [activebt,setActiveBt] = useState(1);
+    const [day,setDay] = useState(0);
+    const [activebt,setActiveBt] = useState(0);
 
     const getEventName = (eventName) => {
         const name = eventName.split(' ');
