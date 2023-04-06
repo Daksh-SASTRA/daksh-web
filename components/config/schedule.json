@@ -11,7 +11,6 @@
             }
         ]
     },
-
     {
         "day":"1",
         "date":"7",
@@ -173,52 +172,34 @@
                 "venue":"OLD CANOPY"
             }
          ]
-     },
-
+    },
     {
         "day":"2",
-        "date":"18",
+        "date":"8",
         "events":[
             {
-                "eventname":"Beatbox and Silamabattam - Proshow",
-                "fromtime":"4:00 PM",
-                "totime":"6:00 PM",
-                "venue":"basketball court"
+                "eventname":"Beatbox - Proshow",
+                "fromtime":"04:00 PM",
+                "totime":"06:00 PM",
+                "venue":"SoC Auditorium"
             },
             {
-                "eventname":"shri T S Tirumurti - powertalk",
+                "eventname":"Shri T S Tirumurti - PowerTalk",
                 "fromtime":"11:00 AM",
-                "totime":"1:00 PM"
+                "totime":"01:00 PM",
+                "venue": "SoC Auditorium"
             },
             {
-                "eventname":"ZIFO SEMINAR - HACKATHON",
-                "fromtime":"9:00 AM",
-                "totime":"6:00 PM",
-                "venue":"NVM Auditorium"
+                "eventname":"Folk Dance and Silambattam - Proshow",
+                "fromtime":"05:00 PM",
+                "totime":"06:00 PM",
+                "venue":"In Front of Library"
             },
             {
-               "eventname":"TATA COMMUNICATION HACKATHONS",
-               "fromtime":"09:00 AM",
-               "totime":"6:00 PM",
-               "venue":"LTC-101"
-            },
-            {
-               "eventname":"INTEL HACKATHONS",
-               "fromtime":"09:00 AM",
-               "totime":"06:00 PM",
-               "venue":"LTC-301"
-            },
-            {
-               "eventname":"UNIQCORE HACKATHONS",
-               "fromtime":"09:00 AM",
-               "totime":"6:00 PM",
-               "venue":"LTC-401"
-            },
-            {
-               "eventname":"ASTRA ZENECA HACATHONS",
-               "fromtime":"9:00 AM",
-               "totime":"6:00 PM",
-               "venue":"LTC-118"
+                "eventname":"FORENSIC TRIVIA ROUND-2",
+                "fromtime":"02:00 PM",
+                "totime":"06:00 PM",
+                "venue":"JVC 116, 208, 212"
             },
             {
                 "eventname":"CELL CULTURE AND BSL-III WORKSHOP",
@@ -236,96 +217,122 @@
                 "eventname":"3D PRINTING WORKSHOP",
                 "fromtime":"09:00 AM",
                 "totime":"06:00 PM",
-                "venue":"ASK 2 (302)"
+                "venue":"SoC Lab 104"
             },
             {
-                "eventname":"WEB 3 WORKSHOP",
+                "eventname":"WEB 3 AND BLOCKCHAIN WORKSHOP",
                 "fromtime":"09:00 AM",
                 "totime":"06:00 PM",
-                "venue":"LTC 201"
+                "venue":"SoC Lab 103"
             },
             {
-                "eventname":"ORACLE WORKSHOP",
+                "eventname":"ORACLE APEX WORKSHOP",
                 "fromtime":"09:00 PM",
                 "totime":"06:00 PM",
                 "venue":"TIFAC Auditorium"
             },
             {
-                "eventname":"FORTINET WORKSHOP",
-                "fromtime":"09:00 PM",
-                "totime":"06:00 PM",
-                "venue":"LTC 111"
-            },
-            {
-                "eventname":"HP WORKSHOP",
+                "eventname":"HP ARUBA WORKSHOP",
                 "fromtime":"09:00 AM",
                 "totime":"06:00 PM",
                 "venue":"LTC 116"
             },
             {
-                "eventname":"E SPORTS",
+                "eventname":"OMRON ROBOTICS WORKSHOP",
                 "fromtime":"09:00 AM",
                 "totime":"06:00 PM",
-                "venue":"LTC 108"
+                "venue":"LTC 101 & 201"
+            },
+            {
+                "eventname":"FORTINET WORKSHOP",
+                "fromtime":"09:00 AM",
+                "totime":"06:00 PM",
+                "venue":"LTC 111"
+            },
+            {
+               "eventname":"TATA COMMUNICATION CYBER SECURITY HACKATHON",
+               "fromtime":"09:00 AM",
+               "totime":"06:00 PM",
+               "venue":"SoC Lab 107 & 108"
+            },
+            {
+                "eventname":"INTEL HACKATHON",
+                "fromtime":"09:00 AM",
+                "totime":"06:00 PM",
+                "venue":"LTC 301"
+            },
+            {
+                "eventname":"UNIQCORE HACKATHON",
+                "fromtime":"09:00 AM",
+                "totime":"06:00 PM",
+                "venue":"LTC 401"
+            },
+            {
+                "eventname":"ASTRA ZENECA HACATHON",
+                "fromtime":"09:00 AM",
+                "totime":"06:00 PM",
+                "venue":"LTC 118"
+            },
+            {
+                "eventname":"ENTHUTECH HACKATHON",
+                "fromtime":"09:00 AM",
+                "totime":"06:00 PM",
+                "venue":"LTC 311"
+            },
+            {
+                "eventname":"TECH IN HEALTHCARE HACKATHON - ZIFO",
+                "fromtime":"09:00 AM",
+                "totime":"06:00 PM",
+                "venue":"ASK 1 (410)"
+            },
+            {
+                "eventname":"E SPORTS - FIFA",
+                "fromtime":"09:00 AM",
+                "totime":"06:00 PM",
+                "venue":"LTC 204"
+            },
+            {
+                "eventname":"E SPORTS - Clash Royale",
+                "fromtime":"09:00 AM",
+                "totime":"06:00 PM",
+                "venue":"LTC 206"
+            },
+            {
+                "eventname":"E SPORTS - VR",
+                "fromtime":"09:00 AM",
+                "totime":"06:00 PM",
+                "venue":"ASK 2 (313)"
             },
             {
                 "eventname":"DRONE RACING",
                 "fromtime":"09:00 AM",
-                "totime":"06:00 PM",
+                "totime":"04:00 PM",
                 "venue":"FOOTBALL GROUND"
             },
             {
                 "eventname":"LINE OF SIGHT COMPETITION",
                 "fromtime":"09:00 AM",
-                "totime":"06:00 PM",
+                "totime":"04:00 PM",
                 "venue":"FOOTBALL GROUND"
             },
             {
-                "eventname":"FORENSIC TRIVIA ROUND-2",
-                "fromtime":"02:00 PM",
-                "totime":"06:00 PM",
-                "venue":"JVC 116"
+                "eventname":"STALLS",
+                "fromtime":"09:00 AM",
+                "totime":"04:00 PM",
+                "venue":"OLD CANOPY"
             }
-
         ]
-        
- 
     },
-
     {
         "day":"3",
-        "date":"19",
+        "date":"9",
         "events":[
             {
-                "eventname":"ZIFO SEMINAR - HACKATHON",
-                "fromtime":"9:00 AM",
-                "totime":"6:00 PM",
-                "venue":"NVM Auditorium"
+                "eventname":"PITCH FEST",
+                "fromtime":"09:00 AM",
+                "totime":"01:00 PM",
+                "venue":"ASK 1 (410)"
             },
-            {
-               "eventname":"TATA COMMUNICATION HACKATHONS",
-               "fromtime":"09:00 AM",
-               "totime":"6:00 PM",
-               "venue":"LTC-101"
-           },
-           {
-               "eventname":"INTEL HACKATHONS",
-               "fromtime":"09:00 AM",
-               "totime":"06:00 PM",
-               "venue":"LTC-301"
-           },
-           {
-               "eventname":"UNIQCORE HACKATHONS",
-               "fromtime":"09:00 AM",
-               "totime":"6:00 PM",
-               "venue":"LTC-401"
-           },
-           {
-               "eventname":"ASTRA ZENECA HACATHONS",
-               "fromtime":"9:00 AM",
-               "totime":"6:00 PM",
-               "venue":"LTC-118"
-           },
             {
                 "eventname":"CELL CULTURE AND BSL-III WORKSHOP",
                 "fromtime":"09:00 AM",
@@ -333,28 +340,46 @@
                 "venue":"ASK 2 BOARD ROOM"
             },
             {
-                "eventname":"E SPORTS",
-                "fromtime":"09:00 AM",
-                "totime":"06:00 PM",
-                "venue":"LTC 108, LTC 204, LTC 206"
-            },
-            {
-                "eventname":"DRONE RACING",
-                "fromtime":"09:00 AM",
-                "totime":"06:00 PM",
-                "venue":"FOOTBALL GROUND"
-            },
-            {
-                "eventname":"LINE OF SIGHT COMPETITION",
-                "fromtime":"09:00 AM",
-                "totime":"06:00 PM",
-                "venue":"FOOTBALL GROUND"
-            },
-            {
-                "eventname":"COUNTRY CON ROUND-2",
+                "eventname":"COUNTRY CON ROUND - 2",
                 "fromtime":"09:00 AM",
                 "totime":"06:00 PM",
                 "venue":"VV Auditorium"
+            },
+            {
+                "eventname":"INTEL HACKATHON",
+                "fromtime":"09:00 AM",
+                "totime":"06:00 PM",
+                "venue":"JVC Auditorium"
+            },
+            {
+                "eventname":"E SPORTS - FIFA",
+                "fromtime":"09:00 AM",
+                "totime":"06:00 PM",
+                "venue":"LTC 204"
+            },
+            {
+                "eventname":"E SPORTS - Clash Royale",
+                "fromtime":"09:00 AM",
+                "totime":"06:00 PM",
+                "venue":"LTC 206"
+            },
+            {
+                "eventname":"E SPORTS - VR",
+                "fromtime":"09:00 AM",
+                "totime":"06:00 PM",
+                "venue":"ASK 2 (313)"
+            },
+            {
+                "eventname":"VALEDICTORY CEREMONY",
+                "fromtime":"03:00 PM",
+                "totime":"05:00 PM",
+                "venue":"CHANAKYA Auditorium"
+            },
+            {
+                "eventname":"STALLS",
+                "fromtime":"09:00 AM",
+                "totime":"04:00 PM",
+                "venue":"OLD CANOPY"
             }
         ]
     }
