@@ -21,29 +21,28 @@ function SchedulePage() {
                 S C H E D U L E
             </div>
             <div className={styles.daybuttons}>
-                <button className={activebt == 0 ? styles.daybuttons__buttonactive : styles.daybuttons__button} onClick={()=> {setDay(0);setActiveBt(0);}}>Day 0</button>
-                <button className={activebt == 1 ? styles.daybuttons__buttonactive : styles.daybuttons__button} onClick={()=> {setDay(1);setActiveBt(1);}}>Day 1</button>
-                <button className={activebt == 2 ? styles.daybuttons__buttonactive : styles.daybuttons__button} onClick={()=> {setDay(2);setActiveBt(2);}}>Day 2</button>
-                <button className={activebt == 3 ? styles.daybuttons__buttonactive : styles.daybuttons__button} onClick={()=> {setDay(3);setActiveBt(3);}}>Day 3</button>
+                {/* <button className={activebt == 0 ? styles.daybuttons__buttonactive : styles.daybuttons__button} onClick={()=> {setDay(0);setActiveBt(0);}}>DAY 0</button> */}
+                <button className={activebt == 1 ? styles.daybuttons__buttonactive : styles.daybuttons__button} onClick={()=> {setDay(1);setActiveBt(1);}}><span>DAY 1</span><br/><span className={styles.date}>7</span><br/>APRIL</button>
+                <button className={activebt == 2 ? styles.daybuttons__buttonactive : styles.daybuttons__button} onClick={()=> {setDay(2);setActiveBt(2);}}><span>DAY 2</span><br/><span className={styles.date}>8</span><br/>APRIL</button>
+                <button className={activebt == 3 ? styles.daybuttons__buttonactive : styles.daybuttons__button} onClick={()=> {setDay(3);setActiveBt(3);}}><span>DAY 3</span><br/><span className={styles.date}>9</span><br/>APRIL</button>
             </div>
             
                 
             
         {day == 0 || 1 || 2 || 3?
         <div>
-            <div className={styles.events_of_the_day} data-aos="fade-up">
+            {/* <div className={styles.events_of_the_day} data-aos="fade-up">
             <p>Register for Day {day} Events</p>
             <button className={styles.register_button} ><a href="http://register.dakshtech.org:4000/">Register</a></button>
-            </div>
-            <div  className={styles.container} data-aos="fade-up">
+            </div> */}
+            {/* <div  className={styles.container} data-aos="fade-up">
             <p className={styles.eventname}><b>Schedule for DAKSH-2023 will be updated soon !</b></p>
-            </div>
-            {/* <div  className={styles.container} >
-               
+            </div> */}
+            <div  className={styles.container} >
                 <div className={styles.timeline}>
                     <ul className={styles.listofevents}>
                         {ScheduleData[day].events.map((e,i) =>
-                            {
+                            { 
                                 {return e.roundno==null ?
                                     <li key={i}>
                                         <div className={styles.timeline__content}> 
@@ -73,9 +72,9 @@ function SchedulePage() {
                             })
                         }
                     </ul>
-                </div> */}
+                </div>
 
-            {/* </div> */}
+            </div>
         </div>
         :
             <div>

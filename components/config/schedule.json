@@ -4,106 +4,134 @@
        "date":"16",
        "events":[
             {
-                "eventname":"Inaugral Event",
-                "fromtime":"6:00 PM",
-                "totime":"8:30 PM"
-            },
-            {
-                "eventname":"Skeleton Dance",
-                "fromtime":"7:30 PM",
-                "totime":"8:00 PM",
-                "venue":"OUTSIDE LIBRARY"
+                "eventname":"Shri Harskesh Mittal - INAUGRATION",
+                "fromtime":"4:00 PM",
+                "totime":"6:00 PM"
             }
         ]
     },
 
     {
         "day":"1",
-        "date":"17",
+        "date":"7",
         "events":[
              {
-                 "eventname":"SPACE DEBRIS EXTRACTION - HACKATHON",
-                 "fromtime":"10:00 AM",
-                 "totime":"12:00 PM",
-                 "venue":"VKJ-217"
+                 "eventname":"TIGER ANALYTICS - POWERTALK",
+                 "fromtime":"11:00 AM",
+                 "totime":"1:00 PM"
              },
              {
-                "eventname":"BATTERY CASING FOR ELECTRIC VEHICLES - HACKATHON",
+                 "eventname":"prof. V Kamakoti - POWERTALK",
+                 "fromtime":"2:00 PM",
+                 "totime":"4:00 PM"
+             },
+             {
+                 "eventname":"Ela Naveen - ProShow",
+                 "fromtime":"2:00 PM",
+                 "totime":"4:00 PM",
+                 "venue":"basketball court"
+             },
+             {
+                 "eventname":"ZIFO SEMINAR - HACKATHON",
+                 "fromtime":"9:00 AM",
+                 "totime":"6:00 PM",
+                 "venue":"NVM AUDI"
+             },
+             {
+                "eventname":"TATA COMMUNICATION HACKATHONS",
                 "fromtime":"09:00 AM",
-                "totime":"4:00 PM",
-                "venue":"VKJ-214"
+                "totime":"6:00 PM",
+                "venue":"LTC-101"
             },
             {
-                "eventname":"BIOCOMPATIBLE IMPLANT WITH MRI CAPABILITIES - HACKATHON",
-                "fromtime":"09:30 AM",
-                "totime":"02:00 PM",
-                "venue":"VV-225"
-            },
-            {
-                "eventname":"BARTERING NFTs - HACKATHON",
-                "fromtime":"09:30 AM",
-                "totime":"02:00 PM",
-                "venue":"VV-130"
-            },
-            {
-                "eventname":"INTELLIGENT FARMING SYSTEM",
-                "fromtime":"10:00 AM",
-                "totime":"01:00 PM",
-                "venue":"JVC-207"
-            },
-            {
-                "eventname":"BLOCKCHAIN - NFT  WORKSHOP",
+                "eventname":"INTEL HACKATHONS",
                 "fromtime":"09:00 AM",
-                "totime":"01:00 PM",
-                "venue":"ASK 1 SEMINAR HALL 2ND FLOOR"
+                "totime":"06:00 PM",
+                "venue":"LTC-301"
             },
             {
-                "eventname":"METAVERSE - VR WORKSHOP",
+                "eventname":"UNIQCORE HACKATHONS",
                 "fromtime":"09:00 AM",
-                "totime":"01:00 PM",
-                "venue":"ASK 1 SEMINAR HALL 3RD FLOOR"
+                "totime":"6:00 PM",
+                "venue":"LTC-401"
             },
             {
-                "eventname":"RTPCR WORKSHOP",
+                "eventname":"ASTRA ZENECA HACKATHONS",
+                "fromtime":"9:00 AM",
+                "totime":"6:00 PM",
+                "venue":"LTC-118"
+            },
+            {
+                "eventname":"CELL CULTURE AND BSL-III WORKSHOP",
                 "fromtime":"09:00 AM",
-                "totime":"01:00 PM",
-                "venue":"ASK 2 BOARD ROOM (314)"
+                "totime":"06:00 PM",
+                "venue":"ASK 2 BOARD ROOM"
             },
             {
-                "eventname":"DRONES BATTERY MANAGEMENT - HACKATHON",
-                "fromtime":"10:00 AM",
-                "totime":"01:00 PM",
-                "venue":"ASK 2 115"
-            },
-            {
-                "eventname":"Multiverse",
-                "fromtime":"04:00 PM",
-                "totime":"05:30 PM",
-                "venue":"ASK 2 312"
-            },
-            {
-                "eventname":"PROSHOW - KARAN SINGH",
-                "fromtime":"02:00 PM",
-                "totime":"04:00 PM",
-                "venue":"NEW SOC AUDI"
-            },
-            {
-                "eventname":"VOICE ASSISTANCE FOR THE VISUALLY IMPAIRED - HACKATHON",
-                "fromtime":"10:00 AM",
-                "totime":"01:00 PM",
-                "venue":"SOC 104 (LAB 1)"
-            },
-            {
-                "eventname":"DRONES WORKSHOP",
+                "eventname":"AR/VR WORKSHOP",
                 "fromtime":"09:00 AM",
-                "totime":"01:00 PM",
+                "totime":"06:00 PM",
+                "venue":"ASK 1 (308)"
+            },
+            {
+                "eventname":"3D PRINTING WORKSHOP",
+                "fromtime":"09:00 AM",
+                "totime":"06:00 PM",
+                "venue":"ASK 2 (302)"
+            },
+            {
+                "eventname":"WEB 3 WORKSHOP",
+                "fromtime":"09:00 AM",
+                "totime":"06:00 PM",
                 "venue":"LTC 201"
             },
             {
-                "eventname":"SMART PISCICULTURE - HACKATHON",
-                "fromtime":"09:00 AM",
-                "totime":"03:30 PM",
+                "eventname":"ORACLE WORKSHOP",
+                "fromtime":"09:00 PM",
+                "totime":"06:00 PM",
+                "venue":"TIFAC AUDITORIUM"
+            },
+            {
+                "eventname":"FORTINET WORKSHOP",
+                "fromtime":"09:00 PM",
+                "totime":"06:00 PM",
                 "venue":"LTC 111"
+            },
+            {
+                "eventname":"HP WORKSHOP",
+                "fromtime":"09:00 AM",
+                "totime":"06:00 PM",
+                "venue":"LTC 116"
+            },
+            {
+                "eventname":"FORENSIC TRIVIA ROUND-1",
+                "fromtime":"09:00 AM",
+                "totime":"02:00 PM",
+                "venue":"JVC AUDI"
+            },
+            {
+                "eventname":"E SPORTS",
+                "fromtime":"09:00 AM",
+                "totime":"06:00 PM",
+                "venue":"LTC 108"
+            },
+            {
+                "eventname":"DRONE RACING",
+                "fromtime":"09:00 AM",
+                "totime":"06:00 PM",
+                "venue":"FOOTBALL GROUND"
+            },
+            {
+                "eventname":"LINE OF SIGHT COMPETITION",
+                "fromtime":"09:00 AM",
+                "totime":"06:00 PM",
+                "venue":"FOOTBALL GROUND"
+            },
+            {
+                "eventname":"COUNTRY CON ROUND-1",
+                "fromtime":"09:00 AM",
+                "totime":"06:00 PM",
+                "venue":"LTC 104"
             }
          ]
      },
@@ -113,95 +141,112 @@
         "date":"18",
         "events":[
             {
-                "eventname":"BIG TECH DEBATE",
-                "fromtime":"9:30 AM",
-                "totime":"05:00 PM",
-                "venue":"VV AUDI, VV128, VV126"
-            },       
-            {
-                "eventname":"BIOCOMPATIBLE IMPLANT WITH MRI CAPABILITIES - HACKATHON",
-                "fromtime":"9:30 AM",
-                "totime":"2:00 PM",
-                "venue":"VV 225"
- 
+                "eventname":"Beatbox and Silamabattam - Proshow",
+                "fromtime":"4:00 PM",
+                "totime":"6:00 PM",
+                "venue":"basketball court"
             },
             {
-                "eventname":"BARTERING NFTs HACKATHON",
+                "eventname":"shri T S Tirumurti - powertalk",
+                "fromtime":"11:00 AM",
+                "totime":"1:00 PM"
+            },
+            {
+                "eventname":"ZIFO SEMINAR - HACKATHON",
                 "fromtime":"9:00 AM",
-                "totime":"5:00 PM",
-                "venue":"VV 130"
- 
+                "totime":"6:00 PM",
+                "venue":"NVM AUDI"
             },
             {
-                "eventname":"INTELLIGENT FARMING SYSTEM",
-                "fromtime":"10:00 AM",
-                "totime":"1:00 PM",
-                "venue":"JVC 207"
- 
+               "eventname":"TATA COMMUNICATION HACKATHONS",
+               "fromtime":"09:00 AM",
+               "totime":"6:00 PM",
+               "venue":"LTC-101"
             },
             {
-                "eventname":"POWER TALK ( DR. KAMAKOTI )",
-                "fromtime":"10:30 AM",
-                "totime":"12:30 PM",
-                "venue":"CHANAKYA AUDI"
- 
+               "eventname":"INTEL HACKATHONS",
+               "fromtime":"09:00 AM",
+               "totime":"06:00 PM",
+               "venue":"LTC-301"
             },
             {
-                "eventname":"BLOCKCHAIN - NFT  WORKSHOP",
+               "eventname":"UNIQCORE HACKATHONS",
+               "fromtime":"09:00 AM",
+               "totime":"6:00 PM",
+               "venue":"LTC-401"
+            },
+            {
+               "eventname":"ASTRA ZENECA HACATHONS",
+               "fromtime":"9:00 AM",
+               "totime":"6:00 PM",
+               "venue":"LTC-118"
+            },
+            {
+                "eventname":"CELL CULTURE AND BSL-III WORKSHOP",
                 "fromtime":"09:00 AM",
-                "totime":"01:00 PM",
-                "venue":"ASK 1 SEMINAR HALL 2ND FLOOR"
+                "totime":"06:00 PM",
+                "venue":"ASK 2 BOARD ROOM"
             },
             {
-                "eventname":"METAVERSE - VR WORKSHOP",
+                "eventname":"AR/VR WORKSHOP",
                 "fromtime":"09:00 AM",
-                "totime":"01:00 PM",
-                "venue":"ASK 1 SEMINAR HALL 3RD FLOOR"
- 
+                "totime":"06:00 PM",
+                "venue":"ASK 1 (308)"
             },
             {
-                "eventname":"RTPCR WORKSHOP",
+                "eventname":"3D PRINTING WORKSHOP",
                 "fromtime":"09:00 AM",
-                "totime":"01:30 PM",
-                "venue":"ASK 2 BOARD ROOM (314)"
- 
+                "totime":"06:00 PM",
+                "venue":"ASK 2 (302)"
             },
             {
-
-                "eventname":"DRONES BATTERY MANAGEMENT - HACKATHON",
-                "fromtime":"10:00 AM",
-                "totime":"01:00 PM",
-                "venue":"ASK 2 115"   
-            },
-            {
-
-                "eventname":"Multiverse",
-                "fromtime":"04:00 PM",
-                "totime":"05:30 PM" ,
-                "venue":"ASK 2 312"  
-            },
-            {
-
-                "eventname":"Battery Casing For Electric Vehicles - Hackathon",
-                "fromtime":"9:00 AM",
-                "totime":"1:00 PM" ,
-                "venue":"ASK 2 312"  
-            },
-            {
-
-                "eventname":"DRONES WORKSHOP",
+                "eventname":"WEB 3 WORKSHOP",
                 "fromtime":"09:00 AM",
-                "totime":"01:00 PM",
-                "venue":"LTC 101"  
+                "totime":"06:00 PM",
+                "venue":"LTC 201"
             },
             {
-
-                "eventname":"SMART PISCICULTURE - HACKATHON",
+                "eventname":"ORACLE WORKSHOP",
+                "fromtime":"09:00 PM",
+                "totime":"06:00 PM",
+                "venue":"TIFAC AUDITORIUM"
+            },
+            {
+                "eventname":"FORTINET WORKSHOP",
+                "fromtime":"09:00 PM",
+                "totime":"06:00 PM",
+                "venue":"LTC 111"
+            },
+            {
+                "eventname":"HP WORKSHOP",
                 "fromtime":"09:00 AM",
-                "totime":"03:30 PM",
-                "venue":"LTC 111"   
+                "totime":"06:00 PM",
+                "venue":"LTC 116"
+            },
+            {
+                "eventname":"E SPORTS",
+                "fromtime":"09:00 AM",
+                "totime":"06:00 PM",
+                "venue":"LTC 108"
+            },
+            {
+                "eventname":"DRONE RACING",
+                "fromtime":"09:00 AM",
+                "totime":"06:00 PM",
+                "venue":"FOOTBALL GROUND"
+            },
+            {
+                "eventname":"LINE OF SIGHT COMPETITION",
+                "fromtime":"09:00 AM",
+                "totime":"06:00 PM",
+                "venue":"FOOTBALL GROUND"
+            },
+            {
+                "eventname":"FORENSIC TRIVIA ROUND-2",
+                "fromtime":"02:00 PM",
+                "totime":"06:00 PM",
+                "venue":"JVC 116"
             }
-
 
         ]
         
@@ -213,54 +258,64 @@
         "date":"19",
         "events":[
             {
-
-                "eventname":"BIG TECH DEBATE",
+                "eventname":"ZIFO SEMINAR - HACKATHON",
                 "fromtime":"9:00 AM",
-                "totime":"1:00 PM",
-                "venue": "VV AUDI, VV128, VV126"
- 
+                "totime":"6:00 PM",
+                "venue":"NVM AUDI"
             },
             {
-                "eventname":"Big Tech Debate",
-                "fromtime":"1:00 AM",
-                "totime":"4:30 PM",
-                "venue": "JVC AUDI"
- 
-            },
+               "eventname":"TATA COMMUNICATION HACKATHONS",
+               "fromtime":"09:00 AM",
+               "totime":"6:00 PM",
+               "venue":"LTC-101"
+           },
+           {
+               "eventname":"INTEL HACKATHONS",
+               "fromtime":"09:00 AM",
+               "totime":"06:00 PM",
+               "venue":"LTC-301"
+           },
+           {
+               "eventname":"UNIQCORE HACKATHONS",
+               "fromtime":"09:00 AM",
+               "totime":"6:00 PM",
+               "venue":"LTC-401"
+           },
+           {
+               "eventname":"ASTRA ZENECA HACATHONS",
+               "fromtime":"9:00 AM",
+               "totime":"6:00 PM",
+               "venue":"LTC-118"
+           },
             {
-                "eventname":"Pitch Fest",
-                "fromtime":"9:00 AM",
-                "totime":"2:00 PM",
-                "venue": "ASK SEMINAR HALL"
- 
-            },
-            {
-                "eventname":"Drone Management",
-                "fromtime":"09:30 AM",
-                "totime":"1:00 PM",
-                "venue": "ASK 2 115"
- 
-            },
-            {
-                "eventname":"Valedictory Ceremony",
-                "fromtime":"4:30 AM",
-                "totime":"6:30 PM",
-                "venue": "CHANAKYA AUDI"
- 
-            },
-            {
-                "eventname":"VOICE ASSISTANCE FOR THE VISUALLY IMPAIRED - HACKATHON",
+                "eventname":"CELL CULTURE AND BSL-III WORKSHOP",
                 "fromtime":"09:00 AM",
-                "totime":"04:30 PM",
-                "venue": "SOC 104 (LAB 1)"
- 
+                "totime":"06:00 PM",
+                "venue":"ASK 2 BOARD ROOM"
             },
             {
-                "eventname":"SMART PISCICULTURE - HACKATHON",
+                "eventname":"E SPORTS",
                 "fromtime":"09:00 AM",
-                "totime":"04:00 PM",
-                "venue": "LTC 111"
- 
+                "totime":"06:00 PM",
+                "venue":"LTC 108, LTC 204, LTC 206"
+            },
+            {
+                "eventname":"DRONE RACING",
+                "fromtime":"09:00 AM",
+                "totime":"06:00 PM",
+                "venue":"FOOTBALL GROUND"
+            },
+            {
+                "eventname":"LINE OF SIGHT COMPETITION",
+                "fromtime":"09:00 AM",
+                "totime":"06:00 PM",
+                "venue":"FOOTBALL GROUND"
+            },
+            {
+                "eventname":"COUNTRY CON ROUND-2",
+                "fromtime":"09:00 AM",
+                "totime":"06:00 PM",
+                "venue":"VV AUDI"
             }
         ]
     }
