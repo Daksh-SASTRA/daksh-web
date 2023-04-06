@@ -1,12 +1,13 @@
 [
     {
        "day":"0",
-       "date":"16",
+       "date":"6",
        "events":[
             {
                 "eventname":"Shri Harskesh Mittal - INAUGRATION",
-                "fromtime":"4:00 PM",
-                "totime":"6:00 PM"
+                "fromtime":"04:00 PM",
+                "totime":"06:00 PM",
+                "venue": "SOC Auditorium"
             }
         ]
     },
@@ -18,50 +19,40 @@
              {
                  "eventname":"TIGER ANALYTICS - POWERTALK",
                  "fromtime":"11:00 AM",
-                 "totime":"1:00 PM"
+                 "totime":"1:00 PM",
+                 "venue": "SOC Auditorium"
              },
              {
-                 "eventname":"prof. V Kamakoti - POWERTALK",
-                 "fromtime":"2:00 PM",
-                 "totime":"4:00 PM"
+                "eventname":"Yoga Session",
+                "fromtime":"05:00 PM",
+                "totime":"06:00 PM",
+                "venue": "SOC Auditorium"
+            },
+             {
+                 "eventname":"Prof. V Kamakoti - POWERTALK",
+                 "fromtime":"03:30 PM",
+                 "totime":"05:00 PM",
+                 "venue": "SOC Auditorium"
              },
              {
                  "eventname":"Ela Naveen - ProShow",
-                 "fromtime":"2:00 PM",
-                 "totime":"4:00 PM",
-                 "venue":"basketball court"
+                 "fromtime":"05:00 PM",
+                 "totime":"06:00 PM",
+                 "venue":"In Front of Library"
+             },
+             {
+                 "eventname":"FORENSIC TRIVIA ROUND-1",
+                 "fromtime":"09:00 AM",
+                 "totime":"01:00 PM",
+                 "venue":"JVC Auditorium"
              },
              {
                  "eventname":"ZIFO SEMINAR - HACKATHON",
-                 "fromtime":"9:00 AM",
-                 "totime":"6:00 PM",
-                 "venue":"NVM AUDI"
+                 "fromtime":"11:00 AM",
+                 "totime":"01:00 PM",
+                 "venue":"NMV Auditorium"
              },
              {
-                "eventname":"TATA COMMUNICATION HACKATHONS",
-                "fromtime":"09:00 AM",
-                "totime":"6:00 PM",
-                "venue":"LTC-101"
-            },
-            {
-                "eventname":"INTEL HACKATHONS",
-                "fromtime":"09:00 AM",
-                "totime":"06:00 PM",
-                "venue":"LTC-301"
-            },
-            {
-                "eventname":"UNIQCORE HACKATHONS",
-                "fromtime":"09:00 AM",
-                "totime":"6:00 PM",
-                "venue":"LTC-401"
-            },
-            {
-                "eventname":"ASTRA ZENECA HACKATHONS",
-                "fromtime":"9:00 AM",
-                "totime":"6:00 PM",
-                "venue":"LTC-118"
-            },
-            {
                 "eventname":"CELL CULTURE AND BSL-III WORKSHOP",
                 "fromtime":"09:00 AM",
                 "totime":"06:00 PM",
@@ -77,43 +68,91 @@
                 "eventname":"3D PRINTING WORKSHOP",
                 "fromtime":"09:00 AM",
                 "totime":"06:00 PM",
-                "venue":"ASK 2 (302)"
+                "venue":"SoC Lab 104"
             },
             {
-                "eventname":"WEB 3 WORKSHOP",
+                "eventname":"WEB 3 AND BLOCKCHAIN WORKSHOP",
                 "fromtime":"09:00 AM",
                 "totime":"06:00 PM",
-                "venue":"LTC 201"
+                "venue":"SoC Lab 103"
             },
             {
-                "eventname":"ORACLE WORKSHOP",
-                "fromtime":"09:00 PM",
+                "eventname":"ORACLE APEX WORKSHOP",
+                "fromtime":"09:00 AM",
                 "totime":"06:00 PM",
-                "venue":"TIFAC AUDITORIUM"
+                "venue":"TIFAC Auditorium"
             },
             {
-                "eventname":"FORTINET WORKSHOP",
-                "fromtime":"09:00 PM",
-                "totime":"06:00 PM",
-                "venue":"LTC 111"
-            },
-            {
-                "eventname":"HP WORKSHOP",
+                "eventname":"HP ARUBA WORKSHOP",
                 "fromtime":"09:00 AM",
                 "totime":"06:00 PM",
                 "venue":"LTC 116"
             },
             {
-                "eventname":"FORENSIC TRIVIA ROUND-1",
-                "fromtime":"09:00 AM",
-                "totime":"02:00 PM",
-                "venue":"JVC AUDI"
-            },
-            {
-                "eventname":"E SPORTS",
+                "eventname":"OMRON ROBOTICS WORKSHOP",
                 "fromtime":"09:00 AM",
                 "totime":"06:00 PM",
-                "venue":"LTC 108"
+                "venue":"LTC 101 & 201"
+            },
+            {
+                "eventname":"FORTINET WORKSHOP",
+                "fromtime":"09:00 AM",
+                "totime":"06:00 PM",
+                "venue":"LTC 111"
+            },
+            {
+                "eventname":"TATA COMMUNICATION CYBER SECURITY HACKATHON",
+                "fromtime":"09:00 AM",
+                "totime":"6:00 PM",
+                "venue":"SoC Lab 107 & 108"
+            },
+            {
+                "eventname":"INTEL HACKATHON",
+                "fromtime":"09:00 AM",
+                "totime":"06:00 PM",
+                "venue":"LTC 301"
+            },
+            {
+                "eventname":"UNIQCORE HACKATHON",
+                "fromtime":"09:00 AM",
+                "totime":"6:00 PM",
+                "venue":"LTC 401"
+            },
+            {
+                "eventname":"ASTRA ZENECA HACKATHONS",
+                "fromtime":"9:00 AM",
+                "totime":"6:00 PM",
+                "venue":"LTC 118"
+            },
+            {
+                "eventname":"ENTHUTECH HACKATHON",
+                "fromtime":"09:00 AM",
+                "totime":"06:00 PM",
+                "venue":"LTC 311"
+            },
+            {
+                "eventname":"TECH IN HEALTHCARE HACKATHON - ZIFO",
+                "fromtime":"09:00 AM",
+                "totime":"06:00 PM",
+                "venue":"ASK 1 (410)"
+            },
+            {
+                "eventname":"COUNTRY CON ROUND-1",
+                "fromtime":"08:30 AM",
+                "totime":"06:00 PM",
+                "venue":"LTC 104, 106, NMV 302, 304, VV 128, 130, 213, 214, JVC 106, 114"
+            },
+            {
+                "eventname":"E SPORTS - Clash Royale",
+                "fromtime":"09:00 AM",
+                "totime":"06:00 PM",
+                "venue":"LTC 206"
+            },
+            {
+                "eventname":"E SPORTS - VR",
+                "fromtime":"09:00 AM",
+                "totime":"06:00 PM",
+                "venue":"ASK 2 (313)"
             },
             {
                 "eventname":"DRONE RACING",
@@ -124,14 +163,14 @@
             {
                 "eventname":"LINE OF SIGHT COMPETITION",
                 "fromtime":"09:00 AM",
-                "totime":"06:00 PM",
+                "totime":"04:00 PM",
                 "venue":"FOOTBALL GROUND"
             },
             {
-                "eventname":"COUNTRY CON ROUND-1",
+                "eventname":"STALLS",
                 "fromtime":"09:00 AM",
-                "totime":"06:00 PM",
-                "venue":"LTC 104"
+                "totime":"04:00 PM",
+                "venue":"OLD CANOPY"
             }
          ]
      },
@@ -155,7 +194,7 @@
                 "eventname":"ZIFO SEMINAR - HACKATHON",
                 "fromtime":"9:00 AM",
                 "totime":"6:00 PM",
-                "venue":"NVM AUDI"
+                "venue":"NVM Auditorium"
             },
             {
                "eventname":"TATA COMMUNICATION HACKATHONS",
@@ -209,7 +248,7 @@
                 "eventname":"ORACLE WORKSHOP",
                 "fromtime":"09:00 PM",
                 "totime":"06:00 PM",
-                "venue":"TIFAC AUDITORIUM"
+                "venue":"TIFAC Auditorium"
             },
             {
                 "eventname":"FORTINET WORKSHOP",
@@ -261,7 +300,7 @@
                 "eventname":"ZIFO SEMINAR - HACKATHON",
                 "fromtime":"9:00 AM",
                 "totime":"6:00 PM",
-                "venue":"NVM AUDI"
+                "venue":"NVM Auditorium"
             },
             {
                "eventname":"TATA COMMUNICATION HACKATHONS",
@@ -315,7 +354,7 @@
                 "eventname":"COUNTRY CON ROUND-2",
                 "fromtime":"09:00 AM",
                 "totime":"06:00 PM",
-                "venue":"VV AUDI"
+                "venue":"VV Auditorium"
             }
         ]
     }
