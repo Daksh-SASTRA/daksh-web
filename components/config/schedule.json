@@ -91,13 +91,13 @@
                 "eventname":"OMRON ROBOTICS WORKSHOP",
                 "fromtime":"09:00 AM",
                 "totime":"06:00 PM",
-                "venue":"LTC 101 & 201"
+                "venue":"LTC 101 & TDC 103"
             },
             {
                 "eventname":"FORTINET WORKSHOP",
                 "fromtime":"09:00 AM",
                 "totime":"06:00 PM",
-                "venue":"LTC 111"
+                "venue":"LTC 201"
             },
             {
                 "eventname":"TATA COMMUNICATION CYBER SECURITY HACKATHON",
@@ -140,6 +140,12 @@
                 "fromtime":"08:30 AM",
                 "totime":"06:00 PM",
                 "venue":"LTC 104, 106, NMV 302, 304, VV 128, 130, 213, 214, JVC 106, 114"
+            },
+            {
+                "eventname":"E SPORTS - FIFA",
+                "fromtime":"09:00 AM",
+                "totime":"06:00 PM",
+                "venue":"LTC 204"
             },
             {
                 "eventname":"E SPORTS - Clash Royale",
