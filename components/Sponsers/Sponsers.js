@@ -64,7 +64,7 @@ function Sponsers() {
 						<img
 							className={styles.sponser_infinite}
 							src="/sponsers/d2k23/Teg_new.png"
-							alt="sponser-8"
+							alt="sponser-1"
 							width="250px"
 							height="150px"
 						/>
@@ -73,7 +73,7 @@ function Sponsers() {
 						<img
 							className={styles.sponser_infinite}
 							src="/sponsers/d2k23/Aruba_Networks_logo_.png"
-							alt="sponser-8"
+							alt="sponser-2"
 							width="250px"
 							height="150px"
 						/>
@@ -82,7 +82,7 @@ function Sponsers() {
 						<img
 							className={styles.sponser_infinite}
 							src="/sponsers/d2k23/intel_1_API_.png"
-							alt="sponser-8"
+							alt="sponser-3"
 							width="250px"
 							height="150px"
 						/>
@@ -91,7 +91,7 @@ function Sponsers() {
 						<img
 							className={styles.sponser_infinite}
 							src="/sponsers/d2k23/Fortinet_.png"
-							alt="sponser-8"
+							alt="sponser-4"
 							width="250px"
 							height="150px"
 						/>
@@ -100,7 +100,7 @@ function Sponsers() {
 						<img
 							className={styles.sponser_infinite}
 							src="/sponsers/d2k23/tata_elxsi.png"
-							alt="sponser-8"
+							alt="sponser-5"
 							width="250px"
 							height="150px"
 						/>
@@ -109,7 +109,16 @@ function Sponsers() {
 						<img
 							className={styles.sponser_infinite}
 							src="/sponsers/d2k23/TATA-Communications-Logo_.png"
-							alt="sponser-8"
+							alt="sponser-6"
+							width="250px"
+							height="150px"
+						/>
+					</div>
+					<div className={styles.sponsers__div}>
+						<img
+							className={styles.sponser_infinite}
+							src="/sponsers/d2k23/jump_trade_bg.jpg"
+							alt="sponser-7"
 							width="250px"
 							height="150px"
 						/>
