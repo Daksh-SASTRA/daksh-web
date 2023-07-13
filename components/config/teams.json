@@ -2,27 +2,32 @@
   {
     "teamname": "Creative Media", 
     "src": "team/Creative-media.png", 
-    "heads": "Harrini K, Ritthika A, Varsha Sowri Rajan, Venkatesh Kumar, Rahul Ram J.R"
+    "heads": "Nivritti, Helina Hilda S & Jayashree Sampath"
   }, 
   {
     "teamname": "DARTS", 
     "src": "team/Darts.png", 
-    "heads": "Jyotiprasanth S, Rohit & Samhitha Sannidhi"
+    "heads": "Venkat Subramanian G, Swetha Prakash & Varun T"
   }, 
   {
     "teamname": "DDT", 
     "src": "team/Ddt.png", 
-    "heads": "Krishnan S & Anirudh"
-  },
-  {
-    "teamname": "Gaming and Guest Hospitality", 
-    "src": "team/Gaming-and-guest hospitality.png", 
-    "heads": "Thehaleesan K V, Mohammed Imtiaz A, Santhosh Kumar D, Utkarsh Purbey, Tone Dasrin A, Lakshmi Iyer"
+    "heads": "Nirmal Ram, Ashwin & Amruthavarshini R"
   }, 
   {
-    "teamname": "Hospitality", 
+    "teamname": "Daksh Web Dev Team", 
+    "src": "team/Web-development.png", 
+    "heads": "Vishwanath R & Vinai"
+  }, 
+  {
+    "teamname": "Gaming", 
+    "src": "team/Gaming-and-guest hospitality.png", 
+    "heads": "Kowshik M S, Roshan Vijay, Dhaneesh Raj"
+  }, 
+  {
+    "teamname": "Hosts & Hospitality", 
     "src": "team/Hospitality.png", 
-    "heads": "Jahnavi V, Vanka Madhuri, Peddimsetti Hari Krishna, Ganesh Movva & Saikrishna Suggula"
+    "heads": "Jayavanth R, Hariharan Sriram, K Poorn Chandra & Jhanavi Gandhani"
   }, 
   {
     "teamname": "Infra and Logistics", 
@@ -30,73 +35,68 @@
     "heads": "Ajay Kumar Y, Manikanth Sankaramanchi, Hima Sahithi Nalluri & Swathi Chapram"
   }, 
   {
-    "teamname": "Marketing", 
+    "teamname": "Marketing & Shows", 
     "src": "team/Marketing.png", 
-    "heads": "Karthik Vason Balamurugan, Shrinidhi Raghav, Hrithik Krishnan & Pendyala Sri Harshita"
+    "heads": "Ashutosh R & Jayanth J R"
   }, 
   {
     "teamname": "Merchandise", 
     "src": "team/Merchandise.png", 
-    "heads": "Aneesh, Yeshwant, Sravanitha & Kavya"
+    "heads": "Aneesha S, Yedupati Vishnu Priya, Sharathchandra Adusumalli & Karthikeyan P"
   }, 
   {
     "teamname": "Operations and Control", 
     "src": "team/Operations-and-control.png", 
-    "heads": "Divyadharshini M, Kethireddy Sai Sruthi, Saran Karthik M & Sravan Srinivasan S"
+    "heads": "Praharshith Kashyap Jamalapuram, Karthik Lakshman & Vijayaram"
   }, 
   {
     "teamname": "Public Relations", 
     "src": "team/Public-relations.png", 
-    "heads": "Vishwa N, Udai Srinivasa Prasad K, Varddhamaanan Jain U, Amrithaa M & Cynthia Joslin S V"
+    "heads": "Sanjana Ramkumar, Maheshwaran, P Vaishnavi, Sai Sruthi S V & Sree Harsha K"
   }, 
   {
-    "teamname": "Promotions", 
+    "teamname": "Promotions & Outreach", 
     "src": "team/Promotions.png", 
-    "heads": "Sritha Rampalli,K  Bala Tejasri & Gnanasekaran"
+    "heads": "Kaaviya Arumugam, Dharun Kumar & Sri Mansi"
   }, 
   {
     "teamname": "Quality Management", 
     "src": "team/Quality-management.png", 
-    "heads": "Preethi S, Phani Tulasi Batchu,K Surya Shravya & Siva Dharshini L"
+    "heads": "Geethanjali & Anuraj"
   }, 
   {
     "teamname": "SCBT", 
     "src": "team/SCBT.png", 
-    "heads": "Shrivarshini V & Dheekshana A"
+    "heads": "Jahnavi, Guruguhan V & Shreya Gopalan"
   }, 
   {
     "teamname": "SEEE", 
     "src": "team/SEEE.png", 
-    "heads": "Chandan, Ram Charan, Preethika & Shriya Reddy"
+    "heads": "Koushik, Lalitha Madhavi, & Subash"
   }, 
   {
-    "teamname": "SOC", 
+    "teamname": "SoC", 
     "src": "team/soc.png", 
-    "heads": "Manoj T S V, Aravindh S, Saai Sudarsanan D & Busam Sai Sneha"
+    "heads": "Inti Dheeraj, Yerramilli Sri Ram & Karthik R"
   }, 
   {
-    "teamname": "SOCE", 
+    "teamname": "SoCE", 
     "src": "team/SOCE.png", 
-    "heads": "Dharani K & Charishma"
+    "heads": "Manikandan K & Srisesh Sriram"
   }, 
   {
-    "teamname": "SOME", 
+    "teamname": "SoME", 
     "src": "team/SOME.png", 
-    "heads": "Bangalli Rakshita, Raaja Alaghappan T, Bhanu Aravind & ANV Pranav"
+    "heads": "B Hari Krishna, Ragini M & Nikhil R"
   }, 
   {
     "teamname": "Technotainment", 
     "src": "team/Technotainment.png", 
-    "heads": "Balaji Vaasan V & Sindhuja C"
-  }, 
-  {
-    "teamname": "Web Development", 
-    "src": "team/Web-development.png", 
-    "heads": "Ravi Dindi Sai Prasanna Kumar & Sivapriya J"
-  }, 
+    "heads": "Sreenisha M & Sai Nischal"
+  },
   {
     "teamname": "Workshops", 
     "src": "team/Workshops.png", 
-    "heads": "Shaik Dawood Khaleefa, Gunda Sai Sathvik, Akula Dhodeepya Sree, Gundlagutta Hardhika Reddy & Sai Sreekar M"
+    "heads": "Atla Sai Tarun Reddy, T Venkata Krishna Sashank, Bysani Mahendra, Prasoona & Viswadarsini S"
   }
 ]
