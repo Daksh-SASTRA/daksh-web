@@ -2,7 +2,9 @@
     display: flex;
     padding: 5rem;
     /* background-color: rgba(0, 0, 0, 0.9); */
-    background-color: var(--color-blue-2);
+    /* background-color: var(--color-blue-2); */
+    background: linear-gradient(90deg, #695249 -0.66%, #9D9379 99.17%);
+    box-shadow: 0px 4px 7px 0px rgba(0, 0, 0, 0.25);
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-evenly;
