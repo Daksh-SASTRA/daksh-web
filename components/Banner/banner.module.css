@@ -12,24 +12,25 @@
 .divbanner {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-end;
   width: 100vw;
   height: 100%;
   justify-content: center;
   background-color: rgba(0,0,0,0.7);
-  background: url("/backgbanner.png");
+  background: url("/bgbanner.webp");
   background-size: 100% 100%;
   margin: 0;
 }
 
 .divbanner__headtext {
-  font-size: 7rem;
-  font-weight: 400;
-  font-family: title;
-  color: var(--white);
-  text-align: left;
-  margin: 0;
-  line-height: 1;
+  font-size: 5rem;
+  font-weight: bold;
+  font-family: oswaid;
+  color: var(--text-brown);
+  text-align: right;
+  text-transform: uppercase;
+  margin-right: 4.5rem;
+  line-height: 1.5;
   margin-bottom: 1rem;
 }
 .divbanner__descriptiontext {
@@ -62,7 +63,7 @@
 .theme_text {
   /* text-shadow: 5px 4px 2px rgba(218, 0, 55, 1); */
   /* text-shadow: 9px 7px 4px rgba(218, 0, 55, 1); */
-  text-shadow: 4px 6px 2px var(--color-blue-2);
+  /* text-shadow: 4px 6px 2px var(--color-blue-2); */
   /* animation: glitch infinite 3s; */
 }
 

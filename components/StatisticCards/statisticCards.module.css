@@ -1,9 +1,9 @@
 .container{
     display: flex;
-    padding: 5rem;
+    padding: 2rem;
     /* background-color: rgba(0, 0, 0, 0.9); */
     /* background-color: var(--color-blue-2); */
-    background: linear-gradient(90deg, #695249 -0.66%, #9D9379 99.17%);
+    background: linear-gradient(90deg, var(--brown-dark) 0%, var(--brown-light) 100%);
     box-shadow: 0px 4px 7px 0px rgba(0, 0, 0, 0.25);
     flex-wrap: wrap;
     align-items: center;
@@ -11,8 +11,9 @@
     overflow:hidden;
 }
 .item{
-   font-size: 2rem;
+   font-size: 3rem;
    text-align: center;
+
    /* background-color: var(--primaryBg); */
    border-radius: 5px;
    /* padding: 3rem; */
@@ -20,22 +21,30 @@
 
 }
 .container p{
-   font-family: title;
-   color: var(--white);
+   font-family: oswaid;
+   color: var(--text-brown);
 }
 .container span{
-   font-family: content;
-   font-weight: bold;
-   color: var(--color-blue-1);
+   font-family: oswaid;
+   /* font-weight: bold; */
+   color: var(--text-brown);
+}
+.eventTitle{
+   font-weight: bolder;
+   font-size: 1.5rem;
 }
 
 .counter{
-   color: var(--white) !important;
+   color: var(--text-brown) !important;
+   font-weight: 400;
+   font-size: larger;
+
 }
 
 .counterCenter{
-   color: var(--white) !important;
-   font-size: 2.5rem;
+   color: var(--text-brown) !important;
+   font-size: 4rem;
+   font-weight: 400;
 }
 
 @media screen and (max-width:860px){ 

@@ -1,7 +1,7 @@
 .footer_container {
-	background: linear-gradient(90deg, rgba(105, 82, 73, 0.8) 0%, rgba(157, 147, 121, 0.8) 100%), url("/footerbg.png"), lightgray 50% / cover no-repeat;
-
-	mix-blend-mode: luminosity;
+	background: linear-gradient(90deg, var(--brown-dark) 0%, var(--brown-light) 100%), url("/footerbg.png"), lightgray 50% / cover no-repeat;
+	color: var(--text-brown);
+	/* mix-blend-mode: luminosity; */
 }
 .footer {
 	padding: 2rem 20px;
@@ -9,8 +9,9 @@
 	/* background-color: var(--primaryBg); */
 	/* background: linear-gradient(90deg, rgba(105, 82, 73, 0.7) 0%, rgba(157, 147, 121, 0.7) 100%), url("/footerbg.png"); */
 	/* mix-blend-mode: luminosity; */
-	background: linear-gradient(90deg, rgba(105, 82, 73, 0.8) 0%, rgba(157, 147, 121, 0.8) 100%), url("/footerbg.png"), lightgray 50% / cover no-repeat;
-	mix-blend-mode: luminosity;
+	background: linear-gradient(90deg, var(--brown-dark) 0%, var(--brown-light) 100%), url("/footerbg.png"), lightgray 50% / cover no-repeat;
+	/* background: linear-gradient(90deg, rgba(105, 82, 73, 0.8) 0%, rgba(157, 147, 121, 0.8) 100%), url("/footerbg.png"), lightgray 50% / cover no-repeat; */
+	/* mix-blend-mode: luminosity; */
 	display: flex;
 	flex-direction: column;
 	align-items: left;
@@ -34,12 +35,12 @@
 
 .footer_icon {
 	font-size: 30px;
-	color: var(--color-white);
+	color: var(--text-brown);
 	transition: all linear 0.25s;
 }
 .footer_icon:hover {
 	/* font-size: 32px; */
-	color: var(--color-violet);
+	color: var(--brown-light);
 	transform: scale(0.95);
 }
 
@@ -66,17 +67,17 @@
 
 .footer_links a,
 .footer_contact a {
-	color: var(--color-white);
+	color: var(--text-brown);
 	transition: all 0.5s;
 	margin-bottom: 0;
 }
 
 .footer_links a:hover {
-	color: var(--color-medium-blue);
+	color: var(--text-brown);
 }
 
 .footer__contribution {
-	color: var(--color-black);
+	color: var(--text-brown);
 	padding-bottom: 1.5rem;
 	text-align: center;
 	background-color:transparent;
