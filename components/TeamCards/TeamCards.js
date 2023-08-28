@@ -16,7 +16,7 @@ function TeamCards() {
 		centerMode: true,
 		infinite: true,
 		dots: true,
-		arrows: false,
+		arrows: true,
 		autoplaySpeed: 3000,
 		slidesToShow: 3,
 		speed: 500,
@@ -50,7 +50,6 @@ function TeamCards() {
 					data-aos="fade-up"
 				>
 					<h4 className={styles.card_title}>Join Us</h4>
-
 					<Slider {...settings}>
 						{carousel_items.map((item, idx) => {
 							return (

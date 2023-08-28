@@ -16,11 +16,11 @@ function About() {
 							Instituted in 2007, DAKSH is the annual techno management fest of
 							Sastra University. Ever since its establishment it has been a
 							platform for a multitude of students and aspirants to unravel
-							their talents and showcase their technical prowess. We’ve grown
-							together as a fest since our inception providing students with the
-							finest exposure and skill. This edition of Daksh aims at creating
-							a virtual forum bringing together the eccentric minded and
-							celebrating technology.
+							their talents and showcase their technical prowess. We&apos;ve
+							grown together as a fest since our inception providing students
+							with the finest exposure and skill. This edition of Daksh aims at
+							creating a virtual forum bringing together the eccentric minded
+							and celebrating technology.
 						</p>
 						{/* <Link href="#newsletter">
                             <a className={styles.button__about} >  Teams </a>
