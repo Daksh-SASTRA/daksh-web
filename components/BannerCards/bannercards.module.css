@@ -7,8 +7,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    /* background-image: var(--gradient-right); */
-    background-color: var(--color-blue-1);
+    background-image: url("/cardbg.png");
+    background: linear-gradient(90deg, rgba(105, 82, 73, 0.8) 0%, rgba(157, 147, 121, 0.8) 100%), url("/cardbg.png");
     /* background-color: transparent; */
 }
 
@@ -27,9 +27,11 @@
     justify-content: center;
     transition: all 0.5s;
     transform: scale(0.8);
-    background: rgba(10, 3, 68, 0.8);
+    background:  rgba(255, 255, 255, 0.71);
     box-shadow: 8px 8px 10px rgba(0, 0, 0, 0.25);
+    border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: 30px;
+    padding-bottom: 20px;
 }
 
 .card_active {
@@ -38,7 +40,7 @@
     height: 400px;
     max-height: 400px;
     /* background-color: rgb(0,0,0); */
-    background-color: var(--color-blue-2);
+    background-color: rgba(255, 255, 255, 0.49);
     border-radius: 30px;
     margin: auto 0px;
     display: flex;
@@ -48,7 +50,9 @@
     /* box-shadow: rgb(0,0,0); */
     transform: scale(1);
     /* box-shadow: rgba(25, 25, 26, 0.5) 0px 7px 29px 0px; */
-    box-shadow: 8px 8px 10px rgba(0, 0, 0, 0.25);
+    /* box-shadow: 8px 8px 10px rgba(0, 0, 0, 0.25); */
+    box-shadow: 0px 0px 35px 0px rgba(0, 0, 0, 0.25);
+
 }
 
 .center {
@@ -86,3 +90,12 @@
     border-radius: 10px;
     cursor: pointer;
 } 
+
+.slick-dots li button:before {
+    color: white !important;;
+}
+
+.slick-dots li.slick-active button:before {
+    opacity: .75;
+    color: white !important;
+}

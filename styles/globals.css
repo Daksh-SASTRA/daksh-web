@@ -67,7 +67,8 @@ body {
 html {
   /* background-color: var(--primaryBg); */
   /* background-color: var(--color-white); */
-  background: url("/backgbanner.webp");
+  /* background: url("/backgbanner.png") */
+  background: linear-gradient(90deg, rgba(105, 82, 73, 0.8) 0%, rgba(157, 147, 121, 0.8) 100%);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: 100%;
