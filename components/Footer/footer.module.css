@@ -60,13 +60,15 @@
 }
 
 .footer h2 {
-	font-family: title, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+	font-family: oswaid, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
 		Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 	margin: 10px 0;
 }
 
 .footer_links a,
 .footer_contact a {
+	font-family: oswaid;
+	font-weight: bold;
 	color: var(--text-brown);
 	transition: all 0.5s;
 	margin-bottom: 0;

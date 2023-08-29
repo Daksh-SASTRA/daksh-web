@@ -60,22 +60,22 @@ function Footer() {
 				<div className={styles.footer_right}>
 					<div className={styles.footer_links}>
 						<h2>Quick Links</h2>
-						<Link href="/events-workshop">
-							<a>Events / Workshops</a>
-						</Link>
-						<Link href="/teams">
-							<a>Teams</a>
-						</Link>
-						<Link href="/podcast">
-							<a>Podcasts</a>
-						</Link>
 						<Link href="https://daksh-blog.medium.com/">
 							<a href="https://daksh-blog.medium.com/" target="blank">
 								Blog
 							</a>
 						</Link>
+						<Link href="/teams">
+							<a>Teams</a>
+						</Link>
 						<Link href="/contact">
 							<a>Contact</a>
+						</Link>
+						<Link href="/podcast">
+							<a>Podcasts</a>
+						</Link>
+						<Link href="/events-workshop">
+							<a>Events / Workshops</a>
 						</Link>
 						{/* <Link href="https://merchant.razorpay.com/policy/KfyiFtCr6aXFsA/privacy" target="blank">
 						<a>Privacy policy</a>
