@@ -36,7 +36,7 @@ function About() {
 					<div className={styles.image_container__about}>
 						<img
 							className={styles.about__img_fluid}
-							src="/about-img.png"
+							src="/welding.webp"
 							alt="dummy image"
 						/>
 						{/* <iframe className={styles.about__video_size}  src="https://www.youtube.com/embed/pFL37QpQ5t0" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe> */}

@@ -1,5 +1,6 @@
 .footer_container {
-	background: linear-gradient(90deg, var(--brown-dark) 0%, var(--brown-light) 100%), url("/footerbg.png"), lightgray 50% / cover no-repeat;
+	/* background: linear-gradient(90deg, var(--brown-dark) 0%, var(--brown-light) 100%), url("/footerbg.png"), lightgray 50% / cover no-repeat; */
+	background-image: url('/footer_back_.webp');
 	color: var(--text-brown);
 	/* mix-blend-mode: luminosity; */
 }
@@ -9,7 +10,9 @@
 	/* background-color: var(--primaryBg); */
 	/* background: linear-gradient(90deg, rgba(105, 82, 73, 0.7) 0%, rgba(157, 147, 121, 0.7) 100%), url("/footerbg.png"); */
 	/* mix-blend-mode: luminosity; */
-	background: linear-gradient(90deg, var(--brown-dark) 0%, var(--brown-light) 100%), url("/footerbg.png"), lightgray 50% / cover no-repeat;
+	background-image: url('/footer_back_.webp');
+
+	/* background: linear-gradient(90deg, var(--brown-dark) 0%, var(--brown-light) 100%), url("/footerbg.png"), lightgray 50% / cover no-repeat; */
 	/* background: linear-gradient(90deg, rgba(105, 82, 73, 0.8) 0%, rgba(157, 147, 121, 0.8) 100%), url("/footerbg.png"), lightgray 50% / cover no-repeat; */
 	/* mix-blend-mode: luminosity; */
 	display: flex;

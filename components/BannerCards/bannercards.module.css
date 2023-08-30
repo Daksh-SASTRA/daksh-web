@@ -7,8 +7,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url("/cardbg.png");
-    background: linear-gradient(90deg, var(--brown-dark) 0%, var(--brown-light) 100%), url("/cardbg.png");
+    min-height: 95vh;
+    background-image: url("/teams.webp");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position:bottom;
+    /* background: linear-gradient(90deg, var(--brown-dark) 0%, var(--brown-light) 100%), url("/system.webp"); */
     /* background-color: transparent; */
 }
 

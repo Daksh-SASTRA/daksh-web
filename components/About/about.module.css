@@ -1,10 +1,10 @@
 .about {
     background-color: var(--brown-light);
     /* background-color: var(--color-white); */
-    background-image: url("/aboutbg.png");
+    background-image: url("/aboutbg.webp");
     /* background: linear-gradient(90deg, rgba(105, 82, 73, 0.7) 0%, rgba(157, 147, 121, 0.7) 100%), url("/aboutbg.png"); */
     /* background: linear-gradient(90deg, var(--brown-dark) 0%, var(--brown-dark) 100%), url("/aboutbg.png"), lightgray 50% / cover no-repeat; */
-    mix-blend-mode: luminosity;
+    /* mix-blend-mode: luminosity; */
     background-position: center;
     background-size: cover;
     text-align: left;
@@ -104,7 +104,7 @@
 }
 
 .about__img_fluid {
-    /* max-width: 100%; */
+    max-width: 100%;
     height: auto;
     display: block;
     align-self: center;
