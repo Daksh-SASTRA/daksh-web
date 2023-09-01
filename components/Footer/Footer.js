@@ -71,12 +71,12 @@ function Footer() {
 						<Link href="/contact">
 							<a>Contact</a>
 						</Link>
-						<Link href="/podcast">
+						{/* <Link href="/podcast">
 							<a>Podcasts</a>
 						</Link>
 						<Link href="/events-workshop">
 							<a>Events / Workshops</a>
-						</Link>
+						</Link> */}
 						{/* <Link href="https://merchant.razorpay.com/policy/KfyiFtCr6aXFsA/privacy" target="blank">
 						<a>Privacy policy</a>
 					</Link>

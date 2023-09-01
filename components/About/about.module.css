@@ -1,6 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 .about {
-    background-color: var(--brown-light);
-    /* background-color: var(--color-white); */
+    /* background-color: var(--brown-light); */
+    background-color: var(--color-white);
     background-image: url("/aboutbg.webp");
     /* background: linear-gradient(90deg, rgba(105, 82, 73, 0.7) 0%, rgba(157, 147, 121, 0.7) 100%), url("/aboutbg.png"); */
     /* background: linear-gradient(90deg, var(--brown-dark) 0%, var(--brown-dark) 100%), url("/aboutbg.png"), lightgray 50% / cover no-repeat; */
@@ -14,7 +15,11 @@
     position: relative;
     z-index: 5;
 }
-
+.teams_btn{
+    font-family: oswaid;
+    color: var(--text-brown);
+    font-size: 2.8rem;
+}
 .container__about {
     width: 100%;
     padding-right: 10px;
@@ -75,7 +80,9 @@
     font-size: 1.7rem;
     color: var(--text-brown);
     font-weight: 400;
-    font-family: content;
+    /* font-family: oswaid; */
+    font-family: 'Montserrat', sans-serif;
+
 }
 
 .button__about {
@@ -88,7 +95,7 @@
     border-radius: 40px;
     cursor: pointer;
     font-size: 18px;
-    font-family: content;
+    font-family: oswaid;
     font-weight: 700;
     letter-spacing: 0.3px;
     line-height: 18px;
