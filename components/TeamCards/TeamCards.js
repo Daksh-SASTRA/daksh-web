@@ -3,39 +3,11 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 import Link from "next/link";
-import styles from "./bannercards.module.css";
+import styles from "./teamCards.module.css";
+import TeamsData from "../config/teams.json";
 
-function BannerCards() {
-	const carousel_items = [
-		{
-			idx: 0,
-			description: "Events",
-			src: "/events.png",
-			buttonText: "view",
-			href: "/events-workshop",
-		},
-		{
-			idx: 1,
-			description: "Workshops",
-			src: "/workshop.png",
-			buttonText: "view",
-			href: "/events-workshop",
-		},
-		{
-			idx: 2,
-			description: "Podcasts",
-			src: "/tech.png",
-			buttonText: "view",
-			href: "/podcast",
-		},
-		{
-			idx: 3,
-			description: "Teams",
-			src: "/team.png",
-			buttonText: "view",
-			href: "/teams",
-		},
-	];
+function TeamCards() {
+	const carousel_items = TeamsData;
 
 	const [imageIdx, setImageIdx] = useState(0);
 
@@ -77,25 +49,21 @@ function BannerCards() {
 					id="cardcarousel"
 					data-aos="fade-up"
 				>
+					<h4 className={styles.card_title}>Join Us</h4>
 					<Slider {...settings}>
 						{carousel_items.map((item, idx) => {
 							return (
 								<div
+									key={idx}
 									className={
 										imageIdx === idx ? styles.card_active : styles.card
 									}
-									key={idx}
 								>
-									<div className={styles.center}>
-										<div className={styles.card__vectorimg}>
-											<img className={styles.vector} src={item.src} />
-										</div>
-										<div className={styles.card__head}>{item.description}</div>
-										<Link href={item.href}>
-											<div className={styles.card__viewbtn}>
-												{item.buttonText}
-											</div>
-										</Link>
+									<div className={styles.img_container}>
+										<img className={styles.img} src={item.src} />
+									</div>
+									<div className={styles.card__head}>
+										{item.teamname.toUpperCase()}
 									</div>
 								</div>
 							);
@@ -107,4 +75,4 @@ function BannerCards() {
 	);
 }
 
-export default BannerCards;
+export default TeamCards;

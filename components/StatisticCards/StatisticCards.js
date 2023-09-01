@@ -36,13 +36,14 @@ function StatisticCards(){
         <div className={styles.container} ref={ref}>
             {console.log(isVisible)}
             <div className={styles.item} >
-              <p id="counter">{ isVisible && <CountUp start={0} duration={2} end={40} className={styles.counter}/>}+<br/><span>Events</span></p>
+              <p id="counter">{ isVisible && <CountUp start={0} duration={2} end={40} className={styles.counter}/>}+<br/><span className={styles.eventTitle}>Events</span></p>
             </div> 
             <div className={styles.item}>
-              <p id="counter" className={styles.counterCenter}>{ isVisible && <CountUp start={0} duration={2} end={500} className={styles.counter}/>}K<br/><span>Prize Pool</span></p>
+              <p id="counter" >
+              { isVisible && <CountUp start={0} duration={2} end={500} className={styles.counter}/>}K<br/><span className={styles.eventTitle}>Prize Pool</span></p>
             </div>
             <div className={styles.item}>
-              <p id="counter">{ isVisible && <CountUp start={0} duration={2} end={1500} className={styles.counter}/>}+<br/><span>Participants</span></p>
+              <p id="counter">{ isVisible && <CountUp start={0} duration={2} end={1500} className={styles.counter}/>}+<br/><span className={styles.eventTitle}>Participants</span></p>
             </div>
         </div>
     )

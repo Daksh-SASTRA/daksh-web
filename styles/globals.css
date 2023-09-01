@@ -9,6 +9,10 @@
   src: url('../assets/fonts/Poppins-Regular.ttf');
 }
 
+@font-face {
+  font-family: oswaid;
+  src: url("../assets/fonts/Oswald-Regular.ttf");
+}
 
 /* FONTS */
 /* 
@@ -17,12 +21,17 @@
 */
 
 :root {
-  --cool-pink:#EA00D9;
+  --cool-pink: #EA00D9;
+  --brown-dark: #f4a779;
+  --brown-light: #fbd8c2;
+  --brown-dart-alpha: rgba(244, 167, 121,0.5);
+  --brown-light-alpha: rgba(251, 216, 194, 0.5);
+  --text-brown: #3F1D04;
   /* --hover-gradient: linear-gradient(to right, #0abdc6, #00b5e1, #00a8fb, #0095ff, #7d78ff, #7d78ff, #7d78ff, #7d78ff, #0095ff, #00a8fb, #00b5e1, #0abdc6);
   --gradient-right:linear-gradient(to right, #0abdc6, #00b5e1, #00a8fb, #0095ff, #7d78ff, #7b7eff, #7984ff, #788aff, #00afff, #00cdff, #00e6ff, #5ffbf1);
   --card-background:linear-gradient(to right top, rgb(10, 189, 198, 0.05), rgb(0, 181, 225, 0.05), rgb(0, 168, 251, 0.05), rgb(0, 149, 255, 0.05), rgb(125, 120, 255, 0.05), rgb(123, 126, 255, 0.05), rgb(121, 132, 255, 0.05), rgb(120, 138, 255, 0.05), rgb(0, 175, 255, 0.05), rgb(0, 205, 255, 0.05), rgb(0, 230, 255, 0.05), rgb(95, 251, 241, 0.05));
   --text-gradient-color:linear-gradient(to right top, #0abdc6, #00b5e1, #00a8fb, #0095ff, #7d78ff, #7b7eff, #7984ff, #788aff, #00afff, #00cdff, #00e6ff, #5ffbf1); */
-  --hover-gradient: linear-gradient(to right, #192FB8,  #192FB8,#192FB8);
+  --hover-gradient: linear-gradient(to right, #192FB8, #192FB8, #192FB8);
   /* --hover-gradient: linear-gradient(to right, #DA0037,  #c00b39,#DA0037); */
   /* --gradient-right: linear-gradient(270deg, rgba(218, 0, 55, 1) 0%, rgba(237, 237, 237, 1) 40%, rgba(218, 0, 55, 1) 100%); */
   --gradient-right: linear-gradient(to right top, #DA0037, #DA0037);
@@ -33,7 +42,7 @@
   --primaryBg: #0f0f0f;
   --secondaryBg: #141414;
   /* --white: #f8f8f8; */
-  --white:#f8f8f8;
+  --white: #f8f8f8;
   /* --secondaryFontColor: #B6B6B6; */
   --secondaryFontColor: #EDEDED;
 
@@ -43,7 +52,7 @@
   --color-black: #262D33;
   --color-light-blue: #dbe2ef;
   --color-medium-blue: #3f72af;
-  --color-dark-blue: #112d4e; 
+  --color-dark-blue: #112d4e;
 
   --color-blue-1: #192FB8;
   --color-blue-2: #0A0344;
@@ -67,7 +76,8 @@ body {
 html {
   /* background-color: var(--primaryBg); */
   /* background-color: var(--color-white); */
-  background: url("/backgbanner.webp");
+  /* background: url("/bgbanner.webp") */
+  background: linear-gradient(90deg, rgba(105, 82, 73, 0.8) 0%, rgba(157, 147, 121, 0.8) 100%);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: 100%;
@@ -89,7 +99,7 @@ a {
 
 @media only screen and (max-width:650px) {
   html {
-    background-image: url("/backgbanner2.webp");
+    background-image: url("/bgbanner.webp");
     background-size: 150%;
     background-position: center;
     -webkit-background-size: 150%;
