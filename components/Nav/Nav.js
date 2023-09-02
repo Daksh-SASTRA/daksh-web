@@ -27,7 +27,7 @@ function Nav() {
 	const [navmenu, menuToggle] = useState(false);
 	var hnav = (
 		<div id={navmenu ? styles.vnav : styles.hnav}>
-			<div
+			{/* <div
 				className={styles.navbutton}
 				data-aos="fade-down"
 				data-aos-delay="50"
@@ -35,8 +35,8 @@ function Nav() {
 				<Link href="/schedule">
 					<a className={styles.navlink}>Schedule</a>
 				</Link>
-			</div>
-			<div
+			</div> */}
+			{/* <div
 				className={styles.navbutton}
 				data-aos="fade-down"
 				data-aos-delay="200"
@@ -45,8 +45,8 @@ function Nav() {
 					<a className={styles.navlink}>Merchandise
 					</a>
 				</Link>
-			</div>
-			<div
+			</div> */}
+			{/* <div
 				className={styles.navbutton}
 				data-aos="fade-down"
 				data-aos-delay="600"
@@ -54,8 +54,8 @@ function Nav() {
 				<Link href="/hackathon">
 					<a className={styles.navlink}>Hackathons</a>
 				</Link>
-			</div>
-			<div
+			</div> */}
+			{/* <div
 				className={styles.navbutton}
 				data-aos="fade-down"
 				data-aos-delay="200"
@@ -63,7 +63,7 @@ function Nav() {
 				<Link href="/events-workshop?q=workshops">
 					<a className={styles.navlink}>Workshops/Events</a>
 				</Link>
-			</div>
+			</div> */}
 			<div
 				className={styles.navbutton}
 				data-aos="fade-down"
