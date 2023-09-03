@@ -88,7 +88,7 @@
         flex-direction: column;
         width: 100%;
         height: auto;
-        background-color: var(--secondaryBg);
+        background-color: var(--brown-dark);
         padding: 30px 0;
         margin: auto;
         transition: visibility 1s ease-in-out;

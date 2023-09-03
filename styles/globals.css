@@ -58,6 +58,7 @@
   --color-blue-2: #0A0344;
 
   --gradient-blue: linear-gradient(to right top, #192FB8, #F9F7F7);
+  --gradient-brown: linear-gradient(to right top, var(--text-brown) 0%, var(--brown-dark) 100%);
 }
 
 html,
@@ -77,7 +78,7 @@ html {
   /* background-color: var(--primaryBg); */
   /* background-color: var(--color-white); */
   /* background: url("/bgbanner.webp") */
-  background: linear-gradient(90deg, rgba(105, 82, 73, 0.8) 0%, rgba(157, 147, 121, 0.8) 100%);
+  background: linear-gradient(90deg, var(--brown-dark) 0%, var(--brown-light) 100%);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: 100%;
@@ -97,7 +98,7 @@ a {
   padding: 0;
 }
 
-@media only screen and (max-width:650px) {
+/* @media only screen and (max-width:650px) {
   html {
     background-image: url("/bgbanner.webp");
     background-size: 150%;
@@ -106,4 +107,4 @@ a {
     -o-background-size: 150%;
     -moz-background-size: 150%
   }
-}
+} */

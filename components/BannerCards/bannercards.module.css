@@ -1,14 +1,15 @@
 .cardcarousel{
     width: 80%;
-    max-width: 1050px;
-    margin: 100px 50px;
+    /* max-width: 1024px; */
+    /* margin: 100px 50px; */
 }
+
 .cardRenderWrap{
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 95vh;
-    background-image: url("/teams.webp");
+    min-height: 85vh;
+    background-image: url("/teams_card_banner.webp");
     background-repeat: no-repeat;
     background-size:cover;
     background-position:bottom;
@@ -55,7 +56,7 @@
     transform: scale(1);
     /* box-shadow: rgba(25, 25, 26, 0.5) 0px 7px 29px 0px; */
     /* box-shadow: 8px 8px 10px rgba(0, 0, 0, 0.25); */
-    box-shadow: 0px 0px 35px 0px rgba(0, 0, 0, 0.25);
+    /* box-shadow: 10px 10px 10px 0px rgba(0, 0, 0, 0.25); */
 
 }
 

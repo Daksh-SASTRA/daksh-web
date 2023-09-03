@@ -23,7 +23,15 @@ function TeamCards() {
 		beforeChange: (current, next) => setImageIdx(next),
 		responsive: [
 			{
-				breakpoint: 770,
+				breakpoint: 1200,
+				settings: {
+					centerMode: true,
+					centerPadding: "0px",
+					slidesToShow: 2,
+				},
+			},
+			{
+				breakpoint: 800,
 				settings: {
 					centerMode: true,
 					centerPadding: "0px",
@@ -50,25 +58,27 @@ function TeamCards() {
 					data-aos="fade-up"
 				>
 					<h4 className={styles.card_title}>Join Us</h4>
-					<Slider {...settings}>
-						{carousel_items.map((item, idx) => {
-							return (
-								<div
-									key={idx}
-									className={
-										imageIdx === idx ? styles.card_active : styles.card
-									}
-								>
-									<div className={styles.img_container}>
-										<img className={styles.img} src={item.src} />
+					<div className="slider-container">
+						<Slider {...settings}>
+							{carousel_items.map((item, idx) => {
+								return (
+									<div
+										key={idx}
+										className={
+											imageIdx === idx ? styles.card_active : styles.card
+										}
+									>
+										<div className={styles.img_container}>
+											<img className={styles.img} src={item.src} />
+										</div>
+										<div className={styles.card__head}>
+											{item.teamname.toUpperCase()}
+										</div>
 									</div>
-									<div className={styles.card__head}>
-										{item.teamname.toUpperCase()}
-									</div>
-								</div>
-							);
-						})}
-					</Slider>
+								);
+							})}
+						</Slider>
+					</div>
 				</div>
 			</div>
 		</>

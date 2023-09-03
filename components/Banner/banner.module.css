@@ -18,7 +18,9 @@
   justify-content: center;
   background-color: rgba(0,0,0,0.7);
   background: url("/bgbanner.webp");
-  background-size: 100% 100%;
+  background-size: 100% auto;
+  background-position: center;
+  background-repeat: no-repeat;
   margin: 0;
 }
 
@@ -111,7 +113,7 @@
 
 } */
 
-@media screen and (max-width: 767px) {
+/* @media screen and (max-width: 767px) {
   .register__btn {
     margin-top: 12px;
     padding: 10px;
@@ -133,11 +135,38 @@
   .divbanner > * {
     text-align: left;
   }
+} */
+
+@media screen and (max-width: 1200px) {
+  .divbanner {
+    background-size: auto 100%;
+    background-position: 20%;
+  }
+  .divbanner__headtext {
+    font-size: 4.5rem;
+    line-height: 10rem;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .divbanner {
+    background-size: auto 100%;
+    background-position: 20%;
+  }
+  .divbanner__headtext {
+    font-size: 4.2rem;
+    line-height: 8.5rem;
+  }
 }
 
 @media screen and (max-width: 480px) {
+  .divbanner {
+    background-size: auto 100%;
+    background-position: 52%;
+  }
   .divbanner__headtext {
-    font-size: 4.5rem;
+    font-size: 4rem;
+    line-height: 8.5rem;
   }
   .divbanner__descriptiontext {
     font-size: 1rem;
@@ -146,14 +175,16 @@
     font-size: 0.75rem;
   }
 }
-@media screen and (max-width: 360px) {
+
+/* @media screen and (max-width: 360px) {
   .divbanner__headtext {
     font-size: 36px;
   }
   .divbanner__eveandwsbtn {
     padding: 12px;
   }
-}
+} */
+
 @keyframes glow {
   0% {
     background-position: 0%;

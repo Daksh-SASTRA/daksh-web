@@ -108,7 +108,10 @@ function Footer() {
 			</div>
 			{/* <p className={styles.footer__contribution}>Made with 🖤 by Daksh Web Team</p> */}
 			<p className={styles.footer__contribution}>
-				Made with 💙 by Daksh Web Team
+				Designed with 🤎 by DDT
+			</p>
+			<p className={styles.footer__contribution}>
+				Coded with 💻 by DWT
 			</p>
 		</footer>
 	);
