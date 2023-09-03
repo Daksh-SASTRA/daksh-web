@@ -1,14 +1,15 @@
 .cardcarousel {
-    width: 80%;
-    max-width: 1024px;
-    margin: 50px 50px;
+    width: 100%;
+    padding: 5rem 5rem;
+    /* max-width: 1024px; */
+    /* margin: 50px 50px; */
 }
 
 .cardRenderWrap {
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 95vh;
+    /* min-height: 95vh; */
     /* background-repeat: no-repeat;
     background-image: url("/system.webp"); */
     background-image: url("/system.webp");
@@ -37,7 +38,6 @@
     transition: all 0.5s;
     transform: scale(0.8);
     /* background:  rgba(255, 255, 255, 1); */
-
     padding: 30px;
 }
 
@@ -60,6 +60,11 @@
     /* box-shadow: 8px 8px 10px rgba(0, 0, 0, 0.25); */
     padding: 30px;
 
+}
+
+.slider-container {
+    width: 80%;
+    max-width: 1024px;
 }
 
 .vector_container {
@@ -130,4 +135,14 @@
 .slick-dots li.slick-active button:before {
     opacity: .75;
     color: white !important;
+}
+
+@media screen and (max-width: 500px) {
+    .cardcarousel {
+        padding: 3rem 2rem;
+    }
+    
+    .slider-container {
+        width: 100%;
+    }
 }
