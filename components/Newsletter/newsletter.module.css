@@ -1,32 +1,35 @@
-.maincontainer{
+.maincontainer {
   /* background-color: rgba(0, 0, 0, 0.9);
   background-color: var(--color-blue-2); */
   background: linear-gradient(90deg, var(--brown-dark) -0.66%, var(--brown-light) 99.17%);
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-  margin-top:-1px;
+  margin-top: -1px;
   padding-bottom: 3%;
   overflow: hidden;
 }
-.maincontainer h3{
-    font-family: oswaid;
-    color: var(--text-brown);
-    text-align: center;
-    font-size: 3rem;
-    font-weight: 200;
-    margin: 1rem 0 0 0;
+
+.maincontainer h3 {
+  font-family: oswaid;
+  color: var(--text-brown);
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 200;
+  margin: 1rem 0 0 0;
 }
-.input_container{
+
+.input_container {
   font-family: content;
   min-height: 16vh;
   background-color: transparent;
-  color:var(--color-black);
+  color: var(--color-black);
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
 }
-.input_container input{
-  margin:  0;
+
+.input_container input {
+  margin: 0;
   padding: 12px 22px;
   border-radius: 30px 0 0 30px;
   font-family: content;
@@ -35,19 +38,21 @@
   border: none;
   background-color: var(--color-white);
 }
-.input_container input:focus{
+
+.input_container input:focus {
   outline: none;
 }
+
 .btn {
   display: inline-flex;
-  margin-left:-1px;
+  margin-left: -1px;
   position: relative;
   text-align: center;
   padding: 12px 22px;
   /* color: #2621b7; */
   /* color: #DA0037; */
   color: var(--color-black);
-  background-color:var(--color-white);
+  background-color: var(--color-white);
   cursor: pointer;
   font-size: 1rem;
   font-family: content;
@@ -59,29 +64,28 @@
   border: none;
   width: 100%;
 }
-.btn:hover{
+
+.btn:hover {
   /* color: #05559c; */
   color: var(--color-black);
   background-color: var(--color-white);
 }
 
 @media screen and (max-width: 700px) {
-  .maincontainer h3{
+  .maincontainer h3 {
     font-family: title;
     color: var(--white);
     text-align: center;
     font-size: 1.75rem;
     margin: 1rem 0;
   }
-  .input_container input{
-    width: 100%;
+
+  .input_container input {
+    width: 60%;
+    max-height: 10vh;
   }
+
   .btn {
-    margin: 1rem;
+    /* margin: 1rem; */
   }
 }
-
-
-
-
-
