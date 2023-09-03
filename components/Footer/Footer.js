@@ -14,7 +14,7 @@ function Footer() {
 					<img src="/logo.png" style={{ width: "175px" }} alt="Daksh logo" />
 					<div id={styles.footer_icons}>
 						<a
-							href="https://www.instagram.com/daksh2k22/?hl=en"
+							href="https://www.instagram.com/daksh.2k24/"
 							target="_blank"
 							rel="noreferrer"
 						>
