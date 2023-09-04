@@ -61,6 +61,11 @@
     display: flex;
 }
 
+#chatboxbutton {
+    background-color: white;
+    border-radius: 25px;
+}
+
 
 @media only screen and (max-width: 1000px) {
     #navbar {
@@ -101,5 +106,12 @@
         align-items: center;
         margin: 0 3px;
         padding: 30px 0;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    #chatboxbutton {
+        width: 50%;
+        align-self: center;
     }
 }

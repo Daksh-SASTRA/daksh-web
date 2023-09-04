@@ -100,6 +100,16 @@ function Nav() {
 					<a className={styles.navlink}>Contact</a>
 				</Link>
 			</div>
+			<div
+				className={styles.navbutton}
+				id={styles.chatboxbutton}
+				data-aos="fade-down"
+				data-aos-delay="600"
+			>
+				<Link href="/chatbox">
+					<a className={styles.navlink}>Chat Box</a>
+				</Link>
+			</div>
 		</div>
 	);
 
