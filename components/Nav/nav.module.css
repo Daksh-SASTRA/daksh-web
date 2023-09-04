@@ -108,3 +108,10 @@
         padding: 30px 0;
     }
 }
+
+@media screen and (max-width: 600px) {
+    #chatboxbutton {
+        width: 50%;
+        align-self: center;
+    }
+}
