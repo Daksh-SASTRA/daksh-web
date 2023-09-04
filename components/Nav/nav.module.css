@@ -8,7 +8,7 @@
     align-items: center;
     justify-content: space-between;
     padding: 0 2.5rem;
-    z-index: 9999;
+    z-index: 999;
     background: linear-gradient(90deg, var(--brown-dark) 0%, var(--brown-light) 100%);
     box-shadow: 0px 4px 7px 0px rgba(0, 0, 0, 0.25);
     transition: all 0.5s;
@@ -61,10 +61,10 @@
     display: flex;
 }
 
-#chatboxbutton {
+/* #chatboxbutton {
     background-color: white;
     border-radius: 25px;
-}
+} */
 
 
 @media only screen and (max-width: 1000px) {
@@ -109,9 +109,9 @@
     }
 }
 
-@media screen and (max-width: 600px) {
+/* @media screen and (max-width: 600px) {
     #chatboxbutton {
         width: 50%;
         align-self: center;
     }
-}
+} */

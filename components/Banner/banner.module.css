@@ -19,9 +19,11 @@
   background-color: rgba(0,0,0,0.7);
   background: url("/bgbanner.webp");
   background-size: 100% auto;
-  background-position: center;
+  background-position-x: center;
+  background-position-y: top;
   background-repeat: no-repeat;
   margin: 0;
+  /* z-index: 9999; */
 }
 
 .divbanner__headtext {
