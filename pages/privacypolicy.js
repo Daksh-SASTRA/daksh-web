@@ -17,13 +17,11 @@ function PrivacyPolicy() {
                 <Nav />
                 <div className={specificStyles.container}>
                     <div className={specificStyles.heading}>Privacy Policy</div>
-                    <div className={specificStyles.content}>
-                        Daksh, SASTRA  UNIVERSITY(“we”,”our”,or “us”) collects personal information that we obtain from visitors to the [website url].
-                        The page informs you of our policies about the collection, use and disclosure of your data when you use our service.
-                        We use your data to improve the service. By using the service you agree to the collection and use of information in accordance with the policy.
+                    <div className={`${specificStyles.content} ${specificStyles.normalContent}`}>
+                        DAKSH, SASTRA DEEMED UNIVERSITY(“we”, ”our”, or “us”) collects personal information that we obtain from visitors to the <a href='/'>daksh.sastra.edu</a>. The page informs you of our policies about the collection, use and disclosure of your data when you use our service. We use your data to improve the service. By using the service you agree to the collection and use of information in accordance with the policy.
                         <br /><br />
-                        Information we collect:
-                        We collect the following types of information for various purposes to provide and improve your experience<br />
+                        {/* Information we collect:<br /> */}
+                        We collect the following informations for various purposes such as to provide and improve your experience<br />
                         Name<br />
                         Email Address<br />
                         Phone number<br />
@@ -33,14 +31,14 @@ function PrivacyPolicy() {
                         You can always instruct your browser to not accept the incoming cookies, or to notify you whenever a cookie is sent and stored. But refusing cookies may lead to the unavailability of some services provided by us.
                         The cookies we send are majorly used for saving and remembering your login data, and session cookies which are used to operate our service during each login.
                         <br /><br />
-                        Usage of Information:
-                        We use the collected information to:
-                        Register you for the selected tech events and competitions.
-                        To notify you about changes to our service
-                        To provide customer care and service
-                        To rectify technical issues that arise.
-
-                        Security of data:
+                        Usage of Information:<br />
+                        We use the collected information to:<br />
+                        - Register you for the selected tech events and competitions<br />
+                        - To notify you about changes to our service<br />
+                        - To provide customer care and service<br />
+                        - To rectify technical issues that arise<br />
+                        <br />
+                        Security of data:<br />
                         We understand that the security of your data is of utmost importance and while we comply with every security measure and protocol possible from our side, it is to be practically remembered that no data travelling through the Internet is 100% safe and protected and hence, we cannot guarantee the absolute security of the data.
                     </div>
                 </div>

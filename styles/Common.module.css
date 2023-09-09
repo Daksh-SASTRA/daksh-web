@@ -19,3 +19,8 @@
     text-align: justify;
     text-align-last: center;
 }
+
+.normalContent {
+    text-align: left;
+    text-align-last: left;
+}
