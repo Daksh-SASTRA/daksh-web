@@ -106,8 +106,8 @@ function Nav() {
 				data-aos="fade-down"
 				data-aos-delay="600"
 			>
-				<Link href="/chatbox">
-					<a className={styles.navlink}>Chat Box</a>
+				<Link href="/registration">
+					<a className={styles.navlink}>Registration</a>
 				</Link>
 			</div>
 		</div>
