@@ -38,13 +38,13 @@ function RandC() {
                         4. Transfer of Credits Policy:<br />
                         - While refunds are not available, we offer the flexibility of transferring your registration to a colleague or peer within your organization.
                         - Should your plans change, you can ensure that your investment in DAKSH is maximized by allowing someone else to benefit from the event.
-                        - To initiate the transfer, kindly provide us with the necessary details of the new participant, and we'll facilitate the process smoothly.
-                        - Your commitment to DAKSH is appreciated, and we're thrilled to welcome both you and your chosen representative to our event.
+                        - To initiate the transfer, kindly provide us with the necessary details of the new participant, and we will facilitate the process smoothly.
+                        - Your commitment to DAKSH is appreciated, and we are thrilled to welcome both you and your chosen representative to our event.
                         <br />
                         5. Modification of Policies:<br />
                         - DAKSH reserves the right to modify these refund and cancellation policies as necessary. Any changes will be communicated to registered participants through email or the official event website.
                         <br />
-                        Thank you for understanding and being part of DAKSH's dynamic community!
+                        Thank you for understanding and being part of DAKSH&#39;s dynamic community!
                     </div>
                 </div>
                 <Footer />

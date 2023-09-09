@@ -41,7 +41,7 @@ function PrivacyPolicy() {
                         To rectify technical issues that arise.
 
                         Security of data:
-                        We understand that the security of your data is of utmost importance and while we comply with every security measure and protocol possible from our side, it is to be practically remembered that no data travelling through the Internet is 100% safe and protected and hence, we cannot guarantee it's absolute security.
+                        We understand that the security of your data is of utmost importance and while we comply with every security measure and protocol possible from our side, it is to be practically remembered that no data travelling through the Internet is 100% safe and protected and hence, we cannot guarantee the absolute security of the data.
                     </div>
                 </div>
                 <Footer />

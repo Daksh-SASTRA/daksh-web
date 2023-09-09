@@ -19,11 +19,11 @@ function TandC() {
                     <div className={specificStyles.heading}>Terms and Conditions</div>
                     <div className={specificStyles.content}>
                         1.	Acceptance of Terms:
-                        By accessing and using the Daksh Technical Fest website("Website"), you agree to comply with and be bound by these Terms and Conditions. If you do not agree to these terms, please refrain from using the Website.
+                        By accessing and using the Daksh Technical Fest website(&#34;Website&#34;), you agree to comply with and be bound by these Terms and Conditions. If you do not agree to these terms, please refrain from using the Website.
                         <br />
                         2.	User Conduct
                         When using the Website, you agree to:
-                        Abide by all applicable laws and regulations. Refrain from posting or transmitting any content that is defamatory, offensive, or infringing on others' rights. Not engage in any activity that disrupts or interferes with the proper functioning of the Website.
+                        Abide by all applicable laws and regulations. Refrain from posting or transmitting any content that is defamatory, offensive, or infringing on others&#39; rights. Not engage in any activity that disrupts or interferes with the proper functioning of the Website.
                         <br />
                         3. Registration and Accounts
                         Certain areas of the Website may require registration. You agree to provide accurate and complete information during the registration process. You are responsible for maintaining the confidentiality of your account information and for all activities that occur under your account.
@@ -34,7 +34,7 @@ function TandC() {
                         The judging process will be impartial, and decisions made by the panel of judges will be final.
                         <br />
                         5. Prize Distribution
-                        At the Daksh , we believe in recognizing and rewarding excellence. We're excited to announce a range of exciting prizes for various competitions and events. Participants who demonstrate exceptional skills and innovation will have the opportunity to win the following prizes:
+                        At the Daksh , we believe in recognizing and rewarding excellence. We&#39;re excited to announce a range of exciting prizes for various competitions and events. Participants who demonstrate exceptional skills and innovation will have the opportunity to win the following prizes:
                         5.1. Cash Prizes
                         Outstanding performers will have the chance to win attractive cash prizes. The cash prize amounts will vary depending on the competition and category.
                         5.2. Certificates
