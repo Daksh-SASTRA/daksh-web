@@ -1,0 +1,21 @@
+.container {
+    margin-top: 10vh;
+    width: 100%;
+    min-height: 80vh;
+    background-color: inherit;
+    color: var(--text-brown);
+    padding: 20px;
+}
+
+.heading {
+    font-size: 3rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.content {
+    font-size: 1.25rem;
+    /* width: 80%; */
+    text-align: justify;
+    text-align-last: center;
+}
