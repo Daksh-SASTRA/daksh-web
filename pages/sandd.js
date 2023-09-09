@@ -21,7 +21,7 @@ function RandC() {
                         Category: Financial Affairs<br />
                         Effective Date: 01/09/2023<br /><br />
 
-                        This policy outlines the DAKSH's standards for shipping, accepting delivery and receiving processes and responsibilities.<br /><br />
+                        This policy outlines the DAKSH&#39;s standards for shipping, accepting delivery and receiving processes and responsibilities.<br /><br />
 
                         Shipping arrangements:<br />
 

@@ -4,6 +4,7 @@ import styles from '../styles/Home.module.css'
 import specificStyles from '../styles/Common.module.css'
 import Nav from '../components/Nav/Nav'
 import Footer from '../components/Footer/Footer'
+import Link from 'next/link'
 
 function TandC() {
     return (
@@ -53,7 +54,7 @@ function TandC() {
                         The content on the Website is provided for informational purposes only. Sastra University makes no representations or warranties of any kind, whether express or implied, regarding the accuracy, reliability, or completeness of the content.
                         <br />
                         9.Privacy:<br />
-                        Your use of the website is also governed by our <a href='/privacypolicy'>Privacy Policy</a>, which outlines how we collect, use, and protect your personal information. For further details, refer our  privacy policy section.
+                        Your use of the website is also governed by our <Link href='/privacypolicy'>Privacy Policy</Link>, which outlines how we collect, use, and protect your personal information. For further details, refer our  privacy policy section.
                     </div>
                 </div>
                 <Footer />

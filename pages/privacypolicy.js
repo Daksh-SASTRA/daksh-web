@@ -1,5 +1,6 @@
 import React from 'react'
 import Head from 'next/head'
+import Link from 'next/link'
 import styles from '../styles/Home.module.css'
 import specificStyles from '../styles/Common.module.css'
 import Nav from '../components/Nav/Nav'
@@ -18,7 +19,7 @@ function PrivacyPolicy() {
                 <div className={specificStyles.container}>
                     <div className={specificStyles.heading}>Privacy Policy</div>
                     <div className={`${specificStyles.content} ${specificStyles.normalContent}`}>
-                        DAKSH, SASTRA DEEMED UNIVERSITY(“we”, ”our”, or “us”) collects personal information that we obtain from visitors to the <a href='/'>daksh.sastra.edu</a>. The page informs you of our policies about the collection, use and disclosure of your data when you use our service. We use your data to improve the service. By using the service you agree to the collection and use of information in accordance with the policy.
+                        DAKSH, SASTRA DEEMED UNIVERSITY(“we”, ”our”, or “us”) collects personal information that we obtain from visitors to the <Link href='/'>daksh.sastra.edu</Link>. The page informs you of our policies about the collection, use and disclosure of your data when you use our service. We use your data to improve the service. By using the service you agree to the collection and use of information in accordance with the policy.
                         <br /><br />
                         {/* Information we collect:<br /> */}
                         We collect the following informations for various purposes such as to provide and improve your experience<br />
