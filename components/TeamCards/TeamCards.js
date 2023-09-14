@@ -4,6 +4,7 @@ import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 import Link from "next/link";
 import styles from "./teamCards.module.css";
+import Image from "next/image";
 import TeamsData from "../config/teams.json";
 
 function TeamCards() {
@@ -69,7 +70,7 @@ function TeamCards() {
 										}
 									>
 										<div className={styles.img_container}>
-											<img className={styles.img} src={item.src} />
+											<Image alt={item.teamname} width={500} height={500} className={styles.img} src={item.src} />
 										</div>
 										<div className={styles.card__head}>
 											{item.teamname.toUpperCase()}

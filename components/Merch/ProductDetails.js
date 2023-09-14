@@ -34,7 +34,7 @@ function Product({ productName, imageLinks, price, buyNowLink }) {
 						<FaArrowLeft />
 					</div>
 					<div className={styles_.merch__imageshirt}>
-						<Image src={imageLinks[shirtIndex]} width={500} height={600} />
+						<Image alt={productName} src={imageLinks[shirtIndex]} width={500} height={600} />
 					</div>
 					<div className={styles_.merch__imageoperation} onClick={goToNext}>
 						<FaArrowRight />

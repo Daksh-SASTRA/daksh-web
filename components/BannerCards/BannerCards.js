@@ -4,34 +4,35 @@ import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 import Link from "next/link";
 import styles from "./bannercards.module.css";
+import Image from "next/image"
 
 function BannerCards() {
 	const carousel_items = [
 		{
 			idx: 0,
 			description: "Teams",
-			src: "/team.png",
+			src: "/team.webp",
 			buttonText: "view",
 			href: "/teams",
 		},
 		{
 			idx: 1,
 			description: "Events",
-			src: "/events.png",
+			src: "/events.webp",
 			buttonText: "view",
 			href: "/",
 		},
 		{
 			idx: 2,
 			description: "Workshops",
-			src: "/workshop.png",
+			src: "/workshop.webp",
 			buttonText: "view",
 			href: "/",
 		},
 		{
 			idx: 3,
 			description: "Blog",
-			src: "/tech.png",
+			src: "/tech.webp",
 			buttonText: "view",
 			href: "/",
 		},
@@ -59,7 +60,7 @@ function BannerCards() {
 				},
 			},
 			{
-				breakpoint: 480,
+				breakpoint: 600,
 				settings: {
 					centerMode: true,
 					centerPadding: "0px",
@@ -88,10 +89,10 @@ function BannerCards() {
 								>
 									<div className={styles.center}>
 										<div className={styles.card__vectorimg}>
-											<img className={styles.vector} src={item.src} />
+											<Image width={500} height={500} alt={item.description} className={styles.vector} src={item.src} />
 										</div>
 										<div className={styles.card__head}>{item.description}</div>
-										<Link href={item.href}>
+										<Link passHref href={item.href}>
 											<div className={styles.card__viewbtn}>
 												{item.buttonText}
 											</div>

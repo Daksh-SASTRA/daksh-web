@@ -21,7 +21,7 @@ function Podcast() {
                             {"Hosted and produced by Daksh, a series of engaging podcast episodes starring industry experts who offer their wisdom and mind-boggling anecdotes from their niche. If you're looking for a venture to kill boredom, you're at the right place!"}
                             </p>
                             {/* <Link href="/podcast"><a className={styles.button__podcast}>Podcast</a></Link> */}
-                            <Link href="/podcast">
+                            <Link passHref href="/podcast">
                                 <div>
                                   <Buttons text="Podcast" radius="40px"/>
                                 </div>

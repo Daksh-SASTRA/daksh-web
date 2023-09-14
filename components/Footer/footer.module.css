@@ -25,13 +25,14 @@
 	display: flex;
 	flex-direction: column;
 	height: 100%;
-	flex: 1;
+	/* flex: 1; */
 }
 
 #footer_icons {
 	display: flex;
 	width: 100%;
 	max-width: 250px;
+	gap: 4px;
 	flex-direction: row;
 	justify-content: space-between;
 }
