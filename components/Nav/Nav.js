@@ -117,6 +117,7 @@ function Nav() {
 	return (
 		<nav id={styles.navbar} className={navbarBg ? styles.active : ""}>
 			<Link passHref href="/">
+			<div style={{width: "100px"}}>
 			<Image 
 					width={84} 
 					height={47}
@@ -126,6 +127,8 @@ function Nav() {
 					data-aos-delay="200"
 					alt="Logo-Daksh"
 				/>
+			</div>
+
 			</Link>
 			{hnav}
 			{navmenu ? (
