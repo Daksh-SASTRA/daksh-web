@@ -11,7 +11,9 @@ function Footer() {
 		<footer className={styles.footer_container}>
 			<div className={styles.footer}>
 				<div className={styles.footer_logo}>
-					<Image width={178} height={99} src="/logo.png" alt="Daksh logo" />
+				<div style={{width: "180px"}}>
+					<Image width={178} height={90}  src="/logo.png" alt="Daksh logo" />
+				</div>
 					<div id={styles.footer_icons}>
 						<a
 							href="https://www.instagram.com/daksh.2k24/"
