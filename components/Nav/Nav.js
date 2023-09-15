@@ -107,8 +107,8 @@ function Nav() {
 				data-aos="fade-down"
 				data-aos-delay="600"
 			>
-				<Link href="/registration">
-					<a className={styles.navlink}>Registration</a>
+				<Link href="http://linktr.ee/daksh2024">
+					<a className={styles.navlink}>Recruitments</a>
 				</Link>
 			</div>
 		</div>
