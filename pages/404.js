@@ -4,6 +4,7 @@ import styles from '../styles/Home.module.css'
 import Nav from '../components/Nav/Nav'
 import Footer from '../components/Footer/Footer'
 import ContactPage from '../components/Contact/Contact'
+import Image from 'next/image'
 
 function Contact() {
     return (
@@ -16,7 +17,7 @@ function Contact() {
             <main className={styles.main}>
                 <Nav />
                 <div className={styles.error__section}>
-                    <img src="/404.svg" alt="404 Image" width="50%"/>
+                    <Image width={1600} height={1200} src="/404.svg" alt="404 Image"/>
                 </div>
                 <Footer />
             </main>

@@ -51,10 +51,10 @@
    .container{
       flex-direction: column;
       padding: 2.5rem;
-      align-items: flex-start;
+      align-items: center;
    }
    .item {
       margin: 2rem 0;
-      text-align: left;
+      text-align: center;
    }
 }

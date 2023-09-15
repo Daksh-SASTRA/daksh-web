@@ -3,6 +3,7 @@ import styles from "./nav.module.css";
 import { IoMenu } from "react-icons/io5";
 import { MdClose } from "react-icons/md";
 import Link from "next/link";
+import Image from "next/image";
 
 
 function Nav() {
@@ -115,14 +116,19 @@ function Nav() {
 
 	return (
 		<nav id={styles.navbar} className={navbarBg ? styles.active : ""}>
-			<Link href="/">
-				<img
+			<Link passHref href="/">
+			<div style={{width: "100px"}}>
+			<Image 
+					width={84} 
+					height={47}
 					id={styles.logo}
 					src="/logo.png"
 					data-aos="fade-down"
 					data-aos-delay="200"
 					alt="Logo-Daksh"
 				/>
+			</div>
+
 			</Link>
 			{hnav}
 			{navmenu ? (

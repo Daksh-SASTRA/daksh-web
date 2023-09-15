@@ -2,7 +2,7 @@ import React from "react";
 import Link from "next/link";
 import styles from "./about.module.css";
 import Buttons from "../Buttons/Buttons";
-
+import Image from "next/image";
 function About() {
 	return (
 		<section className={styles.about}>
@@ -25,7 +25,7 @@ function About() {
 						{/* <Link href="#newsletter">
                             <a className={styles.button__about} >  Teams </a>
                         </Link> */}
-						<Link href="/teams">
+						<Link href="/teams" passHref>
 							<div>
 								<div className={styles.teams_btn}>Teams &#x2794;</div>
 								{/* <Buttons text="TEAMS" radius="10px" /> */}
@@ -35,7 +35,9 @@ function About() {
 				</div>
 				<div className={styles.col_lg_6}>
 					<div className={styles.image_container__about}>
-						<img
+						<Image
+							width={400}
+							height={400}
 							className={styles.about__img_fluid}
 							src="/welding.webp"
 							alt="dummy image"
