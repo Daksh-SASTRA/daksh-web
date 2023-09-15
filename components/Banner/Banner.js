@@ -17,7 +17,7 @@ function Banner() {
 						data-aos="fade-up"
 						data-aos-delay="200"
 					>
-						build <br /> things <br /> that <br /> matter
+						build <br /> things <br /> that <br /> matter.
 					</h1>
 					<h3
 						className={styles.divbanner__descriptiontext}
