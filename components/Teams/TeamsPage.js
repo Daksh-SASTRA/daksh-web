@@ -26,6 +26,7 @@ function TeamsPage() {
               data-aos="fade-up"
               data-aos-delay={delay}
             >
+              {/* Teams image */}
               <Image
                 width={150}
                 height={150}
