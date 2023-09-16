@@ -61,57 +61,57 @@ function Sponsers() {
 			<div className={styles.sponser_slider}>
 				<Slider {...settings}>
 					<div className={styles.sponsers__div}>
-						<img
+						<Image
+							width={250}
+							height={150}
 							className={styles.sponser_infinite}
 							src="/sponsers/d2k23/Teg_new.png"
 							alt="sponser-8"
-							width="250px"
-							height="150px"
 						/>
 					</div>
 					<div className={styles.sponsers__div}>
-						<img
+						<Image
+							width={250}
+							height={150}
 							className={styles.sponser_infinite}
 							src="/sponsers/d2k23/Aruba_Networks_logo_.png"
 							alt="sponser-8"
-							width="250px"
-							height="150px"
 						/>
 					</div>
 					<div className={styles.sponsers__div}>
-						<img
+						<Image 
+							width={250}
+							height={150}
 							className={styles.sponser_infinite}
 							src="/sponsers/d2k23/intel_1_API_.png"
 							alt="sponser-8"
-							width="250px"
-							height="150px"
 						/>
 					</div>
 					<div className={styles.sponsers__div}>
-						<img
+						<Image
+							width={250}
+							height={150}
 							className={styles.sponser_infinite}
 							src="/sponsers/d2k23/Fortinet_.png"
 							alt="sponser-8"
-							width="250px"
-							height="150px"
 						/>
 					</div>
 					<div className={styles.sponsers__div}>
-						<img
+						<Image
+							width={250}
+							height={150}
 							className={styles.sponser_infinite}
 							src="/sponsers/d2k23/tata_elxsi.png"
 							alt="sponser-8"
-							width="250px"
-							height="150px"
 						/>
 					</div>
 					<div className={styles.sponsers__div}>
-						<img
+						<Image
+							width={250}
+							height={150}
 							className={styles.sponser_infinite}
 							src="/sponsers/d2k23/TATA-Communications-Logo_.png"
 							alt="sponser-8"
-							width="250px"
-							height="150px"
 						/>
 					</div>
 				</Slider>
