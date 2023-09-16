@@ -26,7 +26,9 @@ function TeamsPage() {
               data-aos="fade-up"
               data-aos-delay={delay}
             >
-              <img
+              <Image
+                width={150}
+                height={150}
                 className={styles.teams__teamimg}
                 src={e.src}
                 alt={e.teamname}
@@ -37,7 +39,7 @@ function TeamsPage() {
           );
         })}
 
-       
+
       </div>
     </div>
   );
