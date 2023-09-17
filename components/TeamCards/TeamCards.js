@@ -28,25 +28,29 @@ function TeamCards() {
 				settings: {
 					centerMode: true,
 					centerPadding: "0px",
-					slidesToShow: 2,
+					slidesToShow: 3,
+					slidesToScroll: 3,
 				},
 			},
 			{
 				breakpoint: 800,
 				settings: {
-					centerMode: true,
+					centerMode: false,
 					centerPadding: "0px",
 					slidesToShow: 1,
+					slidesToScroll: 1,
 				},
-			},
-			{
-				breakpoint: 480,
-				settings: {
-					centerMode: true,
-					centerPadding: "0px",
-					slidesToShow: 1,
-				},
-			},
+			}
+			// ,
+			// {
+			// 	breakpoint: 480,
+			// 	settings: {
+			// 		centerMode: false,
+			// 		centerPadding: "0px",
+			// 		slidesToShow: 1,
+			// 		slidesToScroll: 1,
+			// 	},
+			// },
 		],
 	};
 

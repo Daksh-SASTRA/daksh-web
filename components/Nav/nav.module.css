@@ -19,7 +19,7 @@
 
 #logo{
     margin: auto 0;
-    height: 60%;
+    height: 75%;
     cursor: pointer;
 }
 
@@ -69,7 +69,10 @@
 
 @media only screen and (max-width: 1000px) {
     #navbar {
-        padding: 0;
+        /* padding: 0; */
+        padding: 0 20px ;
+        left: 0;
+
     }
     #logo{
         margin-left: 20px;
@@ -89,6 +92,7 @@
         display: flex;
         visibility: visible;
         position: fixed;
+        right: 0;
         top: 10vh;
         flex-direction: column;
         width: 100%;
