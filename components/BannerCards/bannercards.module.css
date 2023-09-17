@@ -79,7 +79,7 @@
         padding-bottom: 20px;
     }
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 600px) {
     .card_active{
         opacity: 1;
         width: 250px !important;

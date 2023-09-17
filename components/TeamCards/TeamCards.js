@@ -16,7 +16,7 @@ function TeamCards() {
 		autoplay: true,
 		centerMode: true,
 		infinite: true,
-		dots: true,
+		dots: false,
 		arrows: false,
 		autoplaySpeed: 3000,
 		slidesToShow: 3,
@@ -24,33 +24,21 @@ function TeamCards() {
 		beforeChange: (current, next) => setImageIdx(next),
 		responsive: [
 			{
-				breakpoint: 1200,
+				breakpoint: 1000,
 				settings: {
 					centerMode: true,
 					centerPadding: "0px",
-					slidesToShow: 3,
-					slidesToScroll: 3,
+					slidesToShow: 2,
 				},
 			},
 			{
 				breakpoint: 800,
 				settings: {
-					centerMode: false,
+					centerMode: true,
 					centerPadding: "0px",
 					slidesToShow: 1,
-					slidesToScroll: 1,
 				},
-			}
-			// ,
-			// {
-			// 	breakpoint: 480,
-			// 	settings: {
-			// 		centerMode: false,
-			// 		centerPadding: "0px",
-			// 		slidesToShow: 1,
-			// 		slidesToScroll: 1,
-			// 	},
-			// },
+			},
 		],
 	};
 

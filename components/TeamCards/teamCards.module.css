@@ -61,7 +61,27 @@
     padding: 30px;
 
 }
+@media screen and (max-width: 1000px) {
+    .card_active {
+        opacity: 1;
+        width: 326px !important;
+        height: 326px !important;
+        max-height: 326px !important;
+        /* background-color: var(--secondaryBg); */
+        /* background-color: var(--color-violet); */
+        /* border-radius: 10px; */
+        margin: auto 0px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        transition: all 0.5s;
+        transform: scale(0.8);
+        /* background:  rgba(255, 255, 255, 1); */
+        padding: 30px;
+    }
 
+}
 .slider-container {
     width: 80%;
     max-width: 1024px;
