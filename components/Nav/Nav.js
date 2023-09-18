@@ -117,10 +117,10 @@ function Nav() {
 	return (
 		<nav id={styles.navbar} className={navbarBg ? styles.active : ""}>
 			<Link passHref href="/">
-			<div style={{width: "100px"}}>
+			<div >
 			<Image 
-					width={84} 
-					height={47}
+					width={100} 
+					height={50}
 					id={styles.logo}
 					src="/logo.png"
 					data-aos="fade-down"

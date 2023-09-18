@@ -16,7 +16,7 @@ function TeamCards() {
 		autoplay: true,
 		centerMode: true,
 		infinite: true,
-		dots: true,
+		dots: false,
 		arrows: false,
 		autoplaySpeed: 3000,
 		slidesToShow: 3,
@@ -24,7 +24,7 @@ function TeamCards() {
 		beforeChange: (current, next) => setImageIdx(next),
 		responsive: [
 			{
-				breakpoint: 1200,
+				breakpoint: 1000,
 				settings: {
 					centerMode: true,
 					centerPadding: "0px",
@@ -33,14 +33,6 @@ function TeamCards() {
 			},
 			{
 				breakpoint: 800,
-				settings: {
-					centerMode: true,
-					centerPadding: "0px",
-					slidesToShow: 1,
-				},
-			},
-			{
-				breakpoint: 480,
 				settings: {
 					centerMode: true,
 					centerPadding: "0px",
