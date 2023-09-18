@@ -21,7 +21,7 @@ function Sponsers() {
 		// }
 		var delay = key * 1000;
 		setTimeout(() => {
-			console.log("hello");
+			// console.log("hello");
 		}, delay);
 	};
 	var settings = {

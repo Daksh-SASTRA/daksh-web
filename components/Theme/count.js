@@ -3,7 +3,7 @@ import React, {useState,useEffect} from 'react'
 function Count({time,setTime}) {
     useEffect(()=> {
         let counter = setInterval(() => {
-                    console.log(time);
+                    // console.log(time);
                     if(time == 0)
                         clearInterval(counter);
                     else{

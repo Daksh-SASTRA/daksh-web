@@ -21,7 +21,7 @@ function Events() {
         // else if(query.q === 'hackathons'){
         //     setNumber(2);
         // }
-        console.log(query);
+        // console.log(query);
     },[query])
 
     return (

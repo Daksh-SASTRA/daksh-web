@@ -34,7 +34,7 @@ function StatisticCards(){
   
     return (
         <div className={styles.container} ref={ref}>
-            {console.log(isVisible)}
+            {/* {console.log(isVisible)} */}
             <div className={styles.item} >
               <p id="counter">{ isVisible && <CountUp start={0} duration={2} end={40} className={styles.counter}/>}+<br/><span className={styles.eventTitle}>Events</span></p>
             </div> 
