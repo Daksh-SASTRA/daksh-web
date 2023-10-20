@@ -18,9 +18,9 @@ function Merch({merchName, imageLink, shoppingLink}) {
             <Image src={imageLink} alt={merchName}/>
             </div>
         </div>
-        <div className={btn.global_button}>
+        {/* <div className={btn.global_button}>
             <Link style={{borderRadius: "5px"}} href={shoppingLink} >SHOP NOW &rarr;</Link>
-        </div>
+        </div> */}
         </div>
     )
 }
